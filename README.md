@@ -107,7 +107,7 @@ Nuestra startup, **Arkena**, es una aplicación web donde programadores, composi
 ### 1.1.2. Perfiles de integrantes del equipo 
 | Acerca de | Integrante |
 |-------------|----------|
-|           |**Aquino Solorzano, Daniel Jonathan(u202217678)** <br>asd|
+| Estudiando actualmente la carrera de Ingeniería de Software. Me considero una persona responsable con sus trabajos y puntual en las entregas de estos. Tengo conocimientos técnicos en programación en lenguajes como C++ y Java.          |**Aquino Solorzano, Daniel Jonathan(u202217678)** <br>|
 |           | **Ojanama Abanto,Johnny Alexander(u20231f412)<br>asd|
 |           | **Paredes Chavez, Carlos Augusto (u202321613)<br>asd|
 |           | **Pelaez Vargas, Giuliano Angel (u20221e121)<br>asd|
