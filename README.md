@@ -96,7 +96,19 @@
 
 # Capítulo I: Introducción
 
-## 1.1 Startup Profile
+## 1.1. Startup Profile
 
-### 1.1.1 Descripción de la Startup 
-Nuestra startup, **Arkena**, es una aplicación web donde programadores,  
+### 1.1.1. Descripción de la Startup 
+Nuestra startup, **Arkena**, es una aplicación web donde programadores, compositores, artistas y equipos de desarrollo se juntan para subir y promocionar sus videojuegos y/o proyectos personales junto a su portafolio dando visibilidad a sus habilidades dentro de su rubro.
+ 
+**Misión:** Nuestra misión es abrirle las puertas a desarrolladores independientes dándoles un lugar donde subir sus videojuegos y/o proyectos.
+
+**Visión:** Nuestra visión es volvernos un gran apoyo para los desarrolladores siendo su lugar ideal para subir sus proyectos.
+### 1.1.2. Perfiles de integrantes del equipo 
+| Acerca de | Integrante |
+|-------------|----------|
+|           |**Aquino Solorzano, Daniel Jonathan(u202217678)** <br>Estudiando actualmente la carrera de Ingeniería de Software. Me considero una persona responsable con sus trabajos y puntual en las entregas de estos. Tengo conocimientos técnicos en programación en lenguajes como C++ y Java.**|
+|           | **Ojanama Abanto,Johnny Alexander(u20231f412)<br>asd|
+|           | **Paredes Chavez, Carlos Augusto (u202321613)<br>asd|
+|           | **Pelaez Vargas, Giuliano Angel (u20221e121)<br>asd|
+|           | **Torres Díaz, Rolando Andre(u202323369)<br>asd|   
