@@ -376,3 +376,42 @@ Actualmente las plataformas digitales de publicación y promoción de videojuego
 -   **Desventajas**
 -   a
 Comparación general(aqui se hace el cuadro del silabo)
+
+---
+
+### 2.1.1 Análisis Competitivo.
+
+---
+
+### 2.1.2. Estrategias y tácticas frente a competidores.
+
+---
+
+## 2.2. Entrevistas.
+
+---
+
+### 2.2.1. Diseño de entrevistas.
+**Perfil:** Estudiantes o egresados de Ingeniería de Software, así como desarrolladores autodidactas.  
+**Necesidades:** Mostrar proyectos, obtener retroalimentación y postular a trabajos/equipos de desarrollo.
+
+**Preguntas de entrevista: (Al comenzar la entrevista se le da una breve explicación de la startup)**
+-   ¿Qué tipo de proyectos de videojuegos has desarrollado hasta ahora (demos, prototipos, juegos completos)?  
+-   ¿En qué plataformas sueles publicar actualmente tus videojuegos y qué dificultades has tenido allí?  
+-   ¿Qué tan importante es para ti tener un portafolio digital que muestre tu experiencia como programador?  
+-   ¿Qué obstáculos enfrentas para darte a conocer como desarrollador independiente?  
+-   ¿Qué tan relevante es para ti recibir retroalimentación de otros programadores o jugadores?  
+-   ¿Qué funcionalidades consideras indispensables en una plataforma que busque ayudarte a promocionar tus proyectos?  
+-   ¿Qué impacto tendría para ti que IndieNest centralice tu trabajo y te permita mostrarlo como portafolio profesional?
+
+ **Perfil:** Estudiantes y egresados de Arte Digital, Diseño Gráfico, Animación, o dibujantes autodidactas.  
+**Necesidades:** Participar en proyectos indie, exhibir sus habilidades artísticas y tener visibilidad ante programadores y la comunidad.
+
+**Preguntas de entrevista: (Al comenzar la entrevista se le da una breve explicación de la startup)**
+-   ¿Qué tipo de trabajos artísticos realizas relacionados a los videojuegos (modelado 3D, pixel art, ilustración, animación)?  
+-   ¿Dónde sueles mostrar tus trabajos actualmente y qué limitaciones encuentras en esos espacios?  
+-   ¿Has tenido dificultades para unirte a proyectos indie como artista? ¿Cuáles?  
+-   ¿Qué tan importante es para ti que tu portafolio artístico esté integrado a una plataforma orientada a videojuegos indie?  
+-   ¿Qué valoras más en una plataforma: visibilidad, conexión con programadores, retroalimentación o todas por igual?  
+-   ¿Qué características te motivarían a subir tus proyectos artísticos a IndieNest?  
+-   ¿Cómo crees que una plataforma como IndieNest podría ayudarte a obtener más oportunidades de colaboración o laborales?
