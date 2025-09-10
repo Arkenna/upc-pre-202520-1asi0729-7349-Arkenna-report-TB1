@@ -3,8 +3,10 @@
 # FACULTAD DE INGENIERÍA
 ### PROGRAMA ACADÉMICO DE INGENIERÍA DE SOFTWARE
 
-**Ciclo:** 2025-02_
+**Ciclo:** 2025-02
+<br>
 **Sección:** 7349
+<br>
 **Docente del curso:** Efraín Ricardo Bautista Ubillús
 
 ---
