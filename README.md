@@ -133,7 +133,7 @@ Se menciona también, en otro artículo del mismo sitio web, que la gran cantida
 
 **Figura 1**
 Gráfico pastel
-![Figura 1: Grafico Pastel](images/figura-1.png)
+![Figura 1: Grafico Pastel](img/figura-1.png)
 Nota: Gráfico pastel sobre el porcentaje de desarrolladores según su tipo de financiación, de la encuesta desarrollada por “Games Industry”. Elaborado por el equipo de trabajo.
 
 **Conclusión de la figura 1:**
