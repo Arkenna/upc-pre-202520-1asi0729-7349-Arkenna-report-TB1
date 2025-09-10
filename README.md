@@ -343,3 +343,36 @@ Sabremos que esto es cierto cuando tengamos al menos 5 alianzas estratégicas en
 		-   Permite ver los diversos trabajos en los que el usuario trabajó como artista, como un portafolio. 	
 
 ---
+
+# 2. Capitulo II: Requirements Elicitation & Analysis
+## 2.1. Competidores 
+Actualmente las plataformas digitales de publicación y promoción de videojuegos independientes se identifican en 3 competidores principales.
+
+**Itch.Io**
+-   **Descripción:** Plataforma internacional especializada en la publicación de videojuegos indie. Permite a desarrolladores publicar y vender sus proyectos de manera sencilla.
+-   **Ventajas:**
+	-   Comunidad global con más de 100 mil juegos publicados.
+	-   Flexibilidad en precios.
+	-   Permite donaciones directas a los desarrolladores.
+-   **Desventajas:**
+	-   Saturación de contenido: difícil destacar entre la gran cantidad de proyectos.
+	-   Falta de visibilidad del equipo
+	
+**Unity Play**
+-   ** Descripción:** Espacio oficial de Unity donde los desarrolladores pueden compartir demos y prototipos creados con ese motor
+-   **Ventajas:**
+	-   Integración directa con el motor Unity
+	-   Ideal para mostrar pruebas rápidas y prototipos funcionales
+	-   Fácil de usar para desarrolladores ya familiarizados con el motor
+-   **Desventajas:**
+	-   Limitado solo a proyectos realizados con Unity  
+	-   Escala visibilidad y alcance comercial
+	-   No sirve como un espacio de networking entre desarrolladores y empresas
+
+**Steam**
+-   **Descripción:** a
+-   **Ventajas**
+-   a
+-   **Desventajas**
+-   a
+Comparación general(aqui se hace el cuadro del silabo)
