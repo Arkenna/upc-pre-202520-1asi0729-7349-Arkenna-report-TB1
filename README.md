@@ -112,3 +112,10 @@ Nuestra startup, **Arkena**, es una aplicación web donde programadores, composi
 |           | **Paredes Chavez, Carlos Augusto (u202321613)<br>asd|
 |           | **Pelaez Vargas, Giuliano Angel (u20221e121)<br>asd|
 |           | **Torres Díaz, Rolando Andre(u202323369)<br>asd|   
+
+---
+## 1.2. Solution Profile
+ La plataforma o aplicación web se encargará de que los desarrolladores de videojuegos independientes, tanto como programadores, diseñadores y compositores publiquen sus proyectos y así puedan promocionarlos. De esta manera, la aplicación actúa como un portafolio centralizado en la promoción de los proyectos que cada usuario y promocione con el espacio que se le es brindado.
+ 
+ ---
+ 
