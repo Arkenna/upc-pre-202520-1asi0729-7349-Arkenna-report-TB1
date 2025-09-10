@@ -306,3 +306,19 @@ Necesitan exhibir bandas sonoras y conectar con equipos que requieran música or
 Sabremos que tenemos razón cuando el 30% de usuarios inicie al menos una colaboración en el primer semestre.
 
 ---
+
+##### 1.2.2.3.2. Hipótesis de Negocio
+-   **Creemos que la aplicación tendrá un buen recibimiento inicial gracias a sus funcionalidades innovadoras.**  
+Sabremos que tuvimos éxito cuando logremos 500 usuarios registrados en el primer mes.  
+
+-   **Creemos que los planes de suscripción premium ayudarán a generar ingresos sostenibles.**  
+Sabremos que tuvimos éxito cuando al menos el 20% de usuarios activos adquiera un plan premium en el primer año.  
+    
+- **Creemos que marcas y eventos de gaming estarán interesados en colaborar con IndieNest.**  
+Sabremos que esto es cierto cuando tengamos al menos 5 alianzas estratégicas en el primer semestre.
+
+---
+
+#### 1.2.2.4. Lean UX Canvas.
+
+---
