@@ -213,3 +213,16 @@ La problemática principal que enfrentan los desarrolladores independientes de v
 ¿Cómo podemos ayudar a los desarrolladores independientes a dar visibilidad y promocionar sus videojuegos y proyectos personales a través de IndieNest, asegurando un espacio accesible, atractivo y colaborativo que potencie su alcance y les permita construir un portafolio sólido?
 
 ---
+
+### 1.2.2.2. Lean UX Assumptions.
+Los desarrolladores independientes necesitan un espacio donde exponer sus proyectos sin depender de grandes presupuestos.  
+
+Los usuarios buscan no solo promocionar sus videojuegos, sino también mostrar sus habilidades individuales (programación, arte, música, diseño).  
+
+IndieNest, al centralizar proyectos y perfiles en un portafolio interactivo, permitirá mejorar la visibilidad de los desarrolladores frente a comunidades y posibles empleadores.  
+
+La oportunidad de recibir feedback y conectar con otros usuarios aumentará la motivación de los creadores y mejorará la calidad de sus proyectos.  
+ 
+La aplicación debe diferenciarse de competidores ofreciendo usabilidad sencilla, portafolios dinámicos y funcionalidades de promoción personalizadas.
+
+---
