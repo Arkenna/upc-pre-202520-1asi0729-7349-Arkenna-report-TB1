@@ -258,3 +258,13 @@ Se utiliza al momento de subir un proyecto, mostrar un portafolio, recibir retro
 -   Mejorar la imagen de marca como espacio innovador y confiable para los desarrolladores independientes.
 
 ---
+
+##### 1.2.2.2.3. User 
+-   **Programadores independientes**  
+    Buscan publicar sus proyectos, darse a conocer y construir un portafolio.  
+-   **Artistas digitales**  
+    Desean mostrar habilidades en ilustración, modelado 3D, pixel art y participar en proyectos colaborativos.  
+- **Compositores y diseñadores de sonido**  
+Necesitan exhibir bandas sonoras y conectar con equipos que requieran música original.
+
+---
