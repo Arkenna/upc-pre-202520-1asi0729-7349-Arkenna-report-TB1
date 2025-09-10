@@ -249,3 +249,12 @@ Se utiliza al momento de subir un proyecto, mostrar un portafolio, recibir retro
 -   Conexión entre creadores y jugadores.
 
 ---
+
+##### 1.2.2.2.2. Business Outcomes 
+-   Incrementar en un 20% la tasa de proyectos subidos durante el primer año.
+-   Posicionar a IndieNest como la principal plataforma local de difusión de videojuegos indie.
+-   Generar ingresos mediante suscripciones premium, publicidad segmentada y colaboraciones con marcas tecnológicas.
+-   Establecer alianzas con eventos gaming para potenciar la comunidad.
+-   Mejorar la imagen de marca como espacio innovador y confiable para los desarrolladores independientes.
+
+---
