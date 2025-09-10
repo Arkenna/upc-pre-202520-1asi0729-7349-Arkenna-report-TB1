@@ -268,3 +268,13 @@ Se utiliza al momento de subir un proyecto, mostrar un portafolio, recibir retro
 Necesitan exhibir bandas sonoras y conectar con equipos que requieran música original.
 
 ---
+
+##### 1.2.2.2.4. User Outcomes 
+-   Contar con un espacio accesible y confiable para promocionar proyectos.
+-   Construir un portafolio profesional y dinámico.
+-   Recibir retroalimentación útil de la comunidad y mejorar proyectos.
+-   Incrementar la visibilidad y alcance de los videojuegos indie.
+-   Acceder a posibles oportunidades laborales o colaboraciones.
+-   Fortalecer la comunidad gamer y creativa mediante la interacción en la plataforma.
+
+---
