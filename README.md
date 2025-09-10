@@ -322,3 +322,24 @@ Sabremos que esto es cierto cuando tengamos al menos 5 alianzas estratégicas en
 #### 1.2.2.4. Lean UX Canvas.
 
 ---
+
+## 1.3. Segmentos Objetivo.
+
+- Segmento 1: Programador independiente
+	-Perfil: Estudiantes o egresados de la carrera, así como desarrolladores autodidactas.
+	-   Necesidades:
+		-   Mostrar proyectos para darse a conocer y 		postular a trabajos y/o equipos de desarrollo.
+		-   Conseguir retroalimentación de la comunidad y así mejorar
+	-   Como ayuda IndieNest:
+		-   Centraliza publicar sus proyectos junto a la posibilidad de poder promocionar aún más sus trabajos.
+    
+		-   Permite ver los diversos trabajos en los que el usuario trabajó como programador, como un portafolio.
+-   Segmento 2:Artista
+	-   Perfil: Estudiantes y egresados de Arte Digital, Diseño Gráfico, Animación, así como Dibujantes autodidactas.
+	-   Necesidades:
+		-   Participar en proyectos indie que requieran modelado 3D, pixel art o ilustración.
+		-   Exhibir sus habilidades artísticas y de composición del arte al público general y otros programadores.
+	-   Como ayuda IndieNest:
+		-   Permite ver los diversos trabajos en los que el usuario trabajó como artista, como un portafolio. 	
+
+---
