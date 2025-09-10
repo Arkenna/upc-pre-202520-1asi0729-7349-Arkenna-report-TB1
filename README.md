@@ -278,3 +278,16 @@ Necesitan exhibir bandas sonoras y conectar con equipos que requieran música or
 -   Fortalecer la comunidad gamer y creativa mediante la interacción en la plataforma.
 
 ---
+
+##### 1.2.2.2.5. Features
+-   Perfiles dinámicos con portafolios.
+-   Publicación de proyectos clasificados por categoría/versión.  
+-   Filtros avanzados de búsqueda y descubrimiento.
+-   Espacios de comentarios y retroalimentación.
+-   Sistema de validación de perfiles de creadores.
+-   Conexión entre creadores y posibles empleadores.
+-   Integración de métodos de pago (Stripe) para monetizar proyectos.
+-   Gamificación para incentivar participación (badges, logros).
+-   Comunidad y foros temáticos.
+
+---
