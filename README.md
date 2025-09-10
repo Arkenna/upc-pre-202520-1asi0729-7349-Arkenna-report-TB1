@@ -226,3 +226,26 @@ La oportunidad de recibir feedback y conectar con otros usuarios aumentará la m
 La aplicación debe diferenciarse de competidores ofreciendo usabilidad sencilla, portafolios dinámicos y funcionalidades de promoción personalizadas.
 
 ---
+
+##### 1.2.2.2.1. Assumptions Worksheet 
+**¿Quién es el usuario?**  
+Desarrolladores independientes (programadores, artistas, compositores, diseñadores) y jugadores interesados en descubrir nuevos proyectos.  
+
+**¿Dónde encaja el producto en su vida?**  
+En la etapa de promoción de proyectos, construcción de portafolio profesional y búsqueda de oportunidades de networking y colaboración.  
+
+**¿Qué problemas tiene y cómo se resuelven?**  
+La falta de visibilidad y retroalimentación. IndieNest resuelve centralizando proyectos, ofreciendo portafolios dinámicos y un sistema de feedback dentro de la plataforma.  
+
+**¿Cuándo y cómo se usa el producto?**  
+Se utiliza al momento de subir un proyecto, mostrar un portafolio, recibir retroalimentación o buscar colaboradores. Los jugadores lo usan para descubrir videojuegos indie y dar soporte a desarrolladores.  
+
+**¿Qué características son importantes?**  
+-   Creación de portafolios dinámicos.
+-   Publicación de proyectos clasificados por categorías.
+-   Espacios de retroalimentación y comentarios.
+-   Filtros de búsqueda avanzada.
+-   Perfiles verificados de creadores.
+-   Conexión entre creadores y jugadores.
+
+---
