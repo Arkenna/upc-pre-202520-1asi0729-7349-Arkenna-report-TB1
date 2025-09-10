@@ -38,8 +38,6 @@
 
 ---
 
-#Tabla de Contenido
-
 # Tabla de Contenido
 
 1. [Capítulo I: Introducción](#capítulo-i-introducción)  
@@ -110,10 +108,10 @@ Nuestra startup, **Arkena**, es una aplicación web donde programadores, composi
 | Acerca de | Integrante |
 |-------------|----------|
 | Estudiando actualmente la carrera de Ingeniería de Software. Me considero una persona responsable con sus trabajos y puntual en las entregas de estos. Tengo conocimientos técnicos en programación en lenguajes como C++ y Java.          |**Aquino Solorzano, Daniel Jonathan(u202217678)** <br>|
-|           | **Ojanama Abanto,Johnny Alexander(u20231f412)<br>asd|
-|           | **Paredes Chavez, Carlos Augusto (u202321613)<br>asd|
-|           | **Pelaez Vargas, Giuliano Angel (u20221e121)<br>asd|
-|           | **Torres Díaz, Rolando Andre(u202323369)<br>asd|   
+|           | **Ojanama Abanto,Johnny Alexander(u20231f412)**<br>|
+|           | **Paredes Chavez, Carlos Augusto (u202321613)**<br>|
+|           | **Pelaez Vargas, Giuliano Angel (u20221e121)**<br>|
+|           | **Torres Díaz, Rolando Andre(u202323369)**<br>|   
 
 ---
 ## 1.2. Solution Profile
@@ -133,6 +131,7 @@ Se menciona también, en otro artículo del mismo sitio web, que la gran cantida
 
 **Figura 1**
 Gráfico pastel
+<br>
 ![Figura 1: Grafico Pastel](img/figura-1.png)
 <br>
 Nota: Gráfico pastel sobre el porcentaje de desarrolladores según su tipo de financiación, de la encuesta desarrollada por “Games Industry”. Elaborado por el equipo de trabajo.
@@ -145,31 +144,41 @@ Nota: Gráfico pastel sobre el porcentaje de desarrolladores según su tipo de f
 -   What?
     
 
-	  - **¿Cuál es el objetivo principal de la plataforma?** 
+	  - **¿Cuál es el objetivo principal de la plataforma?**
+     <br>
     Facilitar la promoción de los proyectos de desarrolladores de videojuegos independientes, (Colocar más información).
     
-	-   **¿Qué problema o necesidad busca resolver?**  
+	-   **¿Qué problema o necesidad busca resolver?**
+   <br>
     (Buscar fuentes sobre que los desarrolladores de juegos independientes necesitan más visibilidad).
     
-	-   **¿Cuál es la relación entre la plataforma y los usuarios?**  
+	-   **¿Cuál es la relación entre la plataforma y los usuarios?**
+   <br>
     IndieNest actúa como un repositorio de proyectos de desarrolladores independientes y, a la vez, como un promotor de los mismos. Considera y promociona tanto a los proyectos por sí mismos como a sus desarrolladores, contando tanto programadores como demás participantes como diseñadores, testers, entre otros.
     
 
 -    When?
 		-   **¿En qué momento los usuarios utilizan más la aplicación?**
+    <br>
 Cuando el usuario se encuentra aburrido buscando algo nuevo para jugar o momentos de necesidad para un equipo de desarrollo que busca un lugar donde publicar y promocionar sus proyectos o cuando un desarrollador, artista o compositor busca darse a conocer.
 
 		-   **¿Existen periodos clave de uso?**
+    <br>
 Si, durante las épocas de vacaciones de veranos el pico de usuarios subirá, puesto que tendrán más tiempo para jugar y por ello habrá más tráfico de usuarios que buscan videojuegos para descargar comprar
 
 		-   **¿Hay momentos críticos donde se detectan problemas en el uso?**
+    <br>
 Si, cuando el usuario no desarrollador se le ocurra subir un proyecto estará confundido al no saber muy bien cómo manejar ello.
 
 -   Where?
-	-  **¿Dónde se utiliza la plataforma?** 
+	-  **¿Dónde se utiliza la plataforma?**
+   <br>
     IndieNest se puede utilizar en casa. Está diseñada para que los usuarios creen un portafolio sobre sus trabajos donde se sientan más cómodos.
     
-	-   **¿La ubicación del usuario influye en su uso?**  
+
+ 
+	  -   **¿La ubicación del usuario influye en su uso?**
+   <br>
     No, ya que el usuario utilizará la aplicación para promover tanto sus proyectos como su perfil, sea de desarrollador, diseñador, entre otros, con el que haya influido en el proyecto.
     
 
@@ -185,7 +194,8 @@ La aplicación está dirigida para los desarrolladores independientes (con exper
       
     
 
-	-   **¿Quiénes están involucrados en el desarrollo?**  
+	-   **¿Quiénes están involucrados en el desarrollo?**
+   <br>
     Ingenieros de software, diseñadores UX/UI, desarrolladores de FrontEnd y BackEnd (si es posible agregar más).
     
 -   Why?
@@ -372,7 +382,7 @@ Actualmente las plataformas digitales de publicación y promoción de videojuego
 	-   Escala visibilidad y alcance comercial
 	-   No sirve como un espacio de networking entre desarrolladores y empresas
 
-**Steam**
+**Roblox**
 -   **Descripción:** a
 -   **Ventajas**
 -   a
@@ -398,7 +408,7 @@ Comparación general(aqui se hace el cuadro del silabo)
 **Perfil:** Estudiantes o egresados de Ingeniería de Software, así como desarrolladores autodidactas.  
 **Necesidades:** Mostrar proyectos, obtener retroalimentación y postular a trabajos/equipos de desarrollo.
 
-**Preguntas de entrevista: (Al comenzar la entrevista se le da una breve explicación de la startup)**
+**Preguntas de entrevista:**
 -   ¿Qué tipo de proyectos de videojuegos has desarrollado hasta ahora (demos, prototipos, juegos completos)?  
 -   ¿En qué plataformas sueles publicar actualmente tus videojuegos y qué dificultades has tenido allí?  
 -   ¿Qué tan importante es para ti tener un portafolio digital que muestre tu experiencia como programador?  
@@ -410,7 +420,7 @@ Comparación general(aqui se hace el cuadro del silabo)
  **Perfil:** Estudiantes y egresados de Arte Digital, Diseño Gráfico, Animación, o dibujantes autodidactas.  
 **Necesidades:** Participar en proyectos indie, exhibir sus habilidades artísticas y tener visibilidad ante programadores y la comunidad.
 
-**Preguntas de entrevista: (Al comenzar la entrevista se le da una breve explicación de la startup)**
+**Preguntas de entrevista:**
 -   ¿Qué tipo de trabajos artísticos realizas relacionados a los videojuegos (modelado 3D, pixel art, ilustración, animación)?  
 -   ¿Dónde sueles mostrar tus trabajos actualmente y qué limitaciones encuentras en esos espacios?  
 -   ¿Has tenido dificultades para unirte a proyectos indie como artista? ¿Cuáles?  
@@ -418,3 +428,51 @@ Comparación general(aqui se hace el cuadro del silabo)
 -   ¿Qué valoras más en una plataforma: visibilidad, conexión con programadores, retroalimentación o todas por igual?  
 -   ¿Qué características te motivarían a subir tus proyectos artísticos a IndieNest?  
 -   ¿Cómo crees que una plataforma como IndieNest podría ayudarte a obtener más oportunidades de colaboración o laborales?
+### 2.2.2. Registro de entrevistas.
+### 2.2.3. Análisis de entrevistas.
+## 2.3 Needfinding.
+### 2.3.1. User Personas.
+### 2.3.2. User Task Matrix.
+### 2.3.3. User Journey Mapping.
+### 2.3.4. Empathy Mapping.
+## 2.3. Big Picture Event Storming.
+## 2.4. Ubiquitous Language.
+# 3. Capítulo III: Requirements Specification.
+## 3.1. User Stories.
+## 3.2. Impact Mapping.
+## 3.3. Product Backlog.
+# 4. Capitulo IV: Product Design.
+## 4.1. Style guidelines.
+### 4.1.1. General Style Guidelines.
+### 4.1.2. Web Style Guidelines.
+## 4.2. Information Architecture
+### 4.2.1. Organization Systems.
+### 4.2.2. Labeling Systems.
+### 4.2.3. SEO Tags and Meta Tags.
+### 4.2.4. Searching System.
+### 4.2.5. Navigation Systems.
+## 4.3. Landing Page UI Design.
+### 4.3.1. Landing Page Wireframe
+### 4.3.2. Landing Page Moc-up
+## 4.4 Web Applications UX/UI Design
+### 4.4.1. Web Applications Wireframes
+### 4.4.2. Web Applications Wireflow Diagrams
+### 4.4.3. Web Applications Mock-ups
+### 4.4.4. Web Applications User Flow Diagrams
+## 4.5 Web Applications Prototyping
+## 4.6 Domain-Driven Software Architecture
+### 4.6.1. Design-Level Event Storming
+### 4.6.2. Software Architecture Context Diagram
+### 4.6.3. Software Architecture Container Diagrams
+### 4.6.4.Software Architecture Components Diagrams
+## 4.7Software Object-Oriented Design
+### 4.7.1. Class Diagrams
+## 4.8. Database Design
+### 4.8.1.Database Diagrams
+# 5. Capitulo V Product Implementation, Validation & Deployment
+## 5.1. Software Configuration Management
+### 5.1.1. Software Development Environment Configuration
+### 5.1.2. Source Code Management
+### 5.1.3. Source Code Style Guide & Conventions
+### 5.1.4. Software Deployment Configuration
+## 5.2. Landing Page, Services & Applications Implementation
