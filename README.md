@@ -291,3 +291,18 @@ Necesitan exhibir bandas sonoras y conectar con equipos que requieran música or
 -   Comunidad y foros temáticos.
 
 ---
+
+#### 1.2.2.3. Lean UX Hypothesis Statements.
+
+---
+
+##### 1.2.2.3.1. Hipótesis de Usuario
+-   **Creemos que los usuarios utilizarán IndieNest para mostrar sus proyectos y habilidades.**  
+ Sabremos que tenemos razón cuando veamos que al menos el 60% de usuarios completa su portafolio en el primer mes.  
+ 
+-   **Creemos que los usuarios valorarán la retroalimentación de la comunidad para mejorar sus proyectos.**  
+ Sabremos que tenemos razón cuando más del 50% de proyectos publicados reciban comentarios en las primeras semanas.  
+-   **Creemos que los usuarios buscarán colaborar con otros creadores dentro de la plataforma.**  
+Sabremos que tenemos razón cuando el 30% de usuarios inicie al menos una colaboración en el primer semestre.
+
+---
