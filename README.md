@@ -141,45 +141,47 @@ Nota: Gráfico pastel sobre el porcentaje de desarrolladores según su tipo de f
     
 -   La necesidad de este tipo de financiación puede llevar a muchos desarrolladores a quiebres financieros y les quita la posibilidad de pensar en proyectos de vida importantes como comprar una casa o tener una familia debido a la cantidad de gastos que generarían.
 
--   What?
-    
+<br>
+**5W & 2H**
 
-	  - **¿Cuál es el objetivo principal de la plataforma?**
-     <br>
-    Facilitar la promoción de los proyectos de desarrolladores de videojuegos independientes, (Colocar más información).
+-   What?
+
+	- **¿Cuál es el objetivo principal de la plataforma?**
+	
+	    Facilitar la promoción de desarrolladores de videojuegos independientes y artistas mediante publicación de portafolios para que cada desarrollador tenga la oportunidad de promocionarse y tener visibilidad para potenciales empleadores y financiadores
     
 	-   **¿Qué problema o necesidad busca resolver?**
-   <br>
-    (Buscar fuentes sobre que los desarrolladores de juegos independientes necesitan más visibilidad).
+	
+		Según se menciona en los antecedentes, hoy en día es muy difícil ganar visibilidad en el mercado digital de videojuegos debido a la inmensa competencia, del mismo modo la poca visibilidad genera que los desarrolladores indie no encuentren financiadores para sus proyectos, lo que los obliga a recurrir a la autofinanciación
     
 	-   **¿Cuál es la relación entre la plataforma y los usuarios?**
-   <br>
-    IndieNest actúa como un repositorio de proyectos de desarrolladores independientes y, a la vez, como un promotor de los mismos. Considera y promociona tanto a los proyectos por sí mismos como a sus desarrolladores, contando tanto programadores como demás participantes como diseñadores, testers, entre otros.
+   
+	    IndieNest actúa como un repositorio de proyectos de desarrolladores independientes y, a la vez, como un promotor de los mismos. Considera y promociona tanto a los proyectos por sí mismos como a sus desarrolladores, contando tanto programadores como demás participantes como diseñadores, testers, entre otros.
     
 
 -    When?
 		-   **¿En qué momento los usuarios utilizan más la aplicación?**
-    <br>
-Cuando el usuario se encuentra aburrido buscando algo nuevo para jugar o momentos de necesidad para un equipo de desarrollo que busca un lugar donde publicar y promocionar sus proyectos o cuando un desarrollador, artista o compositor busca darse a conocer.
+    
+			Cuando el usuario se encuentra aburrido buscando algo nuevo para jugar o momentos de necesidad para un equipo de desarrollo que busca un lugar donde publicar y promocionar sus proyectos o cuando un desarrollador, artista o compositor busca darse a conocer.
 
 		-   **¿Existen periodos clave de uso?**
-    <br>
-Si, durante las épocas de vacaciones de veranos el pico de usuarios subirá, puesto que tendrán más tiempo para jugar y por ello habrá más tráfico de usuarios que buscan videojuegos para descargar comprar
+	
+			Si, durante las épocas de vacaciones de veranos el pico de usuarios subirá, puesto que tendrán más tiempo para jugar y por ello habrá más tráfico de usuarios que buscan videojuegos para descargar comprar
 
 		-   **¿Hay momentos críticos donde se detectan problemas en el uso?**
-    <br>
-Si, cuando el usuario no desarrollador se le ocurra subir un proyecto estará confundido al no saber muy bien cómo manejar ello.
+  
+			Si, cuando el usuario no desarrollador se le ocurra subir un proyecto estará confundido al no saber muy bien cómo manejar ello.
 
 -   Where?
 	-  **¿Dónde se utiliza la plataforma?**
-   <br>
-    IndieNest se puede utilizar en casa. Está diseñada para que los usuarios creen un portafolio sobre sus trabajos donde se sientan más cómodos.
+   
+	    IndieNest se puede utilizar en casa. Está diseñada para que los usuarios creen un portafolio sobre sus trabajos donde se sientan más cómodos.
     
 
  
 	  -   **¿La ubicación del usuario influye en su uso?**
-   <br>
-    No, ya que el usuario utilizará la aplicación para promover tanto sus proyectos como su perfil, sea de desarrollador, diseñador, entre otros, con el que haya influido en el proyecto.
+   
+		    No, ya que el usuario utilizará la aplicación para promover tanto sus proyectos como su perfil, sea de desarrollador, diseñador, entre otros, con el que haya influido en el proyecto.
     
 
 -   Who?
@@ -188,15 +190,14 @@ La aplicación está dirigida para los desarrolladores independientes (con exper
 	-   **¿Quiénes son los principales usuarios?**
     
 
-		-   Segmento 1. (Acá en ambos poner datos de arriba)
+		-   Segmento 1: Programadores independientes
     
-		-   Segmento 2.  
-      
+		-   Segmento 2: Artistas digitales      
     
 
 	-   **¿Quiénes están involucrados en el desarrollo?**
-   <br>
-    Ingenieros de software, diseñadores UX/UI, desarrolladores de FrontEnd y BackEnd (si es posible agregar más).
+  
+	    Ingenieros de software, diseñadores UX/UI, desarrolladores de FrontEnd y BackEnd, Q/A testers, arquitectos de software y analistas de base de datos
     
 -   Why?
 La causa principal del problema radica tanto en la visibilidad de sus proyectos ya que carecen de espacios especializados donde puedan presentar sus proyectos y acceder a oportunidades laborales. Las plataformas que existen, sólo permiten subir los videojuegos como un equipo de desarrollo pero a diferencia de ellos, nuestra aplicación permitirá, aparte de ello, promocionarse a los usuarios mediante un portafolio donde se podrá ver que hicieron en su rubro sea compositor, artista o desarrollador.
@@ -207,11 +208,15 @@ La causa principal del problema radica tanto en la visibilidad de sus proyectos 
 Los usuarios podrán registrarse de forma gratuita y subir sus proyectos mediante una interfaz intuitiva. Las funcionalidades clave incluyen:
 	
 	-   **¿Cómo funciona la plataforma?**  
-    IndieNest vende videojuegos y promociona tanto a los mismos como a sus desarrolladores, involucrando distintos rubros como los programadores, compositores, diseñadores. La aplicación es capaz de registrar usuarios que pueden tanto comprar juegos como subir sus propios proyectos y, además, poder promocionarse como creador a través de un portafolio, ya sea programador, compositor u otra ocupación en el desarrollo de videojuegos. Sobre los proyectos que el usuario puede subri, puede clasificarlos por género o categoría y, de ser necesario, aplicar restricción de edad. Al subir su proyecto, el usuario puede colocarle una descripción detallada sobre el mismo, detallar la versión del proyecto (si es una demo, versión beta o versión final) y permite recibir feedback a través de comentarios. El método de pago sería a través de Stripe para la compra de juegos.
+    IndieNest vende videojuegos y promociona tanto a los mismos como a sus desarrolladores, involucrando distintos rubros como los programadores, compositores, diseñadores etc. La aplicación es capaz de registrar usuarios que pueden tanto comprar juegos como subir sus propios proyectos y, además, poder promocionarse como creador a través de un portafolio, ya sea programador, compositor u otra ocupación en el desarrollo de videojuegos. Sobre los proyectos que el usuario puede subir, puede clasificarlos por género o categoría y, de ser necesario, aplicar restricción de edad. Al subir su proyecto, el usuario puede colocarle una descripción detallada sobre el mismo, detallar la versión del proyecto (si es una demo, versión beta o versión final) y permite recibir feedback a través de comentarios. El método de pago sería a través de Stripe para la compra de juegos.
 
 -   How Much?
-	-   G  
-    asd
+	-   Servidores (S/1.200.000.00)
+	- Personal (S/450.000.00)
+	- Infraestructura (S/800.000.00)
+	- Marketing (S/25.000.00)
+	- Licencias y herramientas de desarrollo (S/75.000.00)
+	- Mantenimiento de software y hardware (S/50.000.00)
     
 ---
 
