@@ -339,6 +339,8 @@ Sabremos que esto es cierto cuando tengamos al menos 5 alianzas estratégicas en
 
 #### 1.2.2.4. Lean UX Canvas.
 
+![](img/lean-ux-canvas.png)
+
 ---
 
 ## 1.3. Segmentos Objetivo.
