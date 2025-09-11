@@ -372,7 +372,7 @@ Actualmente las plataformas digitales de publicación y promoción de videojuego
 	-   Falta de visibilidad del equipo
 	
 **Unity Play**
--   ** Descripción:** Espacio oficial de Unity donde los desarrolladores pueden compartir demos y prototipos creados con ese motor
+-   **Descripción:** Espacio oficial de Unity donde los desarrolladores pueden compartir demos y prototipos creados con ese motor
 -   **Ventajas:**
 	-   Integración directa con el motor Unity
 	-   Ideal para mostrar pruebas rápidas y prototipos funcionales
@@ -382,13 +382,16 @@ Actualmente las plataformas digitales de publicación y promoción de videojuego
 	-   Escala visibilidad y alcance comercial
 	-   No sirve como un espacio de networking entre desarrolladores y empresas
 
-**Roblox**
--   **Descripción:** a
+**Game Jolt**
+-   **Descripción:** Plataforma online para descubrir y compartir juegos, además de interactuar con jugadores y desarrolladores
 -   **Ventajas**
--   a
+	-   Espacio social integrado
+	-  Fomenta la creación de diversos tipos de comunidades, no solo en el desarrollo de videojuegos
+	- Monetización sin comisiones a la plataforma
 -   **Desventajas**
--   a
-Comparación general(aqui se hace el cuadro del silabo)
+	- Desenfoque en el equilibrio entre plataforma social y de desarrollo de videojuegos
+	- Desplazamiento del enfoque en los juegos
+	- Eliminación de funciones de transmisión en vivo
 
 ---
 
