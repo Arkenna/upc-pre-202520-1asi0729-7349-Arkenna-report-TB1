@@ -110,7 +110,7 @@ Nuestra startup, **Arkena**, es una aplicación web donde programadores, composi
 | Estudiando actualmente la carrera de Ingeniería de Software. Me considero una persona responsable con sus trabajos y puntual en las entregas de estos. Tengo conocimientos técnicos en programación en lenguajes como C++ y Java.          |**Aquino Solorzano, Daniel Jonathan(u202217678)** <br>|
 |           | **Ojanama Abanto,Johnny Alexander(u20231f412)**<br>|
 |           | **Paredes Chavez, Carlos Augusto (u202321613)**<br>|
-|           | **Pelaez Vargas, Giuliano Angel (u20221e121)**<br>|
+| Estoy cursando el 5to ciclo de la carrera de Igeniería de Software. Me considero una persona solidaria y enfocado en los trabajos. Tengo conocimientos en los lenguajes de programacion como C++, Python y Lua.    | **Pelaez Vargas, Giuliano Angel (u20221e121)** <br>|
 |           | **Torres Díaz, Rolando Andre(u202323369)**<br>|   
 
 ---
