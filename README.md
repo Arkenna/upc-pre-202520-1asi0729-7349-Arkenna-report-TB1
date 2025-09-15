@@ -354,7 +354,7 @@ Sabremos que esto es cierto cuando tengamos al menos 5 alianzas estratégicas en
 		-   Centraliza publicar sus proyectos junto a la posibilidad de poder promocionar aún más sus trabajos.
     
 		-   Permite ver los diversos trabajos en los que el usuario trabajó como programador, como un portafolio.
--   Segmento 2:Artista
+-   Segmento 2:Artistas digitales
 	-   Perfil: Estudiantes y egresados de Arte Digital, Diseño Gráfico, Animación, así como Dibujantes autodidactas.
 	-   Necesidades:
 		-   Participar en proyectos indie que requieran modelado 3D, pixel art o ilustración.
@@ -463,6 +463,37 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 -   ¿Qué características te motivarían a subir tus proyectos artísticos a IndieNest?  
 -   ¿Cómo crees que una plataforma como IndieNest podría ayudarte a obtener más oportunidades de colaboración o laborales?
 ### 2.2.2. Registro de entrevistas.
+- Segmento 1 : Programador Independiente
+
+| Entrevistado 1 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|(la foto) | a |  a | a | a | a |
+
+| Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|(la foto) | a |  a | a | a | a |
+
+| Entrevistado 3 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|(la foto) | a |  a | a | a | a |
+
+
+- Segmento 2 : Artistas Digitales 
+
+| Entrevistado 1 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|(la foto) | Carlos Alberto Marin Sangama |  21 años |Los Olivos|3:25 - 6:10  |
+
+| Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|(la foto) | a |  a | a | a | a |
+
+| Entrevistado 3 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|(la foto) | a |  a | a | a | a |
+
+
+
 ### 2.2.3. Análisis de entrevistas.
 ## 2.3 Needfinding.
 ### 2.3.1. User Personas.
