@@ -506,7 +506,6 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 ## 3.1. User Stories.
 
 |Epic/Story ID|Título| Descripción |Criterios de Aceptación|Relacionado con (Epic ID)|
-|--|--|--|--|--|
 |US01|**Registro de Usuario**|**Como usuario** **Quiero poder** registrarme en IndieNest **para** crear mi perfil y comenzar a subir mis proyectos.|**Scenario 1** <br>**DADO QUE** soy un nuevo usuario, <br> **CUANDO** ingreso mis datos y confirmo el registro, <br>**ENTONCES** mi cuenta se crea y puedo acceder a mi panel.<br><br>**Scenario 2** <br>**DADO QUE** ya tengo cuenta, <br> **CUANDO** intento registrarme con el mismo correo, <br>**ENTONCES** el sistema me avisa que ya existe una cuenta con ese correo y me sugiere iniciar sesión.|EP01|
 |--|--|--|--|--|
 |US02|**Crear Portafolio**|**Como desarrollador** **Quiero crear** un portafolio en IndieNest **para** mostrar mis habilidades a posibles empleadores.|**Scenario 1** <br>**DADO QUE** tengo proyectos subidos, <br> **CUANDO** activo la opción de portafolio, <br>**ENTONCES** se genera una página pública con mi información y trabajos.<br><br>**Scenario 2** <br>**DADO QUE** no tengo proyectos, <br> **CUANDO** intento activar el portafolio, <br>**ENTONCES** el sistema me sugiere subir al menos uno.|EP01|
