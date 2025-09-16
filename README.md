@@ -503,6 +503,7 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 ## 2.3. Big Picture Event Storming.
 ## 2.4. Ubiquitous Language.
 # 3. Capítulo III: Requirements Specification.
+## 3.1. User Stories.
 
 |Epic/Story ID|Título| Descripción |Criterios de Aceptación|Relacionado con (Epic ID)|
 |--|--|--|--|--|
@@ -565,7 +566,7 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 US29|**Reportar publicaciones inadecuadas**|**Como usuario**, **quiero poder** reportar publicaciones con contenido inadecuado o insultos **para** eliminar mensajes inadecuados en la comunidad que me encuentre.|**Scenario 1** <br>**DADO QUE** subo un archivo GIF, <br>**CUANDO** guardo el portafolio, <br>**ENTONCES** la animación se reproduce correctamente.<br><br>**Scenario 2** <br>**DADO QUE** el archivo excede el tamaño permitido, <br>**CUANDO** intento subirlo, <br>**ENTONCES** el sistema me solicita optimizarlo.|EP01|
 |--|--|--|--|--|
 
-## 3.1. User Stories.
+
 ## 3.2. Impact Mapping.
 ## 3.3. Product Backlog.
 # 4. Capitulo IV: Product Design.
