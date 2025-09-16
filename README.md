@@ -111,7 +111,7 @@ Nuestra startup, **Arkena**, es una aplicación web donde programadores, composi
 |           | **Ojanama Abanto,Johnny Alexander(u20231f412)**<br>|
 |           | **Paredes Chavez, Carlos Augusto (u202321613)**<br>|
 | Estoy cursando el 5to ciclo de la carrera de Igeniería de Software. Me considero una persona solidaria y enfocado en los trabajos. Tengo conocimientos en los lenguajes de programacion como C++, Python y Lua.    | **Pelaez Vargas, Giuliano Angel (u20221e121)** <br>|
-|           | **Torres Díaz, Rolando Andre(u202323369)**<br>|   
+| Actualmente estoy estudiando ingeniería de software en la universidad peruana de ciencias aplicadas. Personalmente, me considero una persona amigable y responsable, lo cual me puede ayudar en la universidad. También creo que estas cualidades me permitirán construir relaciones sólidas con mis compañeros y profesores, así como ordenar mi tiempo. | **Torres Díaz, Rolando Andre(u202323369)**<br>|   
 
 ---
 ## 1.2. Solution Profile
