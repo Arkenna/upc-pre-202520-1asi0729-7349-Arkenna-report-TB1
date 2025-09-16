@@ -467,7 +467,7 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 
 | Entrevistado 1 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
 |----------------|--------------------|-----------|-------------|-------------|------------|
-|(la foto) | a |  a | a | a | a |
+|<img src="img/sebas.jpeg" width="500"/>| Sebastian Adriano Pajares Oyola |  22 años | Santiago de Surco | 10:20 - 10:25 | Sebastian es un programador independiente que actualmente no cuenta con una plataforma fija para publicar sus proyectos. Durante la entrevista comentó que, al no tener un espacio centralizado, sus trabajos suelen perder visibilidad, lo cual limita su alcance como desarrollador. Esto le representa un desafío importante para darse a conocer dentro de la comunidad y para mostrar su experiencia a posibles colaboradores o empleadores. |
 
 | Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
 |----------------|--------------------|-----------|-------------|-------------|------------|
