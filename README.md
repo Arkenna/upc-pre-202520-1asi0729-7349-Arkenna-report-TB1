@@ -564,6 +564,46 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 |US34|**Ver reseñas destacadas de otros usuarios**|**Como usuario**, **quiero poder** ver reseñas destacadas de otros usuarios **para** tomar decisiones informadas antes de jugar.|**Scenario 1** <br>**DADO QUE** un juego tiene muchas reseñas, <br>**CUANDO** entro a la sección de comentarios, <br>**ENTONCES** el sistema me muestra las más votadas primero.<br><br>**Scenario 2** <br>**DADO QUE** no hay reseñas destacadas, <br>**CUANDO** accedo a comentarios, <br>**ENTONCES** el sistema me muestra las más recientes.|EP02|
 ## 3.2. Impact Mapping.
 ## 3.3. Product Backlog.
+
+## Product Backlog – IndieNest
+
+|# Orden|User Story ID|Título|Descripción|Story Points <br>(1/2/3/5/8)|
+|--|--|--|--|--|
+|1|US01|Registro de Usuario|Como usuario, quiero poder registrarme en IndieNest para crear mi perfil y comenzar a subir proyectos.|3|
+|2|US02|Crear Portafolio|Como desarrollador, quiero crear un portafolio en IndieNest para mostrar mis habilidades a posibles empleadores.|5|
+|3|US03|Subir un Proyecto|Como desarrollador, quiero poder subir un nuevo proyecto para que otros usuarios lo vean y comenten.|5|
+|4|US04|Clasificar proyectos por género|Como desarrollador, quiero poder asignar un género a mi proyecto para que sea más fácil de encontrar proyectos de cierto género.|3|
+|5|US05|Indicar versión del proyecto|Como desarrollador, quiero poder especificar si mi proyecto es demo, beta o final para que los usuarios sepan su estado.|2|
+|6|US06|Recibir Comentarios|Como desarrollador, quiero poder recibir comentarios en mis proyectos para obtener feedback de parte del público.|3|
+|7|US07|Editar proyectos|Como desarrollador, quiero poder editar la información de mis proyectos para mantenerla actualizada.|3|
+|8|US08|Buscar colaboradores|Como desarrollador, quiero poder buscar colaboradores por habilidades para contactarlos para hacer una colaboración.|5|
+|9|US09|Recibir Solicitudes de Colaboración|Como desarrollador, quiero poder recibir solicitudes de otros usuarios para unirme a sus proyectos.|3|
+|10|US10|Filtrar proyectos por Género|Como usuario, quiero poder filtrar proyectos por género para encontrar proyectos que se amolden a mis gustos más fácilmente.|2|
+|11|US11|Redactar Descripción de Perfil Profesional|Como desarrollador, quiero poder listar mis habilidades técnicas para que otros sepan en qué puedo contribuir a sus proyectos.|2|
+|12|US12|Recibir calificaciones en los proyectos|Como desarrollador, quiero poder recibir calificaciones en mis proyectos para medir su impacto en el público.|3|
+|13|US13|Integrar enlaces externos|Como desarrollador, quiero poder añadir un enlace a repositorios o páginas externas para ampliar la información.|2|
+|14|US14|Revisar Estadísticas|Como desarrollador, quiero poder revisar estadísticas de visitas y descargas para evaluar el alcance de mi proyecto.|3|
+|15|US15|Recibir Notificaciones de los Proyectos|Como desarrollador, quiero poder recibir notificaciones de actividad para estar al tanto de las interacciones de los usuarios.|2|
+|16|US16|Activar o Desactivar Notificaciones de Proyectos|Como desarrollador, quiero poder silenciar notificaciones de ciertas actividades para no sobrecargar mi dispositivo de notificaciones.|2|
+|17|US17|Integrar pagos|Como desarrollador, quiero poder vender mis juegos para generar ingresos de mis proyectos.|5|
+|18|US18|Activar o Desactivar Notificaciones de desarrolladores|Como usuario, quiero poder saber cuando el desarrollador que sigo sube alguna publicación para enterarme rápidamente de estas.|2|
+|19|US19|Marcar o desmarcar proyectos como favoritos|Como usuario, quiero poder seleccionar proyectos como favoritos para acceder rápidamente a ellos cuando desee.|2|
+|20|US20|Compartir proyectos en redes sociales|Como usuario, quiero poder compartir proyectos en redes sociales para aumentar su visibilidad.|2|
+|21|US21|Recibir recomendaciones personalizadas|Como usuario, quiero poder recibir recomendaciones de proyectos en mi feed para descubrir contenido relevante según mis intereses.|3|
+|22|US22|Realizar o Borrar Publicaciones|Como creador, quiero poder tener un apartado en el que subir publicaciones de texto comentando datos que le interesen a mi público para intercambiar ideas y formar una comunidad alrededor de mis proyectos.|3|
+|23|US23|Adjuntar imágenes en publicaciones|Como creador, quiero poder adjuntar imágenes en mis publicaciones para dar avances de proyectos que esté desarrollando.|3|
+|24|US24|Adjuntar videos en publicaciones|Como creador, quiero poder adjuntar videos en mis publicaciones para dar avances de proyectos que esté desarrollando.|3|
+|25|US25|Colocar videos de otra red social en una publicación|Como artista, quiero poder colocar un link de un video de otra red y que se vea grande, no solo como un enlace para hacer más llamativa mi publicación.|2|
+|26|US26|Reportar publicaciones inadecuadas|Como usuario, quiero poder reportar publicaciones con contenido inadecuado o insultos para eliminar mensajes inadecuados en la comunidad que me encuentre.|2|
+|27|US27|Generar una biblioteca de juegos comprados|Como usuario, quiero poder navegar en una biblioteca propia de juegos comprados para tener a la mano los proyectos que ya haya comprado.|3|
+|28|US28|Ordenar la biblioteca|Como usuario, quiero poder ordenar la biblioteca de juegos comprados en categorías según su género para organizar los juegos que ya tengo comprados por género.|2|
+|29|US29|Definir tiempo de juego máximo de reembolso|Como creador, quiero restringir reembolsos de proyectos publicados según el tiempo de juego o transcurrido desde su compra para evitar pérdidas en el lanzamiento de mis proyectos.|3|
+|30|US30|Recibir Notificaciones de recomendaciones específicas|Como usuario, quiero poder recibir recomendaciones de juegos particulares que encajen con los juegos recientes que haya comprado para encontrar contenido que se adecúe a mis gustos.|2|
+|31|US31|Apagar Notificaciones de recomendaciones|Como usuario, quiero poder apagar las recomendaciones de juegos que encajen con los juegos recientes que haya comprado para evitar llenar mi apartado de notificaciones.|2|
+|32|US32|Ver juegos por ubicación geográfica|Como usuario, quiero poder ver juegos desarrollados en mi país o región para apoyar creadores locales.|2|
+|33|US33|Ver logros desbloqueables en juegos|Como usuario, quiero poder ver los logros que puedo desbloquear en cada juego para motivarme a completarlos.|2|
+|34|US34|Ver reseñas destacadas de otros usuarios|Como usuario, quiero poder ver reseñas destacadas de otros usuarios para tomar decisiones informadas antes de jugar.|2|
+
 # 4. Capitulo IV: Product Design.
 ## 4.1. Style guidelines.
 ### 4.1.1. General Style Guidelines.
