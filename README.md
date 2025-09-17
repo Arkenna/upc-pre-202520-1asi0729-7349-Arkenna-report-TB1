@@ -635,6 +635,31 @@ B) **Esquemas de categorizacion de contenido**
   - Compositores: Proyectos en los que compusieron.
 En conclusion, el sistema de organizacion, IndieNest, integra jerarquia visual, flujos secuenciales y organizacion matricial, complementados con categorizacion alfabetica, cronologica, por topicos y por el tipo de audiencia, garantizando una comoda experiencia al usuario.
 ### 4.2.2. Labeling Systems.
+En IndieNest, el sistema de etiquetado se diseño para mantener claridad, consistencia y simplicidad en la navegación,  asegurando que los usuarios comprendan facilmente las funciones y el contenido disponible. Para ello, se aplican etiquetas descriptivas tanto en la navegación principal, como en las acciones y en la categorización de proyectos
+
+**A) Etiquetas de navegación**
+
+ - **Inicio:** Página principal que muestra la propuesta de valor. 
+ - **Equipo:** Información sobre los creadores de IndieNest.
+ - **Objetivos:** Explicación de la misión y visión de la plataforma.
+ - **Proyectos:** Acceso directo a la lista de proyectos publicados.
+ - **Biblioteca:** Espacio personal del usuario para ver los juegos adquiridos o descargados
+
+**B) Etiquetas de acciones**
+Se utilizan verbos claros y directos para que los usuarios sepan exactamente qué hacer:
+
+- Registrarse, Iniciar Sesión, Crear Portafolio, Subir Proyecto, Publicar, Calificar, Seguir Usuario.
+
+**C) Etiquetas de categorización de proyectos**
+
+- Por género: RPG, Shooter, Platformer, Puzzle entre otros.
+- Por estado de desarrollo: Prototipo, Beta y Versión Final.
+- Por tipo de colaborador: Programador, Arista y Compositor
+
+**D) Consistencia en el etiquetado**
+
+Todas las etiquetas mantienen un estilo uniforme, usando un lenguaje sencilo, claro y comprensible para los distintos perfiles de usuarios. 
+En conclusión, el sistema de etiquetado en IndieNest garantiza una navegación intuitiva y una clasificación precisa del contenido, facilitando tanto la interacción diaria de los usuarios como la búsqueda de descubrimiento de proyectos dentro de la comunidad.
 ### 4.2.3. SEO Tags and Meta Tags.
 ### 4.2.4. Searching System.
 ### 4.2.5. Navigation Systems.
