@@ -570,6 +570,28 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 ### 4.1.2. Web Style Guidelines.
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems.
+IndieNest se diseño considerando la usabilidad y simplicidad para los distintos tipos de usuario, para ello se implementan diferentes enfoques tanto en la disposicion visual del contenido como en los esquemas de categorizacion
+A) Organizacion visual del contenido
+- Visual hierarchy
+  Se aplica en la estructura principal de la plataforma donde el menu superior (Header) muestra las secciones mas importantes (inicio/equipo/objetivos) dentro de cada modulo, los usuarios accederan a subniveles; por ejemplo: proyectos, biblioteca (?)
+- Step-by-step to accomplish
+  Se utiliza en los procesos que requieren guiar al usuario paso a paso, reduciendo errores y facilitando el aprendizaje de la plataforma web, por ejemplo: Registro, creacion de portafolio, subida de proyecto y publicacion. Este flujo secuencial asegura que los usuarios, especialmente los nuevos, completen los objetivos de la pagina de manera mas ordenada y sencilla.
+- Matrix Organization
+  Se aplica en la seccion de explorar, donde los usuarios pueden visualizar la informacion dependiendo del genero, estado de desarrollo. Este sistema favorece la comparacion rapida entre distintas opciones.
+B) Esquemas de categorizacion de contenido
+- Alfabetico
+  Utilizado en los listados de proyectos y/o perfiles para permitir un orden rapido y familiar para los usuarios.
+- Cronologico
+  Se aplica en las notificaciones para que los usuarios puedan ver cada una de sus notificaciones en orden a la hora/dia/fecha que recibio la notificacion.
+  / agregar mas
+- Topic based
+  Implementado en la clasificacion de proyectos como RPG, Shooters, Platformers, etc.
+- Audience based
+  El contenido mostrado de muestra dividido en los 3 subroles donde los usuarios podran ver el contenido en base al rol seleccionado:
+  - Programadores: mayor enfasis en proyectos y busqueda de proyectos en desarrollo.
+  - Artistas: Visibilidad de portafolios visuales.
+  - Compositores: Proyectos en los que compusieron.
+En conclusion, el sistema de organizacion, IndieNest, integra jerarquia visual, flujos secuenciales y organizacion matricial, complementados con categorizacion alfabetica, cronologica, por topicos y por el tipo de audiencia, garantizando una comoda experiencia al usuario.
 ### 4.2.2. Labeling Systems.
 ### 4.2.3. SEO Tags and Meta Tags.
 ### 4.2.4. Searching System.
