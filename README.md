@@ -1,4 +1,4 @@
-![LogoUPC](img/upclogo.png)
+<img width="1421" height="543" alt="image" src="https://github.com/user-attachments/assets/b6e4e754-ab23-4c5b-8e97-a6706bbcf92b" />![LogoUPC](img/upclogo.png)
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 # FACULTAD DE INGENIERÍA
 ### PROGRAMA ACADÉMICO DE INGENIERÍA DE SOFTWARE
@@ -482,7 +482,7 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 
 | Entrevistado 1 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
 |----------------|--------------------|-----------|-------------|-------------|------------|
-|(la foto) | Carlos Alberto Marin Sangama |  21 años |Los Olivos|3:25 - 6:10  |
+|<img src="img/Marin.png" width="500"/> | Carlos Alberto Marin Sangama |  21 años |Los Olivos|3:25 - 6:10  |  Carlos Marin es un artista digital que principalmente realiza modelados 3D y ilustraciones digitales a menor medida, suele publicar sus trabajos en sus redes sociales como instagram pero la limitacion que tiene es la dificil visibilidad que se puede obtener en las mismas y ademas, tiene disficultad en participar en proyectos indie al no tener un portafolio donde los demas puedan ver sus modelos e ilustraciones. |
 
 | Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
 |----------------|--------------------|-----------|-------------|-------------|------------|
