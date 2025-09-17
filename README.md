@@ -662,6 +662,10 @@ Todas las etiquetas mantienen un estilo uniforme, usando un lenguaje sencilo, cl
 En conclusión, el sistema de etiquetado en IndieNest garantiza una navegación intuitiva y una clasificación precisa del contenido, facilitando tanto la interacción diaria de los usuarios como la búsqueda de descubrimiento de proyectos dentro de la comunidad.
 ### 4.2.3. SEO Tags and Meta Tags.
 ### 4.2.4. Searching System.
+
+El sistema de búsqueda propuesto para la plataforma IndieNest tiene como objetivo proporcionar a los usuarios una manera eficiente de acceder a proyectos, portafolios y colaboradores dentro de la comunidad indie. De esta forma se evita que los usuarios se sientan perdidos frente al volumen de información disponible y puedan encontrar rápidamente lo que necesitan
+
+
 ### 4.2.5. Navigation Systems.
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe
