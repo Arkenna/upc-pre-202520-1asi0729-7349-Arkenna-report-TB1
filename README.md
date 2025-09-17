@@ -490,7 +490,7 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 
 | Entrevistado 3 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
 |----------------|--------------------|-----------|-------------|-------------|------------|
-|(la foto) | a |  a | a | a | a |
+|<img src="img/eriol.png" width="500"/> | Eriol Jared Constantine Huaytalla Robles |  18 | San Martin de Porres | a | Eriol es un artista digital que realiza ilustraciones digitales y esta interesado en el modelaje 3D. Suele subir sus ilustraciones a redes sociales como instagram o X pero el algoritmo de las mismas impide su crecimiento en reconocimiento y a su vez tambien cree que al ser un ilustrador que recien se adentra en ese mundo le es mas dificil ser elegido por otros para participar en proyectos independientes  |
 
 
 
