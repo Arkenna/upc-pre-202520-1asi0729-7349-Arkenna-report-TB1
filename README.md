@@ -1,4 +1,4 @@
-<img width="1421" height="543" alt="image" src="https://github.com/user-attachments/assets/b6e4e754-ab23-4c5b-8e97-a6706bbcf92b" />![LogoUPC](img/upclogo.png)
+![LogoUPC](img/upclogo.png)
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 # FACULTAD DE INGENIERÍA
 ### PROGRAMA ACADÉMICO DE INGENIERÍA DE SOFTWARE
