@@ -517,6 +517,12 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 ### 2.3.4. Empathy Mapping.
 ## 2.3. Big Picture Event Storming.
 ## 2.4. Ubiquitous Language.
+- Portafolio: Página personal con proyectos y habilidades del usuario
+- Proyecto o juego: Videojuego, demo o prototipos subido a la plataforma
+- Colaboración:  Solicitud entre usuarios para trabajar juntos en un proyecto
+- Feedback: Retroalimentación en forma de comentarios o calificaciones
+- Notificacion: Aviso sobre interacciones o nuevos proyectos de acuerdo a tus gustos
+- Biblioteca: Colección de juegos comprados o descargados por el usuario.
 # 3. Capítulo III: Requirements Specification.
 ## 3.1. User Stories.
 
