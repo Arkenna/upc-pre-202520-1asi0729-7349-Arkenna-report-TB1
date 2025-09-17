@@ -12,7 +12,7 @@
 ---
 # INFORME DE TRABAJO(TB1)
 
-**Nombre de la Startup:** Arkenna
+**Nombre de la Startup:** Arkenna <br>
 **Nombre del producto:** IndieNest
 
 ## Integrantes
