@@ -503,6 +503,9 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 ### 2.3.1. User Personas.
 #### Segmento objetivo 1
 
+- Juan José Meza Huanacune
+  <img src="img/JuanJosePersona.PNG"/>
+
 #### Segmento objetivo 2
 - Eriol Jared Constantine Huaytalla Robles
   <img src="img/EriolPersona.jpg" width="1050"/>
