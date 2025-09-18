@@ -660,6 +660,11 @@ Por último tenemos el proceso de pago de un carrito de compra, donde se estable
 - Feedback: Retroalimentación en forma de comentarios o calificaciones
 - Notificacion: Aviso sobre interacciones o nuevos proyectos de acuerdo a tus gustos
 - Biblioteca: Colección de juegos comprados o descargados por el usuario.
+- UI: Interfaz gráfica que representa el medio a través del cual el usuario puede interactuar con el producto.
+- Forum/Foro: Sección interna de la aplciación donde se podrán añadir nuevos temas de disusión en tópicos específicos.
+- Profile/Perfil: Simboliza el perfil del usuario dentro de la aplicación, donde se tendra información y funcionalidades para su perfil.
+
+
 # 3. Capítulo III: Requirements Specification.
 ## 3.1. User Stories.
 
