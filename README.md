@@ -531,6 +531,8 @@ En esta sección nos enfocamos en hacer una lluvia de ideas para recolectar la m
 
 A continuación mostraremos las capturas de la primera versión del event storming realizado, separandolas según el Bounded Context al que pertenezcan y comenzando con los Core del negocio.
 
+<br>
+
 **Bounded Context Project:** En este bounded context se manejan todos los eventos relacionados a la gestión de proyectos dentro de la aplicación Web. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
 <img src=img/bp-event-storming/project/project-1.png width=500/>
@@ -541,72 +543,113 @@ En estos tres flujos de eventos se maneja todo lo relacionado a configuraciones 
 
 En estos dos flujo se puede ver, por un lado, el proceso para visualizar características clave de un proyecto como su autor o sus capturas, esto mediante la interfaz del proyecto en si. Por otra parte, se muestra también el flujo para visualizar las estadísticas del proyecto mediante su interfaz visual respectiva.
 
+<br>
 
-
-**Bounded Context Portfolio**
+**Bounded Context Portfolio:** En este bounded context se manejan todos los eventos relacionados a la gestión de los portafolios de los desarrolladores y artistas. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
 <img src=img/bp-event-storming/portfolio/portfolio-1.png width=500/>
+
+En estos flujos se puede ver el proceso para la creación y actualización de datos de un portafolio mediante la interfaz respectiva que representa al apartado de configuraciones del portafolio.
 
 
 <img src=img/bp-event-storming/portfolio/portfolio-2.png width=500/>
 
+Por otra parte se puede ver el flujo de eventos para la agregación de un nuevo proyecto al portafolio y la eliminación de uno, esto mediante su respectiva interfaz gráfica.
 
+<br>
 
-**Bounded Context Marketplce**
+**Bounded Context Marketplce:** En este bounded context se manejan todos los eventos relacionados a las funcionalidades en relación al marketplace del producto. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
 <img src=img/bp-event-storming/marketplace/marketplace-1.png width=500/>
+
+En primer lugar se puede ver como, mediante su interfaz de usuario principal, se hace la búsqueda de "games previews", lo que vendría siendo una previsualización de los juegos que solo poseen información como su imagen y nombre. Por otro lado, se tiene el flujo de evento para poder mostrar los resultados del marketplace (games previews) en función de la categoría seleccionada por el usuario.
 
 
 <img src=img/bp-event-storming/marketplace/marketplace-2.png width=500/>
 
+En el primer flujo se visualizan los eventos que llevan al ordenamiento del marketplace en función de los métodos que el usuario decida. Mientras que el segundo flujo muestra como el sistema mismo crea un flujo de eventos que maneja la creación y agregación de los "game previews" al marketplace. Esto ocurriría al momento en que un usuario cree un proyecto nuevo de tipo "videojuego".
 
+<br>
 
-**Bounded Context Support:**
+**Bounded Context Support:** En este bounded context se manejan todos los eventos relacionado a feedback y reseñas a los proyectos. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
 <img src=img/bp-event-storming/support/support-1.png width=500/>
+
+Se pueden ver dos flujos  de eventos que suceden en la interfaz de usuario de las reseña, los cuales representan el proceso de creación de una reseña y a la votación positiva o negativa que puede tener una de estas.
 
 
 <img src=img/bp-event-storming/support/support-2.png width=500/>
 
+En estos flujos se ve el proceso para la eliminación de una reseña y la visualización de las reseñas destacadas.
 
-**Bounded Context Community:**
+<br>
+
+**Bounded Context Community:** En este bounded context se manejan todos los eventos relacionado a las discusiones que de manejan en el foro de la aplicación. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
 <img src=img/bp-event-storming/community/community-1.png width=500/>
+
+Se tienen los flujos para la creación de nuevas discusiones en secciones de los foros y la eliminación de las discusiones que le pertenezcan al usuario, esto mediante la interfaz de usuario de las discusiones.
 
 
 <img src=img/bp-event-storming/community/community-2.png width=500/>
 
-**Bounded Context Profile:**
+Se pueden ver flujos relacionados a la creación  y eliminación de los comentarios que forman parte de las discusiones. Esto mediante la interfaz gráfica de los comentarios.
+
+<br>
+
+**Bounded Context Profile:** En este bounded context se maneja todo relacionado a la gestión del perfil del usuario. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
+
 
 <img src=img/bp-event-storming/profile/profile-1.png width=500/>
+
+En esta captura se pueden ver eventos para la agregación de proyectos al perfil del usuario, así como la visualización del perfil del autor de un proyecto y la funcionalidad de poder contactar a perfiles mediante respectiva interfaz gráfica.
 
 
 <img src=img/bp-event-storming/profile/profile-2.png width=500/>
 
+Se pueden ver eventos como la subida de nivel del perfil del usuario, así como la visualización de los logros que tiene y también los juegos que posee el usuario en su perfil.
 
-**Bounded Context Account:**
+<br>
+
+**Bounded Context Account:** En este bounded context se maneja la gestión de la cuenta del usuario. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
 <img src=img/bp-event-storming/account/account-1.png width=500/>
+
+Se pueden ver los flujos para el registro de una nueva cuenta y el proceso de inicio de sesión con una cuenta gmail. Cabe mencionar que en estos procesos se necesita entablar conexiones con sistemas externos como Sengrid para la verificación de existencia del email o Google Identity Platform para el proceso de inicio de sesión con una cuenta gmail.
 
 
 <img src=img/bp-event-storming/account/account-2.png width=500/>
 
+En estos flujos se ve la funcionalidad del inicio de sesión del usuario con el ingreso manual de los datos de sus cuenta y el proceso para cerrar sesión en la aplicación.
 
-**Bounded Context Notification:**
+
+<img src=img/bp-event-storming/account/account-3.png width=500/>
+
+En estos flujos se ve el proceso para la actualización de datos personales del usuario, sin embargo no se tiene claro aún mediante que interfaz gráfica se podría mostrar estas funcionalidades. El otro flujo representa el proceso para cambiar la contraseña de una cuenta, proceso que tampoco tiene aún una interfaz de usuario definida.
+
+<br>
+
+**Bounded Context Notification:** En este bounded context se maneja la gestión de las notificaciones internas y externas a la plataforma. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
 <img src=img/bp-event-storming/notification/notification-1.png width=500/>
 
+En estos flujos de eventos se puede ver la creación y visualización de notificaciones personalizadas en función del evento ocurrido, donde dos de ellas también se encarga de enviar un mensaje al correo del usuario con ayuda de un servicio externo.
 
 <img src=img/bp-event-storming/notification/notification-2.png width=500/>
 
+En estos flujos se pueden ver más notificaciones que son creadas y visualizadas por el usuario, todo esto mediante la interfaz de usuario de las notificaciones.
 
-**Bounded Context Payment:**
+<br>
+
+**Bounded Context Payment:** En este bounded context se maneja la gestión de lo relacionado a los procesos de pago dentro de la aplicación. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
 <img src=img/bp-event-storming/payment/payment-1.png width=500/>
 
+En estos flujos de eventos se puede ver, por un lado, como el sistema de la aplicación se encarga de añadir un juego al carrito de compra cuando un usuario lo hay decidido comprar. Por otro lado se ve el flujo que simboliza el proceso de eliminación de un juego del carrito.
 
 <img src=img/bp-event-storming/payment/payment-2.png width=500/>
 
+Por último tenemos el proceso de pago de un carrito de compra, donde se establece conexión con una servicio externo que procese y facilite los métodos de pago. Además se puede ver el proceso para eliminar un carrito de compra en caso el usuario cambie de opinión ante de comprar sus productos.
 
 
 
