@@ -516,6 +516,20 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 
 ### 2.3.4. Empathy Mapping.
 ## 2.3. Big Picture Event Storming.
+
+En esta sección nos enfocamos en hacer una lluvia de ideas para recolectar la mayor cantidad de eventos que pudiesen ocurrir en nuestra aplicación web y de esta forma ir descubriendo cuales serían los Bounded Context Core del negocio. Es así que modelamos el primer modelo de este panorama en el que omitimos elementos que serán implementados en la sección de Design-Level Event Storming, tales como los comandos, aggregates y políticas. Además, se muestra una descripción de cada elemento que integrará este event storming a manera de leyenda.
+
+- **Actores:** Representados mediante un post-it amarillo, son aquellos que interactuarán con nuestra aplicación. En este contexto tenemos dos posibles actores, de los cuales los "User" representan a cualquier persona que pueda interactuar con nuestra aplicación. Y "System" representaría al sistema en si que se encargará de realizar el flujo de eventos consiguientes.
+
+- **Eventos:** Representados mediante un post-it naranja, son todos aquellos eventos del dominio y generales que simbolizan que ha ocurrido un suceso dentro del producto.
+
+- **Vistas:** Representadas mediante un post-it verde, vendrían a ser los paneles o interfaces de usuario que serán visibles en cada flujo de eventos.
+
+- **Sistemas externos:** Representados mediante un post-it rojo, son aquellos sistemas que interactúan con nuestra aplicación pero que no forman parte del negocio interno. Vendrían a ser más bien entidades externas con las que necesitamos comunicarnos para realizar diferentes eventos.
+
+- **Puntos de quiebre:** Representados mediante un post-it rojo, serían las preguntas que quedan abiertas en el flujo de eventos dentro de un contexto específico y que deben ser resueltas para futuros modelos del diseño.
+
+
 ## 2.4. Ubiquitous Language.
 - Portafolio: Página personal con proyectos y habilidades del usuario
 - Proyecto o juego: Videojuego, demo o prototipos subido a la plataforma
