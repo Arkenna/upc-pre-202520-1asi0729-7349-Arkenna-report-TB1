@@ -567,6 +567,10 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 
 ## Product Backlog – IndieNest
 
+Elaboramos el Product Backlog con la escala de estimación Fibonacci (1, 2, 3, 5, 8, 13).
+
+https://trello.com/b/SBmiXIZJ/indienest
+
 |# Orden|User Story ID|Título|Descripción|Story Points <br>(1/2/3/5/8)|
 |--|--|--|--|--|
 |1|US01|Registro de Usuario|Como usuario, quiero poder registrarme en IndieNest para crear mi perfil y comenzar a subir proyectos.|3|
