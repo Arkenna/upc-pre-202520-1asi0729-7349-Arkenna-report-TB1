@@ -529,6 +529,82 @@ En esta sección nos enfocamos en hacer una lluvia de ideas para recolectar la m
 
 - **Puntos de quiebre:** Representados mediante un post-it rojo, serían las preguntas que quedan abiertas en el flujo de eventos dentro de un contexto específico y que deben ser resueltas para futuros modelos del diseño.
 
+A continuación mostraremos las capturas de la primera versión del event storming realizado, separandolas según el Bounded Context al que pertenezcan y comenzando con los Core del negocio.
+
+**Bounded Context Project:**
+
+<img src=img/bp-event-storming/project/project-1.png width=500/>
+
+
+<img src=img/bp-event-storming/project/project-2.png width=500/>
+
+
+**Bounded Context Portfolio**
+
+<img src=img/bp-event-storming/portfolio/portfolio-1.png width=500/>
+
+
+<img src=img/bp-event-storming/portfolio/portfolio-2.png width=500/>
+
+
+
+**Bounded Context Marketplce**
+
+<img src=img/bp-event-storming/marketplace/marketplace-1.png width=500/>
+
+
+<img src=img/bp-event-storming/marketplace/marketplace-2.png width=500/>
+
+
+
+**Bounded Context Support:**
+
+<img src=img/bp-event-storming/support/support-1.png width=500/>
+
+
+<img src=img/bp-event-storming/support/support-2.png width=500/>
+
+
+**Bounded Context Community:**
+
+<img src=img/bp-event-storming/community/community-1.png width=500/>
+
+
+<img src=img/bp-event-storming/community/community-2.png width=500/>
+
+**Bounded Context Profile:**
+
+<img src=img/bp-event-storming/profile/profile-1.png width=500/>
+
+
+<img src=img/bp-event-storming/profile/profile-2.png width=500/>
+
+
+**Bounded Context Account:**
+
+<img src=img/bp-event-storming/account/account-1.png width=500/>
+
+
+<img src=img/bp-event-storming/account/account-2.png width=500/>
+
+
+**Bounded Context Notification:**
+
+<img src=img/bp-event-storming/notification/notification-1.png width=500/>
+
+
+<img src=img/bp-event-storming/notification/notification-2.png width=500/>
+
+
+**Bounded Context Payment:**
+
+<img src=img/bp-event-storming/payment/payment-1.png width=500/>
+
+
+<img src=img/bp-event-storming/payment/payment-2.png width=500/>
+
+
+
 
 ## 2.4. Ubiquitous Language.
 - Portafolio: Página personal con proyectos y habilidades del usuario
