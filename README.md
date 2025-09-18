@@ -531,12 +531,16 @@ En esta sección nos enfocamos en hacer una lluvia de ideas para recolectar la m
 
 A continuación mostraremos las capturas de la primera versión del event storming realizado, separandolas según el Bounded Context al que pertenezcan y comenzando con los Core del negocio.
 
-**Bounded Context Project:**
+**Bounded Context Project:** En este bounded context se manejan todos los eventos relacionados a la gestión de proyectos dentro de la aplicación Web. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
 <img src=img/bp-event-storming/project/project-1.png width=500/>
 
+En estos tres flujos de eventos se maneja todo lo relacionado a configuraciones del proyecto. Tenemos en primer lugar el fujo que lleva a la creación de un nuevo proyecto. En segundo lugar se puede apreciar el flujo que permite la actualización de datos del proyecto. Y en último lugar se visualiza lo que vendría a ser el flujo correspondiente para la eliminación de un proyecto. Cabe resaltar que todos estos flujos suceden en la interfaz de usuario de las configuraciones de proyectos.
 
 <img src=img/bp-event-storming/project/project-2.png width=500/>
+
+En estos dos flujo se puede ver, por un lado, el proceso para visualizar características clave de un proyecto como su autor o sus capturas, esto mediante la interfaz del proyecto en si. Por otra parte, se muestra también el flujo para visualizar las estadísticas del proyecto mediante su interfaz visual respectiva.
+
 
 
 **Bounded Context Portfolio**
