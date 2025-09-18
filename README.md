@@ -515,10 +515,15 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 ### 2.3.2. User Task Matrix.
 ### 2.3.3. User Journey Mapping.
 #### Segmento objetivo 1
+- Sebastian Adriano Pajares Oyola
+  <img src="img/journeymap2.png" width="1050"/>
 
 #### Segmento objetivo 2
 - Eriol Jared Constantine Huaytalla Robles
   <img src="img/EriolJourneyMap.jpg" width="1050"/>
+
+- Azul Delgado Sanchez
+  <img src="img/journeymap.png" width="1050"/>
 
 ### 2.3.4. Empathy Mapping.
 ## 2.3. Big Picture Event Storming.
