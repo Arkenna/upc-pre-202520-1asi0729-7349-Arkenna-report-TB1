@@ -547,6 +547,51 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 - Eriol Jared Constantine Huaytalla Robles
   <img src="img/EriolPersona.jpg" width="1050"/>
 ### 2.3.2. User Task Matrix.
+
+
+Este User Task Matrix contempla dos perfiles representativos de los segmentos principales de IndieNest:
+
+Segmento 1 – Sebastián: Programador independiente con experiencia en desarrollo de videojuegos, enfocado en visibilidad profesional y colaboración técnica.
+
+Segmento 2 – Eriol: Estudiante universitario interesado en diseño y modelado 3D, busca mejorar sus habilidades, ganar visibilidad y conectar con otros creadores.
+
+| Tarea | Sebastián | | Eriol | |
+|--|--|--|--|--|
+| | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
+|Publicar proyectos terminados o en desarrollo|Alta|Alta|Media|Alta|
+|Mostrar experiencia técnica o artística|Alta|Alta|Media|Alta|
+|Buscar oportunidades de colaboración|Media|Alta|Media|Media|
+|Recibir retroalimentación sobre su trabajo|Alta|Alta|Alta|Alta|
+|Construir un portafolio profesional|Alta|Alta|Media|Alta|
+|Compartir contenido en redes sociales|Media|Media|Alta|Media|
+|Conectar con otros creadores|Media|Alta|Alta|Alta|
+|Mejorar habilidades a través de práctica o feedback|Media|Media|Alta|Alta|
+|Ser descubierto por empleadores o equipos|Alta|Alta|Media|Media|
+|Participar en comunidades creativas|Media|Media|Alta|Media|
+|Mostrar avances o procesos de creación|Media|Media|Alta|Media|
+<br>
+
+**Tareas con mayor coincidencia en frecuencia e importancia**<br>
+Ambos usuarios coinciden en valorar altamente la retroalimentación y la conexión con otros creadores. Esto revela que, independientemente del nivel de experiencia, los usuarios buscan validación, aprendizaje y comunidad. Estas tareas no solo son frecuentes, sino que tienen un impacto directo en su motivación y crecimiento.
+
+- Sebastián: perfil profesional y estratégico<br>
+  Sebastián, como programador independiente, prioriza tareas que lo posicionen profesionalmente. Para él, publicar proyectos, mostrar experiencia técnica, construir un portafolio y ser descubierto por empleadores son tareas de alta frecuencia e importancia. Esto refleja una necesidad clara de consolidar su reputación y acceder a oportunidades laborales o colaborativas. Las redes sociales no son su canal principal, y su enfoque está más orientado a resultados concretos que a exposición informal.
+
+- Eriol: perfil formativo y explorador<br>
+  Eriol, como estudiante en formación, realiza tareas con un enfoque más exploratorio. Aunque también valora la retroalimentación y la conexión con otros, sus tareas más frecuentes están ligadas a mejorar habilidades, compartir contenido en redes sociales, y mostrar avances. Su uso de plataformas está más vinculado a visibilidad y aprendizaje que a posicionamiento profesional. Aún no prioriza tanto la búsqueda de empleadores, pero sí desea construir una base sólida para el futuro.
+
+**Diferencias clave**
+- Sebastián busca consolidar su trayectoria, mientras que Eriol busca construirla.
+- Sebastián prioriza tareas que lo ayuden a ser contratado o colaborar, mientras que Eriol prioriza tareas que lo ayuden a aprender y ser visto.
+- Eriol usa redes sociales como canal principal; Sebastián las usa como complemento.
+
+**Implicaciones para IndieNest**<br>
+La plataforma debe ofrecer funcionalidades que cubran ambos espectros:
+- Para Sebastián: portafolio profesional, visibilidad técnica, filtros por rol y experiencia, y canales de colaboración directa.
+- Para Eriol: espacios de aprendizaje, retroalimentación accesible, comunidad activa, y herramientas para mostrar procesos creativos.
+
+
+
 ### 2.3.3. User Journey Mapping.
 #### Segmento objetivo 1
 - Sebastian Adriano Pajares Oyola
