@@ -1101,7 +1101,7 @@ La versión móvil de la landing page conserva estos principios de diseño centr
 ## 4.7Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 ## 4.8. Database Design
-# 🎮 IndieNest - Base de Datos (SQL Server)
+# IndieNest - Base de Datos (SQL Server)
 
 A continuación se muestra el script **DDL** para crear la base de datos de IndieNest en **SQL Server**.
 
@@ -1351,6 +1351,8 @@ CREATE TABLE Notificacion (
 );
 ```
 ### 4.8.1.Database Diagrams
+<img src=img/indienestDB1.jpeg width=1500/>
+--
 
 # 5. Capitulo V Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
