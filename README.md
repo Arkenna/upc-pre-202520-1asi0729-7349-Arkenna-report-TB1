@@ -510,11 +510,11 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 
 | Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
 |----------------|--------------------|-----------|-------------|-------------|------------|
-|(la foto) | Juan José Meza Huanacune | 24 años | Barranco | FALTA | Juan José en un programador técnico con experiencia en prototipos y demos. Publica en Itch.io y Unity Play, pero siente que sus proyectos se pierden por falta de visibilidad. Considera esencial tener un portafolio digital para mostrar su rol como programador. Enfrenta obstáculos como la falta de recursos para marketing y dificultad para formar equipos. Valora mucho la retroalimentación y cree que IndieNest podría profesionalizar su perfil y abrirle oportunidades reales. |
+| <img src="img/Entrevista Juan Jose.PNG"/> | Juan José Meza Huanacune | 24 años | Barranco | FALTA | Juan José en un programador técnico con experiencia en prototipos y demos. Publica en Itch.io y Unity Play, pero siente que sus proyectos se pierden por falta de visibilidad. Considera esencial tener un portafolio digital para mostrar su rol como programador. Enfrenta obstáculos como la falta de recursos para marketing y dificultad para formar equipos. Valora mucho la retroalimentación y cree que IndieNest podría profesionalizar su perfil y abrirle oportunidades reales. |
 
 | Entrevistado 3 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
 |----------------|--------------------|-----------|-------------|-------------|------------|
-|(la foto) | Fabricio Fabián Quispe Barzola | 23 años | Chorrillos | FALTA | Fabricio es estudiante de Ingeniería de Software con experiencia en game jams y desarrollo colaborativo. Publica en Itch.io y GitHub, pero busca una plataforma más visual y profesional. Necesita un portafolio para destacar en el mercado laboral. Enfrenta barreras de visibilidad y validación. Le interesa recibir feedback y conectar con otros creadores. Ve en IndieNest una herramienta clave para mostrar su trabajo y generar oportunidades. |
+| <img src="img/Entrevista Fabricio.PNG"/> | Fabricio Fabián Quispe Barzola | 23 años | Chorrillos | FALTA | Fabricio es estudiante de Ingeniería de Software con experiencia en game jams y desarrollo colaborativo. Publica en Itch.io y GitHub, pero busca una plataforma más visual y profesional. Necesita un portafolio para destacar en el mercado laboral. Enfrenta barreras de visibilidad y validación. Le interesa recibir feedback y conectar con otros creadores. Ve en IndieNest una herramienta clave para mostrar su trabajo y generar oportunidades. |
 
 
 - Segmento 2 : Artistas Digitales 
