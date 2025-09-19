@@ -887,8 +887,6 @@ https://trello.com/b/SBmiXIZJ/indienest
 
 # 4. Capitulo IV: Product Design.
 ## 4.1. Style guidelines.
-### 4.1.1. General Style Guidelines.
-
 Estos lineamientos se establecerán para el diseño del sistema de IndieNest, una plataforma digital que busca visibilizar y conectar a creadores independientes de videojuegos, incluyendo programadores, artistas, músicos y estudiantes en formación. El objetivo de IndieNest es ofrecer un entorno accesible, profesional y creativo donde los usuarios puedan mostrar sus proyectos, construir portafolios, recibir retroalimentación y formar parte de comunidades colaborativas.
 
 Al definir principios claros de estilo gráfico y experiencia, buscamos garantizar una implementación visual coherente en todos los puntos de contacto de la plataforma (web, móvil y perfiles públicos). Esta guía será clave para que cada elemento visual mantenga consistencia, identidad y armonía, fortaleciendo la usabilidad, la accesibilidad y el sentido de pertenencia dentro de la comunidad IndieNest.
@@ -897,7 +895,119 @@ Propósito: Establecer una referencia visual unificada que sirva como base para 
 
 Alcance: La guía abarcará normas de identidad visual, paleta cromática, tipografía, íconos, espaciado, estructura visual y tono de comunicación. Está pensada para orientar el diseño de interfaces en la plataforma web y móvil, así como en los perfiles públicos de los usuarios y las vistas de proyectos. Se priorizará la legibilidad, la claridad en la navegación, y una estética que combine lo profesional con lo creativo.
 
+### 4.1.1. General Style Guidelines.
+
+#### a. Branding
+- Logotipo:El logotipo de IndieNest utiliza una composición geométrica que evoca la idea de construcción, comunidad y creatividad. Se presenta en formatos PNG y JPG para adaptarse a distintos entornos digitales.
+- Colores del logotipo: El logotipo emplea tonos cálidos y contrastantes que representan energía, diversidad y dinamismo. Predominan los naranjas y violetas, que comunican creatividad y profesionalismo.
+- Espaciado mínimo: Se establece un espaciado mínimo de 24px alrededor del logotipo para garantizar su legibilidad y presencia visual en cualquier contexto.
+
+#### b. Tipografía
+
+- Primera Fuente - Monserrat Bold (32 px): Utilizada para títulos principales. Esta fuente sans-serif transmite fuerza, modernidad y claridad, ideal para destacar secciones clave como encabezados de proyectos o categorías.
+- Segunda Fuente - Poppins Medium (20 px): Aplicada en subtítulos y botones. Su estilo redondeado y equilibrado aporta accesibilidad y suavidad visual, facilitando la lectura en interfaces móviles y web.
+- Tercera Fuente - Poppins Regular (16 px): Usada para textos descriptivos, menús y formularios. Su legibilidad en tamaños pequeños la hace ideal para contenido informativo sin saturar la interfaz.
+- Aplicaciones:
+	- Montserrat Bold: títulos de secciones y encabezados de proyectos
+
+	- Poppins Medium: botones, etiquetas y subtítulos
+
+	- Poppins Regular: menús verticales, descripciones de usuario y textos secundarios
+
+#### c. Colores
+- Paleta de colores principal:
+	- Naranja (#FF6B00): energía, acción, llamado a la interacción.
+	- Violeta oscuro (#3B1F5C): profundidad, profesionalismo, contraste
+ 	- Blanco (#FFFFFF): limpieza, espacio, legibilidad
+  Estos colores fueron seleccionados para transmitir dinamismo y claridad, combinando tonos vibrantes con fondos neutros que permiten destacar contenido visual como ilustraciones o miniaturas de juegos.
+- Combinación: El naranja se utiliza como color de acción (botones, íconos interactivos), mientras que el violeta oscuro sirve como fondo principal. El blanco se emplea para textos y elementos que requieren máxima legibilidad.
+- Paleta de Colores de apoyo:
+	- Gris claro (#F2F2F2): fondos secundarios, tarjetas
+	- Azul suave (#A3D5FF): acentos en formularios o notificaciones
+	- Negro (#000000): texto principal en fondos claros
+ - Aplicaciones:
+	- Naranja: botones principales, íconos de acción
+	- Violeta oscuro: fondo de pantalla, encabezados
+ 	- Blanco: texto sobre fondos oscuros
+  	- Gris claro: tarjetas de proyecto, secciones de perfil
+   	- Azul suave: mensajes informativos, estados activos
+   	- Negro: texto en formularios y menús claros
+
+#### d. Espaciado y márgenes
+- Márgenes: Se establecerán márgenes de 20px alrededor de elementos interactivos como botones, tarjetas y campos de formulario, para garantizar una navegación cómoda y un diseño limpio.
+- El interlineado será de 28px para los textos descriptivos, ofreciendo una lectura clara y fluida. En cuanto a la separación entre el título y el texto, se utilizará un interlineado de 36px para mantener una jerarquía visual adecuada y una presentación ordenada.
+
+#### e. Tono de comunicación
+- Estilo: Formal y respetuoso, con un enfoque profesional pero accesible.
+- Motivo: El tono formal se alinea con el objetivo de IndieNest de posicionarse como una plataforma seria y confiable para creadores independientes. Al mismo tiempo, se mantiene una voz cercana que motive la colaboración y el intercambio creativo entre usuarios.
+- Ejemplos de tono:
+	- “IndieNest es el espacio donde tus proyectos encuentran visibilidad, comunidad y oportunidades reales”.
+ 	- “Para conocer más sobre cómo construir tu portafolio profesional, visita la sección de ayuda”.
+  	- “Tu perfil ha sido actualizado exitosamente. Ahora otros creadores pueden descubrir tu trabajo”.
+
 ### 4.1.2. Web Style Guidelines.
+
+#### a. Estructura de la página
+
+La interfaz web de IndieNest ha sido diseñada para ofrecer una navegación intuitiva y fluida, adaptándose a distintos tamaños de pantalla mediante una cuadrícula flexible. La estructura contempla tres secciones principales que organizan el contenido de forma clara y jerárquica.
+
+- Header
+	- Ubicación: Parte superior de la pantalla
+	- Contenido:
+		- Logo: Se ubica en la esquina superior izquierda, presentado en formato JPG.
+ 		- Botones de navegación: Se disponen en la esquina superior derecha, con opciones como "Sobre Nosotros", "Ayuda" e "Iniciar Sesión".
+   - Color del Header: Violeta oscuro – código #3B1F5C. Este color fue elegido por su profundidad y contraste, aportando identidad visual y profesionalismo.
+- Body
+	- Ubicación: Zona Central y más amplia de la página
+	- Contenido:
+		- Imágenes: Se incluye una imagen JPG destacada que representa el producto y su comunidad.
+  		-  Barra de búsqueda: Ubicada en la parte superior del cuerpo, permite al usuario explorar proyectos, perfiles y categorías dentro de la plataforma.
+    -  Color del Body: Blanco – código #FFFFFF. Este color asegura una visualización clara del contenido, mejora la legibilidad y permite que los elementos visuales resalten sobre el fondo.
+
+- Foot
+	- Ubicación: Parte inferior de la página
+ 	- Contenido:
+  		- Información adicional: Se presentan accesos a secciones como “¿Qué es IndieNest?”, “Términos y condiciones” y “Contacto”.
+    	- Redes Sociales: Íconos simples ubicados en la parte inferior, enlazando a plataformas como Facebook, Instagram y LinkedIn.
+     - Color del Foot: Gris claro – código #F2F2F2. Este tono fue elegido para diferenciar visualmente el pie de página sin romper la armonía general, manteniendo una estética limpia y funcional.
+ 
+#### b. Diseño de Interfaz
+- Responsive Design: La interfaz de IndieNest se adapta dinámicamente a distintos dispositivos (desktop, tablet, móvil). Esto se logra mediante el redimensionamiento automático de elementos, reorganización de bloques y ajuste de tipografías, garantizando una experiencia óptima en cualquier resolución.
+#### c. Tipografía Web
+- Menú Horizontal y Vertical
+	- Fuente: Poppings Regular
+ 	- Tamaño: 16 px
+  	- Estilo: Regular
+- Títulos
+	- Fuente: Monserrat Bold
+ 	- Tamaño: 32 px
+  	- Estilo: Negrita
+- Subtítulos
+	- Fuente: Poppings Regular
+ 	- Tamaño: 20 px
+  	- Estilo: Semibold
+- Cuerpo de Texto
+	- Fuente: Poppings Regular
+ 	- Tamaño: 16 px
+  	- Estilo: Regular
+  	- Uso: Se utilizará para el cuerpo del texto y las descripciones largas, con el objetivo de mejorar la legibilidad y mantener un estilo profesional y fácil de acceder.
+
+#### d. Colores
+- Paleta de colores base
+	- Naranja (#FF6B00): Color de acción, utilizado en botones principales y llamadas a la interacción.
+ 	- Violeta oscuro (#3B1F5C): Color de fondo y encabezado, aporta profundidad y profesionalismo.
+ 	- Blanco (#FFFFFF): Color de fondo para el cuerpo de la página, mejora la legibilidad y permite destacar contenido visual.
+
+- Paleta de colores de apoyo
+	- Gris claro (#F2F2F2): Utilizado en tarjetas, secciones secundarias y pie de página.
+ 	- Azul suave (#A3D5FF): Aplicado en notificaciones, formularios y estados activos para aportar frescura y contraste.
+
+#### e. Iconografía
+- Estilo: Íconos simples y planos, diseñados para mejorar la accesibilidad y facilitar la navegación. Se emplean líneas limpias y formas reconocibles.
+- Redes Sociales: Presentadas en la parte inferior de la página, con los colores estándar de cada plataforma (por ejemplo, azul para Facebook, rojo para YouTube) para facilitar su reconocimiento inmediato.
+- Ejemplos: (imágenes)
+
+
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems.
 IndieNest se diseño considerando la usabilidad y simplicidad para los distintos tipos de usuario, para ello se implementan diferentes enfoques tanto en la disposicion visual del contenido como en los esquemas de categorizacion 
