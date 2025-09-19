@@ -545,9 +545,6 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 - Juan José Meza Huanacune
   <img src="img/JuanJosePersona.PNG"/>
 
-- Fabricio Fabián Quispe Barzola
-  <img src="img/FabricioQuispePersona.png"/>
-
 #### Segmento objetivo 2
 - Eriol Jared Constantine Huaytalla Robles
   <img src="img/EriolPersona.jpg" width="1050"/>
