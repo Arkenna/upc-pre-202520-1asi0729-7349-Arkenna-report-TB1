@@ -542,8 +542,7 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 ### 2.3.1. User Personas.
 #### Segmento objetivo 1
 
-- Juan José Meza Huanacune
-  <img src="img/JuanJosePersona.PNG"/>
+
 
 #### Segmento objetivo 2
 - Eriol Jared Constantine Huaytalla Robles
@@ -557,9 +556,6 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 #### Segmento objetivo 2
 - Eriol Jared Constantine Huaytalla Robles
   <img src="img/EriolJourneyMap.jpg" width="1050"/>
-
-- Azul Delgado Sanchez
-  <img src="img/journeymap.png" width="1050"/>
 
 ### 2.3.4. Empathy Mapping.
 ## 2.3. Big Picture Event Storming.
