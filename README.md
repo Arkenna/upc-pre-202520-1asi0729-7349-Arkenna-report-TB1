@@ -541,9 +541,8 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 ## 2.3 Needfinding.
 ### 2.3.1. User Personas.
 #### Segmento objetivo 1
-
-
-
+- Sebastián Adriano Pajares Oyala
+  <img src="img/SebastianPajaresPersona.png"/>
 #### Segmento objetivo 2
 - Eriol Jared Constantine Huaytalla Robles
   <img src="img/EriolPersona.jpg" width="1050"/>
