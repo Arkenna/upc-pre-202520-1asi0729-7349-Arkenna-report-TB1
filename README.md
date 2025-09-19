@@ -888,6 +888,15 @@ https://trello.com/b/SBmiXIZJ/indienest
 # 4. Capitulo IV: Product Design.
 ## 4.1. Style guidelines.
 ### 4.1.1. General Style Guidelines.
+
+Estos lineamientos se establecerán para el diseño del sistema de IndieNest, una plataforma digital que busca visibilizar y conectar a creadores independientes de videojuegos, incluyendo programadores, artistas, músicos y estudiantes en formación. El objetivo de IndieNest es ofrecer un entorno accesible, profesional y creativo donde los usuarios puedan mostrar sus proyectos, construir portafolios, recibir retroalimentación y formar parte de comunidades colaborativas.
+
+Al definir principios claros de estilo gráfico y experiencia, buscamos garantizar una implementación visual coherente en todos los puntos de contacto de la plataforma (web, móvil y perfiles públicos). Esta guía será clave para que cada elemento visual mantenga consistencia, identidad y armonía, fortaleciendo la usabilidad, la accesibilidad y el sentido de pertenencia dentro de la comunidad IndieNest.
+
+Propósito: Establecer una referencia visual unificada que sirva como base para diseñar una experiencia centrada en la creatividad, la colaboración y la profesionalización de los creadores independientes. IndieNest debe reflejar tanto el espíritu técnico como artístico de sus usuarios, manteniendo coherencia visual en cada interacción.
+
+Alcance: La guía abarcará normas de identidad visual, paleta cromática, tipografía, íconos, espaciado, estructura visual y tono de comunicación. Está pensada para orientar el diseño de interfaces en la plataforma web y móvil, así como en los perfiles públicos de los usuarios y las vistas de proyectos. Se priorizará la legibilidad, la claridad en la navegación, y una estética que combine lo profesional con lo creativo.
+
 ### 4.1.2. Web Style Guidelines.
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems.
