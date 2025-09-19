@@ -535,9 +535,49 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 Enlace del video de las entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202321613_upc_edu_pe/EbQaKTrBnMBKoJ1hoQwwTC0B6Uwkffz66WSolVvJ4KQQAg?e=l6yEE3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ### 2.2.3. Análisis de entrevistas.
-#### Segmento objetivo 1
+#### Segmento objetivo 1 (Progrmadores independientes) 
+Los entrevistados (Sebastián Pajares, Juan José Meza y Fabricio Quispe) coincidieron en que la **falta de visibilidad** es el principal obstáculo al publicar sus proyectos en plataformas actuales como *Itch.io*, *Unity Play* o *GitHub*.  
 
-#### Segmento objetivo 2
+- **Necesidades identificadas:**  
+  - Portafolios centralizados que permitan mostrar su rol dentro de un proyecto.  
+  - Retroalimentación de calidad para mejorar sus juegos.  
+  - Conexiones con otros perfiles (artistas, músicos).  
+
+- **Problemas clave:**  
+  - Sus proyectos se pierden en el exceso de contenido.  
+  - Limitada capacidad de marketing y falta de recursos.  
+  - Dificultad para formar equipos multidisciplinarios.  
+
+- **Implicaciones para IndieNest:**  
+  La plataforma debe priorizar funcionalidades como **portafolios profesionales dinámicos**, filtros por rol y experiencia, y un sistema de **feedback validado**, además de opciones para conectar a programadores con colaboradores.
+
+---
+
+#### Segmento objetivo 2 (Artistas Digitales)
+Los entrevistados (Carlos Marín, Azul Delgado y Eriol Huaytalla) resaltaron que las redes sociales (*Instagram, Discord, X*) no son suficientes para posicionar su trabajo en el ámbito indie.  
+
+- **Necesidades identificadas:**  
+  - Exhibir ilustraciones, modelados 3D y pixel art en un portafolio enfocado en videojuegos.  
+  - Ser contactados directamente por programadores o estudios para unirse a proyectos.  
+  - Mejorar sus oportunidades de colaboración con visibilidad real.  
+
+- **Problemas clave:**  
+  - Algoritmos de redes sociales que reducen el alcance.  
+  - Falta de espacios especializados donde los artistas puedan mostrar su trabajo a programadores.  
+  - Dificultad de ingresar a proyectos indie si no son conocidos previamente.  
+
+- **Implicaciones para IndieNest:**  
+  La plataforma debe ofrecer un **espacio especializado en visibilidad artística**, con funciones para que los equipos busquen perfiles artísticos específicos y con portafolios visuales atractivos. Asimismo, se recomienda implementar un sistema de **match entre artistas y programadores** que potencie las oportunidades de colaboración.
+
+---
+
+#### Conclusión general
+El análisis revela que tanto programadores como artistas comparten la frustración de la **baja visibilidad y falta de retroalimentación en sus proyectos**. Mientras los programadores buscan consolidar su perfil profesional y atraer colaboradores, los artistas buscan exhibir sus habilidades y acceder a proyectos indie.  
+
+En conjunto, las entrevistas validan que IndieNest debe:  
+- Actuar como un **repositorio centralizado de portafolios**.  
+- Garantizar **visibilidad diferenciada por rol** (programador, artista, compositor).  
+- Incluir **mecanismos de feedback y networking** que faciliten la colaboración.
 
 ## 2.3 Needfinding.
 ### 2.3.1. User Personas.
