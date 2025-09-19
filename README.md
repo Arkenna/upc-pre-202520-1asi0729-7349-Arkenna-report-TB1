@@ -797,6 +797,9 @@ Por último tenemos el proceso de pago de un carrito de compra, donde se estable
 |US33|**Ver logros desbloqueables en juegos**|**Como usuario**, **quiero poder** ver los logros que puedo desbloquear en cada juego **para** motivarme a completarlos.|**Scenario 1** <br>**DADO QUE** estoy en la ficha de un juego, <br>**CUANDO** hago clic en “Logros”, <br>**ENTONCES** veo una lista de objetivos y recompensas.<br><br>**Scenario 2** <br>**DADO QUE** el juego no tiene logros configurados, <br>**CUANDO** accedo a esa sección, <br>**ENTONCES** el sistema me indica que no hay logros disponibles.|EP02|
 |US34|**Ver reseñas destacadas de otros usuarios**|**Como usuario**, **quiero poder** ver reseñas destacadas de otros usuarios **para** tomar decisiones informadas antes de jugar.|**Scenario 1** <br>**DADO QUE** un juego tiene muchas reseñas, <br>**CUANDO** entro a la sección de comentarios, <br>**ENTONCES** el sistema me muestra las más votadas primero.<br><br>**Scenario 2** <br>**DADO QUE** no hay reseñas destacadas, <br>**CUANDO** accedo a comentarios, <br>**ENTONCES** el sistema me muestra las más recientes.|EP02|
 ## 3.2. Impact Mapping.
+
+![](img/impact-map.png)
+
 ## 3.3. Product Backlog.
 
 ## Product Backlog – IndieNest
