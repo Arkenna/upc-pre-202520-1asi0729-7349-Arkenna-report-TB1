@@ -990,12 +990,38 @@ En la versión de escritorio, se prioriza una disposición visual jerárquica y 
 <img src="img/HomePC.png" width="900"/>
 <br>
 **Ventana About**
-
+<br>
+<img src="img/AboutPC.png" width="900"/>
+<br>
 **Ventana Goals**
-
+<br>
+<img src="img/GoalsPC.png" width="900"/>
+<br>
 **Ventanna Contacts**
-
-**Wireframe para la versión móvil**
+<br>
+<img src="img/ContactPC.png" width="900"/>
+<br>
+**Wireframes para la versión móvil**
+**Ventana Principal móvil**
+<br>
+<img src="img/HomeCL.png" width="900"/>
+<br>
+**Ventana Principal menu móvil**
+<br>
+<img src="img/HomeOPCL.png" width="900"/>
+<br>
+**Ventana About móvil**
+<br>
+<img src="img/AboutCL.png" width="900"/>
+<br>
+**Ventana Goals móvil**
+<br>
+<img src="img/GoalsCL.png" width="900"/>
+<br>
+**Ventanna Contacts móvil**
+<br>
+<img src="img/ContactCL.png" width="900"/>
+<br>
 
 En la versión móvil, se adapta el diseño mediante un menú tipo “hamburguesa” ubicado en la parte superior izquierda, optimizando la experiencia en pantallas pequeñas. El contenido se organiza en formato vertical, con énfasis en la legibilidad y botones de acción amplios para facilitar la interacción táctil. Las secciones About, Goals y Contact se muestran en bloques diferenciados que conservan la jerarquía informativa del escritorio, pero con una navegación más secuencial e intuitiva.
 
