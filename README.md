@@ -900,6 +900,56 @@ El sistema de búsqueda propuesto para la plataforma IndieNest tiene como objeti
 
 
 ### 4.2.5. Navigation Systems.
+
+### Menú de navegación principal
+
+**Versión de escritorio:**  
+El menú principal de **IndieNest** se presenta como una barra horizontal fija en la parte superior de la interfaz. Incluye accesos directos a las secciones clave:
+
+-   **About:** Presenta la descripción general de la plataforma y a los integrantes del equipo.
+    
+-   **Goals:** Explica de forma clara y organizada los objetivos principales de IndieNest.
+    
+-   **Contact:** Ofrece los canales de comunicación oficiales, incluyendo correo electrónico y redes sociales.
+    
+
+El logotipo de IndieNest, ubicado en la parte izquierda del menú, funciona como acceso directo al inicio. El diseño garantiza que las secciones estén siempre visibles, facilitando un acceso ágil y evitando que el usuario se pierda dentro de la página.
+
+**Versión móvil: Menú tipo “hamburguesa”**  
+En dispositivos móviles, IndieNest utiliza un menú tipo hamburguesa situado en la esquina superior izquierda. Al desplegarse, muestra en formato de lista vertical las mismas secciones presentes en la versión de escritorio (_About, Goals, Contact_). Esta disposición favorece la interacción táctil y mantiene la interfaz despejada.
+
+### Sistema de navegación secundaria
+
+La navegación interna de cada sección sigue un **recorrido lineal y vertical**:
+
+-   En About, primero se presenta la descripción de IndieNest y posteriormente al equipo.
+    
+-   En Goals, los objetivos se muestran de manera estructurada en bloques claros.
+    
+-   En Contact, se agrupan los medios de comunicación de forma directa y accesible.
+    
+
+### Accesibilidad y usabilidad
+
+IndieNest prioriza la simplicidad y la comprensión rápida del contenido:
+
+-   El menú fijo asegura que las secciones clave estén siempre disponibles.
+    
+-   La navegación secuencial dentro de cada apartado reduce la carga cognitiva.
+    
+-   El sistema es consistente tanto en la versión de escritorio como en la versión móvil, garantizando una experiencia coherente.
+    
+
+### Navegación por contexto
+
+El recorrido está diseñado de forma que cada acción lleve lógicamente a la siguiente:  
+**About → Goals → Contact.**  
+Este flujo ordenado permite que los usuarios comprendan qué es IndieNest, conozcan sus objetivos y, finalmente, establezcan contacto con el equipo.
+
+### Resumen
+
+El sistema de navegación de **IndieNest** está diseñado para ser simple, lineal y accesible. Mediante un menú principal fijo en escritorio y un menú hamburguesa en dispositivos móviles, los usuarios recorren de forma clara las secciones clave, logrando una experiencia intuitiva y coherente en cualquier dispositivo.
+
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe
 
