@@ -902,7 +902,31 @@ El sistema de búsqueda propuesto para la plataforma IndieNest tiene como objeti
 ### 4.2.5. Navigation Systems.
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe
+
+A continuación, se presentan los wireframes de la Landing Page de IndieNest, diseñados tanto para navegadores web en escritorio como para dispositivos móviles. Estos esquemas visuales han sido elaborados bajo principios de diseño centrado en el usuario, integrando una arquitectura de información clara y orientada a la comunidad de desarrolladores independientes.
+
+En la versión de escritorio, se prioriza una disposición visual jerárquica y accesible. Elementos esenciales como el logotipo de IndieNest, el menú principal (About, Goals y Contact) y los botones de acción se ubican en la parte superior para garantizar máxima visibilidad y navegación sin fricciones. La página principal presenta una breve introducción sobre la plataforma y los miembros del equipo representados mediante avatares circulares.
+
+**Ventana Principal**
+
+**Ventana About**
+
+**Ventana Goals**
+
+**Ventanna Contacts**
+
+**Wireframe para la versión móvil**
+
+En la versión móvil, se adapta el diseño mediante un menú tipo “hamburguesa” ubicado en la parte superior izquierda, optimizando la experiencia en pantallas pequeñas. El contenido se organiza en formato vertical, con énfasis en la legibilidad y botones de acción amplios para facilitar la interacción táctil. Las secciones About, Goals y Contact se muestran en bloques diferenciados que conservan la jerarquía informativa del escritorio, pero con una navegación más secuencial e intuitiva.
+
+
 ### 4.3.2. Landing Page Moc-up
+
+A continuación, se presentan los mock-ups de la página de inicio de la plataforma IndieNest, diseñados para dispositivos de escritorio y móviles. Estos prototipos visuales han sido elaborados bajo principios de diseño centrado en el usuario, logrando un equilibrio entre estética, funcionalidad y accesibilidad para todo tipo de creadores.
+
+En la versión para navegador de escritorio, la interfaz propone una experiencia clara y estructurada. Los componentes principales, como el logotipo de IndieNest, la barra de navegación y los botones de acción, están ubicados en la parte superior de la pantalla, asegurando visibilidad inmediata y acceso ágil. El encabezado incluye accesos directos a secciones clave como About, Goals y Contact, lo que facilita la exploración eficiente de los contenidos más relevantes de la plataforma. La aplicación de la paleta de color, con el verde principal #92FF71 y fondos oscuros, mientras que la tipografía Noto Sans.
+
+La versión móvil de la landing page conserva estos principios de diseño centrado en el usuario, adaptándose eficientemente a pantallas reducidas. En esta presentación, la navegación se reorganiza mediante un menú tipo hamburguesa ubicado en la parte superior izquierda, lo que mantiene la interfaz despejada y funcional. Los botones interactivos se amplían para facilitar su selección táctil y los bloques de contenido se organizan en disposición vertical, garantizando una navegación fluida y accesible desde cualquier dispositivo.
 ## 4.4 Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams
