@@ -986,7 +986,9 @@ A continuación, se presentan los wireframes de la Landing Page de IndieNest, di
 En la versión de escritorio, se prioriza una disposición visual jerárquica y accesible. Elementos esenciales como el logotipo de IndieNest, el menú principal (About, Goals y Contact) y los botones de acción se ubican en la parte superior para garantizar máxima visibilidad y navegación sin fricciones. La página principal presenta una breve introducción sobre la plataforma y los miembros del equipo representados mediante avatares circulares.
 
 **Ventana Principal**
-
+<br>
+<img src="img/HomePC.png" width="900"/>
+<br>
 **Ventana About**
 
 **Ventana Goals**
