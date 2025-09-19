@@ -898,6 +898,30 @@ Se utilizan verbos claros y directos para que los usuarios sepan exactamente qu�
 Todas las etiquetas mantienen un estilo uniforme, usando un lenguaje sencilo, claro y comprensible para los distintos perfiles de usuarios. 
 En conclusión, el sistema de etiquetado en IndieNest garantiza una navegación intuitiva y una clasificación precisa del contenido, facilitando tanto la interacción diaria de los usuarios como la búsqueda de descubrimiento de proyectos dentro de la comunidad.
 ### 4.2.3. SEO Tags and Meta Tags.
+
+Con el objetivo de optimizar la visibilidad de **IndieNest** en motores de búsqueda y mejorar la accesibilidad de la información, se han definido los principales **SEO Tags y Meta Tags** que serán implementados en la Landing Page y la Web Application.
+
+### Landing Page
+
+-   **Title:** IndieNest – Plataforma para Desarrolladores de Videojuegos Independientes
+    
+-   **Meta Description:** IndieNest conecta a desarrolladores, artistas y creadores independientes de videojuegos. Descubre proyectos, comparte tu portafolio y encuentra colaboradores en un entorno inclusivo y accesible.
+    
+-   **Meta Keywords:** videojuegos independientes, indie games, desarrolladores, artistas, compositores, portafolios, proyectos colaborativos, comunidad gamer
+    
+-   **Meta Author:** Equipo IndieNest
+    
+
+### Web Application
+
+-   **Title:** IndieNest – Explora Proyectos y Conecta con Creadores
+    
+-   **Meta Description:** Accede a proyectos de videojuegos indie, explora portafolios, comparte tus creaciones y colabora con otros desarrolladores en la comunidad de IndieNest.
+    
+-   **Meta Keywords:** explorar videojuegos, comunidad indie, portafolio desarrolladores, proyectos en desarrollo, colaboración creativa
+    
+-   **Meta Author:** Equipo IndieNest
+
 ### 4.2.4. Searching System.
 
 El sistema de búsqueda propuesto para la plataforma IndieNest tiene como objetivo proporcionar a los usuarios una manera eficiente de acceder a proyectos, portafolios y colaboradores dentro de la comunidad indie. De esta forma se evita que los usuarios se sientan perdidos frente al volumen de información disponible y puedan encontrar rápidamente lo que necesitan
