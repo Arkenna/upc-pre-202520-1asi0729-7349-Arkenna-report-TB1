@@ -1101,7 +1101,257 @@ La versión móvil de la landing page conserva estos principios de diseño centr
 ## 4.7Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 ## 4.8. Database Design
+# 🎮 IndieNest - Base de Datos (SQL Server)
+
+A continuación se muestra el script **DDL** para crear la base de datos de IndieNest en **SQL Server**.
+
+```sql
+-- ========================================
+-- IndieNest - Script SQL Server (DDL)
+-- ========================================
+
+-- CREATE DATABASE IndieNest;
+-- GO
+-- USE IndieNest;
+-- GO
+
+/* ===========================
+   Tabla Usuario y Perfil
+   =========================== */
+
+CREATE TABLE Usuario (
+  id_usuario        INT IDENTITY(1,1) PRIMARY KEY,
+  nombre_usuario    VARCHAR(80) NOT NULL UNIQUE,
+  correo            VARCHAR(120) NOT NULL UNIQUE,
+  contrasena_hash   VARCHAR(255) NOT NULL,
+  rol               VARCHAR(20) NOT NULL 
+                    CHECK (rol IN ('admin','moderador','creador','artista','tester')),
+  estado            VARCHAR(20) NOT NULL 
+                    CHECK (estado IN ('activo','suspendido')),
+  fecha_registro    DATETIME2(0) NOT NULL DEFAULT SYSDATETIME(),
+  ultima_conexion   DATETIME2(0) NULL
+);
+
+CREATE TABLE Perfil (
+  id_perfil          INT IDENTITY(1,1) PRIMARY KEY,
+  id_usuario         INT NOT NULL UNIQUE,
+  nombre_mostrar     VARCHAR(120) NULL,
+  bio                NVARCHAR(MAX) NULL,
+  foto_url           VARCHAR(300) NULL,
+  url_portafolio     VARCHAR(300) NULL,
+  skills             NVARCHAR(MAX) NULL,  -- JSON
+  CONSTRAINT FK_Perfil_Usuario
+    FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario),
+  CONSTRAINT CK_Perfil_Skills_JSON
+    CHECK (skills IS NULL OR ISJSON(skills) = 1)
+);
+
+GO
+
+/* ===========================
+   Proyectos
+   =========================== */
+
+CREATE TABLE Proyecto (
+  id_proyecto          INT IDENTITY(1,1) PRIMARY KEY,
+  id_owner             INT NOT NULL,
+  titulo               VARCHAR(160) NOT NULL,
+  slug                 VARCHAR(160) NOT NULL UNIQUE,
+  descripcion_larga    NVARCHAR(MAX) NULL,
+  estado               VARCHAR(20) NOT NULL 
+                       CHECK (estado IN ('idea','en_desarrollo','demo','beta','lanzado','archivado')),
+  visibilidad          VARCHAR(20) NOT NULL 
+                       CHECK (visibilidad IN ('publico','privado','listado')),
+  motor                VARCHAR(60) NULL,
+  genero               VARCHAR(60) NULL,
+  fecha_creacion       DATETIME2(0) NOT NULL DEFAULT SYSDATETIME(),
+  fecha_actualizacion  DATETIME2(0) NULL,
+  CONSTRAINT FK_Proyecto_Owner
+    FOREIGN KEY (id_owner) REFERENCES Usuario(id_usuario)
+);
+
+CREATE TABLE ProyectoTag (
+  id_proyecto  INT NOT NULL,
+  tag          VARCHAR(60) NOT NULL,
+  CONSTRAINT PK_ProyectoTag PRIMARY KEY (id_proyecto, tag),
+  CONSTRAINT FK_ProyectoTag_Proyecto
+    FOREIGN KEY (id_proyecto) REFERENCES Proyecto(id_proyecto)
+);
+
+CREATE TABLE ProyectoPlataforma (
+  id_proyecto  INT NOT NULL,
+  plataforma   VARCHAR(20) NOT NULL 
+               CHECK (plataforma IN ('web','windows','mac','linux','android','ios','consola')),
+  url_descarga VARCHAR(300) NULL,
+  CONSTRAINT PK_ProyectoPlataforma PRIMARY KEY (id_proyecto, plataforma),
+  CONSTRAINT FK_ProyectoPlataforma_Proyecto
+    FOREIGN KEY (id_proyecto) REFERENCES Proyecto(id_proyecto)
+);
+
+CREATE TABLE BuildRelease (
+  id_release         INT IDENTITY(1,1) PRIMARY KEY,
+  id_proyecto        INT NOT NULL,
+  version            VARCHAR(40) NOT NULL,
+  notas              NVARCHAR(MAX) NULL,
+  fecha_publicacion  DATETIME2(0) NOT NULL DEFAULT SYSDATETIME(),
+  canal              VARCHAR(20) NULL 
+                     CHECK (canal IN ('alpha','beta','stable')),
+  url_binarios       VARCHAR(300) NULL,
+  CONSTRAINT UQ_BuildRelease UNIQUE (id_proyecto, version),
+  CONSTRAINT FK_BuildRelease_Proyecto
+    FOREIGN KEY (id_proyecto) REFERENCES Proyecto(id_proyecto)
+);
+
+CREATE TABLE Media (
+  id_media      INT IDENTITY(1,1) PRIMARY KEY,
+  id_proyecto   INT NOT NULL,
+  tipo          VARCHAR(20) NOT NULL 
+                CHECK (tipo IN ('cover','screenshot','video','gif')),
+  url           VARCHAR(300) NOT NULL,
+  orden         INT NULL,
+  created_at    DATETIME2(0) NOT NULL DEFAULT SYSDATETIME(),
+  CONSTRAINT FK_Media_Proyecto
+    FOREIGN KEY (id_proyecto) REFERENCES Proyecto(id_proyecto)
+);
+
+GO
+
+/* ===========================
+   Equipos e Interacciones
+   =========================== */
+
+CREATE TABLE EquipoMiembro (
+  id_miembro        INT IDENTITY(1,1) PRIMARY KEY,
+  id_proyecto       INT NOT NULL,
+  id_usuario        INT NOT NULL,
+  rol_en_proyecto   VARCHAR(40) NOT NULL,
+  es_admin          BIT NOT NULL DEFAULT 0,
+  fecha_union       DATETIME2(0) NOT NULL DEFAULT SYSDATETIME(),
+  CONSTRAINT UQ_EquipoMiembro UNIQUE (id_proyecto, id_usuario),
+  CONSTRAINT FK_EquipoMiembro_Proyecto
+    FOREIGN KEY (id_proyecto) REFERENCES Proyecto(id_proyecto),
+  CONSTRAINT FK_EquipoMiembro_Usuario
+    FOREIGN KEY (id_usuario)  REFERENCES Usuario(id_usuario)
+);
+
+CREATE TABLE LikeProyecto (
+  id_like      INT IDENTITY(1,1) PRIMARY KEY,
+  id_proyecto  INT NOT NULL,
+  id_usuario   INT NOT NULL,
+  created_at   DATETIME2(0) NOT NULL DEFAULT SYSDATETIME(),
+  CONSTRAINT UQ_LikeProyecto UNIQUE (id_proyecto, id_usuario),
+  CONSTRAINT FK_LikeProyecto_Proyecto
+    FOREIGN KEY (id_proyecto) REFERENCES Proyecto(id_proyecto),
+  CONSTRAINT FK_LikeProyecto_Usuario
+    FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario)
+);
+
+CREATE TABLE FollowUsuario (
+  id_follow    INT IDENTITY(1,1) PRIMARY KEY,
+  id_seguidor  INT NOT NULL,
+  id_seguido   INT NOT NULL,
+  created_at   DATETIME2(0) NOT NULL DEFAULT SYSDATETIME(),
+  CONSTRAINT UQ_FollowUsuario UNIQUE (id_seguidor, id_seguido),
+  CONSTRAINT FK_FollowUsuario_Seguidor
+    FOREIGN KEY (id_seguidor) REFERENCES Usuario(id_usuario),
+  CONSTRAINT FK_FollowUsuario_Seguido
+    FOREIGN KEY (id_seguido) REFERENCES Usuario(id_usuario)
+);
+
+CREATE TABLE ComentarioProyecto (
+  id_comentario  INT IDENTITY(1,1) PRIMARY KEY,
+  id_proyecto    INT NOT NULL,
+  id_usuario     INT NOT NULL,
+  contenido      NVARCHAR(MAX) NOT NULL,
+  created_at     DATETIME2(0) NOT NULL DEFAULT SYSDATETIME(),
+  parent_id      INT NULL,
+  CONSTRAINT FK_Comentario_Proyecto
+    FOREIGN KEY (id_proyecto) REFERENCES Proyecto(id_proyecto),
+  CONSTRAINT FK_Comentario_Usuario
+    FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario)
+);
+
+GO
+
+/* ===========================
+   Reclutamiento
+   =========================== */
+
+CREATE TABLE OfertaColaboracion (
+  id_oferta    INT IDENTITY(1,1) PRIMARY KEY,
+  id_proyecto  INT NOT NULL,
+  titulo       VARCHAR(160) NOT NULL,
+  descripcion  NVARCHAR(MAX) NULL,
+  tipo         VARCHAR(40) NULL,
+  estado       VARCHAR(20) NOT NULL DEFAULT 'abierta',
+  created_at   DATETIME2(0) NOT NULL DEFAULT SYSDATETIME(),
+  CONSTRAINT FK_Oferta_Proyecto
+    FOREIGN KEY (id_proyecto) REFERENCES Proyecto(id_proyecto)
+);
+
+CREATE TABLE Postulacion (
+  id_postulacion  INT IDENTITY(1,1) PRIMARY KEY,
+  id_oferta       INT NOT NULL,
+  id_usuario      INT NOT NULL,
+  mensaje         NVARCHAR(MAX) NULL,
+  portfolio_url   VARCHAR(300) NULL,
+  estado          VARCHAR(20) NOT NULL DEFAULT 'enviada',
+  created_at      DATETIME2(0) NOT NULL DEFAULT SYSDATETIME(),
+  CONSTRAINT UQ_Postulacion UNIQUE (id_oferta, id_usuario),
+  CONSTRAINT FK_Postulacion_Oferta
+    FOREIGN KEY (id_oferta) REFERENCES OfertaColaboracion(id_oferta),
+  CONSTRAINT FK_Postulacion_Usuario
+    FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario)
+);
+
+GO
+
+/* ===========================
+   Mensajería y Notificaciones
+   =========================== */
+
+CREATE TABLE Conversacion (
+  id_conversacion  INT IDENTITY(1,1) PRIMARY KEY,
+  asunto           VARCHAR(160) NULL,
+  created_at       DATETIME2(0) NOT NULL DEFAULT SYSDATETIME()
+);
+
+CREATE TABLE ConversacionMiembro (
+  id_conversacion  INT NOT NULL,
+  id_usuario       INT NOT NULL,
+  ultimo_leido     DATETIME2(0) NULL,
+  CONSTRAINT PK_ConversacionMiembro PRIMARY KEY (id_conversacion, id_usuario),
+  CONSTRAINT FK_ConversacionMiembro_Conversacion
+    FOREIGN KEY (id_conversacion) REFERENCES Conversacion(id_conversacion),
+  CONSTRAINT FK_ConversacionMiembro_Usuario
+    FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario)
+);
+
+CREATE TABLE Mensaje (
+  id_mensaje      INT IDENTITY(1,1) PRIMARY KEY,
+  id_conversacion INT NOT NULL,
+  id_remitente    INT NOT NULL,
+  contenido       NVARCHAR(MAX) NOT NULL,
+  created_at      DATETIME2(0) NOT NULL DEFAULT SYSDATETIME(),
+  CONSTRAINT FK_Mensaje_Conversacion
+    FOREIGN KEY (id_conversacion) REFERENCES Conversacion(id_conversacion),
+  CONSTRAINT FK_Mensaje_Usuario
+    FOREIGN KEY (id_remitente) REFERENCES Usuario(id_usuario)
+);
+
+CREATE TABLE Notificacion (
+  id_notificacion INT IDENTITY(1,1) PRIMARY KEY,
+  id_usuario      INT NOT NULL,
+  tipo            VARCHAR(40) NOT NULL,
+  titulo          VARCHAR(160) NOT NULL,
+  leida           BIT NOT NULL DEFAULT 0,
+  created_at      DATETIME2(0) NOT NULL DEFAULT SYSDATETIME(),
+  CONSTRAINT FK_Notificacion_Usuario
+    FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario)
+);
+```
 ### 4.8.1.Database Diagrams
+
 # 5. Capitulo V Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
