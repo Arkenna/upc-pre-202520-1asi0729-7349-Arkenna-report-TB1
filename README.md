@@ -1143,8 +1143,8 @@ Este flujo ordenado permite que los usuarios comprendan qué es IndieNest, conoz
 
 El sistema de navegación de **IndieNest** está diseñado para ser simple, lineal y accesible. Mediante un menú principal fijo en escritorio y un menú hamburguesa en dispositivos móviles, los usuarios recorren de forma clara las secciones clave, logrando una experiencia intuitiva y coherente en cualquier dispositivo.
 
-##4.3. Landing Page UI Design.
-###4.3.1. Landing Page Wireframe
+## 4.3. Landing Page UI Design.
+### 4.3.1. Landing Page Wireframe
 
 A continuación, se presentan los wireframes de la Landing Page de IndieNest, diseñados tanto para navegadores web en escritorio como para dispositivos móviles. Estos esquemas visuales han sido elaborados bajo principios de diseño centrado en el usuario, integrando una arquitectura de información clara y orientada a la comunidad de desarrolladores independientes.
 
@@ -1154,36 +1154,45 @@ En la versión de escritorio, se prioriza una disposición visual jerárquica y 
 <br>
 <img src="img/HomePC.png" width="900"/>
 <br>
+
 **Ventana About**
 <br>
 <img src="img/AboutPC.png" width="900"/>
 <br>
+
 **Ventana Goals**
 <br>
 <img src="img/GoalsPC.png" width="900"/>
 <br>
+
 **Ventanna Contacts**
 <br>
 <img src="img/ContactPC.png" width="900"/>
 <br>
+
 **Wireframes para la versión móvil**
 <br>
+
 **Ventana Principal móvil**
 <br>
 <img src="img/HomeCL.png" width="600"/>
 <br>
+
 **Ventana Principal menu móvil**
 <br>
 <img src="img/HomeOPCL.png" width="600"/>
 <br>
+
 **Ventana About móvil**
 <br>
 <img src="img/AboutCL.png" width="600"/>
 <br>
+
 **Ventana Goals móvil**
 <br>
 <img src="img/GoalsCL.png" width="600"/>
 <br>
+
 **Ventanna Contacts móvil**
 <br>
 <img src="img/ContactCL.png" width="600"/>
@@ -1192,7 +1201,7 @@ En la versión de escritorio, se prioriza una disposición visual jerárquica y 
 En la versión móvil, se adapta el diseño mediante un menú tipo “hamburguesa” ubicado en la parte superior izquierda, optimizando la experiencia en pantallas pequeñas. El contenido se organiza en formato vertical, con énfasis en la legibilidad y botones de acción amplios para facilitar la interacción táctil. Las secciones About, Goals y Contact se muestran en bloques diferenciados que conservan la jerarquía informativa del escritorio, pero con una navegación más secuencial e intuitiva.
 
 
-###4.3.2. Landing Page Moc-up
+### 4.3.2. Landing Page Moc-up
 
 A continuación, se presentan los mock-ups de la página de inicio de la plataforma IndieNest, diseñados para dispositivos de escritorio y móviles. Estos prototipos visuales han sido elaborados bajo principios de diseño centrado en el usuario, logrando un equilibrio entre estética, funcionalidad y accesibilidad para todo tipo de creadores.
 
@@ -1205,34 +1214,42 @@ La versión móvil de la landing page conserva estos principios de diseño centr
 <br>
 <img src="img/wireframes-web-app/WFAppHome.png" width="900"/>
 <br>
+
 **Ventana Login**
 <br>
 <img src="img/wireframes-web-app/WFAppLogin.png" width="900"/>
 <br>
+
 **Ventana Register**
 <br>
 <img src="img/wireframes-web-app/WFAppRegister.png" width="900"/>
 <br>
+
 **Ventana Usuario**
 <br>
 <img src="img/wireframes-web-app/WFAppUser.png" width="900"/>
 <br>
+
 **Ventana Audio**
 <br>
 <img src="img/wireframes-web-app/WFAppAudio.png" width="900"/>
 <br>
+
 **Ventana Art**
 <br>
 <img src="img/wireframes-web-app/WFAppArt.png" width="900"/>
 <br>
+
 **Ventana Developer**
 <br>
 <img src="img/wireframes-web-app/WFAppDeveloper.png" width="900"/>
 <br>
+
 **Ventana Comprar**
 <br>
 <img src="img/wireframes-web-app/WFAppBuy.png" width="900"/>
 <br>
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 - User Goal: el usuario ingresa a la web app para registrarse o inciar sesion en la misma.
 TaskFlow:
