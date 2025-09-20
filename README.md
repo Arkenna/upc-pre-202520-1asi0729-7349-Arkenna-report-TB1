@@ -646,7 +646,8 @@ La plataforma debe ofrecer funcionalidades que cubran ambos espectros:
 <img src=img/emprogramador.jpeg width=500/>
 - Segmento objetivo 2
 <img src=img/emartista.jpeg width=500/>
-## 2.3. Big Picture Event Storming.
+
+## 2.4. Big Picture Event Storming.
 
 En esta sección nos enfocamos en hacer una lluvia de ideas para recolectar la mayor cantidad de eventos que pudiesen ocurrir en nuestra aplicación web y de esta forma ir descubriendo cuales serían los Bounded Context Core del negocio. Es así que modelamos el primer modelo de este panorama en el que omitimos elementos que serán implementados en la sección de Design-Level Event Storming, tales como los comandos, aggregates y políticas. Además, se muestra una descripción de cada elemento que integrará este event storming a manera de leyenda.
 
