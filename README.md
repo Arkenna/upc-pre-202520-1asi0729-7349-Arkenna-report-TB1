@@ -1,5 +1,6 @@
 
-<img src="img/upclogo.png" width="500"/>
+
+![UPC Logo](img/upclogo.png)
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 # FACULTAD DE INGENIERÍA
