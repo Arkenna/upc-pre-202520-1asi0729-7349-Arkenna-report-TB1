@@ -1271,7 +1271,7 @@ WireFlow:
 <br>
 <img src="img/WireFlow.png" width="900"/>
 <br>
-### 4.4.3. Web Applications Mock-ups
+### 4.4.3. Web Applications Mock-ups <br>
 **Ventana Home**
 <br>
 <img src="img/mockup-web-app/MUAppHome.png" width="900"/>
