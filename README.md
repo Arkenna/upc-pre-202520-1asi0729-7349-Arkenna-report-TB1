@@ -123,13 +123,10 @@
 	
 # Student Outcome
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---------------------|---------------------|--------------|
-# Student Outcome
 
 | Criterio específico | Giuliano Angel Pelaez Vargas | Daniel Jonatan Aquino Solorzano | Rolando Andre Torres Diaz | Johnny Alexander Ojanama Abanto | Carlos Augusto Paredes Chavez | Conclusiones |
 |---------------------|------------------------------|---------------------------------|---------------------------|---------------------------------|-------------------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia | asd | asd | asd | asd | asd | asd |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia |  | asd | asd | asd | asd | asd |
 | Comunica por escrito con efectividad a diferentes rangos de audiencia | asd | asd | asd | asd | asd | asd |
 
 ---
