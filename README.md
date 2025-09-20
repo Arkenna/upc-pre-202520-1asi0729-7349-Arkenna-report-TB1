@@ -125,10 +125,12 @@
 # Student Outcome
 
 
+## Student Outcome
+
 | Criterio específico | Giuliano Angel Pelaez Vargas | Daniel Jonatan Aquino Solorzano | Rolando Andre Torres Diaz | Johnny Alexander Ojanama Abanto | Carlos Augusto Paredes Chavez | Conclusiones |
 |---------------------|------------------------------|---------------------------------|---------------------------|---------------------------------|-------------------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia |  | asd | asd | asd | asd | asd |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | asd | asd | asd | asd | asd | asd |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | Explicó la propuesta de valor de IndieNest en la exposición grupal, adaptando el lenguaje tanto a un público técnico (docente) como a no técnico (compañeros). | Presentó el análisis competitivo en la exposición, empleando un lenguaje claro y ejemplos para reforzar la explicación. | Expuso los resultados de las entrevistas, mostrando empatía hacia las necesidades de los usuarios y comunicando con seguridad. | Se encargó de la explicación del Lean UX Canvas, utilizando recursos visuales para mejorar la comprensión del público. | Explicó el impacto de los segmentos objetivo en el proyecto, conectando la teoría con la práctica. | En conjunto, el equipo demostró habilidades sólidas para comunicar oralmente los avances del proyecto, adaptándose al contexto y utilizando recursos visuales de apoyo. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Redactó la sección de antecedentes y problemática, empleando un lenguaje académico y citando fuentes relevantes. | Elaboró la parte de análisis competitivo con un estilo comparativo y estructurado, útil para un lector estratégico. | Redactó la sección de entrevistas, resumiendo respuestas de manera clara y precisa. | Documentó el Lean UX Process y el Canvas, manteniendo coherencia en el formato y claridad en los objetivos. | Escribió la parte de segmentos objetivos, con un enfoque descriptivo que facilitó la comprensión de los perfiles de usuario. | El trabajo escrito refleja una comunicación clara y coherente, con lenguaje académico adaptado a un informe universitario. Se evidenció cohesión en la redacción, a pesar de la diversidad de estilos individuales. |
 
 ---
 
