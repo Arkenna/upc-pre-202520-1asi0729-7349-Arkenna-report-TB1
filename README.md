@@ -1654,9 +1654,7 @@ Este sprint tuvo como principal objetivo **preparar la base técnica y organizat
 - Creación del repositorio en **GitHub** y definición del flujo de trabajo con **GitFlow**.  
 - Definición de guías de estilo de código y convenciones a seguir.  
 
-
 ## 5.2.1.5. Execution Evidence for Sprint Review. 
-
 
 La ejecución del Sprint 0 estuvo enfocada en configurar el entorno y validar la integración de los módulos iniciales.  
 
@@ -1666,6 +1664,31 @@ La ejecución del Sprint 0 estuvo enfocada en configurar el entorno y validar la
 - Verificación de despliegue local en **WebStorm** para frontend y  **Node.js** para backend MySQL.  
 - Reunión de sincronización cada 3 dias presencial o virtual (Meeting) en Google Meet con duración máxima de 15 minutos.  
 
+## 5.2.1.6. Services Documentation Evidence for Sprint Review. 
+
+En cuanto a la documentación de servicios se elaboró lo siguiente:  
+
+- **Modelo entidad-relación inicial** en MySQL para usuarios y proyectos.  
+- **Documentación de la API de registro y proyectos** utilizando Swagger (versión preliminar).  
+- **Guía de uso del repositorio** con convenciones de ramas y commits (README.md).  
+- **Guía de instalación local** del proyecto en WebStorm (documentada en la Wiki del repositorio).  
+
+## 5.2.1.7. Software Deployment Evidence for Sprint Review. 
+
+El despliegue del Sprint 0 se realizó en entornos de prueba, logrando la validación de las primeras funcionalidades:  
+
+- **Frontend:** ejecutado en **WebStorm** y desplegado en entorno local.  
+- **Backend:** levantado en **Node.js** con conexión a la base de datos MySQL.  
+- **Base de datos:** MySQL configurado con la tabla de usuarios y proyectos.  
+- **Repositorio:** GitHub como centro de control de versiones y punto de integración.  
+
+## 5.2.1.8. Team Collaboration Insights during Sprint.
+
+Durante este Sprint se generaron aprendizajes importantes en torno al trabajo colaborativo:  
+
+- Se definió una **dinámica de comunicación** vía **Discord** para coordinación cada 3 dias y uso de **Google Meet** para reuniones semanales.  
+- Se estableció la necesidad de **documentar todas las decisiones** en un archivo compartido en Google Drive.  
+- Se identificó como fortaleza la **rapidez en la configuración técnica inicial**, y como oportunidad de mejora la **planificación más detallada de las horas estimadas por tarea**.  
 
 # Referencias bibliográficas
 
