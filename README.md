@@ -1545,8 +1545,23 @@ GO
 
 # 5. Capitulo V Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
-### 5.1.1. Software Development Environment Configuration
-### 5.1.2. Source Code Management
+###5.1.1. Software Development Environment Configuration
+Para desarrollar el proyecto IndieNest, utilizaremos como entorno principal WebStorm, ya que este IDE está especialmente optimizado para el desarrollo web y permite trabajar de manera más ágil con JavaScript, HTML y CSS, brindando herramientas avanzadas de depuración y autocompletado.
+
+En cuanto a los lenguajes y tecnologías:
+- HTML5: para la estructura del sitio y los objetos estáticos de la aplicación.
+- CSS3: para la parte visual y el diseño de estilos, siguiendo los lineamientos establecidos en el Style Guide.
+- JavaScript: para implementar la interactividad y funcionalidades dinámicas dentro de la aplicación web.
+
+###5.1.2. Source Code Management
+El repositorio del proyecto se encuentra en GitHub, dentro de la organización del equipo Arkenna. 
+Se aplicara la metodología GitFlow, asegurando un flujo de trabajo ordenado:
+- La rama main contendrá siempre la versión estable y lista para producción.
+- La rama develop será utilizada para integrar las nuevas funcionalidades antes de su pase a producción.
+- Las ramas feature/ se emplearán para el desarrollo de funcionalidades específicas, por ejemplo: feature/login.
+- Las ramas release/ se destinarán a preparar entregas finales.
+
+Cada commit realizado en el repositorio debe ser descriptivo y cumplir con la convención de Conventional Commits.
 ### 5.1.3. Source Code Style Guide & Conventions
 ### 5.1.4. Software Deployment Configuration
 ## 5.2. Landing Page, Services & Applications Implementation
