@@ -1204,6 +1204,88 @@ La versión móvil de la landing page conserva estos principios de diseño centr
 ## 4.5 Web Applications Prototyping
 ## 4.6 Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
+
+En esta sección nos enfocamos en hacer un diseño más profundo del realizado en el Big Picture Event Storming. Nos enfocamos en diseñar nuevas funcionalidades encontradas en las historias de usuario, asi como pulir los detalles de los flujos ya creados antes. Cabe mencionar que se agregaron para este modelo nuevos elementos a comparación con el visto en el Big Picture, estos son:
+
+-   **Comandos:**  Representados mediante un post-it azul, son aquellos que simbolizan el accionar de eventos del dominio, de esa forma se tiene una idea más clara del quien es el que activa estos eventos. 
+    
+-   **Aggregates:**  Representados mediante un post-it amarillo claro, son los que generalizan y le dan un rol o identidad a los eventos, por lo que deben ser puestos antes de estos. De esta forma se tiene claro cuales son los aggregates y entidades que se tiene que modelar para nuestro producto.
+    
+-   **Políticas:**  Representadas mediante un post-it morado, vendrían a ser las reglas del negocio que se encargan de ejecutar los comando, es por esto que siempre antes de un comando se coloca una política que señale lo que se tiene que proceder a hacer.
+  
+
+A continuación mostraremos las capturas del Design Level Event Storming realizado, separandolos según el Bounded Context al que pertenezcan y comenzando con los Core del negocio.
+
+  
+  <br>
+  
+**Bounded Context Project:** 
+
+![](img/dl-event-storming/project/project-1.png) 
+![](img/dl-event-storming/project/project-2.png)
+![](img/dl-event-storming/project/project-3.png)
+![](img/dl-event-storming/project/project-4.png)
+![](img/dl-event-storming/project/project-5.png)
+  
+  <br>
+  
+**Bounded Context Portfolio:**  
+
+![](img/dl-event-storming/portfolio/portfolio-1.png)
+![](img/dl-event-storming/portfolio/portfolio-2.png)
+
+  <br>
+  
+**Bounded Context Marketplce:**  
+
+![](img/dl-event-storming/marketplace/marketplace-1.png)
+![](img/dl-event-storming/marketplace/marketplace-2.png)
+  
+  <br>
+  
+**Bounded Context Support:**  
+
+![](img/dl-event-storming/support/support-1.png)
+![](img/dl-event-storming/support/support-2.png)
+  
+  <br>
+  
+**Bounded Context Community:**  
+
+![](img/dl-event-storming/community/community-1.png)
+![](img/dl-event-storming/community/community-2.png)
+
+
+ <br>
+ 
+**Bounded Context Profile:**  
+
+![](img/dl-event-storming/profile/profile-1.png)
+![](img/dl-event-storming/profile/profile-2.png)
+![](img/dl-event-storming/profile/profile-3.png)
+![](img/dl-event-storming/profile/profile-4.png)
+
+  <br>
+
+**Bounded Context IAM:** 
+
+![](img/dl-event-storming/iam/iam-1.png)
+
+  <br>
+  
+**Bounded Context Notification:** 
+
+![](img/dl-event-storming/notification/notification-1.png)
+![](img/dl-event-storming/notification/notification-2.png)
+ 
+  <br>
+  
+**Bounded Context Payment:** 
+
+![](img/dl-event-storming/payment/payment-1.png)
+
+
+
 ### 4.6.2. Software Architecture Context Diagram
 ### 4.6.3. Software Architecture Container Diagrams
 ### 4.6.4.Software Architecture Components Diagrams
