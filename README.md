@@ -785,7 +785,7 @@ Por último tenemos el proceso de pago de un carrito de compra, donde se estable
 
 
 
-## 2.4. Ubiquitous Language.
+## 2.5. Ubiquitous Language.
 - Portafolio: Página personal con proyectos y habilidades del usuario
 - Proyecto o juego: Videojuego, demo o prototipos subido a la plataforma
 - Colaboración:  Solicitud entre usuarios para trabajar juntos en un proyecto
