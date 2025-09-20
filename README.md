@@ -1,4 +1,5 @@
-![LogoUPC](img/upclogo.png)
+
+<img src="img/upclogo.png" width="400"/>
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 # FACULTAD DE INGENIERÍA
 ### PROGRAMA ACADÉMICO DE INGENIERÍA DE SOFTWARE
