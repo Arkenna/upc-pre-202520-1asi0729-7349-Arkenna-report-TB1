@@ -1644,7 +1644,27 @@ La tabla siguiente detalla las **5 User Stories priorizadas** y sus tareas asoci
 | Sprint 0     | US05 – Indicar versión del proyecto | T-10: Campo versión en modelo | Agregar atributo (demo/beta/final) en base de datos. | 3h | Carlos Paredes | InProcess |
 | Sprint 0     | US05 – Indicar versión del proyecto | T-11: Interfaz para seleccionar versión | Desplegable en frontend para elegir estado del proyecto. | 3h | Rolando Torres | InProcess |
 
+## 5.2.1.4. Development Evidence for Sprint Review. 
 
+Al tratarse del **Sprint 0**, no se implementaron funcionalidades de software aún.  
+Este sprint tuvo como principal objetivo **preparar la base técnica y organizativa del proyecto**, por lo cual se realizaron las siguientes actividades previas al desarrollo:  
+
+- Configuración del entorno de trabajo en **WebStorm** para frontend y backend.  
+- Instalación y configuración de **MySQL** como sistema de base de datos.  
+- Creación del repositorio en **GitHub** y definición del flujo de trabajo con **GitFlow**.  
+- Definición de guías de estilo de código y convenciones a seguir.  
+
+
+## 5.2.1.5. Execution Evidence for Sprint Review. 
+
+
+La ejecución del Sprint 0 estuvo enfocada en configurar el entorno y validar la integración de los módulos iniciales.  
+
+**Acciones ejecutadas:**  
+- Configuración del repositorio en **GitHub** con estrategia **GitFlow**.  
+- Integración de ramas de **feature/registro**, **feature/portafolio** y **feature/proyectos** hacia la rama develop.  
+- Verificación de despliegue local en **WebStorm** para frontend y  **Node.js** para backend MySQL.  
+- Reunión de sincronización cada 3 dias presencial o virtual (Meeting) en Google Meet con duración máxima de 15 minutos.  
 
 
 # Referencias bibliográficas
