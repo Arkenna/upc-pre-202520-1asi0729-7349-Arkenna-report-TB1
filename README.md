@@ -1564,8 +1564,33 @@ Se aplicara la metodología GitFlow, asegurando un flujo de trabajo ordenado:
 - Las ramas release/ se destinarán a preparar entregas finales.
 
 Cada commit realizado en el repositorio debe ser descriptivo y cumplir con la convención de Conventional Commits.
-### 5.1.3. Source Code Style Guide & Conventions
+## 5.1.3. Source Code Style Guide & Coding Conventions  
+
+Para garantizar la claridad, mantenibilidad y calidad del código en **IndieNest**, el equipo adoptará una serie de convenciones de estilo y nomenclatura basadas en guías de referencia internacionales.  
+
+En primer lugar, todo el código se desarrollará en **inglés**, lo cual favorece la estandarización y la colaboración futura con otros equipos.  
+
+Las convenciones aplicadas por lenguaje son:  
+
+- **HTML / CSS:** Se seguirá la guía Google HTML/CSS Style Guide. Se utilizarán nombres de clases y etiquetas en minúsculas. Los atributos deberán ordenarse de manera consistente, priorizando legibilidad.  
+- **JavaScript / TypeScript:** Se aplicará la Google JavaScript Style Guide y la Google TypeScript Style Guide. Las variables y funciones se escribirán en camelCase, mientras que las clases y componentes en PascalCase.  
+- **Java:** En caso de ser utilizado para microservicios, se seguirá el Google Java Style Guide. Las clases estarán en PascalCase, los métodos en *camelCase* y los paquetes en minúsculas con puntos como separadores.  
+- **Frameworks específicos:** Para Angular (en caso de módulos web), se utilizará el Angular Coding Style Guide, mientras que para microservicios en Spring Boot se tomarán como referencia las Spring Boot Features oficiales.  
+
+Estas convenciones permiten:  
+1. Homogeneizar la escritura del código independientemente del lenguaje o framework.  
+2. Facilitar la lectura y comprensión por cualquier miembro actual o futuro del equipo.  
+3. Reducir errores y ambigüedades al trabajar de manera colaborativa.  
+
 ### 5.1.4. Software Deployment Configuration
+
+El despliegue de **IndieNest** se realizará utilizando un entorno basado en **WebStorm**, que será la herramienta principal para el desarrollo y publicación de la aplicación.  
+La arquitectura de despliegue contempla los siguientes elementos:  
+
+- **Landing Page:** Será desarrollada y gestionada directamente en **WebStorm**, lo que permite integrar el diseño y la funcionalidad de la interfaz en un solo entorno.  
+- **Backend (API REST):** Será implementado en **Node.js**, y desplegado en un servidor configurado para integrarse con la base de datos.  
+- **Base de Datos:** El sistema utilizará **MySQL** como gestor de base de datos relacional, asegurando integridad y consistencia en la información almacenada.  
+- **Frontend (Web App):** Será desplegado como parte del mismo entorno gestionado en WebStorm, facilitando la sincronización entre el diseño de la interfaz y la lógica del backend.  
 ## 5.2. Landing Page, Services & Applications Implementation
 
 # Referencias bibliográficas
