@@ -1239,12 +1239,17 @@ TaskFlow:
 <br>
 <img src="img/TaskFlow.png" width="900"/>
 <br>
-Pantalla:
+Pantalla:<br>
 Al ingresas a la aplicacion, el usuario se encontrara en la ventana de iniciar sesion con la opcion de registrarse mediante el boton del mismo nombre.
+<br>
 Proceso de registro:
+<br>
 Al seleccionar registrar se desplega el formulario para llenar con los datos requeridos para crear su cuenta y luego iniciar sesion.
+<br>
 Confirmacion:
+<br>
 Al iniciar sesion, la aplicacion manda al usuario a la pagina principal/home.
+<br>
 WireFlow:
 <br>
 <img src="img/WireFlow.png" width="900"/>
