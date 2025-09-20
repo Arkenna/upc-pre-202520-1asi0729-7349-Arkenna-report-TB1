@@ -1624,6 +1624,28 @@ Para cada aspecto se designó un **líder (L)** y uno o más **colaboradores (C)
 | Torres Diaz, Rolando | @ROLO194 | C  | L | C | C | C |
 | Paredes Chavez, Carlos | @CarlossUPC | C | C | C | C | L |
 
+## 5.2.1.3. Sprint Backlog 0
+
+El objetivo principal del Sprint 0 fue establecer la base técnica del proyecto **IndieNest**. Esto incluyó configurar el entorno de desarrollo, organizar el repositorio en GitHub, preparar la base de datos en MySQL y desarrollar las primeras funcionalidades esenciales: **registro de usuario, creación de portafolio, subida de proyectos, clasificación por género y especificación de la versión del proyecto**.  
+
+La tabla siguiente detalla las **5 User Stories priorizadas** y sus tareas asociadas:  
+
+| **Sprint #** | **User Story** | **Work-Item / Task** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|--------------|----------------|----------------------|-----------------|-------------------------|-----------------|------------|
+| Sprint 0     | US01 – Registro de Usuario | T-01: Modelo de usuario en MySQL | Definir tabla y campos de usuario en la BD. | 5h | Giuliano Angel Pelaez Vargas | InProcess |
+| Sprint 0     | US01 – Registro de Usuario | T-02: Endpoint de registro | Implementar API REST con validaciones. | 5h | Daniel Aquino | InProcess |
+| Sprint 0     | US01 – Registro de Usuario | T-03: Formulario de registro | Desarrollo del formulario de registro en frontend. | 3h | Rolando Torres | InProcess |
+| Sprint 0     | US02 – Crear Portafolio | T-04: Generar vista de portafolio | Página pública con perfil y proyectos del usuario. | 5h | Johnny Ojanama | InProcess |
+| Sprint 0     | US02 – Crear Portafolio | T-05: Validar creación sin proyectos | Mostrar mensaje de subir proyectos al activar portafolio vacío. | 3h | Johnny Ojanama | InProcess |
+| Sprint 0     | US03 – Subir un Proyecto | T-06: Maquetación formulario de subida | HTML y CSS del formulario de subida de proyectos. | 4h | Johnny Ojanama | InProcess |
+| Sprint 0     | US03 – Subir un Proyecto | T-07: Validación de campos obligatorios | Implementar validaciones en frontend. | 3h | Rolando Torres | InProcess |
+| Sprint 0     | US04 – Clasificar proyectos por género | T-08: Modelo de categorías | Definir tabla de géneros en MySQL. | 3h | Giuliano Pelaez | InProcess |
+| Sprint 0     | US04 – Clasificar proyectos por género | T-09: Endpoint CRUD de categorías | Crear API REST para asignación de géneros. | 6h | Daniel Aquino | InProcess |
+| Sprint 0     | US05 – Indicar versión del proyecto | T-10: Campo versión en modelo | Agregar atributo (demo/beta/final) en base de datos. | 3h | Carlos Paredes | InProcess |
+| Sprint 0     | US05 – Indicar versión del proyecto | T-11: Interfaz para seleccionar versión | Desplegable en frontend para elegir estado del proyecto. | 3h | Rolando Torres | InProcess |
+
+
+
 
 # Referencias bibliográficas
 
