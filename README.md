@@ -1290,11 +1290,36 @@ A continuación mostraremos las capturas del Design Level Event Storming realiza
 
 
 ### 4.6.2. Software Architecture Context Diagram
+
+ <br>
+ 
+<img src=img/context.jpeg width=1500/>
+
+ <br>
+ 
 ### 4.6.3. Software Architecture Container Diagrams
+
+<br>
+
+<img src=img/conteiner.jpeg width=1500/>
+ <br>
+ 
 ### 4.6.4.Software Architecture Components Diagrams
-## 4.7Software Object-Oriented Design
+ <br>
+ 
+<img src=img/components.jpeg width=1500/>
+ 
+ <br>
+ 
+## 4.7 Software Object-Oriented Design
+
 ### 4.7.1. Class Diagrams
+
+ <br>
+ 
 <img src=img/cd_indienest.png width=1500/>
+
+ <br>
 
 ## 4.8. Database Design
 # IndieNest - Base de Datos (SQL Server)
