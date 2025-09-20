@@ -1211,6 +1211,8 @@ La versión móvil de la landing page conserva estos principios de diseño centr
 ### 4.6.4.Software Architecture Components Diagrams
 ## 4.7Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
+<img src=img/cd_indienest.png width=1500/>
+
 ## 4.8. Database Design
 # IndieNest - Base de Datos (SQL Server)
 
