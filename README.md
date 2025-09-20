@@ -1234,6 +1234,21 @@ La versión móvil de la landing page conserva estos principios de diseño centr
 <img src="img/wireframes-web-app/WFAppBuy.png" width="900"/>
 <br>
 ### 4.4.2. Web Applications Wireflow Diagrams
+- User Goal: el usuario ingresa a la web app para registrarse o inciar sesion en la misma.
+TaskFlow:
+<br>
+<img src="img/TaskFlow.png" width="900"/>
+<br>
+Pantalla:
+Al ingresas a la aplicacion, el usuario se encontrara en la ventana de iniciar sesion con la opcion de registrarse mediante el boton del mismo nombre.
+Proceso de registro:
+Al seleccionar registrar se desplega el formulario para llenar con los datos requeridos para crear su cuenta y luego iniciar sesion.
+Confirmacion:
+Al iniciar sesion, la aplicacion manda al usuario a la pagina principal/home.
+WireFlow:
+<br>
+<img src="img/WireFlow.png" width="900"/>
+<br>
 ### 4.4.3. Web Applications Mock-ups
 **Ventana Home**
 <br>
