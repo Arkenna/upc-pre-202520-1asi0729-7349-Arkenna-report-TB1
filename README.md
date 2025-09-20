@@ -1556,6 +1556,7 @@ En cuanto a los lenguajes y tecnologías:
 - JavaScript: para implementar la interactividad y funcionalidades dinámicas dentro de la aplicación web.
 
 ###5.1.2. Source Code Management
+
 El repositorio del proyecto se encuentra en GitHub, dentro de la organización del equipo Arkenna. 
 Se aplicara la metodología GitFlow, asegurando un flujo de trabajo ordenado:
 - La rama main contendrá siempre la versión estable y lista para producción.
@@ -1564,6 +1565,7 @@ Se aplicara la metodología GitFlow, asegurando un flujo de trabajo ordenado:
 - Las ramas release/ se destinarán a preparar entregas finales.
 
 Cada commit realizado en el repositorio debe ser descriptivo y cumplir con la convención de Conventional Commits.
+
 ## 5.1.3. Source Code Style Guide & Coding Conventions  
 
 Para garantizar la claridad, mantenibilidad y calidad del código en **IndieNest**, el equipo adoptará una serie de convenciones de estilo y nomenclatura basadas en guías de referencia internacionales.  
