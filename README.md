@@ -1201,8 +1201,72 @@ En la versión para navegador de escritorio, la interfaz propone una experiencia
 La versión móvil de la landing page conserva estos principios de diseño centrado en el usuario, adaptándose eficientemente a pantallas reducidas. En esta presentación, la navegación se reorganiza mediante un menú tipo hamburguesa ubicado en la parte superior izquierda, lo que mantiene la interfaz despejada y funcional. Los botones interactivos se amplían para facilitar su selección táctil y los bloques de contenido se organizan en disposición vertical, garantizando una navegación fluida y accesible desde cualquier dispositivo.
 ## 4.4 Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+**Ventana Home**
+<br>
+<img src="img/wireframes-web-app/WFAppHome.png" width="900"/>
+<br>
+**Ventana Login**
+<br>
+<img src="img/wireframes-web-app/WFAppLogin.png" width="900"/>
+<br>
+**Ventana Register**
+<br>
+<img src="img/wireframes-web-app/WFAppRegister.png" width="900"/>
+<br>
+**Ventana Usuario**
+<br>
+<img src="img/wireframes-web-app/WFAppUser.png" width="900"/>
+<br>
+**Ventana Audio**
+<br>
+<img src="img/wireframes-web-app/WFAppAudio.png" width="900"/>
+<br>
+**Ventana Art**
+<br>
+<img src="img/wireframes-web-app/WFAppArt.png" width="900"/>
+<br>
+**Ventana Developer**
+<br>
+<img src="img/wireframes-web-app/WFAppDeveloper.png" width="900"/>
+<br>
+**Ventana Comprar**
+<br>
+<img src="img/wireframes-web-app/WFAppBuy.png" width="900"/>
+<br>
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.3. Web Applications Mock-ups
+**Ventana Home**
+<br>
+<img src="img/mockup-web-app/MUAppHome.png" width="900"/>
+<br>
+**Ventana Login**
+<br>
+<img src="img/mockup-web-app/MUAppLogin.png" width="900"/>
+<br>
+**Ventana Register**
+<br>
+<img src="img/mockup-web-app/MUAppRegister.png" width="900"/>
+<br>
+**Ventana Usuario**
+<br>
+<img src="img/mockup-web-app/MUAppUser.png" width="900"/>
+<br>
+**Ventana Audio**
+<br>
+<img src="img/mockup-web-app/MUAppAudio.png" width="900"/>
+<br>
+**Ventana Art**
+<br>
+<img src="img/mockup-web-app/MUAppArt.png" width="900"/>
+<br>
+**Ventana Developer**
+<br>
+<img src="img/mockup-web-app/MUAppDeveloper.png" width="900"/>
+<br>
+**Ventana Comprar**
+<br>
+<img src="img/mockup-web-app/MUAppBuy.png" width="900"/>
+<br>
 ### 4.4.4. Web Applications User Flow Diagrams
 ## 4.5 Web Applications Prototyping
 ## 4.6 Domain-Driven Software Architecture
