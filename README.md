@@ -1239,7 +1239,7 @@ A continuación mostraremos las capturas del Design Level Event Storming realiza
 
   <br>
   
-**Bounded Context Marketplce:**  
+**Bounded Context Marketplace:**  
 
 ![](img/dl-event-storming/marketplace/marketplace-1.png)
 ![](img/dl-event-storming/marketplace/marketplace-2.png)
