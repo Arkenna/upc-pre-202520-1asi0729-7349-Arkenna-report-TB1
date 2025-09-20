@@ -1593,6 +1593,38 @@ La arquitectura de despliegue contempla los siguientes elementos:
 - **Frontend (Web App):** Será desplegado como parte del mismo entorno gestionado en WebStorm, facilitando la sincronización entre el diseño de la interfaz y la lógica del backend.  
 ## 5.2. Landing Page, Services & Applications Implementation
 
+## 5.2.1. Sprint 0
+
+## 5.2.1.1. Sprint Planning 0
+| **Sprint #**                  | Sprint 0 |
+|--------------------------------|----------|
+| **Sprint Planning Background** |  |
+| **Date**                       | 2025-09-5 |
+| **Time**                       | 10:00 AM |
+| **Location**                   | Reunión presencial – Salón UH-52 |
+| **Prepared By**                | Giuliano Angel Pelaez Vargas |
+| **Attendees (to planning meeting)** | Giuliano Angel Pelaez Vargas / Daniel Jonatan Aquino Solorzano / Johnny Alexander Ojanama Abanto / Rolando Andre Torres Diaz / Carlos Augusto Paredes Chavez |
+| **Sprint n – 1 Review Summary** | No hubo Sprint anterior. |
+| **Sprint n – 1 Retrospective Summary** | No hubo Sprint anterior|
+| **Sprint Goal & User Stories** | |
+| **Sprint 0 Goal**              | Configurar la base técnica del proyecto (entorno de desarrollo, repositorio GitHub, GitFlow, prototipo inicial de Landing Page). |
+| **Sprint 0 Velocity**          | 10 Story Points |
+| **Sum of Story Points**        | 10 |
+
+## 5.2.1.2. Aspect Leaders and Collaborators.
+
+En el Sprint 0, el equipo identificó los principales aspectos que forman parte del alcance inicial del proyecto: **Backend & API, Frontend & UI, Landing Page & SEO, Base de Datos & Despliegue, y QA & Documentación**.  
+Para cada aspecto se designó un **líder (L)** y uno o más **colaboradores (C)**, de manera que exista claridad en la distribución de responsabilidades. Esta matriz de liderazgo y colaboración (LACX) facilita la organización de tareas, la comunicación interna y la posterior selección de tasks durante el Sprint.  
+
+| **Team Member**   | **GitHub Username** | **Backend & API** | **Frontend & UI** | **Landing Page & SEO** | **Base de Datos & Despliegue** | **QA & Documentación** |
+|--------------------------|----------------------|-------------------|-------------------|-------------------------|---------------------------------|-------------------------|
+| Pelaez Vargas, Giuliano  | @SimpleGP | C                 | C | C | L | C |
+| Aquino Solorzano, Daniel | @DanielAquinoSolorzano | L                 | C | C | C | C |
+| Ojanama Abanto, Johnny | @JohnnyGZ41  | C | C | L | C | C |
+| Torres Diaz, Rolando | @ROLO194 | C  | L | C | C | C |
+| Paredes Chavez, Carlos | @CarlossUPC | C | C | C | C | L |
+
+
 # Referencias bibliográficas
 
 > Trivi M. (2020). Varios desarrolladores independientes critican la poca visibilidad de sus juegos en la eShop. [https://www.anaitgames.com/noticias/desarrolladores-independientes-criticas-visibilidad-eshop](https://www.anaitgames.com/noticias/desarrolladores-independientes-criticas-visibilidad-eshop)
