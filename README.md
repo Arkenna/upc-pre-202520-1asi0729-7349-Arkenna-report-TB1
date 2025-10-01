@@ -279,38 +279,38 @@ Los desarrolladores independientes de videojuegos enfrentan una baja visibilidad
 ---
 
 ### 1.2.2.2. Lean UX Assumptions.
-Los desarrolladores independientes necesitan un espacio donde exponer sus proyectos sin depender de grandes presupuestos.  
-
-Los usuarios buscan no solo promocionar sus videojuegos, sino también mostrar sus habilidades individuales (programación, arte, música, diseño).  
-
-IndieNest, al centralizar proyectos y perfiles en un portafolio interactivo, permitirá mejorar la visibilidad de los desarrolladores frente a comunidades y posibles empleadores.  
-
-La oportunidad de recibir feedback y conectar con otros usuarios aumentará la motivación de los creadores y mejorará la calidad de sus proyectos.  
- 
-La aplicación debe diferenciarse de competidores ofreciendo usabilidad sencilla, portafolios dinámicos y funcionalidades de promoción personalizadas.
-
----
+-   Los desarrolladores independientes de videojuegos necesitan una plataforma accesible donde puedan publicar sus proyectos sin depender de inversión publicitaria ni conocimientos avanzados en marketing.
+    
+-   Los usuarios de IndieNest buscan no solo visibilizar sus videojuegos, sino también destacar sus habilidades individuales (programación, arte, música, diseño) como parte de su identidad profesional.
+    
+-   Si IndieNest centraliza proyectos y perfiles en un sistema de portafolio interactivo, entonces los desarrolladores podrán aumentar su visibilidad frente a comunidades afines, reclutadores y posibles colaboradores.
+    
+-   Si los usuarios reciben retroalimentación constructiva y tienen oportunidades de conexión con otros creadores, entonces su motivación aumentará y podrán mejorar la calidad de sus proyectos.
+    
+-   Para diferenciarse de plataformas existentes, IndieNest debe ofrecer una experiencia de usuario intuitiva, portafolios personalizables, y herramientas de promoción que no dependan de motores específicos ni de pago adicional.
 
 ##### 1.2.2.2.1. Assumptions Worksheet 
-**¿Quién es el usuario?**  
-Desarrolladores independientes (programadores, artistas, compositores, diseñadores) y jugadores interesados en descubrir nuevos proyectos.  
 
-**¿Dónde encaja el producto en su vida?**  
-En la etapa de promoción de proyectos, construcción de portafolio profesional y búsqueda de oportunidades de networking y colaboración.  
+**¿Quién es el usuario?**<br>Desarrolladores independientes de videojuegos (programadores, artistas visuales, compositores, diseñadores narrativos) que buscan visibilidad profesional, y jugadores interesados en descubrir contenido indie emergente.
 
-**¿Qué problemas tiene y cómo se resuelven?**  
-La falta de visibilidad y retroalimentación. IndieNest resuelve centralizando proyectos, ofreciendo portafolios dinámicos y un sistema de feedback dentro de la plataforma.  
+**¿Dónde encaja el producto en su vida?**<br>Durante las etapas de publicación, promoción y mejora de proyectos personales. También en la construcción de portafolios profesionales y la búsqueda de oportunidades de colaboración o contratación.
 
-**¿Cuándo y cómo se usa el producto?**  
-Se utiliza al momento de subir un proyecto, mostrar un portafolio, recibir retroalimentación o buscar colaboradores. Los jugadores lo usan para descubrir videojuegos indie y dar soporte a desarrolladores.  
+**¿Qué problemas tiene y cómo se resuelven?**<br>Los desarrolladores enfrentan baja visibilidad, falta de retroalimentación y escasa conexión con comunidades afines. IndieNest resuelve esto mediante portafolios interactivos, categorización de proyectos, espacios de feedback y herramientas de descubrimiento.
 
-**¿Qué características son importantes?**  
--   Creación de portafolios dinámicos.
--   Publicación de proyectos clasificados por categorías.
--   Espacios de retroalimentación y comentarios.
--   Filtros de búsqueda avanzada.
--   Perfiles verificados de creadores.
--   Conexión entre creadores y jugadores.
+**¿Cuándo y cómo se usa el producto?**<br>Se utiliza al subir un proyecto, actualizar el perfil profesional, recibir comentarios, buscar colaboradores o explorar contenido. Los jugadores lo usan para descubrir nuevos videojuegos, apoyar creadores y dejar reseñas.
+
+**¿Qué características son importantes?**
+-   Portafolios interactivos con personalización visual y técnica
+    
+-   Publicación de proyectos con clasificación por género, estado y motor
+    
+-   Sistema de retroalimentación con comentarios y calificaciones
+    
+-   Filtros de búsqueda por habilidades, género, ubicación y tipo de creador
+    
+-   Perfiles verificados con enlaces externos y métricas de desempeño
+    
+-   Herramientas de conexión entre desarrolladores y jugadores (seguimiento, notificaciones, solicitudes de colaboración)
 
 ---
 
@@ -361,26 +361,40 @@ Necesitan exhibir bandas sonoras y conectar con equipos que requieran música or
 ---
 
 ##### 1.2.2.3.1. Hipótesis de Usuario
--   **Creemos que los usuarios utilizarán IndieNest para mostrar sus proyectos y habilidades.**  
- Sabremos que tenemos razón cuando veamos que al menos el 60% de usuarios completa su portafolio en el primer mes.  
- 
--   **Creemos que los usuarios valorarán la retroalimentación de la comunidad para mejorar sus proyectos.**  
- Sabremos que tenemos razón cuando más del 50% de proyectos publicados reciban comentarios en las primeras semanas.  
--   **Creemos que los usuarios buscarán colaborar con otros creadores dentro de la plataforma.**  
-Sabremos que tenemos razón cuando el 30% de usuarios inicie al menos una colaboración en el primer semestre.
+-   **Creemos que los desarrolladores independientes utilizarán IndieNest para mostrar sus proyectos y habilidades técnicas.** Sabremos que tenemos razón cuando al menos el 60% de usuarios complete su portafolio en el primer mes.
+    
+-   **Creemos que los usuarios valorarán la retroalimentación de la comunidad para mejorar sus proyectos.** Sabremos que tenemos razón cuando más del 50% de proyectos publicados reciban comentarios en las primeras semanas.
+    
+-   **Creemos que los usuarios buscarán colaborar con otros creadores dentro de la plataforma.** Sabremos que tenemos razón cuando el 30% de usuarios inicie al menos una colaboración en el primer semestre.
+    
+-   **Creemos que los usuarios preferirán IndieNest frente a otras plataformas por su enfoque inclusivo y libre de restricciones técnicas.** Sabremos que tenemos razón cuando al menos el 40% de usuarios indique en encuestas que eligió IndieNest por su compatibilidad con múltiples motores.
+    
+-   **Creemos que los usuarios valorarán la posibilidad de mostrar sus habilidades individuales (arte, música, programación) más allá del proyecto completo.** Sabremos que tenemos razón cuando al menos el 50% de perfiles incluya secciones específicas de habilidades en el primer trimestre.
 
 ---
 
 ##### 1.2.2.3.2. Hipótesis de Negocio
--   **Creemos que la aplicación tendrá un buen recibimiento inicial gracias a sus funcionalidades innovadoras.**  
-Sabremos que tuvimos éxito cuando logremos 500 usuarios registrados en el primer mes.  
-
--   **Creemos que los planes de suscripción premium ayudarán a generar ingresos sostenibles.**  
-Sabremos que tuvimos éxito cuando al menos el 20% de usuarios activos adquiera un plan premium en el primer año.  
+-   **Creemos que la aplicación tendrá un buen recibimiento inicial gracias a sus funcionalidades innovadoras.** Sabremos que tuvimos éxito cuando logremos 500 usuarios registrados en el primer mes.
     
-- **Creemos que marcas y eventos de gaming estarán interesados en colaborar con IndieNest.**  
-Sabremos que esto es cierto cuando tengamos al menos 5 alianzas estratégicas en el primer semestre.
+-   **Creemos que los planes de suscripción premium ayudarán a generar ingresos sostenibles.** Sabremos que tuvimos éxito cuando al menos el 20% de usuarios activos adquiera un plan premium en el primer año.
+    
+-   **Creemos que marcas y eventos de gaming estarán interesados en colaborar con IndieNest.** Sabremos que esto es cierto cuando tengamos al menos 5 alianzas estratégicas en el primer semestre.
+    
+-   **Creemos que IndieNest podrá atraer desarrolladores de países con baja representación en plataformas globales.** Sabremos que tuvimos éxito cuando al menos el 30% de usuarios registrados provenga de Latinoamérica en los primeros seis meses.
+    
+-   **Creemos que IndieNest podrá sostener su crecimiento sin depender de inversión publicitaria directa para los usuarios.** Sabremos que esto es cierto cuando el 70% del tráfico provenga de búsquedas orgánicas, recomendaciones o redes sociales en el primer año.
 
+---
+
+##### 1.2.2.3.3. Hipótesis de Producto
+
+-   **Creemos que los portafolios interactivos facilitarán la promoción de los desarrolladores.** Sabremos que tenemos razón cuando al menos el 40% de perfiles públicos reciban visitas externas (no registradas) en el primer trimestre.
+    
+-   **Creemos que los filtros avanzados permitirán a los usuarios encontrar contenido relevante con mayor facilidad.** Sabremos que tenemos razón cuando el 60% de búsquedas utilice al menos un filtro personalizado en el primer mes.
+    
+-   **Creemos que la interfaz debe ser intuitiva para usuarios sin experiencia técnica.** Sabremos que tenemos razón cuando menos del 10% de usuarios reporten dificultades de navegación en encuestas de usabilidad.
+    
+-   **Creemos que el sistema de notificaciones personalizadas aumentará la retención de usuarios.** Sabremos que tenemos razón cuando el 50% de usuarios activos interactúe con al menos una notificación por semana.
 ---
 
 #### 1.2.2.4. Lean UX Canvas.
