@@ -266,10 +266,15 @@ Los usuarios podrán registrarse de forma gratuita y subir sus proyectos mediant
 ---
 
 #### 1.2.2.1 Lean UX Problem Statements.
-La problemática principal que enfrentan los desarrolladores independientes de videojuegos es la falta de visibilidad y difusión de sus proyectos en el mercado. Muchos carecen de recursos financieros, estrategias de marketing o acceso a redes de contacto que les permitan promocionar sus juegos de manera efectiva. Actualmente, las plataformas existentes como Itch.io o Unity Play ofrecen visibilidad limitada, están saturadas de contenido o restringen la publicación a determinados motores, lo que dificulta destacar. Esto provoca que proyectos de calidad queden sin publicidad, generando desmotivación en los creadores.
+Los desarrolladores independientes de videojuegos enfrentan una baja visibilidad y escasa difusión de sus proyectos, debido a la falta de recursos financieros, conocimientos en marketing y acceso a redes profesionales. Las plataformas actuales como Itch.io o Unity Play presentan limitaciones: saturación de contenido, baja personalización, y restricciones técnicas que dificultan destacar, especialmente para quienes no usan motores específicos.<br>**IndieNest** busca resolver este problema ofreciendo un entorno accesible, atractivo y colaborativo que permita a los desarrolladores promocionar sus videojuegos, construir portafolios sólidos y conectar con otros creadores.<br> **Consideramos que**:
+-   El producto debe funcionar en entornos web y móvil, con diseño responsive.    
+-   No se contempla inversión en publicidad paga para los usuarios dentro de la plataforma.
+-   El sistema debe ser compatible con múltiples motores de desarrollo, sin priorizar uno específico.
+-   La solución debe ser viable para equipos pequeños, con recursos técnicos limitados.
+-   El alcance inicial se centrará en desarrolladores hispanohablantes, especialmente en Latinoamérica.
 
 **Problem Statement**  
-¿Cómo podemos ayudar a los desarrolladores independientes a dar visibilidad y promocionar sus videojuegos y proyectos personales a través de IndieNest, asegurando un espacio accesible, atractivo y colaborativo que potencie su alcance y les permita construir un portafolio sólido?
+¿Cómo podemos ayudar a los desarrolladores independientes a aumentar la visibilidad de sus videojuegos y proyectos personales mediante IndieNest, dentro de un entorno técnico accesible, sin depender de inversión publicitaria, y garantizando compatibilidad con diversos motores de desarrollo?
 
 ---
 
