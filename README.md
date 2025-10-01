@@ -31,8 +31,8 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 |---------|-------|-------|-----------------------------|
-| 1.0    | a | Giuliano Angel Pelaez Vargas | Versión inicial |
-| 1.1 |
+| 1.0    | 20.09.2025 | Carlos Augusto Paredes Chavez<br>Daniel Jonatatn Aquino Solorzano<br>Giuliano Angel Pelaez Vargas<br>Johnny Alexander Ojanama Abanto<br>Rolando Andre Torres Diaz | Desarrollo inicial del proyecto. Incluye desarrollo del perfil de la Startup y proceso Lean UX; además, se analizaron los competidores y se definieron los Segmentos Objetivos para, posteriormente, elaborar las entrevistas. Luego, se desarrolló el Needfinding, el Event Storming y se definió el Lenguaje Ubicuo. Después, se empezó se realizó la especificación de requerimientos con las User Stories, Product Backlog e Impact Mapping. Seguidamente se prototipó y desarrolló la Landing Page para el proyecto a la par que su base de datos. Finalmente, se desarrolló el Sprint Planning 1 del proyecto. |
+| 1.1 | 11.10.2025 | Carlos Augusto Paredes Chavez<br>Daniel Jonatatn Aquino Solorzano<br>Giuliano Angel Pelaez Vargas<br>Johnny Alexander Ojanama Abanto<br>Rolando Andre Torres Diaz | Se levantaron las observaciones realizadas en la anterior entrega sobre las user Stories, el desarrollo del Lean UX, el desarrollo del C4, el Sprint Backlog, presentación del proyecto y despliegue de la Landing Page. Se realizó la documentación adecuada para el desarrollo del Sprint 2, el desarrollo, documentación y despliegue de la evidencia para el Sprint Review y, finalmente, los Team insights. |
 
 ---
 
@@ -122,6 +122,9 @@
        - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
        - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
        - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+
+	[Anexos](#anexos)
+
 	
 # Student Outcome
 
@@ -1832,7 +1835,15 @@ Durante este Sprint se generaron aprendizajes importantes en torno al trabajo co
 
 - Se definió una **dinámica de comunicación** vía **Discord** para coordinación cada 3 dias y uso de **Google Meet** para reuniones semanales.  
 - Se estableció la necesidad de **documentar todas las decisiones** en un archivo compartido en Google Drive.  
-- Se identificó como fortaleza la **rapidez en la configuración técnica inicial**, y como oportunidad de mejora la **planificación más detallada de las horas estimadas por tarea**.  
+- Se identificó como fortaleza la **rapidez en la configuración técnica inicial**, y como oportunidad de mejora la **planificación más detallada de las horas estimadas por tarea**.
+
+
+# Anexos
+- Enlace al Trello del Product Backlog https://trello.com/b/SBmiXIZJ/indienest
+
+- Enlace del video de las entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202321613_upc_edu_pe/EbQaKTrBnMBKoJ1hoQwwTC0B6Uwkffz66WSolVvJ4KQQAg?e=l6yEE3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+
 
 # Referencias bibliográficas
 
