@@ -252,12 +252,7 @@ Los usuarios podrán registrarse de forma gratuita y subir sus proyectos mediant
     IndieNest vende videojuegos y promociona tanto a los mismos como a sus desarrolladores, involucrando distintos rubros como los programadores, compositores, diseñadores etc. La aplicación es capaz de registrar usuarios que pueden tanto comprar juegos como subir sus propios proyectos y, además, poder promocionarse como creador a través de un portafolio, ya sea programador, compositor u otra ocupación en el desarrollo de videojuegos. Sobre los proyectos que el usuario puede subir, puede clasificarlos por género o categoría y, de ser necesario, aplicar restricción de edad. Al subir su proyecto, el usuario puede colocarle una descripción detallada sobre el mismo, detallar la versión del proyecto (si es una demo, versión beta o versión final) y permite recibir feedback a través de comentarios. El método de pago sería a través de Stripe para la compra de juegos.
 
 -   How Much?
-	-   Servidores (S/1.200.000.00)
-	- Personal (S/450.000.00)
-	- Infraestructura (S/800.000.00)
-	- Marketing (S/25.000.00)
-	- Licencias y herramientas de desarrollo (S/75.000.00)
-	- Mantenimiento de software y hardware (S/50.000.00)
+La problematica presenta un impacto relativamente alto, dado que, como se vio en la sección de antecedentes, un 60% de los desarrolladores que fueron encuestados mencionan que tienen problemas para encontrar financiamiento para sus proyectos, por lo que deben recurrir a la autofinanciación.
     
 ---
 
