@@ -397,7 +397,7 @@ Necesitan exhibir bandas sonoras y conectar con equipos que requieran música or
 
 #### 1.2.2.4. Lean UX Canvas.
 
-![](img/lean-ux-canvas.png)
+![](img/Lean-UX-Canvas-corregido.PNG)
 
 ---
 
