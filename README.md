@@ -1413,7 +1413,7 @@ A continuación mostraremos las capturas del Design Level Event Storming realiza
 
  <br>
  
-<img src=img/context.jpeg width=1500/>
+![](img/c4/context-diagram.png)
 
  <br>
  
@@ -1421,13 +1421,14 @@ A continuación mostraremos las capturas del Design Level Event Storming realiza
 
 <br>
 
-<img src=img/conteiner.jpeg width=1500/>
- <br>
+![](img/c4/containers-diagram.png)
+
+<br>
  
 ### 4.6.4.Software Architecture Components Diagrams
  <br>
  
-<img src=img/components.jpeg width=1500/>
+![](img/c4/components-diagram.png)
  
  <br>
  
