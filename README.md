@@ -1687,7 +1687,7 @@ GO
 
 ```
 ### 4.8.1.Database Diagrams
-<img src=img/IndieNestDB.png width=1500/>
+<img src=img/dbindienest.png width=1500/>
 --
 
 # 5. Capitulo V Product Implementation, Validation & Deployment
