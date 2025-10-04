@@ -7,15 +7,16 @@
 ### PROGRAMA ACADÉMICO DE INGENIERÍA DE SOFTWARE
 
 **Ciclo:** 2025-02
-<br>
+
 **Sección:** 7349
-<br>
+
 **Docente del curso:** Efraín Ricardo Bautista Ubillús
 
 ---
 # INFORME DE TRABAJO(TB1)
 
-**Nombre de la Startup:** Arkenna <br>
+**Nombre de la Startup:** Arkenna 
+
 **Nombre del producto:** IndieNest
 
 ## Integrantes
@@ -29,10 +30,10 @@
 
 ---
 
-| Versión | Fecha | Autor | Descripción de modificación |
-|---------|-------|-------|-----------------------------|
-| 1.0    | 20.09.2025 | Carlos Augusto Paredes Chavez<br>Daniel Jonatatn Aquino Solorzano<br>Giuliano Angel Pelaez Vargas<br>Johnny Alexander Ojanama Abanto<br>Rolando Andre Torres Diaz | Desarrollo inicial del proyecto. Incluye desarrollo del perfil de la Startup y proceso Lean UX; además, se analizaron los competidores y se definieron los Segmentos Objetivos para, posteriormente, elaborar las entrevistas. Luego, se desarrolló el Needfinding, el Event Storming y se definió el Lenguaje Ubicuo. Después, se empezó se realizó la especificación de requerimientos con las User Stories, Product Backlog e Impact Mapping. Seguidamente se prototipó y desarrolló la Landing Page para el proyecto a la par que su base de datos. Finalmente, se desarrolló el Sprint Planning 1 del proyecto. |
-| 1.1 | 11.10.2025 | Carlos Augusto Paredes Chavez<br>Daniel Jonatatn Aquino Solorzano<br>Giuliano Angel Pelaez Vargas<br>Johnny Alexander Ojanama Abanto<br>Rolando Andre Torres Diaz | Se levantaron las observaciones realizadas en la anterior entrega sobre las user Stories, el desarrollo del Lean UX, el desarrollo del C4, el Sprint Backlog, presentación del proyecto y despliegue de la Landing Page. Se realizó la documentación adecuada para el desarrollo del Sprint 2, el desarrollo, documentación y despliegue de la evidencia para el Sprint Review y, finalmente, los Team insights. |
+| Versión | Fecha | Autor                                                                                                                                                         | Descripción de modificación |
+|---------|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
+| 1.0    | 20.09.2025 | Carlos Augusto Paredes Chavez Daniel Jonatatn Aquino Solorzano Giuliano Angel Pelaez Vargas Johnny Alexander Ojanama Abanto Rolando Andre Torres Diaz       | Desarrollo inicial del proyecto. Incluye desarrollo del perfil de la Startup y proceso Lean UX; además, se analizaron los competidores y se definieron los Segmentos Objetivos para, posteriormente, elaborar las entrevistas. Luego, se desarrolló el Needfinding, el Event Storming y se definió el Lenguaje Ubicuo. Después, se empezó se realizó la especificación de requerimientos con las User Stories, Product Backlog e Impact Mapping. Seguidamente se prototipó y desarrolló la Landing Page para el proyecto a la par que su base de datos. Finalmente, se desarrolló el Sprint Planning 1 del proyecto. |
+| 1.1 | 11.10.2025 | Carlos Augusto Paredes Chavez-Daniel Jonatatn Aquino Solorzano Giuliano Angel Pelaez Vargas Johnny Alexander Ojanama Abanto Rolando Andre Torres Diaz | Se levantaron las observaciones realizadas en la anterior entrega sobre las user Stories, el desarrollo del Lean UX, el desarrollo del C4, el Sprint Backlog, presentación del proyecto y despliegue de la Landing Page. Se realizó la documentación adecuada para el desarrollo del Sprint 2, el desarrollo, documentación y despliegue de la evidencia para el Sprint Review y, finalmente, los Team insights. |
 
 ---
 
@@ -151,11 +152,11 @@ Nuestra startup, **Arkena**, es una aplicación web donde programadores, composi
 ### 1.1.2. Perfiles de integrantes del equipo 
 | Acerca de | Integrante |
 |-------------|----------|
-| Estudiando actualmente la carrera de Ingeniería de Software. Me considero una persona responsable con sus trabajos y puntual en las entregas de estos. Tengo conocimientos técnicos en programación en lenguajes como C++ y Java.          |**Aquino Solorzano, Daniel Jonathan(u202217678)** <br>|
-| Actualmente estoy estudiando la carrera de ingenieria de software en el 5to ciclo academico en la UPC. Me considero alguien responsable y cooperativo cuando se trata de trabajar en equipo. Tengo conocimientos en C++, CSS, HTML y JavaScript | **Ojanama Abanto,Johnny Alexander(u20231f412)**<br>|
-|Actualmente me encuentro estudiando el 5to ciclo de la carrera de Ingeniería de Software en la Universidad Nacional Peruana de Ciencias Aplicadas. Me considero alguien proactivo y responsable, además de comunicador, habilidades que considero importantes para mi desarrollo tanto académico como profesional. Tengo conocimientos de desarrollo de Landing Page utilizando HTML, CSS y Javascript; además, poseo conocimiento de C++ y C#.| **Paredes Chavez, Carlos Augusto (u202321613)**<br>|
-| Estoy cursando el 5to ciclo de la carrera de Igeniería de Software. Me considero una persona solidaria y enfocado en los trabajos. Tengo conocimientos en los lenguajes de programacion como C++, Python y Lua.    | **Pelaez Vargas, Giuliano Angel (u20221e121)** <br>|
-| Actualmente estoy estudiando ingeniería de software en la universidad peruana de ciencias aplicadas. Personalmente, me considero una persona amigable y responsable, lo cual me puede ayudar en la universidad. También creo que estas cualidades me permitirán construir relaciones sólidas con mis compañeros y profesores, así como ordenar mi tiempo. | **Torres Díaz, Rolando Andre(u202323369)**<br>|   
+| Estudiando actualmente la carrera de Ingeniería de Software. Me considero una persona responsable con sus trabajos y puntual en las entregas de estos. Tengo conocimientos técnicos en programación en lenguajes como C++ y Java.          |**Aquino Solorzano, Daniel Jonathan(u202217678)**  |
+| Actualmente estoy estudiando la carrera de ingenieria de software en el 5to ciclo academico en la UPC. Me considero alguien responsable y cooperativo cuando se trata de trabajar en equipo. Tengo conocimientos en C++, CSS, HTML y JavaScript | **Ojanama Abanto,Johnny Alexander(u20231f412)** |
+|Actualmente me encuentro estudiando el 5to ciclo de la carrera de Ingeniería de Software en la Universidad Nacional Peruana de Ciencias Aplicadas. Me considero alguien proactivo y responsable, además de comunicador, habilidades que considero importantes para mi desarrollo tanto académico como profesional. Tengo conocimientos de desarrollo de Landing Page utilizando HTML, CSS y Javascript; además, poseo conocimiento de C++ y C#.| **Paredes Chavez, Carlos Augusto (u202321613)** |
+| Estoy cursando el 5to ciclo de la carrera de Igeniería de Software. Me considero una persona solidaria y enfocado en los trabajos. Tengo conocimientos en los lenguajes de programacion como C++, Python y Lua.    | **Pelaez Vargas, Giuliano Angel (u20221e121)**  |
+| Actualmente estoy estudiando ingeniería de software en la universidad peruana de ciencias aplicadas. Personalmente, me considero una persona amigable y responsable, lo cual me puede ayudar en la universidad. También creo que estas cualidades me permitirán construir relaciones sólidas con mis compañeros y profesores, así como ordenar mi tiempo. | **Torres Díaz, Rolando Andre(u202323369)** |   
 
 ---
 ## 1.2. Solution Profile
@@ -175,9 +176,9 @@ Se menciona también, en otro artículo del mismo sitio web, que la gran cantida
 
 **Figura 1**
 Gráfico pastel
-<br>
+ 
 ![Figura 1: Grafico Pastel](img/figura-1.png)
-<br>
+ 
 Nota: Gráfico pastel sobre el porcentaje de desarrolladores según su tipo de financiación, de la encuesta desarrollada por “Games Industry”. Elaborado por el equipo de trabajo.
 
 **Conclusión de la figura 1:**
@@ -185,7 +186,7 @@ Nota: Gráfico pastel sobre el porcentaje de desarrolladores según su tipo de f
     
 -   La necesidad de este tipo de financiación puede llevar a muchos desarrolladores a quiebres financieros y les quita la posibilidad de pensar en proyectos de vida importantes como comprar una casa o tener una familia debido a la cantidad de gastos que generarían.
 
-<br>
+ 
 **5W & 2H**
 
 -   What?
@@ -220,42 +221,39 @@ Nota: Gráfico pastel sobre el porcentaje de desarrolladores según su tipo de f
 	-  **¿Dónde se utiliza la plataforma?**
    
 	    IndieNest se puede utilizar en casa. Está diseñada para que los usuarios creen un portafolio sobre sus trabajos donde se sientan más cómodos.
-    
 
- 
 	  -   **¿La ubicación del usuario influye en su uso?**
    
 		    No, ya que el usuario utilizará la aplicación para promover tanto sus proyectos como su perfil, sea de desarrollador, diseñador, entre otros, con el que haya influido en el proyecto.
     
 
 -   Who?
-La aplicación está dirigida para los desarrolladores independientes (con experiencia o sin experiencia) que buscan ser reconocidos, la plataforma les ofrece la oportunidad de subir sus proyectos tanto subiendolos como un equipo o solo asi recibiendo feedbacks de los usuarios y posibles contratos con algunas empresas que buscan programadores, diseñadores o compositores de videojuegos.En general, está pensada en que los usuarios puedan tener la oportunidad de encontrar un trabajo publicando sus proyectos transcurridos en la aplicación, enfrentando tanto los aspectos prácticos en el proceso.
+
+    La aplicación está dirigida para los desarrolladores independientes (con experiencia o sin experiencia) que buscan ser reconocidos, la plataforma les ofrece la oportunidad de subir sus proyectos tanto subiendolos como un equipo o solo asi recibiendo feedbacks de los usuarios y posibles contratos con algunas empresas que buscan programadores, diseñadores o compositores de videojuegos.En general, está pensada en que los usuarios puedan tener la oportunidad de encontrar un trabajo publicando sus proyectos transcurridos en la aplicación, enfrentando tanto los aspectos prácticos en el proceso.
 
 	-   **¿Quiénes son los principales usuarios?**
-    
-
 		-   Segmento 1: Programadores independientes
     
 		-   Segmento 2: Artistas digitales      
-    
 
 	-   **¿Quiénes están involucrados en el desarrollo?**
   
 	    Ingenieros de software, diseñadores UX/UI, desarrolladores de FrontEnd y BackEnd, Q/A testers, arquitectos de software y analistas de base de datos
     
 -   Why?
-La causa principal del problema radica tanto en la visibilidad de sus proyectos ya que carecen de espacios especializados donde puedan presentar sus proyectos y acceder a oportunidades laborales. Las plataformas que existen, sólo permiten subir los videojuegos como un equipo de desarrollo pero a diferencia de ellos, nuestra aplicación permitirá, aparte de ello, promocionarse a los usuarios mediante un portafolio donde se podrá ver que hicieron en su rubro sea compositor, artista o desarrollador.
 
-  
+    La causa principal del problema radica tanto en la visibilidad de sus proyectos ya que carecen de espacios especializados donde puedan presentar sus proyectos y acceder a oportunidades laborales. Las plataformas que existen, sólo permiten subir los videojuegos como un equipo de desarrollo pero a diferencia de ellos, nuestra aplicación permitirá, aparte de ello, promocionarse a los usuarios mediante un portafolio donde se podrá ver que hicieron en su rubro sea compositor, artista o desarrollador.
 
 -   How?
-Los usuarios podrán registrarse de forma gratuita y subir sus proyectos mediante una interfaz intuitiva. Las funcionalidades clave incluyen:
-	
-	-   **¿Cómo funciona la plataforma?**  
+
+    Los usuarios podrán registrarse de forma gratuita y subir sus proyectos mediante una interfaz intuitiva. Las funcionalidades clave incluyen:
+-   **¿Cómo funciona la plataforma?**  
     IndieNest vende videojuegos y promociona tanto a los mismos como a sus desarrolladores, involucrando distintos rubros como los programadores, compositores, diseñadores etc. La aplicación es capaz de registrar usuarios que pueden tanto comprar juegos como subir sus propios proyectos y, además, poder promocionarse como creador a través de un portafolio, ya sea programador, compositor u otra ocupación en el desarrollo de videojuegos. Sobre los proyectos que el usuario puede subir, puede clasificarlos por género o categoría y, de ser necesario, aplicar restricción de edad. Al subir su proyecto, el usuario puede colocarle una descripción detallada sobre el mismo, detallar la versión del proyecto (si es una demo, versión beta o versión final) y permite recibir feedback a través de comentarios. El método de pago sería a través de Stripe para la compra de juegos.
 
--   How Much?
-La problematica presenta un impacto relativamente alto, dado que, como se vio en la sección de antecedentes, un 60% de los desarrolladores que fueron encuestados mencionan que tienen problemas para encontrar financiamiento para sus proyectos, por lo que deben recurrir a la autofinanciación.
+
+-   **How Much?**
+
+    La problematica presenta un impacto relativamente alto, dado que, como se vio en la sección de antecedentes, un 60% de los desarrolladores que fueron encuestados mencionan que tienen problemas para encontrar financiamiento para sus proyectos, por lo que deben recurrir a la autofinanciación.
     
 ---
 
@@ -264,7 +262,7 @@ La problematica presenta un impacto relativamente alto, dado que, como se vio en
 ---
 
 #### 1.2.2.1 Lean UX Problem Statements.
-Los desarrolladores independientes de videojuegos enfrentan una baja visibilidad y escasa difusión de sus proyectos, debido a la falta de recursos financieros, conocimientos en marketing y acceso a redes profesionales. Las plataformas actuales como Itch.io o Unity Play presentan limitaciones: saturación de contenido, baja personalización, y restricciones técnicas que dificultan destacar, especialmente para quienes no usan motores específicos.<br>**IndieNest** busca resolver este problema ofreciendo un entorno accesible, atractivo y colaborativo que permita a los desarrolladores promocionar sus videojuegos, construir portafolios sólidos y conectar con otros creadores.<br> **Consideramos que**:
+Los desarrolladores independientes de videojuegos enfrentan una baja visibilidad y escasa difusión de sus proyectos, debido a la falta de recursos financieros, conocimientos en marketing y acceso a redes profesionales. Las plataformas actuales como Itch.io o Unity Play presentan limitaciones: saturación de contenido, baja personalización, y restricciones técnicas que dificultan destacar, especialmente para quienes no usan motores específicos. **IndieNest** busca resolver este problema ofreciendo un entorno accesible, atractivo y colaborativo que permita a los desarrolladores promocionar sus videojuegos, construir portafolios sólidos y conectar con otros creadores.  **Consideramos que**:
 -   El producto debe funcionar en entornos web y móvil, con diseño responsive.    
 -   No se contempla inversión en publicidad paga para los usuarios dentro de la plataforma.
 -   El sistema debe ser compatible con múltiples motores de desarrollo, sin priorizar uno específico.
@@ -289,13 +287,13 @@ Los desarrolladores independientes de videojuegos enfrentan una baja visibilidad
 
 ##### 1.2.2.2.1. Assumptions Worksheet 
 
-**¿Quién es el usuario?**<br>Desarrolladores independientes de videojuegos (programadores, artistas visuales, compositores, diseñadores narrativos) que buscan visibilidad profesional, y jugadores interesados en descubrir contenido indie emergente.
+**¿Quién es el usuario?** Desarrolladores independientes de videojuegos (programadores, artistas visuales, compositores, diseñadores narrativos) que buscan visibilidad profesional, y jugadores interesados en descubrir contenido indie emergente.
 
-**¿Dónde encaja el producto en su vida?**<br>Durante las etapas de publicación, promoción y mejora de proyectos personales. También en la construcción de portafolios profesionales y la búsqueda de oportunidades de colaboración o contratación.
+**¿Dónde encaja el producto en su vida?** Durante las etapas de publicación, promoción y mejora de proyectos personales. También en la construcción de portafolios profesionales y la búsqueda de oportunidades de colaboración o contratación.
 
-**¿Qué problemas tiene y cómo se resuelven?**<br>Los desarrolladores enfrentan baja visibilidad, falta de retroalimentación y escasa conexión con comunidades afines. IndieNest resuelve esto mediante portafolios interactivos, categorización de proyectos, espacios de feedback y herramientas de descubrimiento.
+**¿Qué problemas tiene y cómo se resuelven?** Los desarrolladores enfrentan baja visibilidad, falta de retroalimentación y escasa conexión con comunidades afines. IndieNest resuelve esto mediante portafolios interactivos, categorización de proyectos, espacios de feedback y herramientas de descubrimiento.
 
-**¿Cuándo y cómo se usa el producto?**<br>Se utiliza al subir un proyecto, actualizar el perfil profesional, recibir comentarios, buscar colaboradores o explorar contenido. Los jugadores lo usan para descubrir nuevos videojuegos, apoyar creadores y dejar reseñas.
+**¿Cuándo y cómo se usa el producto?** Se utiliza al subir un proyecto, actualizar el perfil profesional, recibir comentarios, buscar colaboradores o explorar contenido. Los jugadores lo usan para descubrir nuevos videojuegos, apoyar creadores y dejar reseñas.
 
 **¿Qué características son importantes?**
 -   Portafolios interactivos con personalización visual y técnica
@@ -397,7 +395,7 @@ Necesitan exhibir bandas sonoras y conectar con equipos que requieran música or
 
 #### 1.2.2.4. Lean UX Canvas.
 
-![](img/Lean-UX-Canvas-corregido.PNG)
+![Lean UX Canvas](img/Lean-UX-Canvas-corregido.PNG) 
 
 ---
 
@@ -467,21 +465,23 @@ Actualmente las plataformas digitales de publicación y promoción de videojuego
 **¿Por qué llevar a cabo este análisis?**  
 Este análisis se realiza para conocer más a fondo a nuestros competidores y de esa forma tener un mejor entendimiento de cuales son las características, ventajas y desventajas que posee cada uno de ellos a fin de compararlos con nuestro startup.
 
-|             | Startup    | Competidor 1 | Competidor 2 | Competidor 3 |
-|-------------|------------|--------------|--------------|--------------|
-|**Nombre**   |  IndieNest   |   Itch Io    |  Unity Play  |  Game Jolt   |
-|**Logo**   |<img src="img/IndieLogo.png" width="200"/>|<img src="img/logo-itchio.png" width="200"/>|<img src="img/logo-unity-play.png" width="200"/>|<img src="img/logo-game-jolt.png" width="200"/>|
-| **Perfil - Overview**|Aplicación web que permite subir y promocionar proyectos personales o videojuegos junto a un portafolio|Mercado online para creadores digitales independientes, centrado en videojuegos indie y que permite a cualquiera decida la forma en que quiere vender su producto|Plataforma para crear contenido usando herramientas de Unity que además ofrece un espacio para publicar juegos desarrollados por cualquier persona|Espacio digital social que permite alojar videojuegos indie para jugadores y desarrolladores, asi como interactuar en comunidades|
-| **Perfil - Ventaja competitiva** |Permite la creación de portafolios dinámicos, así como un espacio para retroalimentación y comentarios, además de poder establecer una conexión entre creadores y consumidores|Permite la publicación de juegos sin filtro previo, lo que favorece la libertad creativa, además permite vender otro tipo de productos como libros y bandas sonoras|Posee sincronización directa con Unity para la subida de contenido, otorga acceso a una amplia comunidad de desarrolladores y permite la publicación de portafolios o prototipos|Ofrece un espacio social que conecta a jugadores, artistas y desarrolladores, facilitando la creación de comunidades. Además ofrece un sistemas de pago sin comisiones a la plataforma|
-| **Perfil de Marketing - Mercado objetivo** |Programadores independientes y artistas, ambos en su mayoría estudiantes o egresados de una carrera que buscan un espacio para poder promocionar sus proyectos|Desarrolladores independientes que buscan un espacio para crear contenido si limitaciones creativas, además de comunidades alternativas|Estudiantes y mentores que buscan un sitio para crear y mostrar prototipos, además de comunidades de desarrolladores|Jovenes que buscan entretenimiento y una comunidad digital, así como desarrolladores indie|
-| **Perfil de Marketing - Estrategias de marketing** |Publicaciones en redes sociales a forma de llamar la atención de posibles consumidores de nuestra aplicación, además de incentivar una comunidad activa dentro de nuestra plataforma |Promoción orgánica mediante la transmisión boca a boca y la comunidad indie, así como transparencia en comisiones e inclusión social|Integración con Unity Hub y enfoque en la comunidad de desarrolladores, además de anexos con Unity Technologies|Funcionalidades de red social, asi como la gamificación a base de logros y recompensas y eventos temáticos como festivales digitales y concursos|
-| **Perfil de Producto - Productos & Servicios** |IndieNest como aplicación web para la promoción de proyectos relacionados a videojuegos indie, donde el objetivo es darle visibilidad a desarrolladores y artistas independientes|Servicios de monetización libre de comisiones, así como foros y Game Jams para fomentar la creación colectiva|Servicios para publicar prototipos y portafolios de desarrolladores, integración con Unity Learn y recursos didácticos para mentores de desarrolladores|Sistema de monetización para desarroladores como suscripciones y apoyo directo de fans y funciones de red social|
-| **Perfil de Producto - Precios & Costos** |Plataforma web gratuita con planes de suscripción premium para funcionalidades adicionales a desarrolladores y consumidores de videojuegos|Plataforma de publicación gratuita con comisiones flexibles que dependen del desarrolador y no de la plataforma|Plataforma  gratuita para desarroladores y jugadores pero con servicios de pago opcional como Unity Pro|Publicación gratuita y comisiones sobre un porcentaje de la monetización recibida por el desarrollador|
-| **Perfil de Producto - Canales de distribución (Web y/o Móvil)** |Web|Web|Web|Web y Móvil|
-| **Análisis SWOT - Fortalezas** |Promoción de desarrolladores y artistas, publicación de portafolios para fijar la atencion de potenciales empleadores|Comisión flexibles para creadores y una comunidad indie gigante, además de ser el motor de contenido utilizado en varios Game Jams     |Integración directa con distintas herramientas de Unity, 100% gratuito y con enfoques educativos y comunitarios |Características de red social, así como integración de apps móviles y monetización social como suscripciones y donaciones a desarrolladores|
-| **Análisis SWOT - Debilidades** |Visibilidad inicial opacada por empresas grandes como Epic o Steam|Carencia de aplicación móvil y un ecosistema muy conglomerado que hace dificil destacar dentro de la plataforma|No posee servicios de monetización interna, comunidad pequeña en comparación con los demás competidores y una sola opción en el motor de sus videojuegos|Menor catálogo que otras plataformas, limitación del público objetivo y exceso de funciones que no tienen que ver con videojuegos|
-| **Análisis SWOT - Oportunidades** |Evolución activa en el mercado gracias a las características innovadoras de la aplicación, además de un crecimiento en el mercado debido a las funcionalidades únicas que posee la plataforma|Expansión del negocio con una app móvil y aumentar alianzas con universidades, festivales y estudios independientes|Incremento de uso educativo de Unity e integración con redes sociales para mayor visibilidad de portafolios y proyectos|Aprovechar la gran comunidad de la generación Z, alianzas con creadores de contenido como influencers y streamers  |
-| **Análisis SWOT - Amenazas** |Competencia alta en el mercado de videojuegos (Steam y Epic)|Saturación de contenido y piratería de videojuegos que afecten a desarrolladores|Competencia de plataformas que ofrecen monetización para sus desarrolladores y dependencia de la popularida de Unity como motor de videojuego|Riesgo de disperción de contenido y dificultad de métodos de monetización en comparación como otras plataformas como Patreon|
+
+
+|             | Startup    | Competidor 1                                                                                                                                                        | Competidor 2                                                                                                                                                                     | Competidor 3                                                                                                                                                                           |
+|-------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|**Nombre**   |  IndieNest   | Itch Io                                                                                                                                                             | Unity Play                                                                                                                                                                       | Game Jolt                                                                                                                                                                              |
+|**Logo**   |![IndieLogo](img/IndieLogo.png)| ![ItchIoLogo](img/logo-itchio.png)                                                                                                                                  | ![UnityLogo](img/logo-unity-play.png)                                                                                                                                            | ![GameJoltLogo](img/logo-game-jolt.png)                                                                                                                                                |
+| **Perfil - Overview**|Aplicación web que permite subir y promocionar proyectos personales o videojuegos junto a un portafolio| Mercado online para creadores digitales independientes, centrado en videojuegos indie y que permite a cualquiera decida la forma en que quiere vender su producto   | Plataforma para crear contenido usando herramientas de Unity que además ofrece un espacio para publicar juegos desarrollados por cualquier persona                               | Espacio digital social que permite alojar videojuegos indie para jugadores y desarrolladores, asi como interactuar en comunidades                                                      |
+| **Perfil - Ventaja competitiva** |Permite la creación de portafolios dinámicos, así como un espacio para retroalimentación y comentarios, además de poder establecer una conexión entre creadores y consumidores| Permite la publicación de juegos sin filtro previo, lo que favorece la libertad creativa, además permite vender otro tipo de productos como libros y bandas sonoras | Posee sincronización directa con Unity para la subida de contenido, otorga acceso a una amplia comunidad de desarrolladores y permite la publicación de portafolios o prototipos | Ofrece un espacio social que conecta a jugadores, artistas y desarrolladores, facilitando la creación de comunidades. Además ofrece un sistemas de pago sin comisiones a la plataforma |
+| **Perfil de Marketing - Mercado objetivo** |Programadores independientes y artistas, ambos en su mayoría estudiantes o egresados de una carrera que buscan un espacio para poder promocionar sus proyectos| Desarrolladores independientes que buscan un espacio para crear contenido si limitaciones creativas, además de comunidades alternativas                             | Estudiantes y mentores que buscan un sitio para crear y mostrar prototipos, además de comunidades de desarrolladores                                                             | Jovenes que buscan entretenimiento y una comunidad digital, así como desarrolladores indie                                                                                             |
+| **Perfil de Marketing - Estrategias de marketing** |Publicaciones en redes sociales a forma de llamar la atención de posibles consumidores de nuestra aplicación, además de incentivar una comunidad activa dentro de nuestra plataforma | Promoción orgánica mediante la transmisión boca a boca y la comunidad indie, así como transparencia en comisiones e inclusión social                                | Integración con Unity Hub y enfoque en la comunidad de desarrolladores, además de anexos con Unity Technologies                                                                  | Funcionalidades de red social, asi como la gamificación a base de logros y recompensas y eventos temáticos como festivales digitales y concursos                                       |
+| **Perfil de Producto - Productos & Servicios** |IndieNest como aplicación web para la promoción de proyectos relacionados a videojuegos indie, donde el objetivo es darle visibilidad a desarrolladores y artistas independientes| Servicios de monetización libre de comisiones, así como foros y Game Jams para fomentar la creación colectiva                                                       | Servicios para publicar prototipos y portafolios de desarrolladores, integración con Unity Learn y recursos didácticos para mentores de desarrolladores                          | Sistema de monetización para desarroladores como suscripciones y apoyo directo de fans y funciones de red social                                                                       |
+| **Perfil de Producto - Precios & Costos** |Plataforma web gratuita con planes de suscripción premium para funcionalidades adicionales a desarrolladores y consumidores de videojuegos| Plataforma de publicación gratuita con comisiones flexibles que dependen del desarrolador y no de la plataforma                                                     | Plataforma  gratuita para desarroladores y jugadores pero con servicios de pago opcional como Unity Pro                                                                          | Publicación gratuita y comisiones sobre un porcentaje de la monetización recibida por el desarrollador                                                                                 |
+| **Perfil de Producto - Canales de distribución (Web y/o Móvil)** |Web| Web                                                                                                                                                                 | Web                                                                                                                                                                              | Web y Móvil                                                                                                                                                                            |
+| **Análisis SWOT - Fortalezas** |Promoción de desarrolladores y artistas, publicación de portafolios para fijar la atencion de potenciales empleadores| Comisión flexibles para creadores y una comunidad indie gigante, además de ser el motor de contenido utilizado en varios Game Jams                                  | Integración directa con distintas herramientas de Unity, 100% gratuito y con enfoques educativos y comunitarios                                                                  | Características de red social, así como integración de apps móviles y monetización social como suscripciones y donaciones a desarrolladores                                            |
+| **Análisis SWOT - Debilidades** |Visibilidad inicial opacada por empresas grandes como Epic o Steam| Carencia de aplicación móvil y un ecosistema muy conglomerado que hace dificil destacar dentro de la plataforma                                                     | No posee servicios de monetización interna, comunidad pequeña en comparación con los demás competidores y una sola opción en el motor de sus videojuegos                         | Menor catálogo que otras plataformas, limitación del público objetivo y exceso de funciones que no tienen que ver con videojuegos                                                      |
+| **Análisis SWOT - Oportunidades** |Evolución activa en el mercado gracias a las características innovadoras de la aplicación, además de un crecimiento en el mercado debido a las funcionalidades únicas que posee la plataforma| Expansión del negocio con una app móvil y aumentar alianzas con universidades, festivales y estudios independientes                                                 | Incremento de uso educativo de Unity e integración con redes sociales para mayor visibilidad de portafolios y proyectos                                                          | Aprovechar la gran comunidad de la generación Z, alianzas con creadores de contenido como influencers y streamers                                                                      |
+| **Análisis SWOT - Amenazas** |Competencia alta en el mercado de videojuegos (Steam y Epic)| Saturación de contenido y piratería de videojuegos que afecten a desarrolladores                                                                                    | Competencia de plataformas que ofrecen monetización para sus desarrolladores y dependencia de la popularida de Unity como motor de videojuego                                    | Riesgo de disperción de contenido y dificultad de métodos de monetización en comparación como otras plataformas como Patreon                                                           |
 
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
@@ -523,38 +523,40 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 ### 2.2.2. Registro de entrevistas.
 - Segmento 1 : Programador Independiente
 
-| Entrevistado 1 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
-|----------------|--------------------|-----------|-------------|-------------|------------|
-|<img src="img/sebas.jpeg" width="500"/>| Sebastian Adriano Pajares Oyola |  22 años | Santiago de Surco | 7:43 - 11:59 | Sebastian es un programador independiente que actualmente no cuenta con una plataforma fija para publicar sus proyectos. Durante la entrevista comentó que, al no tener un espacio centralizado, sus trabajos suelen perder visibilidad, lo cual limita su alcance como desarrollador. Esto le representa un desafío importante para darse a conocer dentro de la comunidad y para mostrar su experiencia a posibles colaboradores o empleadores. |
+
+
+| Entrevistado 1                      | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|-------------------------------------|--------------------|-----------|-------------|-------------|------------|
+| ![EntreVistaSebas](img/sebas.jpeg)  | Sebastian Adriano Pajares Oyola |  22 años | Santiago de Surco | 7:43 - 11:59 | Sebastian es un programador independiente que actualmente no cuenta con una plataforma fija para publicar sus proyectos. Durante la entrevista comentó que, al no tener un espacio centralizado, sus trabajos suelen perder visibilidad, lo cual limita su alcance como desarrollador. Esto le representa un desafío importante para darse a conocer dentro de la comunidad y para mostrar su experiencia a posibles colaboradores o empleadores. |
 
 | Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
 |----------------|--------------------|-----------|-------------|-------------|------------|
-| <img src="img/Entrevista Juan Jose.PNG"/> | Juan José Meza Huanacune | 24 años | Barranco | 0:01 - 3:52 | Juan José en un programador técnico con experiencia en prototipos y demos. Publica en Itch.io y Unity Play, pero siente que sus proyectos se pierden por falta de visibilidad. Considera esencial tener un portafolio digital para mostrar su rol como programador. Enfrenta obstáculos como la falta de recursos para marketing y dificultad para formar equipos. Valora mucho la retroalimentación y cree que IndieNest podría profesionalizar su perfil y abrirle oportunidades reales. |
+| ![EntreVistaJuan](img/Entrevista%20Juan%20Jose.PNG) | Juan José Meza Huanacune | 24 años | Barranco | 0:01 - 3:52 | Juan José en un programador técnico con experiencia en prototipos y demos. Publica en Itch.io y Unity Play, pero siente que sus proyectos se pierden por falta de visibilidad. Considera esencial tener un portafolio digital para mostrar su rol como programador. Enfrenta obstáculos como la falta de recursos para marketing y dificultad para formar equipos. Valora mucho la retroalimentación y cree que IndieNest podría profesionalizar su perfil y abrirle oportunidades reales. |
 
-| Entrevistado 3 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
-|----------------|--------------------|-----------|-------------|-------------|------------|
-| <img src="img/Entrevista Fabricio.PNG"/> | Fabricio Fabián Quispe Barzola | 23 años | Chorrillos | 3:53 - 7:42 | Fabricio es estudiante de Ingeniería de Software con experiencia en game jams y desarrollo colaborativo. Publica en Itch.io y GitHub, pero busca una plataforma más visual y profesional. Necesita un portafolio para destacar en el mercado laboral. Enfrenta barreras de visibilidad y validación. Le interesa recibir feedback y conectar con otros creadores. Ve en IndieNest una herramienta clave para mostrar su trabajo y generar oportunidades. |
+| Entrevistado 3                                        | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|-------------------------------------------------------|--------------------|-----------|-------------|-------------|------------|
+| ![EntreVistaFabricio](img/Entrevista%20Fabricio.PNG)  | Fabricio Fabián Quispe Barzola | 23 años | Chorrillos | 3:53 - 7:42 | Fabricio es estudiante de Ingeniería de Software con experiencia en game jams y desarrollo colaborativo. Publica en Itch.io y GitHub, pero busca una plataforma más visual y profesional. Necesita un portafolio para destacar en el mercado laboral. Enfrenta barreras de visibilidad y validación. Le interesa recibir feedback y conectar con otros creadores. Ve en IndieNest una herramienta clave para mostrar su trabajo y generar oportunidades. |
 
 
 - Segmento 2 : Artistas Digitales 
 
-| Entrevistado 1 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
-|----------------|--------------------|-----------|-------------|-------------|------------|
-|<img src="img/Marin.png" width="500"/> | Carlos Alberto Marin Sangama |  21 años |Los Olivos| 18:03 - 21:56 |  Carlos Marin es un artista digital que principalmente realiza modelados 3D y ilustraciones digitales a menor medida, suele publicar sus trabajos en sus redes sociales como instagram pero la limitacion que tiene es la dificil visibilidad que se puede obtener en las mismas y ademas, tiene disficultad en participar en proyectos indie al no tener un portafolio donde los demas puedan ver sus modelos e ilustraciones. |
+| Entrevistado 1                    | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|-----------------------------------|--------------------|-----------|-------------|-------------|------------|
+| ![EntreVistaMarin](img/Marin.png) | Carlos Alberto Marin Sangama |  21 años |Los Olivos| 18:03 - 21:56 |  Carlos Marin es un artista digital que principalmente realiza modelados 3D y ilustraciones digitales a menor medida, suele publicar sus trabajos en sus redes sociales como instagram pero la limitacion que tiene es la dificil visibilidad que se puede obtener en las mismas y ademas, tiene disficultad en participar en proyectos indie al no tener un portafolio donde los demas puedan ver sus modelos e ilustraciones. |
 
-| Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
-|----------------|--------------------|-----------|-------------|-------------|------------|
-|<img src="img/Azul2.jpeg" width="500"/> | Azul Delgado Sanchez | 22 años | Santiago de Surco | 12:00 - 15:32 | Azul Delgado es una artista digital que principalmente realiza ilustraciones digitales y algo de pixel art. Actualmente está practicando modelado 3D porque le interesa mucho el diseño de personajes en los videojuegos. Ella suele publicar su trabajo en Instagram y Discord, pero comenta que pierde cierta notoriedad debido a otro tipo de contenido. También menciona que tuvo dificultades para integrarse en proyectos indie como artista. En una plataforma valora que los equipos busquen artistas específicos, y también aprecia que una aplicación le brinde visibilidad a sus proyectos al momento de subirlos.|
+| Entrevistado 2                    | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|-----------------------------------|--------------------|-----------|-------------|-------------|------------|
+| ![EntreVistaAzul](img/Azul2.jpeg) | Azul Delgado Sanchez | 22 años | Santiago de Surco | 12:00 - 15:32 | Azul Delgado es una artista digital que principalmente realiza ilustraciones digitales y algo de pixel art. Actualmente está practicando modelado 3D porque le interesa mucho el diseño de personajes en los videojuegos. Ella suele publicar su trabajo en Instagram y Discord, pero comenta que pierde cierta notoriedad debido a otro tipo de contenido. También menciona que tuvo dificultades para integrarse en proyectos indie como artista. En una plataforma valora que los equipos busquen artistas específicos, y también aprecia que una aplicación le brinde visibilidad a sus proyectos al momento de subirlos.|
 
-| Entrevistado 3 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
-|----------------|--------------------|-----------|-------------|-------------|------------|
-|<img src="img/eriol.png" width="500"/> | Eriol Jared Constantine Huaytalla Robles |  18 | San Martin de Porres | 15:33 - 18:01 | Eriol es un artista digital que realiza ilustraciones digitales y esta interesado en el modelaje 3D. Suele subir sus ilustraciones a redes sociales como instagram o X pero el algoritmo de las mismas impide su crecimiento en reconocimiento y a su vez tambien cree que al ser un ilustrador que recien se adentra en ese mundo le es mas dificil ser elegido por otros para participar en proyectos independientes  |
+| Entrevistado 3                    | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|-----------------------------------|--------------------|-----------|-------------|-------------|------------|
+| ![EntreVistaEriol](img/eriol.png) | Eriol Jared Constantine Huaytalla Robles |  18 | San Martin de Porres | 15:33 - 18:01 | Eriol es un artista digital que realiza ilustraciones digitales y esta interesado en el modelaje 3D. Suele subir sus ilustraciones a redes sociales como instagram o X pero el algoritmo de las mismas impide su crecimiento en reconocimiento y a su vez tambien cree que al ser un ilustrador que recien se adentra en ese mundo le es mas dificil ser elegido por otros para participar en proyectos independientes  |
 
-<br><br>
+  
 Enlace del video de las entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202321613_upc_edu_pe/EbQaKTrBnMBKoJ1hoQwwTC0B6Uwkffz66WSolVvJ4KQQAg?e=l6yEE3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ### 2.2.3. Análisis de entrevistas.
-#### Segmento objetivo 1 (Progrmadores independientes) 
+#### Segmento objetivo 1 (Programadores independientes) 
 Los entrevistados (Sebastián Pajares, Juan José Meza y Fabricio Quispe) coincidieron en que la **falta de visibilidad** es el principal obstáculo al publicar sus proyectos en plataformas actuales como *Itch.io*, *Unity Play* o *GitHub*.  
 
 - **Necesidades identificadas:**  
@@ -602,10 +604,11 @@ En conjunto, las entrevistas validan que IndieNest debe:
 ### 2.3.1. User Personas.
 #### Segmento objetivo 1
 - Sebastián Adriano Pajares Oyala
-  <img src="img/SebastianPajaresPersona.png"/>
+
+  ![UserPersonaSebastian](img/SebastianPajaresPersona.png)
 #### Segmento objetivo 2
 - Eriol Jared Constantine Huaytalla Robles
-  <img src="img/EriolPersona.jpg" width="1050"/>
+  ![UserPersonaEriol](img/EriolPersona.jpg)
 ### 2.3.2. User Task Matrix.
 
 
@@ -629,15 +632,15 @@ Segmento 2 – Eriol: Estudiante universitario interesado en diseño y modelado 
 |Ser descubierto por empleadores o equipos|Alta|Alta|Media|Media|
 |Participar en comunidades creativas|Media|Media|Alta|Media|
 |Mostrar avances o procesos de creación|Media|Media|Alta|Media|
-<br>
+ 
 
-**Tareas con mayor coincidencia en frecuencia e importancia**<br>
+**Tareas con mayor coincidencia en frecuencia e importancia** 
 Ambos usuarios coinciden en valorar altamente la retroalimentación y la conexión con otros creadores. Esto revela que, independientemente del nivel de experiencia, los usuarios buscan validación, aprendizaje y comunidad. Estas tareas no solo son frecuentes, sino que tienen un impacto directo en su motivación y crecimiento.
 
-- Sebastián: perfil profesional y estratégico<br>
+- Sebastián: perfil profesional y estratégico 
   Sebastián, como programador independiente, prioriza tareas que lo posicionen profesionalmente. Para él, publicar proyectos, mostrar experiencia técnica, construir un portafolio y ser descubierto por empleadores son tareas de alta frecuencia e importancia. Esto refleja una necesidad clara de consolidar su reputación y acceder a oportunidades laborales o colaborativas. Las redes sociales no son su canal principal, y su enfoque está más orientado a resultados concretos que a exposición informal.
 
-- Eriol: perfil formativo y explorador<br>
+- Eriol: perfil formativo y explorador 
   Eriol, como estudiante en formación, realiza tareas con un enfoque más exploratorio. Aunque también valora la retroalimentación y la conexión con otros, sus tareas más frecuentes están ligadas a mejorar habilidades, compartir contenido en redes sociales, y mostrar avances. Su uso de plataformas está más vinculado a visibilidad y aprendizaje que a posicionamiento profesional. Aún no prioriza tanto la búsqueda de empleadores, pero sí desea construir una base sólida para el futuro.
 
 **Diferencias clave**
@@ -645,7 +648,7 @@ Ambos usuarios coinciden en valorar altamente la retroalimentación y la conexi�
 - Sebastián prioriza tareas que lo ayuden a ser contratado o colaborar, mientras que Eriol prioriza tareas que lo ayuden a aprender y ser visto.
 - Eriol usa redes sociales como canal principal; Sebastián las usa como complemento.
 
-**Implicaciones para IndieNest**<br>
+**Implicaciones para IndieNest** 
 La plataforma debe ofrecer funcionalidades que cubran ambos espectros:
 - Para Sebastián: portafolio profesional, visibilidad técnica, filtros por rol y experiencia, y canales de colaboración directa.
 - Para Eriol: espacios de aprendizaje, retroalimentación accesible, comunidad activa, y herramientas para mostrar procesos creativos.
@@ -655,17 +658,18 @@ La plataforma debe ofrecer funcionalidades que cubran ambos espectros:
 ### 2.3.3. User Journey Mapping.
 #### Segmento objetivo 1
 - Sebastian Adriano Pajares Oyola
-  <img src="img/journeymap2.png" width="1050"/>
+  ![JourneyMapSebastian](img/journeymap2.png)
 
 #### Segmento objetivo 2
 - Eriol Jared Constantine Huaytalla Robles
-  <img src="img/EriolJourneyMap.jpg" width="1050"/>
+  ![JourneyMapEriol](img/EriolJourneyMap.jpg)
 
 ### 2.3.4. Empathy Mapping.
 - Segmento objetivo 1
-<img src=img/emprogramador.jpeg width=500/>
+
+![EmpatyMapProgramador](img/emprogramador.jpeg)
 - Segmento objetivo 2
-<img src=img/emartista.jpeg width=500/>
+  ![EmpatyMapArtista](img/emartista.jpeg)
 
 ## 2.4. Big Picture Event Storming.
 
@@ -683,123 +687,124 @@ En esta sección nos enfocamos en hacer una lluvia de ideas para recolectar la m
 
 A continuación mostraremos las capturas de la primera versión del event storming realizado, separandolas según el Bounded Context al que pertenezcan y comenzando con los Core del negocio.
 
-<br>
+ 
 
 **Bounded Context Project:** En este bounded context se manejan todos los eventos relacionados a la gestión de proyectos dentro de la aplicación Web. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
-<img src=img/bp-event-storming/project/project-1.png width=500/>
+![EventStorming](img/bp-event-storming/project/project-1.png)
 
 En estos tres flujos de eventos se maneja todo lo relacionado a configuraciones del proyecto. Tenemos en primer lugar el fujo que lleva a la creación de un nuevo proyecto. En segundo lugar se puede apreciar el flujo que permite la actualización de datos del proyecto. Y en último lugar se visualiza lo que vendría a ser el flujo correspondiente para la eliminación de un proyecto. Cabe resaltar que todos estos flujos suceden en la interfaz de usuario de las configuraciones de proyectos.
 
-<img src=img/bp-event-storming/project/project-2.png width=500/>
+![EventStorming](img/bp-event-storming/project/project-2.png)
 
 En estos dos flujo se puede ver, por un lado, el proceso para visualizar características clave de un proyecto como su autor o sus capturas, esto mediante la interfaz del proyecto en si. Por otra parte, se muestra también el flujo para visualizar las estadísticas del proyecto mediante su interfaz visual respectiva.
 
-<br>
+ 
 
 **Bounded Context Portfolio:** En este bounded context se manejan todos los eventos relacionados a la gestión de los portafolios de los desarrolladores y artistas. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
-<img src=img/bp-event-storming/portfolio/portfolio-1.png width=500/>
+![Bounded Context Portfolio](img/bp-event-storming/portfolio/portfolio-1.png)
+
 
 En estos flujos se puede ver el proceso para la creación y actualización de datos de un portafolio mediante la interfaz respectiva que representa al apartado de configuraciones del portafolio.
 
 
-<img src=img/bp-event-storming/portfolio/portfolio-2.png width=500/>
+![Bounded Context Portfolio](img/bp-event-storming/portfolio/portfolio-2.png)
 
 Por otra parte se puede ver el flujo de eventos para la agregación de un nuevo proyecto al portafolio y la eliminación de uno, esto mediante su respectiva interfaz gráfica.
 
-<br>
+ 
 
-**Bounded Context Marketplce:** En este bounded context se manejan todos los eventos relacionados a las funcionalidades en relación al marketplace del producto. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
+**Bounded Context Marketplace:** En este bounded context se manejan todos los eventos relacionados a las funcionalidades en relación al marketplace del producto. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
-<img src=img/bp-event-storming/marketplace/marketplace-1.png width=500/>
+![Bounded Context MarketPlace](img/bp-event-storming/marketplace/marketplace-1.png)
+
 
 En primer lugar se puede ver como, mediante su interfaz de usuario principal, se hace la búsqueda de "games previews", lo que vendría siendo una previsualización de los juegos que solo poseen información como su imagen y nombre. Por otro lado, se tiene el flujo de evento para poder mostrar los resultados del marketplace (games previews) en función de la categoría seleccionada por el usuario.
 
 
-<img src=img/bp-event-storming/marketplace/marketplace-2.png width=500/>
+![Bounded Context MarketPlace](img/bp-event-storming/marketplace/marketplace-2.png)
 
 En el primer flujo se visualizan los eventos que llevan al ordenamiento del marketplace en función de los métodos que el usuario decida. Mientras que el segundo flujo muestra como el sistema mismo crea un flujo de eventos que maneja la creación y agregación de los "game previews" al marketplace. Esto ocurriría al momento en que un usuario cree un proyecto nuevo de tipo "videojuego".
 
-<br>
+ 
 
 **Bounded Context Support:** En este bounded context se manejan todos los eventos relacionado a feedback y reseñas a los proyectos. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
-<img src=img/bp-event-storming/support/support-1.png width=500/>
+![Bounded Context Support](img/bp-event-storming/support/support-1.png)
+
 
 Se pueden ver dos flujos  de eventos que suceden en la interfaz de usuario de las reseña, los cuales representan el proceso de creación de una reseña y a la votación positiva o negativa que puede tener una de estas.
 
 
-<img src=img/bp-event-storming/support/support-2.png width=500/>
+![Bounded Context Support](img/bp-event-storming/support/support-2.png)
 
 En estos flujos se ve el proceso para la eliminación de una reseña y la visualización de las reseñas destacadas.
 
-<br>
+ 
 
 **Bounded Context Community:** En este bounded context se manejan todos los eventos relacionado a las discusiones que de manejan en el foro de la aplicación. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
-<img src=img/bp-event-storming/community/community-1.png width=500/>
+![Bounded Context Community](img/bp-event-storming/community/community-1.png)
 
 Se tienen los flujos para la creación de nuevas discusiones en secciones de los foros y la eliminación de las discusiones que le pertenezcan al usuario, esto mediante la interfaz de usuario de las discusiones.
 
 
-<img src=img/bp-event-storming/community/community-2.png width=500/>
+![Bounded Context Community](img/bp-event-storming/community/community-2.png)
 
 Se pueden ver flujos relacionados a la creación  y eliminación de los comentarios que forman parte de las discusiones. Esto mediante la interfaz gráfica de los comentarios.
 
-<br>
+ 
 
 **Bounded Context Profile:** En este bounded context se maneja todo relacionado a la gestión del perfil del usuario. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
-
-<img src=img/bp-event-storming/profile/profile-1.png width=500/>
+![Bounded Context Profile](img/bp-event-storming/profile/profile-1.png)
 
 En esta captura se pueden ver eventos para la agregación de proyectos al perfil del usuario, así como la visualización del perfil del autor de un proyecto y la funcionalidad de poder contactar a perfiles mediante respectiva interfaz gráfica.
 
-
-<img src=img/bp-event-storming/profile/profile-2.png width=500/>
+![Bounded Context Profile](img/bp-event-storming/profile/profile-2.png)
 
 Se pueden ver eventos como la subida de nivel del perfil del usuario, así como la visualización de los logros que tiene y también los juegos que posee el usuario en su perfil.
 
-<br>
+ 
 
 **Bounded Context Account:** En este bounded context se maneja la gestión de la cuenta del usuario. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
-<img src=img/bp-event-storming/account/account-1.png width=500/>
+![Bounded Context Account](img/bp-event-storming/account/account-1.png)
 
 Se pueden ver los flujos para el registro de una nueva cuenta y el proceso de inicio de sesión con una cuenta gmail. Cabe mencionar que en estos procesos se necesita entablar conexiones con sistemas externos como Sengrid para la verificación de existencia del email o Google Identity Platform para el proceso de inicio de sesión con una cuenta gmail.
 
 
-<img src=img/bp-event-storming/account/account-2.png width=500/>
+![Bounded Context Account](img/bp-event-storming/account/account-2.png)
 
 En estos flujos se ve la funcionalidad del inicio de sesión del usuario con el ingreso manual de los datos de sus cuenta y el proceso para cerrar sesión en la aplicación.
 
 
-<img src=img/bp-event-storming/account/account-3.png width=500/>
+![Bounded Context Account](img/bp-event-storming/account/account-3.png)
 
 En estos flujos se ve el proceso para la actualización de datos personales del usuario, sin embargo no se tiene claro aún mediante que interfaz gráfica se podría mostrar estas funcionalidades. El otro flujo representa el proceso para cambiar la contraseña de una cuenta, proceso que tampoco tiene aún una interfaz de usuario definida.
 
-<br>
+ 
 
 **Bounded Context Notification:** En este bounded context se maneja la gestión de las notificaciones internas y externas a la plataforma. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
-<img src=img/bp-event-storming/notification/notification-1.png width=500/>
+![Bounded Context Notification](img/bp-event-storming/notification/notification-1.png)
 
 En estos flujos de eventos se puede ver la creación y visualización de notificaciones personalizadas en función del evento ocurrido, donde dos de ellas también se encarga de enviar un mensaje al correo del usuario con ayuda de un servicio externo.
 
-<img src=img/bp-event-storming/notification/notification-2.png width=500/>
+![Bounded Context Notification](img/bp-event-storming/notification/notification-2.png)
 
 En estos flujos se pueden ver más notificaciones que son creadas y visualizadas por el usuario, todo esto mediante la interfaz de usuario de las notificaciones.
 
-<br>
+ 
 
 **Bounded Context Payment:** En este bounded context se maneja la gestión de lo relacionado a los procesos de pago dentro de la aplicación. A continuación se muestran capturas de cada flujo de eventos con una descripción general.
 
-<img src=img/bp-event-storming/payment/payment-1.png width=500/>
+![Bounded Context Paymet](img/bp-event-storming/payment/payment-1.png)
 
 En estos flujos de eventos se puede ver, por un lado, como el sistema de la aplicación se encarga de añadir un juego al carrito de compra cuando un usuario lo hay decidido comprar. Por otro lado se ve el flujo que simboliza el proceso de eliminación de un juego del carrito.
 
-<img src=img/bp-event-storming/payment/payment-2.png width=500/>
+![Bounded Context Paymet](img/bp-event-storming/payment/payment-2.png)
 
 Por último tenemos el proceso de pago de un carrito de compra, donde se establece conexión con una servicio externo que procese y facilite los métodos de pago. Además se puede ver el proceso para eliminar un carrito de compra en caso el usuario cambie de opinión ante de comprar sus productos.
 
@@ -808,12 +813,12 @@ Por último tenemos el proceso de pago de un carrito de compra, donde se estable
 ## 2.5. Ubiquitous Language.
 - Portafolio: Página personal con proyectos y habilidades del usuario
 - Proyecto o juego: Videojuego, demo o prototipos subido a la plataforma
-- Colaboración:  Solicitud entre usuarios para trabajar juntos en un proyecto
+- Colaboración: Solicitud entre usuarios para trabajar juntos en un proyecto
 - Feedback: Retroalimentación en forma de comentarios o calificaciones
 - Notificacion: Aviso sobre interacciones o nuevos proyectos de acuerdo a tus gustos
 - Biblioteca: Colección de juegos comprados o descargados por el usuario.
 - UI: Interfaz gráfica que representa el medio a través del cual el usuario puede interactuar con el producto.
-- Forum/Foro: Sección interna de la aplciación donde se podrán añadir nuevos temas de disusión en tópicos específicos.
+- Forum/Foro: Sección interna de la aplicación donde se podrán añadir nuevos temas de disusión en tópicos específicos.
 - Profile/Perfil: Simboliza el perfil del usuario dentro de la aplicación, donde se tendra información y funcionalidades para su perfil.
 
 
@@ -822,44 +827,44 @@ Por último tenemos el proceso de pago de un carrito de compra, donde se estable
 
 |Epic/Story ID|Título| Descripción |Criterios de Aceptación|Relacionado con (Epic ID)|
 |--|--|--|--|--|
-|US01|**Registro de Usuario**|**Como usuario** **Quiero poder** registrarme en IndieNest **para** crear mi perfil y comenzar a subir mis proyectos.|**Scenario 1** <br>**DADO QUE** el usuario es nuevo, <br> **CUANDO** ingresa sus datos y confirma el registro, <br>**ENTONCES** se crea su cuenta y puede acceder a su panel.<br><br>**Scenario 2** <br>**DADO QUE** el usuario ya tiene cuenta, <br> **CUANDO** intenta registrarse con el mismo correo, <br>**ENTONCES** el sistema le avisa que ya existe una cuenta con ese correo y le sugiere iniciar sesión.|EP01|
-|US02|**Crear Portafolio**|**Como desarrollador** **Quiero crear** un portafolio en IndieNest **para** mostrar mis habilidades a posibles empleadores.|**Scenario 1** <br>**DADO QUE** el usuario tiene proyectos subidos, <br> **CUANDO** activa la opción de portafolio, <br>**ENTONCES** se genera una página pública con su información y trabajos.<br><br>**Scenario 2** <br>**DADO QUE** el usuario no tiene proyectos, <br> **CUANDO** intenta activar el portafolio, <br>**ENTONCES** el sistema le sugiere subir al menos uno.|EP01|
-|US03|**Subir un Proyecto**|**Como desarrollador** **Quiero poder** subir un nuevo proyecto **para** que otros usuarios lo vean y comenten.|**Scenario 1** <br>**DADO QUE** el usuario tiene un archivo ejecutable y capturas, <br> **CUANDO** completa el formulario de subida, <br>**ENTONCES** el proyecto aparece en su perfil y en el feed.<br><br>**Scenario 2** <br>**DADO QUE** el usuario no completa los campos obligatorios, <br> **CUANDO** intenta publicar, <br>**ENTONCES** el sistema le avisa qué le falta.|EP01|
-|US04|**Clasificar proyectos por género**|**Como desarrollador** **Quiero poder** asignar un género a mi proyecto **para** que sea más fácil de encontrar proyectos de cierto género.|**Scenario 1** <br>**DADO QUE** el usuario selecciona "Plataformas", <br> **CUANDO** define el género de un proyecto y lo publica, <br>**ENTONCES** el proyecto aparece en la categoría correspondiente.<br><br>**Scenario 2** <br>**DADO QUE** el usuario no selecciona género, <br> **CUANDO** intenta publicar el proyecto, <br>**ENTONCES** el sistema le pide escoger algún género.|EP01|
-|US05|**Indicar versión del proyecto**|**Como desarrollador** **Quiero poder** especificar si mi proyecto es demo, beta o final **para** que los usuarios sepan su estado.|**Scenario 1** <br>**DADO QUE** el usuario escoge "Beta", <br> **CUANDO** publica el proyecto, <br>**ENTONCES** el estado de desarrollo del proyecto se muestra junto al título.<br><br>**Scenario 2** <br>**DADO QUE** el usuario cambia la versión a "Final", <br> **CUANDO** guarda los cambios, <br>**ENTONCES** el estado del proyecto se actualiza.|EP01|
-|US06|**Recibir Comentarios**|**Como desarrollador** **Quiero poder** recibir comentarios en mis proyectos **para** obtener feedback de parte del público.|**Scenario 1** <br>**DADO QUE** otro usuario comenta, <br> **CUANDO** el desarrollador revisa la sección de comentarios de su publicación, <br>**ENTONCES** encuentra el mensaje y puede contestarlo.<br><br>**Scenario 2** <br>**DADO QUE** el desarrollador recibe un comentario inapropiado, <br> **CUANDO** lo reporta, <br>**ENTONCES** el sistema lo envía a moderación.|EP01|
-|US07|**Editar proyectos**|**Como desarrollador** **Quiero poder** editar la información de mis proyectos **para** mantenerla actualizada.|**Scenario 1** <br>**DADO QUE** el desarrollador cambia la descripción, <br> **CUANDO** guarda los cambios, <br>**ENTONCES** la nueva versión se muestra al público.<br><br>**Scenario 2** <br>**DADO QUE** el desarrollador elimina una imagen de la publicación, <br> **CUANDO** guarda los cambios, <br>**ENTONCES** ya no aparece en la galería.|EP01|
-|US08|**Buscar colaboradores**|**Como desarrollador** **Quiero poder** buscar colaboradores por habilidades **para** contactarlos para hacer una colaboración.|**Scenario 1** <br>**DADO QUE** el desarrollador busca "artista 3D", <br> **CUANDO** aplica el filtro, <br>**ENTONCES** ve perfiles que cumplen ese criterio.<br><br>**Scenario 2** <br>**DADO QUE** no hay resultados, <br> **CUANDO** aplica el filtro, <br>**ENTONCES** el sistema le sugiere ampliar la búsqueda.|EP01|
-|US09|**Recibir Solicitudes de Colaboración**|**Como desarrollador** **Quiero poder** recibir solicitudes de otros usuarios **para** unirme a sus proyectos.|**Scenario 1** <br>**DADO QUE** otro usuario envía una invitación, <br> **CUANDO** el desarrollador revisa la bandeja, <br>**ENTONCES** puede aceptar o rechazar.<br><br>**Scenario 2** <br>**DADO QUE** el desarrollador rechaza una solicitud, <br> **CUANDO** confirma la acción, <br>**ENTONCES** el remitente recibe una notificación.|EP01|
-|US10|**Filtrar proyectos por Género**|**Como usuario** **Quiero poder** filtrar proyectos por género **para** encontrar proyectos que se amolden a mis gustos más fácilmente.|**Scenario 1** <br>**DADO QUE** el usuario selecciona "Terror", <br> **CUANDO** hace clic en "Aplicar Filtro", <br>**ENTONCES** ve solo proyectos de Terror.|EP02|
-|US11|**Redactar Descripción de Perfil Profesional**|**Como desarrollador** **Quiero poder** listar mis habilidades técnicas **para** que otros sepan en qué puedo contribuir a sus proyectos.|**Scenario 1** <br>**DADO QUE** el desarrollador agrega texto en la descripción de su perfil, <br> **CUANDO** hace clic en "Guardar", <br>**ENTONCES** la descripción aparece en su perfil.<br><br>**Scenario 2** <br>**DADO QUE** el desarrollador elimina datos o toda la descripción de su perfil, <br> **CUANDO** hace clic en "Guardar", <br>**ENTONCES** ya no se muestra la descripción en su perfil.|EP01|
-|US12|**Recibir calificaciones en los proyectos**|**Como desarrollador** **Quiero poder** recibir calificaciones en mis proyectos **para** medir su impacto en el público.|**Scenario 1** <br>**DADO QUE** un usuario escribe un comentario, <br> **CUANDO** hace clic en "Guardar Comentarios", <br>**ENTONCES** se muestra la reseña en la sección "Comentarios".<br><br>**Scenario 2** <br>**DADO QUE** el usuario califica con 5 estrellas, <br> **CUANDO** hace clic en "Agregar Puntuación", <br>**ENTONCES** el promedio de puntuación sube.<br><br>**Scenario 3** <br>**DADO QUE** el usuario califica con 1 o menos estrellas, <br> **CUANDO** hace clic en "Agregar Puntuación", <br>**ENTONCES** el promedio de puntuación disminuye.|EP01|
-|US13|**Integrar enlaces externos**|**Como desarrollador** **Quiero poder** añadir un enlace a repositorios o páginas externas **para** ampliar la información.|**Scenario 1** <br>**DADO QUE** el desarrollador agrega un enlace a GitHub en la sección "Enlaces" de su perfil, <br> **CUANDO** hace clic en "Guardar Enlace", <br>**ENTONCES** se actualiza la sección "Enlaces" y el número de enlaces guardados al lado.<br><br>**Scenario 2** <br>**DADO QUE** el enlace es inválido, <br> **CUANDO** el desarrollador hace clic en "Guardar Enlace", <br>**ENTONCES** el sistema le avisa que el enlace es inválido.<br><br>**Scenario 3** <br>**DADO QUE** otro usuario está viendo la descripción del perfil, <br> **CUANDO** hace clic en "Enlaces", <br>**ENTONCES** el sistema muestra los enlaces guardados.|EP01|
-|US14|**Revisar Estadísticas**|**Como desarrollador** **Quiero poder** revisar estadísticas de visitas y descargas **para** evaluar el alcance de mi proyecto.|**Scenario 1** <br>**DADO QUE** el desarrollador accede a la sección "Desempeño" de su proyecto, <br> **CUANDO** ingresa a la subsección "Descargas", <br>**ENTONCES** el sistema muestra la cantidad de descargas que ha tenido el proyecto.<br><br>**Scenario 2** <br>**DADO QUE** el desarrollador está en la sección "Descargas", <br> **CUANDO** hace clic en "Visitas", <br>**ENTONCES** el sistema muestra la cantidad de visitas que ha recibido el proyecto.|EP01|
-|US15|**Recibir Notificaciones de los Proyectos**|**Como desarrollador** **Quiero poder** recibir notificaciones de actividad **para** estar al tanto de las interacciones de los usuarios.|**Scenario 1** <br>**DADO QUE** otro usuario deja un comentario, <br> **CUANDO** el desarrollador accede a la sección "Notificaciones", <br>**ENTONCES** se muestra un mensaje indicando "Alguien comentó en *Nombre del Proyecto*".<br><br>**Scenario 2** <br>**DADO QUE** el desarrollador presiona "Marcar como leído", <br> **CUANDO** ingresa nuevamente a la sección "Notificaciones", <br>**ENTONCES** la notificación ya no figura como pendiente.|EP01|
-|US16|**Activar o Desactivar Notificaciones de Proyectos**|**Como desarrollador** **Quiero poder** silenciar notificaciones de ciertas actividades **para** no sobrecargar mi dispositivo de notificaciones.|**Scenario 1** <br>**DADO QUE** el desarrollador está en un proyecto propio, <br> **CUANDO** hace clic en "Desactivar Notificaciones", <br>**ENTONCES** el sistema deja de enviarle notificaciones sobre ese proyecto.<br><br>**Scenario 2** <br>**DADO QUE** el desarrollador está en un proyecto al que silenció notificaciones anteriormente, <br> **CUANDO** hace clic en "Reactivar Notificaciones", <br>**ENTONCES** el sistema vuelve a enviarle notificaciones sobre ese proyecto.|EP01|
-|US17|**Integrar pagos**|**Como desarrollador** **Quiero poder** vender mis juegos **para** generar ingresos de mis proyectos.|**Scenario 1** <br>**DADO QUE** el desarrollador configura Stripe, <br> **CUANDO** publica un juego y le coloca el precio, <br>**ENTONCES** los usuarios pueden comprarlo.<br><br>**Scenario 2** <br>**DADO QUE** un usuario hace clic en "Comprar por **Precio**", <br> **CUANDO** paga el juego a través de Stripe, <br>**ENTONCES** el sistema muestra el mensaje "Juego Comprado Exitosamente" y el juego aparece en su biblioteca.|EP01|
-|US18|**Activar o Desactivar Notificaciones de desarrolladores**|**Como usuario**, **quiero poder** saber cuando el desarrollador que sigo sube alguna publicación **para** enterarme rápidamente de estas.|**Scenario 1** <br>**DADO QUE** el usuario está en el perfil de una cuenta a la que sigue, <br> **CUANDO** hace clic en el botón "Activar Notificaciones", <br>**ENTONCES** el sistema muestra el mensaje "Se activaron las notificaciones".<br><br>**Scenario 2** <br>**DADO QUE** el usuario está en el perfil de un desarrollador al que sigue, <br> **CUANDO** hace clic en el botón "Desactivar Notificaciones", <br>**ENTONCES** el sistema muestra el mensaje "Se desactivaron las notificaciones".|EP02|
-|US19|**Marcar o desmarcar proyectos como favoritos**|**Como usuario** **Quiero poder** seleccionar proyectos como favoritos **para** acceder rápidamente a ellos cuando desee.|**Scenario 1** <br>**DADO QUE** el usuario está viendo un proyecto, <br> **CUANDO** hace clic en el ícono de estrella amarillo, <br>**ENTONCES** el sistema muestra el mensaje "Se guardó como favorito" y lo guarda en su lista "Favoritos".<br><br>**Scenario 2** <br>**DADO QUE** el usuario está en su lista de "Favoritos", <br> **CUANDO** hace clic en el ícono de tacho de basura en un proyecto, <br>**ENTONCES** el sistema muestra el mensaje "Eliminado de Favoritos".|EP02|
-|US20|**Compartir proyectos en redes sociales**|**Como usuario**, **quiero poder** compartir proyectos en redes sociales **para** aumentar su visibilidad.|**Scenario 1** <br>**DADO QUE** el usuario está en la ficha de un proyecto, <br>**CUANDO** hace clic en "Compartir en Twitter", <br>**ENTONCES** se publica un enlace con la portada del proyecto.<br><br>**Scenario 2** <br>**DADO QUE** el usuario no tiene sesión iniciada en la red social, <br>**CUANDO** intenta compartir, <br>**ENTONCES** el sistema le solicita iniciar sesión.|EP01|
-|US21|**Recibir recomendaciones personalizadas**|**Como usuario**, **quiero poder** recibir recomendaciones de proyectos en mi feed **para** descubrir contenido relevante según mis intereses.|**Scenario 1** <br>**DADO QUE** el usuario ha interactuado con juegos de plataformas, <br>**CUANDO** entra al feed, <br>**ENTONCES** el sistema le sugiere más contenido de ese género.<br><br>**Scenario 2** <br>**DADO QUE** el usuario marca que no le interesa un género, <br>**CUANDO** refresca el feed, <br>**ENTONCES** ese tipo de contenido deja de aparecer.|EP02|
-|US22|**Realizar o Borrar Publicaciones**|**Como creador**, **quiero poder** tener un apartado en el que subir publicaciones de texto comentando datos que le interesen a mi público **para** intercambiar ideas y formar una comunidad al rededor de mis proyectos.|**Scenario 1** <br>**DADO QUE** el creador accede a la pestaña "Comunidad" en su perfil, <br>**CUANDO** crea un hilo y hace clic en "Publicar", <br>**ENTONCES** se sube una publicación con el texto que escribió.<br><br>**Scenario 2** <br>**DADO QUE** el creador desea borrar un hilo que ya subió, <br>**CUANDO** hace clic en el ícono de tacho de basura y luego en "Eliminar", <br>**ENTONCES** el sistema borra el hilo de la pestaña de comunidad.|EP01|
-|US23|**Adjuntar imágenes en publicaciones**|**Como creador**, **quiero poder** adjuntar imágenes en mis publicaciones **para** dar avances de proyectos que esté desarrollando.|**Scenario 1** <br>**DADO QUE** el creador está escribiendo un hilo, <br>**CUANDO** hace clic en el botón de clip y en la opción "Adjuntar Imagen" y elige una imagen de su galería, <br>**ENTONCES** se adjunta la imagen al hilo.<br><br>**Scenario 2** <br>**DADO QUE** el creador intenta adjuntar una imagen, <br>**CUANDO** selecciona un archivo inválido, <br>**ENTONCES** el sistema muestra el mensaje "Pruebe otra imagen".<br><br>**Scenario 3** <br>**DADO QUE** el creador adjuntó una imagen, <br>**CUANDO** hace clic en el símbolo de "x" en una esquina de la imagen, <br>**ENTONCES** el sistema muestra el mensaje "Imagen eliminada" y la imagen se elimina del hilo.|EP01|
-|US24|**Adjuntar videos en publicaciones**|**Como creador**, **quiero poder** adjuntar videos en mis publicaciones **para** dar avances de proyectos que esté desarrollando.|**Scenario 1** <br>**DADO QUE** el creador está escribiendo un hilo, <br>**CUANDO** hace clic en el botón de clip y en la opción "Adjuntar Video" y elige un video de su galería, <br>**ENTONCES** se adjunta el video al hilo.<br><br>**Scenario 2** <br>**DADO QUE** el creador intenta adjuntar un video, <br>**CUANDO** selecciona un archivo inválido, <br>**ENTONCES** el sistema muestra el mensaje "Pruebe otro video".<br><br>**Scenario 3** <br>**DADO QUE** el creador adjuntó un video, <br>**CUANDO** hace clic en el símbolo de "x" en una esquina del video, <br>**ENTONCES** el sistema muestra el mensaje "Video eliminado" y el video se elimina del hilo.|EP01|
-|US25|**Colocar videos de otra red social en una publicación**|**Como artista** **quiero poder** colocar un link de un video de otra red y que se vea grande, no solo como un enlace **para** hacer más llamativa mi publicación.|**Scenario 1** <br>**DADO QUE** el artista realiza una publicación, <br> **CUANDO** coloca un enlace a un video de YouTube, <br>**ENTONCES** el enlace aparece y se muestra la miniatura del video.<br><br>**Scenario 2** <br>**DADO QUE** otro usuario está viendo una publicación que contiene la miniatura de un video de YouTube con su enlace, <br> **CUANDO** hace clic en el enlace o en la miniatura, <br>**ENTONCES** el sistema lo redirige en otra pestaña al video de YouTube.<br><br>**Scenario 3** <br>**DADO QUE** otro usuario está viendo una publicación que contiene la miniatura de un video de YouTube con su enlace, pero el video ya no está disponible, <br> **CUANDO** hace clic en el enlace o en la miniatura, <br>**ENTONCES** el sistema lo redirige en otra pestaña al video con el mensaje "No Disponible".|EP01|
-|US25|**Colocar videos de otra red social en una publicación**|**Como artista** **quiero poder** colocar un link de un video de otra red y que se vea grande, no solo como un enlace **para** hacer más llamativa mi publicación.|**Scenario 1** <br>**DADO QUE** el artista realiza una publicación, <br> **CUANDO** coloca un enlace a un video de YouTube, <br>**ENTONCES** el enlace aparece y se muestra la miniatura del video.<br><br>**Scenario 2** <br>**DADO QUE** otro usuario está viendo una publicación que contiene la miniatura de un video de YouTube con su enlace, <br> **CUANDO** hace clic en el enlace o en la miniatura, <br>**ENTONCES** el sistema lo redirige en otra pestaña al video de YouTube.<br><br>**Scenario 3** <br>**DADO QUE** otro usuario está viendo una publicación que contiene la miniatura de un video de YouTube con su enlace, pero el video ya no está disponible, <br> **CUANDO** hace clic en el enlace o en la miniatura, <br>**ENTONCES** el sistema lo redirige en otra pestaña al video con el mensaje "No Disponible".|EP01|
-|US26|**Reportar publicaciones inadecuadas**|**Como usuario**, **quiero poder** reportar publicaciones con contenido inadecuado o insultos **para** eliminar mensajes inadecuados en la comunidad que me encuentre.|**Scenario 1** <br>**DADO QUE** el usuario sube un archivo GIF, <br>**CUANDO** guarda el portafolio, <br>**ENTONCES** la animación se reproduce correctamente.<br><br>**Scenario 2** <br>**DADO QUE** el archivo excede el tamaño permitido, <br>**CUANDO** intenta subirlo, <br>**ENTONCES** el sistema le solicita optimizarlo.|EP01|
-|US27|**Generar una biblioteca de juegos comprados**|**Como usuario**, **quiero poder** navegar en una biblioteca propia de juegos comprados **para** tener a la mano los proyectos que ya haya comprado.|**Scenario 1** <br>**DADO QUE** el usuario ha comprado solo un juego, <br>**CUANDO** hace clic en la pestaña "Biblioteca", <br>**ENTONCES** el sistema le muestra el juego que compró con la fecha de compra y la opción de descargarlo.<br><br>**Scenario 2** <br>**DADO QUE** el usuario no ha comprado ningún juego, <br>**CUANDO** hace clic en la pestaña "Biblioteca", <br>**ENTONCES** el sistema le muestra un espacio vacío y un mensaje que dice "Aún no tienes juegos".|EP02|
-|US28|**Ordenar la biblioteca**|**Como usuario**, **quiero poder** ordenar la biblioteca de juegos comprados en categorías según su género **para** organizar los juegos que ya tengo comprados por género.|**Scenario 1** <br>**DADO QUE** el usuario tiene juegos de distintos géneros, <br>**CUANDO** hace clic en la flecha del botón "Ordenar por" y selecciona la opción "Género", <br>**ENTONCES** el sistema ordena los juegos de la biblioteca en bloques según género.|EP02|
-|US29|**Definir tiempo de juego máximo de reembolso**|**Como creador**, **quiero restringir** reembolsos de proyectos publicados según el tiempo de juego o transcurrido desde su compra **para** evitar pérdidas en el lanzamiento de mis proyectos.|**Scenario 1** <br>**DADO QUE** han transcurrido 5 días desde que un usuario compró un juego, <br>**CUANDO** hace clic en el botón "Reembolsar Producto" en la pantalla del juego, <br>**ENTONCES** el sistema le muestra el mensaje "Pasados cinco días desde la compra no es posible reembolsar".<br><br>**Scenario 2** <br>**DADO QUE** el usuario compró un juego y tiene registradas más de 2 horas de juego, <br>**CUANDO** hace clic en el botón "Reembolsar Producto" en la pantalla del juego, <br>**ENTONCES** el sistema le muestra el mensaje "Pasadas 2 horas de juego desde la compra no es posible reembolsar".|EP01|
-|US30|**Recibir Notificaciones de recomendaciones específicas**|**Como usuario**, **quiero poder** recibir recomendaciones de juegos particulares que encajen con los juegos recientes que haya comprado **para** encontrar contenido que se adecúe a mis gustos.|**Scenario 1** <br>**DADO QUE** el usuario ha comprado solo juegos de acción, <br>**CUANDO** se publica un proyecto del mismo género, <br>**ENTONCES** el sistema le recomienda el juego con el mensaje "Porque juegas de acción, te recomendamos **Nombre del Juego**".|EP02|
-|US31|**Apagar Notificaciones de recomendaciones**|**Como usuario**, **quiero poder** apagar las recomendaciones de juegos que encajen con los juegos recientes que haya comprado **para** evitar llenar mi apartado de notificaciones.|**Scenario 1** <br>**DADO QUE** el usuario recibe una notificación de un juego que comparte el género de los juegos que compró, <br>**CUANDO** hace clic en el botón "No recomendar más de este tipo", <br>**ENTONCES** el sistema borra la notificación y deja de recomendar más proyectos similares.|EP02|
-|US32|**Ver juegos por ubicación geográfica**|**Como usuario**, **quiero poder** ver juegos desarrollados en mi país o región **para** apoyar creadores locales.|**Scenario 1** <br>**DADO QUE** el usuario selecciona “Perú” como filtro, <br>**CUANDO** aplica la búsqueda, <br>**ENTONCES** el sistema le muestra proyectos peruanos.<br><br>**Scenario 2** <br>**DADO QUE** no hay juegos registrados en esa región, <br>**CUANDO** el usuario aplica el filtro, <br>**ENTONCES** el sistema le indica que no hay resultados.|EP02|
-|US33|**Ver logros desbloqueables en juegos**|**Como usuario**, **quiero poder** ver los logros que puedo desbloquear en cada juego **para** motivarme a completarlos.|**Scenario 1** <br>**DADO QUE** el usuario está en la ficha de un juego, <br>**CUANDO** hace clic en “Logros”, <br>**ENTONCES** ve una lista de objetivos y recompensas.<br><br>**Scenario 2** <br>**DADO QUE** el juego no tiene logros configurados, <br>**CUANDO** el usuario accede a esa sección, <br>**ENTONCES** el sistema le indica que no hay logros disponibles.|EP02|
-|US34|**Ver reseñas destacadas de otros usuarios**|**Como usuario**, **quiero poder** ver reseñas destacadas de otros usuarios **para** tomar decisiones informadas antes de jugar.|**Scenario 1** <br>**DADO QUE** un juego tiene muchas reseñas, <br>**CUANDO** el usuario entra a la sección de comentarios, <br>**ENTONCES** el sistema le muestra las más votadas primero.<br><br>**Scenario 2** <br>**DADO QUE** no hay reseñas destacadas, <br>**CUANDO** el usuario accede a comentarios, <br>**ENTONCES** el sistema le muestra las más recientes.|EP02|
+|US01|**Registro de Usuario**|**Como usuario** **Quiero poder** registrarme en IndieNest **para** crear mi perfil y comenzar a subir mis proyectos.|**Scenario 1**  **DADO QUE** el usuario es nuevo,   **CUANDO** ingresa sus datos y confirma el registro,  **ENTONCES** se crea su cuenta y puede acceder a su panel.  **Scenario 2**  **DADO QUE** el usuario ya tiene cuenta,   **CUANDO** intenta registrarse con el mismo correo,  **ENTONCES** el sistema le avisa que ya existe una cuenta con ese correo y le sugiere iniciar sesión.|EP01|
+|US02|**Crear Portafolio**|**Como desarrollador** **Quiero crear** un portafolio en IndieNest **para** mostrar mis habilidades a posibles empleadores.|**Scenario 1**  **DADO QUE** el usuario tiene proyectos subidos,   **CUANDO** activa la opción de portafolio,  **ENTONCES** se genera una página pública con su información y trabajos.  **Scenario 2**  **DADO QUE** el usuario no tiene proyectos,   **CUANDO** intenta activar el portafolio,  **ENTONCES** el sistema le sugiere subir al menos uno.|EP01|
+|US03|**Subir un Proyecto**|**Como desarrollador** **Quiero poder** subir un nuevo proyecto **para** que otros usuarios lo vean y comenten.|**Scenario 1**  **DADO QUE** el usuario tiene un archivo ejecutable y capturas,   **CUANDO** completa el formulario de subida,  **ENTONCES** el proyecto aparece en su perfil y en el feed.  **Scenario 2**  **DADO QUE** el usuario no completa los campos obligatorios,   **CUANDO** intenta publicar,  **ENTONCES** el sistema le avisa qué le falta.|EP01|
+|US04|**Clasificar proyectos por género**|**Como desarrollador** **Quiero poder** asignar un género a mi proyecto **para** que sea más fácil de encontrar proyectos de cierto género.|**Scenario 1**  **DADO QUE** el usuario selecciona "Plataformas",   **CUANDO** define el género de un proyecto y lo publica,  **ENTONCES** el proyecto aparece en la categoría correspondiente.  **Scenario 2**  **DADO QUE** el usuario no selecciona género,   **CUANDO** intenta publicar el proyecto,  **ENTONCES** el sistema le pide escoger algún género.|EP01|
+|US05|**Indicar versión del proyecto**|**Como desarrollador** **Quiero poder** especificar si mi proyecto es demo, beta o final **para** que los usuarios sepan su estado.|**Scenario 1**  **DADO QUE** el usuario escoge "Beta",   **CUANDO** publica el proyecto,  **ENTONCES** el estado de desarrollo del proyecto se muestra junto al título.  **Scenario 2**  **DADO QUE** el usuario cambia la versión a "Final",   **CUANDO** guarda los cambios,  **ENTONCES** el estado del proyecto se actualiza.|EP01|
+|US06|**Recibir Comentarios**|**Como desarrollador** **Quiero poder** recibir comentarios en mis proyectos **para** obtener feedback de parte del público.|**Scenario 1**  **DADO QUE** otro usuario comenta,   **CUANDO** el desarrollador revisa la sección de comentarios de su publicación,  **ENTONCES** encuentra el mensaje y puede contestarlo.  **Scenario 2**  **DADO QUE** el desarrollador recibe un comentario inapropiado,   **CUANDO** lo reporta,  **ENTONCES** el sistema lo envía a moderación.|EP01|
+|US07|**Editar proyectos**|**Como desarrollador** **Quiero poder** editar la información de mis proyectos **para** mantenerla actualizada.|**Scenario 1**  **DADO QUE** el desarrollador cambia la descripción,   **CUANDO** guarda los cambios,  **ENTONCES** la nueva versión se muestra al público.  **Scenario 2**  **DADO QUE** el desarrollador elimina una imagen de la publicación,   **CUANDO** guarda los cambios,  **ENTONCES** ya no aparece en la galería.|EP01|
+|US08|**Buscar colaboradores**|**Como desarrollador** **Quiero poder** buscar colaboradores por habilidades **para** contactarlos para hacer una colaboración.|**Scenario 1**  **DADO QUE** el desarrollador busca "artista 3D",   **CUANDO** aplica el filtro,  **ENTONCES** ve perfiles que cumplen ese criterio.  **Scenario 2**  **DADO QUE** no hay resultados,   **CUANDO** aplica el filtro,  **ENTONCES** el sistema le sugiere ampliar la búsqueda.|EP01|
+|US09|**Recibir Solicitudes de Colaboración**|**Como desarrollador** **Quiero poder** recibir solicitudes de otros usuarios **para** unirme a sus proyectos.|**Scenario 1**  **DADO QUE** otro usuario envía una invitación,   **CUANDO** el desarrollador revisa la bandeja,  **ENTONCES** puede aceptar o rechazar.  **Scenario 2**  **DADO QUE** el desarrollador rechaza una solicitud,   **CUANDO** confirma la acción,  **ENTONCES** el remitente recibe una notificación.|EP01|
+|US10|**Filtrar proyectos por Género**|**Como usuario** **Quiero poder** filtrar proyectos por género **para** encontrar proyectos que se amolden a mis gustos más fácilmente.|**Scenario 1**  **DADO QUE** el usuario selecciona "Terror",   **CUANDO** hace clic en "Aplicar Filtro",  **ENTONCES** ve solo proyectos de Terror.|EP02|
+|US11|**Redactar Descripción de Perfil Profesional**|**Como desarrollador** **Quiero poder** listar mis habilidades técnicas **para** que otros sepan en qué puedo contribuir a sus proyectos.|**Scenario 1**  **DADO QUE** el desarrollador agrega texto en la descripción de su perfil,   **CUANDO** hace clic en "Guardar",  **ENTONCES** la descripción aparece en su perfil.  **Scenario 2**  **DADO QUE** el desarrollador elimina datos o toda la descripción de su perfil,   **CUANDO** hace clic en "Guardar",  **ENTONCES** ya no se muestra la descripción en su perfil.|EP01|
+|US12|**Recibir calificaciones en los proyectos**|**Como desarrollador** **Quiero poder** recibir calificaciones en mis proyectos **para** medir su impacto en el público.|**Scenario 1**  **DADO QUE** un usuario escribe un comentario,   **CUANDO** hace clic en "Guardar Comentarios",  **ENTONCES** se muestra la reseña en la sección "Comentarios".  **Scenario 2**  **DADO QUE** el usuario califica con 5 estrellas,   **CUANDO** hace clic en "Agregar Puntuación",  **ENTONCES** el promedio de puntuación sube.  **Scenario 3**  **DADO QUE** el usuario califica con 1 o menos estrellas,   **CUANDO** hace clic en "Agregar Puntuación",  **ENTONCES** el promedio de puntuación disminuye.|EP01|
+|US13|**Integrar enlaces externos**|**Como desarrollador** **Quiero poder** añadir un enlace a repositorios o páginas externas **para** ampliar la información.|**Scenario 1**  **DADO QUE** el desarrollador agrega un enlace a GitHub en la sección "Enlaces" de su perfil,   **CUANDO** hace clic en "Guardar Enlace",  **ENTONCES** se actualiza la sección "Enlaces" y el número de enlaces guardados al lado.  **Scenario 2**  **DADO QUE** el enlace es inválido,   **CUANDO** el desarrollador hace clic en "Guardar Enlace",  **ENTONCES** el sistema le avisa que el enlace es inválido.  **Scenario 3**  **DADO QUE** otro usuario está viendo la descripción del perfil,   **CUANDO** hace clic en "Enlaces",  **ENTONCES** el sistema muestra los enlaces guardados.|EP01|
+|US14|**Revisar Estadísticas**|**Como desarrollador** **Quiero poder** revisar estadísticas de visitas y descargas **para** evaluar el alcance de mi proyecto.|**Scenario 1**  **DADO QUE** el desarrollador accede a la sección "Desempeño" de su proyecto,   **CUANDO** ingresa a la subsección "Descargas",  **ENTONCES** el sistema muestra la cantidad de descargas que ha tenido el proyecto.  **Scenario 2**  **DADO QUE** el desarrollador está en la sección "Descargas",   **CUANDO** hace clic en "Visitas",  **ENTONCES** el sistema muestra la cantidad de visitas que ha recibido el proyecto.|EP01|
+|US15|**Recibir Notificaciones de los Proyectos**|**Como desarrollador** **Quiero poder** recibir notificaciones de actividad **para** estar al tanto de las interacciones de los usuarios.|**Scenario 1**  **DADO QUE** otro usuario deja un comentario,   **CUANDO** el desarrollador accede a la sección "Notificaciones",  **ENTONCES** se muestra un mensaje indicando "Alguien comentó en *Nombre del Proyecto*".  **Scenario 2**  **DADO QUE** el desarrollador presiona "Marcar como leído",   **CUANDO** ingresa nuevamente a la sección "Notificaciones",  **ENTONCES** la notificación ya no figura como pendiente.|EP01|
+|US16|**Activar o Desactivar Notificaciones de Proyectos**|**Como desarrollador** **Quiero poder** silenciar notificaciones de ciertas actividades **para** no sobrecargar mi dispositivo de notificaciones.|**Scenario 1**  **DADO QUE** el desarrollador está en un proyecto propio,   **CUANDO** hace clic en "Desactivar Notificaciones",  **ENTONCES** el sistema deja de enviarle notificaciones sobre ese proyecto.  **Scenario 2**  **DADO QUE** el desarrollador está en un proyecto al que silenció notificaciones anteriormente,   **CUANDO** hace clic en "Reactivar Notificaciones",  **ENTONCES** el sistema vuelve a enviarle notificaciones sobre ese proyecto.|EP01|
+|US17|**Integrar pagos**|**Como desarrollador** **Quiero poder** vender mis juegos **para** generar ingresos de mis proyectos.|**Scenario 1**  **DADO QUE** el desarrollador configura Stripe,   **CUANDO** publica un juego y le coloca el precio,  **ENTONCES** los usuarios pueden comprarlo.  **Scenario 2**  **DADO QUE** un usuario hace clic en "Comprar por **Precio**",   **CUANDO** paga el juego a través de Stripe,  **ENTONCES** el sistema muestra el mensaje "Juego Comprado Exitosamente" y el juego aparece en su biblioteca.|EP01|
+|US18|**Activar o Desactivar Notificaciones de desarrolladores**|**Como usuario**, **quiero poder** saber cuando el desarrollador que sigo sube alguna publicación **para** enterarme rápidamente de estas.|**Scenario 1**  **DADO QUE** el usuario está en el perfil de una cuenta a la que sigue,   **CUANDO** hace clic en el botón "Activar Notificaciones",  **ENTONCES** el sistema muestra el mensaje "Se activaron las notificaciones".  **Scenario 2**  **DADO QUE** el usuario está en el perfil de un desarrollador al que sigue,   **CUANDO** hace clic en el botón "Desactivar Notificaciones",  **ENTONCES** el sistema muestra el mensaje "Se desactivaron las notificaciones".|EP02|
+|US19|**Marcar o desmarcar proyectos como favoritos**|**Como usuario** **Quiero poder** seleccionar proyectos como favoritos **para** acceder rápidamente a ellos cuando desee.|**Scenario 1**  **DADO QUE** el usuario está viendo un proyecto,   **CUANDO** hace clic en el ícono de estrella amarillo,  **ENTONCES** el sistema muestra el mensaje "Se guardó como favorito" y lo guarda en su lista "Favoritos".  **Scenario 2**  **DADO QUE** el usuario está en su lista de "Favoritos",   **CUANDO** hace clic en el ícono de tacho de basura en un proyecto,  **ENTONCES** el sistema muestra el mensaje "Eliminado de Favoritos".|EP02|
+|US20|**Compartir proyectos en redes sociales**|**Como usuario**, **quiero poder** compartir proyectos en redes sociales **para** aumentar su visibilidad.|**Scenario 1**  **DADO QUE** el usuario está en la ficha de un proyecto,  **CUANDO** hace clic en "Compartir en Twitter",  **ENTONCES** se publica un enlace con la portada del proyecto.  **Scenario 2**  **DADO QUE** el usuario no tiene sesión iniciada en la red social,  **CUANDO** intenta compartir,  **ENTONCES** el sistema le solicita iniciar sesión.|EP01|
+|US21|**Recibir recomendaciones personalizadas**|**Como usuario**, **quiero poder** recibir recomendaciones de proyectos en mi feed **para** descubrir contenido relevante según mis intereses.|**Scenario 1**  **DADO QUE** el usuario ha interactuado con juegos de plataformas,  **CUANDO** entra al feed,  **ENTONCES** el sistema le sugiere más contenido de ese género.  **Scenario 2**  **DADO QUE** el usuario marca que no le interesa un género,  **CUANDO** refresca el feed,  **ENTONCES** ese tipo de contenido deja de aparecer.|EP02|
+|US22|**Realizar o Borrar Publicaciones**|**Como creador**, **quiero poder** tener un apartado en el que subir publicaciones de texto comentando datos que le interesen a mi público **para** intercambiar ideas y formar una comunidad al rededor de mis proyectos.|**Scenario 1**  **DADO QUE** el creador accede a la pestaña "Comunidad" en su perfil,  **CUANDO** crea un hilo y hace clic en "Publicar",  **ENTONCES** se sube una publicación con el texto que escribió.  **Scenario 2**  **DADO QUE** el creador desea borrar un hilo que ya subió,  **CUANDO** hace clic en el ícono de tacho de basura y luego en "Eliminar",  **ENTONCES** el sistema borra el hilo de la pestaña de comunidad.|EP01|
+|US23|**Adjuntar imágenes en publicaciones**|**Como creador**, **quiero poder** adjuntar imágenes en mis publicaciones **para** dar avances de proyectos que esté desarrollando.|**Scenario 1**  **DADO QUE** el creador está escribiendo un hilo,  **CUANDO** hace clic en el botón de clip y en la opción "Adjuntar Imagen" y elige una imagen de su galería,  **ENTONCES** se adjunta la imagen al hilo.  **Scenario 2**  **DADO QUE** el creador intenta adjuntar una imagen,  **CUANDO** selecciona un archivo inválido,  **ENTONCES** el sistema muestra el mensaje "Pruebe otra imagen".  **Scenario 3**  **DADO QUE** el creador adjuntó una imagen,  **CUANDO** hace clic en el símbolo de "x" en una esquina de la imagen,  **ENTONCES** el sistema muestra el mensaje "Imagen eliminada" y la imagen se elimina del hilo.|EP01|
+|US24|**Adjuntar videos en publicaciones**|**Como creador**, **quiero poder** adjuntar videos en mis publicaciones **para** dar avances de proyectos que esté desarrollando.|**Scenario 1**  **DADO QUE** el creador está escribiendo un hilo,  **CUANDO** hace clic en el botón de clip y en la opción "Adjuntar Video" y elige un video de su galería,  **ENTONCES** se adjunta el video al hilo.  **Scenario 2**  **DADO QUE** el creador intenta adjuntar un video,  **CUANDO** selecciona un archivo inválido,  **ENTONCES** el sistema muestra el mensaje "Pruebe otro video".  **Scenario 3**  **DADO QUE** el creador adjuntó un video,  **CUANDO** hace clic en el símbolo de "x" en una esquina del video,  **ENTONCES** el sistema muestra el mensaje "Video eliminado" y el video se elimina del hilo.|EP01|
+|US25|**Colocar videos de otra red social en una publicación**|**Como artista** **quiero poder** colocar un link de un video de otra red y que se vea grande, no solo como un enlace **para** hacer más llamativa mi publicación.|**Scenario 1**  **DADO QUE** el artista realiza una publicación,   **CUANDO** coloca un enlace a un video de YouTube,  **ENTONCES** el enlace aparece y se muestra la miniatura del video.  **Scenario 2**  **DADO QUE** otro usuario está viendo una publicación que contiene la miniatura de un video de YouTube con su enlace,   **CUANDO** hace clic en el enlace o en la miniatura,  **ENTONCES** el sistema lo redirige en otra pestaña al video de YouTube.  **Scenario 3**  **DADO QUE** otro usuario está viendo una publicación que contiene la miniatura de un video de YouTube con su enlace, pero el video ya no está disponible,   **CUANDO** hace clic en el enlace o en la miniatura,  **ENTONCES** el sistema lo redirige en otra pestaña al video con el mensaje "No Disponible".|EP01|
+|US25|**Colocar videos de otra red social en una publicación**|**Como artista** **quiero poder** colocar un link de un video de otra red y que se vea grande, no solo como un enlace **para** hacer más llamativa mi publicación.|**Scenario 1**  **DADO QUE** el artista realiza una publicación,   **CUANDO** coloca un enlace a un video de YouTube,  **ENTONCES** el enlace aparece y se muestra la miniatura del video.  **Scenario 2**  **DADO QUE** otro usuario está viendo una publicación que contiene la miniatura de un video de YouTube con su enlace,   **CUANDO** hace clic en el enlace o en la miniatura,  **ENTONCES** el sistema lo redirige en otra pestaña al video de YouTube.  **Scenario 3**  **DADO QUE** otro usuario está viendo una publicación que contiene la miniatura de un video de YouTube con su enlace, pero el video ya no está disponible,   **CUANDO** hace clic en el enlace o en la miniatura,  **ENTONCES** el sistema lo redirige en otra pestaña al video con el mensaje "No Disponible".|EP01|
+|US26|**Reportar publicaciones inadecuadas**|**Como usuario**, **quiero poder** reportar publicaciones con contenido inadecuado o insultos **para** eliminar mensajes inadecuados en la comunidad que me encuentre.|**Scenario 1**  **DADO QUE** el usuario sube un archivo GIF,  **CUANDO** guarda el portafolio,  **ENTONCES** la animación se reproduce correctamente.  **Scenario 2**  **DADO QUE** el archivo excede el tamaño permitido,  **CUANDO** intenta subirlo,  **ENTONCES** el sistema le solicita optimizarlo.|EP01|
+|US27|**Generar una biblioteca de juegos comprados**|**Como usuario**, **quiero poder** navegar en una biblioteca propia de juegos comprados **para** tener a la mano los proyectos que ya haya comprado.|**Scenario 1**  **DADO QUE** el usuario ha comprado solo un juego,  **CUANDO** hace clic en la pestaña "Biblioteca",  **ENTONCES** el sistema le muestra el juego que compró con la fecha de compra y la opción de descargarlo.  **Scenario 2**  **DADO QUE** el usuario no ha comprado ningún juego,  **CUANDO** hace clic en la pestaña "Biblioteca",  **ENTONCES** el sistema le muestra un espacio vacío y un mensaje que dice "Aún no tienes juegos".|EP02|
+|US28|**Ordenar la biblioteca**|**Como usuario**, **quiero poder** ordenar la biblioteca de juegos comprados en categorías según su género **para** organizar los juegos que ya tengo comprados por género.|**Scenario 1**  **DADO QUE** el usuario tiene juegos de distintos géneros,  **CUANDO** hace clic en la flecha del botón "Ordenar por" y selecciona la opción "Género",  **ENTONCES** el sistema ordena los juegos de la biblioteca en bloques según género.|EP02|
+|US29|**Definir tiempo de juego máximo de reembolso**|**Como creador**, **quiero restringir** reembolsos de proyectos publicados según el tiempo de juego o transcurrido desde su compra **para** evitar pérdidas en el lanzamiento de mis proyectos.|**Scenario 1**  **DADO QUE** han transcurrido 5 días desde que un usuario compró un juego,  **CUANDO** hace clic en el botón "Reembolsar Producto" en la pantalla del juego,  **ENTONCES** el sistema le muestra el mensaje "Pasados cinco días desde la compra no es posible reembolsar".  **Scenario 2**  **DADO QUE** el usuario compró un juego y tiene registradas más de 2 horas de juego,  **CUANDO** hace clic en el botón "Reembolsar Producto" en la pantalla del juego,  **ENTONCES** el sistema le muestra el mensaje "Pasadas 2 horas de juego desde la compra no es posible reembolsar".|EP01|
+|US30|**Recibir Notificaciones de recomendaciones específicas**|**Como usuario**, **quiero poder** recibir recomendaciones de juegos particulares que encajen con los juegos recientes que haya comprado **para** encontrar contenido que se adecúe a mis gustos.|**Scenario 1**  **DADO QUE** el usuario ha comprado solo juegos de acción,  **CUANDO** se publica un proyecto del mismo género,  **ENTONCES** el sistema le recomienda el juego con el mensaje "Porque juegas de acción, te recomendamos **Nombre del Juego**".|EP02|
+|US31|**Apagar Notificaciones de recomendaciones**|**Como usuario**, **quiero poder** apagar las recomendaciones de juegos que encajen con los juegos recientes que haya comprado **para** evitar llenar mi apartado de notificaciones.|**Scenario 1**  **DADO QUE** el usuario recibe una notificación de un juego que comparte el género de los juegos que compró,  **CUANDO** hace clic en el botón "No recomendar más de este tipo",  **ENTONCES** el sistema borra la notificación y deja de recomendar más proyectos similares.|EP02|
+|US32|**Ver juegos por ubicación geográfica**|**Como usuario**, **quiero poder** ver juegos desarrollados en mi país o región **para** apoyar creadores locales.|**Scenario 1**  **DADO QUE** el usuario selecciona “Perú” como filtro,  **CUANDO** aplica la búsqueda,  **ENTONCES** el sistema le muestra proyectos peruanos.  **Scenario 2**  **DADO QUE** no hay juegos registrados en esa región,  **CUANDO** el usuario aplica el filtro,  **ENTONCES** el sistema le indica que no hay resultados.|EP02|
+|US33|**Ver logros desbloqueables en juegos**|**Como usuario**, **quiero poder** ver los logros que puedo desbloquear en cada juego **para** motivarme a completarlos.|**Scenario 1**  **DADO QUE** el usuario está en la ficha de un juego,  **CUANDO** hace clic en “Logros”,  **ENTONCES** ve una lista de objetivos y recompensas.  **Scenario 2**  **DADO QUE** el juego no tiene logros configurados,  **CUANDO** el usuario accede a esa sección,  **ENTONCES** el sistema le indica que no hay logros disponibles.|EP02|
+|US34|**Ver reseñas destacadas de otros usuarios**|**Como usuario**, **quiero poder** ver reseñas destacadas de otros usuarios **para** tomar decisiones informadas antes de jugar.|**Scenario 1**  **DADO QUE** un juego tiene muchas reseñas,  **CUANDO** el usuario entra a la sección de comentarios,  **ENTONCES** el sistema le muestra las más votadas primero.  **Scenario 2**  **DADO QUE** no hay reseñas destacadas,  **CUANDO** el usuario accede a comentarios,  **ENTONCES** el sistema le muestra las más recientes.|EP02|
 ## 3.2. Impact Mapping.
 
-![](img/impact-map.png)
+![Impact Mapping](img/impact-map.png)
 
 ## 3.3. Product Backlog.
 
@@ -869,7 +874,7 @@ Elaboramos el Product Backlog con la escala de estimación Fibonacci (1, 2, 3, 5
 
 https://trello.com/b/SBmiXIZJ/indienest
 
-|# Orden|User Story ID|Título|Descripción|Story Points <br>(1/2/3/5/8)|
+|# Orden|User Story ID|Título|Descripción|Story Points  (1/2/3/5/8)|
 |--|--|--|--|--|
 |1|US01|Registro de Usuario|Como usuario, quiero poder registrarme en IndieNest para crear mi perfil y comenzar a subir proyectos.|3|
 |2|US02|Crear Portafolio|Como desarrollador, quiero crear un portafolio en IndieNest para mostrar mis habilidades a posibles empleadores.|5|
@@ -1170,52 +1175,34 @@ A continuación, se presentan los wireframes de la Landing Page de IndieNest, di
 En la versión de escritorio, se prioriza una disposición visual jerárquica y accesible. Elementos esenciales como el logotipo de IndieNest, el menú principal (About, Goals y Contact) y los botones de acción se ubican en la parte superior para garantizar máxima visibilidad y navegación sin fricciones. La página principal presenta una breve introducción sobre la plataforma y los miembros del equipo representados mediante avatares circulares.
 
 **Ventana Principal**
-<br>
-<img src="img/HomePC.png" width="900"/>
-<br>
+![LandingPagePC](img/HomePC.png)
 
 **Ventana About**
-<br>
-<img src="img/AboutPC.png" width="900"/>
-<br>
+![LandingPagePC](img/AboutPC.png)
 
 **Ventana Goals**
-<br>
-<img src="img/GoalsPC.png" width="900"/>
-<br>
+![LandingPagePC](img/GoalsPC.png)
 
 **Ventanna Contacts**
-<br>
-<img src="img/ContactPC.png" width="900"/>
-<br>
+![LandingPagePC](img/ContactPC.png)
 
-**Wireframes para la versión móvil**
-<br>
+ **Wireframes para la versión móvil**
+
 
 **Ventana Principal móvil**
-<br>
-<img src="img/HomeCL.png" width="600"/>
-<br>
+![LandingPageMovil](img/HomeCL.png)
 
 **Ventana Principal menu móvil**
-<br>
-<img src="img/HomeOPCL.png" width="600"/>
-<br>
+![LandingPageMovil](img/HomeOPCL.png)
 
 **Ventana About móvil**
-<br>
-<img src="img/AboutCL.png" width="600"/>
-<br>
+![LandingPageMovil](img/AboutCL.png)
 
 **Ventana Goals móvil**
-<br>
-<img src="img/GoalsCL.png" width="600"/>
-<br>
+![LandingPageMovil](img/GoalsCL.png)
 
-**Ventanna Contacts móvil**
-<br>
-<img src="img/ContactCL.png" width="600"/>
-<br>
+**Ventana Contacts móvil**
+![LandingPageMovil](img/ContactCL.png)
 
 En la versión móvil, se adapta el diseño mediante un menú tipo “hamburguesa” ubicado en la parte superior izquierda, optimizando la experiencia en pantallas pequeñas. El contenido se organiza en formato vertical, con énfasis en la legibilidad y botones de acción amplios para facilitar la interacción táctil. Las secciones About, Goals y Contact se muestran en bloques diferenciados que conservan la jerarquía informativa del escritorio, pero con una navegación más secuencial e intuitiva.
 
@@ -1230,99 +1217,63 @@ La versión móvil de la landing page conserva estos principios de diseño centr
 ## 4.4 Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 **Ventana Home**
-<br>
-<img src="img/wireframes-web-app/WFAppHome.png" width="900"/>
-<br>
+![WebApplicationsHome](img/wireframes-web-app/WFAppHome.png)
 
 **Ventana Login**
-<br>
-<img src="img/wireframes-web-app/WFAppLogin.png" width="900"/>
-<br>
+![WebApplicationsLogin](img/wireframes-web-app/WFAppLogin.png)
 
 **Ventana Register**
-<br>
-<img src="img/wireframes-web-app/WFAppRegister.png" width="900"/>
-<br>
+![WebApplicationsRegister](img/wireframes-web-app/WFAppRegister.png)
 
 **Ventana Usuario**
-<br>
-<img src="img/wireframes-web-app/WFAppUser.png" width="900"/>
-<br>
+![WebApplicationsUsuario](img/wireframes-web-app/WFAppUser.png)
 
 **Ventana Audio**
-<br>
-<img src="img/wireframes-web-app/WFAppAudio.png" width="900"/>
-<br>
+![WebApplicationsAudio](img/wireframes-web-app/WFAppAudio.png)
 
 **Ventana Art**
-<br>
-<img src="img/wireframes-web-app/WFAppArt.png" width="900"/>
-<br>
+![WebApplicationsArt](img/wireframes-web-app/WFAppArt.png)
 
 **Ventana Developer**
-<br>
-<img src="img/wireframes-web-app/WFAppDeveloper.png" width="900"/>
-<br>
+![WebApplicationsDeveloper](img/wireframes-web-app/WFAppDeveloper.png)
 
 **Ventana Comprar**
-<br>
-<img src="img/wireframes-web-app/WFAppBuy.png" width="900"/>
-<br>
+![WebApplicationsBuy](img/wireframes-web-app/WFAppBuy.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
-- User Goal: el usuario ingresa a la web app para registrarse o inciar sesion en la misma.
+- User Goal: el usuario ingresa a la web app para registrarse o iniciar sesion en la misma.
 TaskFlow:
-<br>
-<img src="img/TaskFlow.png" width="900"/>
-<br>
-Pantalla:<br>
-Al ingresas a la aplicacion, el usuario se encontrara en la ventana de iniciar sesion con la opcion de registrarse mediante el boton del mismo nombre.
-<br>
+![TaskFlow](img/TaskFlow.png)
+Pantalla: 
+Al ingresas a la aplicacion, el usuario se encontrára en la ventana de iniciar sesion con la opcion de registrarse mediante el boton del mismo nombre.
+ 
 Proceso de registro:
-<br>
+ 
 Al seleccionar registrar se desplega el formulario para llenar con los datos requeridos para crear su cuenta y luego iniciar sesion.
-<br>
+ 
 Confirmacion:
-<br>
-Al iniciar sesion, la aplicacion manda al usuario a la pagina principal/home.
-<br>
+ 
+Al iniciar sesion, la aplicacion manda al usuario a la página principal/home.
+ 
 WireFlow:
-<br>
-<img src="img/WireFlow.png" width="900"/>
-<br>
-### 4.4.3. Web Applications Mock-ups <br>
+![WireFlow](img/WireFlow.png)
+### 4.4.3. Web Applications Mock-ups  
 **Ventana Home**
-<br>
-<img src="img/mockup-web-app/MUAppHome.png" width="900"/>
-<br>
+![VentanaHome](img/mockup-web-app/MUAppHome.png)
 **Ventana Login**
-<br>
-<img src="img/mockup-web-app/MUAppLogin.png" width="900"/>
-<br>
+![VentanaLogin](img/mockup-web-app/MUAppLogin.png)
 **Ventana Register**
-<br>
-<img src="img/mockup-web-app/MUAppRegister.png" width="900"/>
-<br>
+![VentanaRegister](img/mockup-web-app/MUAppRegister.png)
 **Ventana Usuario**
-<br>
-<img src="img/mockup-web-app/MUAppUser.png" width="900"/>
-<br>
+![VentanaUser](img/mockup-web-app/MUAppUser.png)
 **Ventana Audio**
-<br>
-<img src="img/mockup-web-app/MUAppAudio.png" width="900"/>
-<br>
+![VentanaAudio](img/mockup-web-app/MUAppAudio.png)
 **Ventana Art**
-<br>
-<img src="img/mockup-web-app/MUAppArt.png" width="900"/>
-<br>
+![VentanaArt](img/mockup-web-app/MUAppArt.png)
 **Ventana Developer**
-<br>
-<img src="img/mockup-web-app/MUAppDeveloper.png" width="900"/>
-<br>
+![VentanaDeveloper](img/mockup-web-app/MUAppDeveloper.png)
 **Ventana Comprar**
-<br>
-<img src="img/mockup-web-app/MUAppBuy.png" width="900"/>
-<br>
+![VentanaBuy](img/mockup-web-app/MUAppBuy.png)
 ### 4.4.4. Web Applications User Flow Diagrams
 ## 4.5 Web Applications Prototyping
 ## 4.6 Domain-Driven Software Architecture
@@ -1340,108 +1291,102 @@ En esta sección nos enfocamos en hacer un diseño más profundo del realizado e
 A continuación mostraremos las capturas del Design Level Event Storming realizado, separandolos según el Bounded Context al que pertenezcan y comenzando con los Core del negocio.
 
   
-  <br>
+   
   
 **Bounded Context Project:** 
 
-![](img/dl-event-storming/project/project-1.png) 
-![](img/dl-event-storming/project/project-2.png)
-![](img/dl-event-storming/project/project-3.png)
-![](img/dl-event-storming/project/project-4.png)
-![](img/dl-event-storming/project/project-5.png)
+![Bounded Context Project](img/dl-event-storming/project/project-1.png) 
+![Bounded Context Project](img/dl-event-storming/project/project-2.png)
+![Bounded Context Project](img/dl-event-storming/project/project-3.png)
+![Bounded Context Project](img/dl-event-storming/project/project-4.png)
+![Bounded Context Project](img/dl-event-storming/project/project-5.png)
   
-  <br>
+   
   
 **Bounded Context Portfolio:**  
 
-![](img/dl-event-storming/portfolio/portfolio-1.png)
-![](img/dl-event-storming/portfolio/portfolio-2.png)
+![Bounded Context Portfolio](img/dl-event-storming/portfolio/portfolio-1.png)
+![Bounded Context Portfolio](img/dl-event-storming/portfolio/portfolio-2.png)
 
-  <br>
+   
   
 **Bounded Context Marketplace:**  
 
-![](img/dl-event-storming/marketplace/marketplace-1.png)
-![](img/dl-event-storming/marketplace/marketplace-2.png)
+![Bounded Context MarketPlace](img/dl-event-storming/marketplace/marketplace-1.png)
+![Bounded Context MarketPlace](img/dl-event-storming/marketplace/marketplace-2.png)
   
-  <br>
+   
   
 **Bounded Context Support:**  
 
-![](img/dl-event-storming/support/support-1.png)
-![](img/dl-event-storming/support/support-2.png)
+![Bounded Context Support](img/dl-event-storming/support/support-1.png)
+![Bounded Context Support](img/dl-event-storming/support/support-2.png)
   
-  <br>
+   
   
 **Bounded Context Community:**  
 
-![](img/dl-event-storming/community/community-1.png)
-![](img/dl-event-storming/community/community-2.png)
+![Bounded Context Community](img/dl-event-storming/community/community-1.png)
+![Bounded Context Community](img/dl-event-storming/community/community-2.png)
 
 
- <br>
+  
  
 **Bounded Context Profile:**  
 
-![](img/dl-event-storming/profile/profile-1.png)
-![](img/dl-event-storming/profile/profile-2.png)
-![](img/dl-event-storming/profile/profile-3.png)
-![](img/dl-event-storming/profile/profile-4.png)
+![Bounded Context Profile](img/dl-event-storming/profile/profile-1.png)
+![Bounded Context Profile](img/dl-event-storming/profile/profile-2.png)
+![Bounded Context Profile](img/dl-event-storming/profile/profile-3.png)
+![Bounded Context Profile](img/dl-event-storming/profile/profile-4.png)
 
-  <br>
+   
 
 **Bounded Context IAM:** 
 
-![](img/dl-event-storming/iam/iam-1.png)
+![Bounded Context IAM](img/dl-event-storming/iam/iam-1.png)
 
-  <br>
+   
   
 **Bounded Context Notification:** 
 
-![](img/dl-event-storming/notification/notification-1.png)
-![](img/dl-event-storming/notification/notification-2.png)
+![Bounded Context Notification](img/dl-event-storming/notification/notification-1.png)
+![Bounded Context Notification](img/dl-event-storming/notification/notification-2.png)
  
-  <br>
+   
   
 **Bounded Context Payment:** 
 
-![](img/dl-event-storming/payment/payment-1.png)
+![Bounded Context Payment](img/dl-event-storming/payment/payment-1.png)
 
 
 
 ### 4.6.2. Software Architecture Context Diagram
 
- <br>
+  
  
-![](img/c4/context-diagram.png)
+![Diagram Context](img/c4/context-diagram.png)
 
- <br>
+  
  
 ### 4.6.3. Software Architecture Container Diagrams
 
-<br>
+ 
 
-![](img/c4/containers-diagram.png)
+![Diagram Container](img/c4/containers-diagram.png)
 
-<br>
+ 
  
 ### 4.6.4.Software Architecture Components Diagrams
- <br>
+  
  
-![](img/c4/components-diagram.png)
+![Diagram Components](img/c4/components-diagram.png)
  
- <br>
+  
  
 ## 4.7 Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
-
- <br>
- 
-<img src=img/cd_indienest.png width=1500/>
-
- <br>
-
+![Class Diagrams](img/cd_indienest.png)
 ## 4.8. Database Design
 # IndieNest - Base de Datos (SQL Server)
 
@@ -1687,8 +1632,10 @@ GO
 
 ```
 ### 4.8.1.Database Diagrams
-<img src=img/dbindienest.png width=1500/>
---
+
+![Database Diagrams](img/dbindienest.png)
+
+---
 
 # 5. Capitulo V Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
@@ -1703,7 +1650,7 @@ En cuanto a los lenguajes y tecnologías:
 ### 5.1.2. Source Code Management
 
 El repositorio del proyecto se encuentra en GitHub, dentro de la organización del equipo Arkenna. 
-Se aplicara la metodología GitFlow, asegurando un flujo de trabajo ordenado:
+Se aplicára la metodología GitFlow, asegurando un flujo de trabajo ordenado:
 - La rama main contendrá siempre la versión estable y lista para producción.
 - La rama develop será utilizada para integrar las nuevas funcionalidades antes de su pase a producción.
 - Las ramas feature/ se emplearán para el desarrollo de funcionalidades específicas, por ejemplo: feature/login.
@@ -1743,20 +1690,20 @@ La arquitectura de despliegue contempla los siguientes elementos:
 ## 5.2.1. Sprint 0
 
 ## 5.2.1.1. Sprint Planning 0
-| **Sprint #**                  | Sprint 0 |
-|--------------------------------|----------|
-| **Sprint Planning Background** |  |
-| **Date**                       | 2025-09-5 |
-| **Time**                       | 10:00 AM |
-| **Location**                   | Reunión presencial – Salón UH-52 |
-| **Prepared By**                | Giuliano Angel Pelaez Vargas |
-| **Attendees (to planning meeting)** | Giuliano Angel Pelaez Vargas / Daniel Jonatan Aquino Solorzano / Johnny Alexander Ojanama Abanto / Rolando Andre Torres Diaz / Carlos Augusto Paredes Chavez |
-| **Sprint n – 1 Review Summary** | No hubo Sprint anterior. |
-| **Sprint n – 1 Retrospective Summary** | No hubo Sprint anterior|
-| **Sprint Goal & User Stories** | |
-| **Sprint 0 Goal**              | Configurar la base técnica del proyecto (entorno de desarrollo, repositorio GitHub, GitFlow, prototipo inicial de Landing Page). |
-| **Sprint 0 Velocity**          | 10 Story Points |
-| **Sum of Story Points**        | 10 |
+| **Sprint #**                           | Sprint 1                                                                                                                                                                            |
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**         |                                                                                                                                                                                     |
+| **Date**                               | 2025-09-5                                                                                                                                                                           |
+| **Time**                               | 10:00 AM                                                                                                                                                                            |
+| **Location**                           | Reunión presencial – Salón UH-52                                                                                                                                                    |
+| **Prepared By**                        | Giuliano Angel Pelaez Vargas                                                                                                                                                        |
+| **Attendees (to planning meeting)**    | Giuliano Angel Pelaez Vargas / Daniel Jonatan Aquino Solorzano / Johnny Alexander Ojanama Abanto / Rolando Andre Torres Diaz / Carlos Augusto Paredes Chavez                        |
+| **Sprint n – 1 Review Summary**        | No hubo Sprint anterior.                                                                                                                                                            |
+| **Sprint n – 1 Retrospective Summary** | No hubo Sprint anterior                                                                                                                                                             |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                     |
+| **Sprint 1 Goal**                      | Desarrollar y desplegar la Landing Page funcional de IndieNest junto con su base de datos inicial, validando que los usuarios puedan registrarse y visualizar proyectos publicados. |
+| **Sprint 1 Velocity**                  | 20 Story Points                                                                                                                                                                     |
+| **Sum of Story Points**                | 18: US01, US02, US03                                                                                                                                                                |
 
 ## 5.2.1.2. Aspect Leaders and Collaborators.
 
