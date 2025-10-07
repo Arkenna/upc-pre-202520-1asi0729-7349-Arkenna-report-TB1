@@ -26,7 +26,7 @@
 - Rolando Andre Torres Diaz - U202323369
 - Giuliano Angel Pelaez Vargas - U20221E121  
 
-**Fecha:** Agosto, 2025
+**Fecha:** Octubre, 2025
 
 ---
 
