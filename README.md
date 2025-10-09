@@ -1476,99 +1476,104 @@ La arquitectura de despliegue contempla los siguientes elementos:
 ## 5.2.1. Sprint 1
 
 ## 5.2.1.1. Sprint Planning 1
-| **Sprint #**                           | Sprint 1                                                                                                                                                                            |
-|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sprint Planning Background**         |                                                                                                                                                                                     |
-| **Date**                               | 2025-09-5                                                                                                                                                                           |
-| **Time**                               | 10:00 AM                                                                                                                                                                            |
-| **Location**                           | Reunión presencial – Salón UH-52                                                                                                                                                    |
-| **Prepared By**                        | Giuliano Angel Pelaez Vargas                                                                                                                                                        |
-| **Attendees (to planning meeting)**    | Giuliano Angel Pelaez Vargas / Daniel Jonatan Aquino Solorzano / Johnny Alexander Ojanama Abanto / Rolando Andre Torres Diaz / Carlos Augusto Paredes Chavez                        |
-| **Sprint n – 1 Review Summary**        | No hubo Sprint anterior.                                                                                                                                                            |
-| **Sprint n – 1 Retrospective Summary** | No hubo Sprint anterior                                                                                                                                                             |
-| **Sprint Goal & User Stories**         |                                                                                                                                                                                     |
-| **Sprint 1 Goal**                      | Desarrollar y desplegar la Landing Page funcional de IndieNest junto con su base de datos inicial, validando que los usuarios puedan registrarse y visualizar proyectos publicados. |
-| **Sprint 1 Velocity**                  | 20 Story Points                                                                                                                                                                     |
-| **Sum of Story Points**                | 18: US01, US02, US03                                                                                                                                                                |
+| **Sprint #**                           | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Date**                               | 2025-09-5                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Time**                               | 10:00 AM                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Location**                           | Reunión presencial – Salón UH-52                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Prepared By**                        | Giuliano Angel Pelaez Vargas                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Attendees (to planning meeting)**    | Giuliano Angel Pelaez Vargas / Daniel Jonatan Aquino Solorzano / Johnny Alexander Ojanama Abanto / Rolando Andre Torres Diaz / Carlos Augusto Paredes Chavez                                                                                                                                                                                                                                                                                             |
+| **Sprint n – 1 Review Summary**        | No hubo Sprint anterior.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Sprint n – 1 Retrospective Summary** | No hubo Sprint anterior                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Sprint 1 Goal**                      | Nos centramos en desarrollar e implementar la primera versión funcional de la página de inicio de IndieNest. Creemos que ofrece una introducción clara y convincente a la misión y la propuesta de valor de nuestra startup para usuarios potenciales (desarrolladores, artistas y gamers). Esto se confirmará cuando los visitantes puedan navegar por todas las secciones principales (About, Objects, Contact) y comprender el propósito de IndieNest. |
+| **Sprint 1 Velocity**                  | 15                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Sum of Story Points**                | 13                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 ## 5.2.1.2. Aspect Leaders and Collaborators.
 
-En el Sprint 1, el equipo identificó los principales aspectos que forman parte del alcance inicial del proyecto: **Backend & API, Frontend & UI, Landing Page & SEO, Base de Datos & Despliegue, y QA & Documentación**.  
-Para cada aspecto se designó un **líder (L)** y uno o más **colaboradores (C)**, de manera que exista claridad en la distribución de responsabilidades. Esta matriz de liderazgo y colaboración (LACX) facilita la organización de tareas, la comunicación interna y la posterior selección de tasks durante el Sprint.  
+En el Sprint 1, el equipo se enfocó en los aspectos clave para la creación del Landing Page. Se designó un líder (L) y colaboradores (C) para cada área, asegurando una distribución clara de responsabilidades y una comunicación efectiva.
 
-| **Team Member**   | **GitHub Username** | **Backend & API** | **Frontend & UI** | **Landing Page & SEO** | **Base de Datos & Despliegue** | **QA & Documentación** |
-|--------------------------|----------------------|-------------------|-------------------|-------------------------|---------------------------------|-------------------------|
-| Pelaez Vargas, Giuliano  | @SimpleGP | C                 | C | C | L | C |
-| Aquino Solorzano, Daniel | @DanielAquinoSolorzano | L                 | C | C | C | C |
-| Ojanama Abanto, Johnny | @JohnnyGZ41  | C | C | L | C | C |
-| Torres Diaz, Rolando | @ROLO194 | C  | L | C | C | C |
-| Paredes Chavez, Carlos | @CarlossUPC | C | C | C | C | L |
+| **Team Member**   | **GitHub Username** | **UI/UX Design & Wireframing** | **HTML & CSS Development** | **Content & SEO** | **Deployment & Repository** |
+|--------------------------|----------------------|-------------------------------|----------------------------|-------------------|-----------------------------|
+| Pelaez Vargas, Giuliano  | @SimpleGP | C                             | L                          | C                 | L                           | 
+| Aquino Solorzano, Daniel | @DanielAquinoSolorzano | C                             | L                          | C                 | L                           |
+| Ojanama Abanto, Johnny | @JohnnyGZ41  | L                             | L                          | C                 | L                           | 
+| Torres Diaz, Rolando | @ROLO194 | C                             | C                          | C                 | C                           | 
+| Paredes Chavez, Carlos | @CarlossUPC | C                             | C                          | C                 | C                           | 
 
-## 5.2.1.3. Sprint Backlog 0
+## 5.2.1.3. Sprint Backlog 1
 
-El objetivo principal del Sprint 1 fue establecer la base técnica del proyecto **IndieNest**. Esto incluyó configurar el entorno de desarrollo, organizar el repositorio en GitHub, preparar la base de datos en MySQL y desarrollar las primeras funcionalidades esenciales: **registro de usuario, creación de portafolio, subida de proyectos, clasificación por género y especificación de la versión del proyecto**.  
-
+El objetivo principal del Sprint 1 fue construir y lanzar la primera versión del Landing Page de IndieNest, que funciona como la carta de presentación de nuestro proyecto. Las tareas se centraron en la maquetación HTML, el diseño con CSS, la creación de contenido informativo y el despliegue final.
 La tabla siguiente detalla las **5 User Stories priorizadas** y sus tareas asociadas:  
 
-| **Sprint #** | **User Story** | **Work-Item / Task** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-|--------------|----------------|----------------------|-----------------|-------------------------|-----------------|------------|
-| Sprint 1     | US01 – Registro de Usuario | T-01: Modelo de usuario en MySQL | Definir tabla y campos de usuario en la BD. | 5h | Giuliano Angel Pelaez Vargas | InProcess |
-| Sprint 1     | US01 – Registro de Usuario | T-02: Endpoint de registro | Implementar API REST con validaciones. | 5h | Daniel Aquino | InProcess |
-| Sprint 1     | US01 – Registro de Usuario | T-03: Formulario de registro | Desarrollo del formulario de registro en frontend. | 3h | Rolando Torres | InProcess |
-| Sprint 1     | US02 – Crear Portafolio | T-04: Generar vista de portafolio | Página pública con perfil y proyectos del usuario. | 5h | Johnny Ojanama | InProcess |
-| Sprint 1     | US02 – Crear Portafolio | T-05: Validar creación sin proyectos | Mostrar mensaje de subir proyectos al activar portafolio vacío. | 3h | Johnny Ojanama | InProcess |
-| Sprint 1     | US03 – Subir un Proyecto | T-06: Maquetación formulario de subida | HTML y CSS del formulario de subida de proyectos. | 4h | Johnny Ojanama | InProcess |
-| Sprint 1     | US03 – Subir un Proyecto | T-07: Validación de campos obligatorios | Implementar validaciones en frontend. | 3h | Rolando Torres | InProcess |
-| Sprint 1     | US04 – Clasificar proyectos por género | T-08: Modelo de categorías | Definir tabla de géneros en MySQL. | 3h | Giuliano Pelaez | InProcess |
-| Sprint 1     | US04 – Clasificar proyectos por género | T-09: Endpoint CRUD de categorías | Crear API REST para asignación de géneros. | 6h | Daniel Aquino | InProcess |
-| Sprint 1     | US05 – Indicar versión del proyecto | T-10: Campo versión en modelo | Agregar atributo (demo/beta/final) en base de datos. | 3h | Carlos Paredes | InProcess |
-| Sprint 1     | US05 – Indicar versión del proyecto | T-11: Interfaz para seleccionar versión | Desplegable en frontend para elegir estado del proyecto. | 3h | Rolando Torres | InProcess |
+| **Sprint #** | **User Story**                         | **Work-Item / Task** | **Description**                                                                                  | **Estimation (Hours)** | **Assigned To**  | **Status** |
+|--------------|----------------------------------------|----------------------|--------------------------------------------------------------------------------------------------|------------------------|------------------|------------|
+| Sprint 1     | US35 – Visualizar Página Principal             | T-01: Maquetación del index.html | Desarrollar la estructura HTML de la página de inicio.                                           | 8h                     | Johnny Ojanama   | Done       |
+| Sprint 1     | US38 – Visualizar Medios de Contacto            | T-02: Maquetación de contact.html | Desarrollar la página de contacto con los enlaces a redes sociales.                              | 5h                     | Daniel Aquino    | Done       |
+| Sprint 1     | US36 – Visualizar Sección del equipo             | T-03: Maquetación de about.html | Crear la estructura HTML de la página "About" con la descripción y miembros del equipo.          | 7h                     | Giuliano Pelaez  | Done       |
+| Sprint 1     | US37 – Visualizar Objetivo del Proyecto                | T-04: Maquetación de goals.html | Implementar la estructura HTML de la página "Goals" con los objetivos del proyecto.                                               | 7h                     | Daniel Aquinoa   | Done       |
+| Sprint 1     | US39 – Visualizar Barra de Navegación                | T-05: Estilos CSS y Header | Aplicar los estilos CSS a todas las páginas y asegurar el funcionamiento del header de navegación. | 10h                    | Daniel Aquino   | InProcess  |
 
 ## 5.2.1.4. Development Evidence for Sprint Review. 
 
-Al tratarse del **Sprint 1**, no se implementaron funcionalidades de software aún.  
-Este sprint tuvo como principal objetivo **preparar la base técnica y organizativa del proyecto**, por lo cual se realizaron las siguientes actividades previas al desarrollo:  
+El desarrollo durante el Sprint 1 se centró exclusivamente en la implementación del Landing Page estático. Se utilizó HTML5 para la estructura semántica y CSS3 para el diseño visual. El trabajo fue gestionado en el repositorio de GitHub, aplicando el flujo GitFlow.
 
-- Configuración del entorno de trabajo en **WebStorm** para frontend y backend.  
-- Instalación y configuración de **MySQL** como sistema de base de datos.  
-- Creación del repositorio en **GitHub** y definición del flujo de trabajo con **GitFlow**.  
-- Definición de guías de estilo de código y convenciones a seguir.  
+Repositorio del Landing Page: https://github.com/Arkenna/IndieNest-Landing-Page
+
+
+| Repository | Branch          | Commit Id                                 | Commit Message                           | Commited on (Date) |
+|------------|-----------------|-------------------------------------------|------------------------------------------|--------------------|
+|Arkenna/IndieNest-Landing-Page| feature/index   | f1978bc5ed305645b4ad14be438a63f301b91b7c  | Add Index.html and Assets (index assets) | 2025-10-08         |
+|Arkenna/IndieNest-Landing-Page| feature/about   | 3f0c4bdf6ebc5841d14927dbca998cf7f8e2004f  | Create About page structure              | 2025-10-08         |
+|Arkenna/IndieNest-Landing-Page| feature/contact | 80a948c63c3dea3a8cc3661cf440f7070784f442  | Create Contact page                      | 2025-10-08         |
+|Arkenna/IndieNest-Landing-Page| feature/goals   | 89cc3be19582e5245c440c36012385cb812b5f48 | Implement Goals page                     | 2025-10-08         |
+|Arkenna/IndieNest-Landing-Page| main            | f1978bc5ed305645b4ad14be438a63f301b91b7c  | Merge all features and deploy            | 2025-10-08         |
+
+
 
 ## 5.2.1.5. Execution Evidence for Sprint Review. 
 
-La ejecución del Sprint 1 estuvo enfocada en configurar el entorno y validar la integración de los módulos iniciales.  
+La ejecución del Sprint 1 se enfocó en la construcción de las cuatro páginas estáticas y su correcta vinculación a través de la barra de navegación.
 
-**Acciones ejecutadas:**  
-- Configuración del repositorio en **GitHub** con estrategia **GitFlow**.  
-- Integración de ramas de **feature/registro**, **feature/portafolio** y **feature/proyectos** hacia la rama develop.  
-- Verificación de despliegue local en **WebStorm** para frontend y  **Node.js** para backend MySQL.  
-- Reunión de sincronización cada 3 dias presencial o virtual (Meeting) en Google Meet con duración máxima de 15 minutos.  
+- Acciones ejecutadas:
+
+    - Creación de ramas feature para el desarrollo de las páginas (feature/index-contact, feature/about-page, feature/goals-page).
+
+    - Integración de las ramas completadas en la rama develop para pruebas.
+
+    - Verificación del funcionamiento de todos los enlaces de navegación y la correcta visualización de las imágenes y textos. 
 
 ## 5.2.1.6. Services Documentation Evidence for Sprint Review. 
 
-En cuanto a la documentación de servicios se elaboró lo siguiente:  
+Dado que el objetivo del Sprint 1 fue la creación de un sitio web estático, no se desarrollaron servicios de backend ni se implementó una API REST. La documentación generada se limitó a los siguientes artefactos del frontend: 
 
-- **Modelo entidad-relación inicial** en MySQL para usuarios y proyectos.  
-- **Documentación de la API de registro y proyectos** utilizando Swagger (versión preliminar).  
-- **Guía de uso del repositorio** con convenciones de ramas y commits (README.md).  
-- **Guía de instalación local** del proyecto en WebStorm (documentada en la Wiki del repositorio).  
+- README.md del Repositorio: Se documentó la estructura del proyecto del Landing Page.
+
+
+- Comentarios en el Código: Se documentó el código HTML y CSS para explicar la función de las secciones y estilos complejos, facilitando su mantenimiento.
 
 ## 5.2.1.7. Software Deployment Evidence for Sprint Review. 
 
-El despliegue del Sprint 1 se realizó en entornos de prueba, logrando la validación de las primeras funcionalidades:  
+El despliegue del Landing Page del Sprint 1 se realizó con éxito, cumpliendo con el objetivo de tener una primera versión funcional y pública. 
 
-- **Frontend:** ejecutado en **WebStorm** y desplegado en entorno local.  
-- **Backend:** levantado en **Node.js** con conexión a la base de datos MySQL.  
-- **Base de datos:** MySQL configurado con la tabla de usuarios y proyectos.  
-- **Repositorio:** GitHub como centro de control de versiones y punto de integración.  
+
+- **Plataforma de Despliegue:** Se utilizó GitHub Pages para alojar el sitio estático.
+
+- **URL del Landing Page Desplegado:** https://arkenna.github.io/IndieNest-Landing-Page/
+
+- **Proceso:** El despliegue se configuró para actualizarse automáticamente con cada push a la rama main. 
 
 ## 5.2.1.8. Team Collaboration Insights during Sprint.
 
-Durante este Sprint se generaron aprendizajes importantes en torno al trabajo colaborativo:  
+- Durante este sprint, el equipo se organizó para trabajar en paralelo en las diferentes páginas del sitio web.
 
-- Se definió una **dinámica de comunicación** vía **Discord** para coordinación cada 3 dias y uso de **Google Meet** para reuniones semanales.  
-- Se estableció la necesidad de **documentar todas las decisiones** en un archivo compartido en Google Drive.  
-- Se identificó como fortaleza la **rapidez en la configuración técnica inicial**, y como oportunidad de mejora la **planificación más detallada de las horas estimadas por tarea**.
+- Se definió una dinámica de comunicación constante vía Discord para resolver dudas sobre los estilos CSS y la estructura del header.
+
+- Se identificó como fortaleza la capacidad del equipo para dividir el trabajo en componentes (páginas) y desarrollarlos de forma independiente.
+
+- Como oportunidad de mejora, se acordó centralizar todos los estilos comunes (como los del header y fuentes) en una hoja de estilos general para evitar la duplicación de código en futuros sprints.
 
 
 # Anexos
@@ -1579,6 +1584,10 @@ Durante este Sprint se generaron aprendizajes importantes en torno al trabajo co
 - Enlace del repositorio de documentación: https://github.com/Arkenna/upc-pre-202520-1asi0729-7349-Arkenna-report-TB1/blob/main/README.md
 
 - Enlace del repositorio del Landing Page: https://github.com/Arkenna/IndieNest-Landing-Page
+
+- Enlace del Landing Page Desplegado: https://arkenna.github.io/IndieNest-Landing-Page/
+
+- Enlace del Figma: https://www.figma.com/board/Nwuu2iPGCaTCbsdDlg0pv4/IndieNest?node-id=0-1&p=f&t=rh3YpcM5QT6v2Emq-0
 
 
 
