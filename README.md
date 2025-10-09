@@ -1725,6 +1725,13 @@ En este sprint se introdujo la complejidad de coordinar el trabajo entre fronten
 - Enlace del Landing Page Desplegado: https://arkenna.github.io/IndieNest-Landing-Page/
 
 - Enlace del Figma: https://www.figma.com/board/Nwuu2iPGCaTCbsdDlg0pv4/IndieNest?node-id=0-1&p=f&t=rh3YpcM5QT6v2Emq-0
+- Enlace a la aplicación: https://github.com/Arkenna/IndieNest-Web-Application
+
+# Conclusiones
+
+- ### Se consolidó la base técnica para el registro y gestión de usuarios, integrando exitosamente el backend en MySQL con endpoints funcionales y una interfaz en Angular que valida y conecta los datos.
+- ### El equipo cumplió con todas las tareas asignadas, logrando cerrar 215 puntos de historia en 18 User Stories, lo que demuestra una ejecución eficiente y alineada con los objetivos del sprint.
+- ### Se establecieron los cimientos para la funcionalidad de portafolios, permitiendo que los usuarios comiencen a construir su identidad profesional dentro de la plataforma, lo cual será clave para futuras interacciones y visibilidad.
 
 
 # Referencias bibliográficas
