@@ -1,5 +1,5 @@
 -- ========================================
--- IndieNest - Script SQL Server (DDL) (corrigido)
+-- IndieNest - Script SQL Server (DDL) (corregido)
 -- ========================================
 
 -- CREATE DATABASE indienest;
