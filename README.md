@@ -934,6 +934,12 @@ https://trello.com/b/SBmiXIZJ/indienest
 |32|US32|Ver juegos por ubicación geográfica|Como usuario, quiero poder ver juegos desarrollados en mi país o región para apoyar creadores locales.|2|
 |33|US33|Ver logros desbloqueables en juegos|Como usuario, quiero poder ver los logros que puedo desbloquear en cada juego para motivarme a completarlos.|2|
 |34|US34|Ver reseñas destacadas de otros usuarios|Como usuario, quiero poder ver reseñas destacadas de otros usuarios para tomar decisiones informadas antes de jugar.|2|
+|35|US35|Visualizar página principal|Como usuario, quiero ver una página de inicio clara para tener un primer vistazo de IndieNest.|2|
+|36|US36|Visualizar Sección del equipo|Como usuario, quiero poder acceder a una sección “About Us” sobre el equipo Arkenna para conocer más de cada uno.|2|
+|37|US37|Visualizar Objetivo del Proyecto|Como usuario, quiero poder acceder a una sección “Goals” para entender los objetivos del equipo Arkenna.|2|
+|38|US38|Visualizar Medios de Contacto|Como usuario, quiero poder acceder a una sección “Contact” para ver las redes sociales y formas de comunicarme con el equipo Arkenna.|2|
+|39|US39|Visualizar Barra de Navegación|Como usuario, quiero poder visualizar una barra de navegación para navegar fácilmente entre cada sección.|2|
+
 
 # 4. Capitulo IV: Product Design.
 ## 4.1. Style guidelines.
