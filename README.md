@@ -1604,27 +1604,27 @@ El despliegue del Landing Page del Sprint 1 se realizó con éxito, cumpliendo c
 
 En el Sprint 2, el equipo se enfocó en los aspectos clave para la creación del Landing Page. Se designó un líder (L) y colaboradores (C) para cada área, asegurando una distribución clara de responsabilidades y una comunicación efectiva.
 
-| **Team Member**   | **GitHub Username** | **UI/UX Design & Wireframing** | **HTML & CSS Development** | **Content & SEO** | **Deployment & Repository** |
-|--------------------------|----------------------|-------------------------------|----------------------------|-------------------|-----------------------------|
-| Pelaez Vargas, Giuliano  | @SimpleGP | C                             | L                          | C                 | L                           | 
-| Aquino Solorzano, Daniel | @DanielAquinoSolorzano | C                             | L                          | C                 | L                           |
-| Ojanama Abanto, Johnny | @JohnnyGZ41  | L                             | L                          | C                 | L                           | 
-| Torres Diaz, Rolando | @ROLO194 | C                             | C                          | C                 | C                           | 
-| Paredes Chavez, Carlos | @CarlossUPC | C                             | C                          | C                 | C                           | 
+| **Team Member**   | **GitHub Username** | **Backend & API** | **Frontend & UI** | **Base de Datos(MySQL)** | **QA & Documentación** |
+|--------------------------|----------------------|-------------------|-------------------|--------------------------|------------------------|
+| Pelaez Vargas, Giuliano  | @SimpleGP | C                 | C                 | L                        | C                      | 
+| Aquino Solorzano, Daniel | @DanielAquinoSolorzano | L                 | C                 | C                        | C                      |
+| Ojanama Abanto, Johnny | @JohnnyGZ41  | C                 | L                 | C                        | C                      | 
+| Torres Diaz, Rolando | @ROLO194 | C                 | L                 | C                        | C                      | 
+| Paredes Chavez, Carlos | @CarlossUPC | C                 | C                 | C                        | L                      | 
 
 ## 5.2.2.3. Sprint Backlog 2
 
 El objetivo principal del Sprint 2 fue construir y lanzar la primera versión del Landing Page de IndieNest, que funciona como la carta de presentación de nuestro proyecto. Las tareas se centraron en la maquetación HTML, el diseño con CSS, la creación de contenido informativo y el despliegue final.
 La tabla siguiente detalla las **5 User Stories priorizadas** y sus tareas asociadas:  
 
-| **Sprint #** | **User Story**                         | **Work-Item / Task** | **Description**                                                                                  | **Estimation (Hours)** | **Assigned To**  | **Status** |
-|--------------|----------------------------------------|----------------------|--------------------------------------------------------------------------------------------------|------------------------|------------------|------------|
-| Sprint 2     | US01 – Registro de Usuario             | T-09: Modelo de Usuario en BD | Crear la tabla de Usuarios en la base de datos MySQL para almacenar los datos del registro, basándose en el script SQL.                                           | 5h                     | Giuliano Pelaez   | Done       |
-| Sprint 2     | US01 – Registro de Usuario            | T-10: Endpoint de Registro | Implementar el Endpoint en la API REST para crear nuevas cuentas de usuario.                              | 8h                     | Daniel Aquino    | Done       |
-| Sprint 2     | US01 – Registro de Usuario             | T-11: Formulario de Registro (UI) | Desarrollar el componente de registro en Angular, basándose en el wireframe.          | 6h                     | Rolando Torres  | Done       |
-| Sprint 2     | US02 – Crear Portafolio                | T-12: Modelo de Portafolio en BD | Crear las tablas Perfiles y Portafolios en MySQL, relacionadas con la tablas Usuarios.                                               | 4h                     | Giuliano Pelaez   | Done       |
-| Sprint 2     | US02 – Crear Portafolio                | T-13: Endpoint de Creación de Portafolio | Implementar el Endpoint para que un usuario pueda crear su portafolio. | 7h                    | Daniel Aquino   | Done  |
-| Sprint 2     | US11 – Redactar Perfil                | T-14: Vista de Perfil/Portafolio (UI) | Desarrollar la vista inicial del portafolio del usuario en Angular, donde podrá ver su información. | 8h                    | Rolando Torres   | Done  |
+| **Sprint #** | **User Story**                         | **Work-Item / Task**                     | **Description**                                                                                  | **Estimation (Hours)** | **Assigned To**  | **Status** |
+|--------------|----------------------------------------|------------------------------------------|--------------------------------------------------------------------------------------------------|------------------------|------------------|------------|
+| Sprint 2     | US01 – Registro de Usuario             | T-06: Modelo de Usuario en BD            | Crear la tabla de Usuarios en la base de datos MySQL para almacenar los datos del registro, basándose en el script SQL.                                           | 5h                     | Giuliano Pelaez   | Done       |
+| Sprint 2     | US01 – Registro de Usuario            | T-07: Endpoint de Registro               | Implementar el Endpoint en la API REST para crear nuevas cuentas de usuario.                              | 8h                     | Daniel Aquino    | Done       |
+| Sprint 2     | US01 – Registro de Usuario             | T-08: Formulario de Registro (UI)        | Desarrollar el componente de registro en Angular, basándose en el wireframe.          | 6h                     | Rolando Torres  | Done       |
+| Sprint 2     | US02 – Crear Portafolio                | T-09: Modelo de Portafolio en BD         | Crear las tablas Perfiles y Portafolios en MySQL, relacionadas con la tablas Usuarios.                                               | 4h                     | Giuliano Pelaez   | Done       |
+| Sprint 2     | US02 – Crear Portafolio                | T-10: Endpoint de Creación de Portafolio | Implementar el Endpoint para que un usuario pueda crear su portafolio. | 7h                    | Daniel Aquino   | Done  |
+| Sprint 2     | US11 – Redactar Perfil                | T-11: Vista de Perfil/Portafolio (UI)    | Desarrollar la vista inicial del portafolio del usuario en Angular, donde podrá ver su información. | 8h                    | Rolando Torres   | Done  |
 
 
 
@@ -1646,7 +1646,7 @@ En este sprint se introdujo la complejidad de coordinar el trabajo entre fronten
 
 - Se identificó un pequeño retraso debido a problemas de configuración de CORS (Cross-Origin Resource Sharing) entre la Web App y la API, lo cual sirvió como un aprendizaje técnico importante para el equipo.
 
-- La fortaleza principal fue la capacidad del equipo para dividrse en sub-equipos (backend/frontend) y trabajar en paralelo de manera efectiva.
+- La fortaleza principal fue la capacidad del equipo para dividirse en sub-equipos (backend/frontend) y trabajar en paralelo de manera efectiva.
 
 
 
