@@ -1520,7 +1520,7 @@ La tabla siguiente detalla las **5 User Stories priorizadas** y sus tareas asoci
 | Sprint 1     | US38 – Visualizar Medios de Contacto            | T-02: Maquetación de contact.html | Desarrollar la página de contacto con los enlaces a redes sociales.                              | 5h                     | Daniel Aquino    | Done       |
 | Sprint 1     | US36 – Visualizar Sección del equipo             | T-03: Maquetación de about.html | Crear la estructura HTML de la página "About" con la descripción y miembros del equipo.          | 7h                     | Giuliano Pelaez  | Done       |
 | Sprint 1     | US37 – Visualizar Objetivo del Proyecto                | T-04: Maquetación de goals.html | Implementar la estructura HTML de la página "Goals" con los objetivos del proyecto.                                               | 7h                     | Daniel Aquinoa   | Done       |
-| Sprint 1     | US39 – Visualizar Barra de Navegación                | T-05: Estilos CSS y Header | Aplicar los estilos CSS a todas las páginas y asegurar el funcionamiento del header de navegación. | 10h                    | Daniel Aquino   | InProcess  |
+| Sprint 1     | US39 – Visualizar Barra de Navegación                | T-05: Estilos CSS y Header | Aplicar los estilos CSS a todas las páginas y asegurar el funcionamiento del header de navegación. | 10h                    | Daniel Aquino   | Done  |
 
 ## 5.2.1.4. Development Evidence for Sprint Review. 
 
@@ -1535,7 +1535,7 @@ Repositorio del Landing Page: https://github.com/Arkenna/IndieNest-Landing-Page
 |Arkenna/IndieNest-Landing-Page| feature/about   | 3f0c4bdf6ebc5841d14927dbca998cf7f8e2004f  | Create About page structure              | 2025-10-08         |
 |Arkenna/IndieNest-Landing-Page| feature/contact | 80a948c63c3dea3a8cc3661cf440f7070784f442  | Create Contact page                      | 2025-10-08         |
 |Arkenna/IndieNest-Landing-Page| feature/goals   | 89cc3be19582e5245c440c36012385cb812b5f48 | Implement Goals page                     | 2025-10-08         |
-|Arkenna/IndieNest-Landing-Page| main            | f1978bc5ed305645b4ad14be438a63f301b91b7c  | Merge all features and deploy            | 2025-10-08         |
+|Arkenna/IndieNest-Landing-Page| main            | 58c34126030149365bb865b3f79a9aab4084dbf4  | Merge all features and deploy            | 2025-10-08         |
 
 
 
@@ -1545,7 +1545,7 @@ La ejecución del Sprint 1 se enfocó en la construcción de las cuatro páginas
 
 - Acciones ejecutadas:
 
-    - Creación de ramas feature para el desarrollo de las páginas (feature/index-contact, feature/about-page, feature/goals-page).
+    - Creación de ramas feature para el desarrollo de las páginas (feature/index, feature/about, feature/goals, feature/contacts).
 
     - Integración de las ramas completadas en la rama develop para pruebas.
 
