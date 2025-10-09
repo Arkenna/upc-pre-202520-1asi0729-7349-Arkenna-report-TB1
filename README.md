@@ -1582,6 +1582,74 @@ El despliegue del Landing Page del Sprint 1 se realizó con éxito, cumpliendo c
 - Como oportunidad de mejora, se acordó centralizar todos los estilos comunes (como los del header y fuentes) en una hoja de estilos general para evitar la duplicación de código en futuros sprints.
 
 
+## 5.2.2. Sprint 2
+
+## 5.2.2.1. Sprint Planning 2
+| **Sprint #**                           | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Date**                               | 2025-10-8                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Time**                               | 10:00 AM                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Location**                           | Reunión presencial – Salón UH-52                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Prepared By**                        | Giuliano Angel Pelaez Vargas                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Attendees (to planning meeting)**    | Giuliano Angel Pelaez Vargas / Daniel Jonatan Aquino Solorzano / Johnny Alexander Ojanama Abanto / Rolando Andre Torres Diaz / Carlos Augusto Paredes Chavez                                                                                                                                                                                                                                                                                             |
+| **Sprint n – 1 Review Summary**        | A través de la creación de ramas feature, se desarrolló la Landing Page y se verificó su funcionamiento.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Sprint n – 1 Retrospective Summary** | El trabajo fue gestionado a través del repositorio de GitHub. Se centró más que nada en la implementación del Landing Page semántico.                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Sprint 2 Goal**                      | Nos centramos en desarrollar el Endpoint para el desarrollo de portafolios, además de implementar entidades en la base de datos MySQL. Creemos que aporta la funcionalidad buscada por los posibles usuarios. Esto se confirmará cuando los visitantes puedan ocupar cada funcionalidad implementada en este sprint de manera cómoda y comprensible. |
+| **Sprint 2 Velocity**                  | 18                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Sum of Story Points**                | 15                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+
+## 5.2.2.2. Aspect Leaders and Collaborators.
+
+En el Sprint 2, el equipo se enfocó en los aspectos clave para la creación del Landing Page. Se designó un líder (L) y colaboradores (C) para cada área, asegurando una distribución clara de responsabilidades y una comunicación efectiva.
+
+| **Team Member**   | **GitHub Username** | **UI/UX Design & Wireframing** | **HTML & CSS Development** | **Content & SEO** | **Deployment & Repository** |
+|--------------------------|----------------------|-------------------------------|----------------------------|-------------------|-----------------------------|
+| Pelaez Vargas, Giuliano  | @SimpleGP | C                             | L                          | C                 | L                           | 
+| Aquino Solorzano, Daniel | @DanielAquinoSolorzano | C                             | L                          | C                 | L                           |
+| Ojanama Abanto, Johnny | @JohnnyGZ41  | L                             | L                          | C                 | L                           | 
+| Torres Diaz, Rolando | @ROLO194 | C                             | C                          | C                 | C                           | 
+| Paredes Chavez, Carlos | @CarlossUPC | C                             | C                          | C                 | C                           | 
+
+## 5.2.2.3. Sprint Backlog 2
+
+El objetivo principal del Sprint 2 fue construir y lanzar la primera versión del Landing Page de IndieNest, que funciona como la carta de presentación de nuestro proyecto. Las tareas se centraron en la maquetación HTML, el diseño con CSS, la creación de contenido informativo y el despliegue final.
+La tabla siguiente detalla las **5 User Stories priorizadas** y sus tareas asociadas:  
+
+| **Sprint #** | **User Story**                         | **Work-Item / Task** | **Description**                                                                                  | **Estimation (Hours)** | **Assigned To**  | **Status** |
+|--------------|----------------------------------------|----------------------|--------------------------------------------------------------------------------------------------|------------------------|------------------|------------|
+| Sprint 2     | US01 – Registro de Usuario             | T-09: Modelo de Usuario en BD | Crear la tabla de Usuarios en la base de datos MySQL para almacenar los datos del registro, basándose en el script SQL.                                           | 5h                     | Giuliano Pelaez   | Done       |
+| Sprint 2     | US01 – Registro de Usuario            | T-10: Endpoint de Registro | Implementar el Endpoint en la API REST para crear nuevas cuentas de usuario.                              | 8h                     | Daniel Aquino    | Done       |
+| Sprint 2     | US01 – Registro de Usuario             | T-11: Formulario de Registro (UI) | Desarrollar el componente de registro en Angular, basándose en el wireframe.          | 6h                     | Rolando Torres  | Done       |
+| Sprint 2     | US02 – Crear Portafolio                | T-12: Modelo de Portafolio en BD | Crear las tablas Perfiles y Portafolios en MySQL, relacionadas con la tablas Usuarios.                                               | 4h                     | Giuliano Pelaez   | Done       |
+| Sprint 2     | US02 – Crear Portafolio                | T-13: Endpoint de Creación de Portafolio | Implementar el Endpoint para que un usuario pueda crear su portafolio. | 7h                    | Daniel Aquino   | Done  |
+| Sprint 2     | US11 – Redactar Perfil                | T-14: Vista de Perfil/Portafolio (UI) | Desarrollar la vista inicial del portafolio del usuario en Angular, donde podrá ver su información. | 8h                    | Rolando Torres   | Done  |
+
+
+
+## 5.2.2.7. Software Deployment Evidence for Sprint Review. 
+
+El despliegue del Sprint 2 se realizó con éxito en entornos de prueba para validar la primera versión funcional de la aplicación web y sus servicios. 
+
+
+- **Frontend (Web App):** Desplegado en un servicio de hosting para aplicaciones de JavaScript, permitiendo el acceso público a la interfaz de registro e inicio de sesión.
+
+- **Backend (API REST):** Desplegado en una plataforma como servicio (PaaS) como Render, con la base de datos MySQL conectada.
+
+- **Base de Datos:** La base de datos MySQL fue configurada en un proveedor de cloud para ser accesible por la API desplegada. 
+
+## 5.2.2.8. Team Collaboration Insights during Sprint.
+
+En este sprint se introdujo la complejidad de coordinar el trabajo entre frontend y backend, lo que generó nuevos aprendizajes.
+- La comunicación fue crucial. El equipo estableció la necesidad de definir "contratos de API" claros (qué datos espera y devuelve cada endpoint) antes de empezar a programar, para evitar bloqueos.
+
+- Se identificó un pequeño retraso debido a problemas de configuración de CORS (Cross-Origin Resource Sharing) entre la Web App y la API, lo cual sirvió como un aprendizaje técnico importante para el equipo.
+
+- La fortaleza principal fue la capacidad del equipo para dividrse en sub-equipos (backend/frontend) y trabajar en paralelo de manera efectiva.
+
+
+
 # Anexos
 - Enlace al Trello del Product Backlog https://trello.com/b/SBmiXIZJ/indienest
 
@@ -1594,7 +1662,6 @@ El despliegue del Landing Page del Sprint 1 se realizó con éxito, cumpliendo c
 - Enlace del Landing Page Desplegado: https://arkenna.github.io/IndieNest-Landing-Page/
 
 - Enlace del Figma: https://www.figma.com/board/Nwuu2iPGCaTCbsdDlg0pv4/IndieNest?node-id=0-1&p=f&t=rh3YpcM5QT6v2Emq-0
-
 
 
 # Referencias bibliográficas
