@@ -114,10 +114,10 @@
      - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide-&-conventions)
      - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
    - [5.2. Style Guidelines](#52-style-guidelines)
-     - [5.2.1. Sprint 0](#521-sprint-0)
-       - [5.2.1.1. Sprint Planning 0](#5211-sprint-planning-0)
+     - [5.2.1. Sprint 1](#521-sprint-1)
+       - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
        - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-       - [5.2.1.3. Sprint Backlog 0](#5213-sprint-backlog-0)
+       - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
        - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
        - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
        - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
@@ -523,34 +523,53 @@ Este análisis se realiza para conocer más a fondo a nuestros competidores y de
 ### 2.2.2. Registro de entrevistas.
 - Segmento 1 : Programador Independiente
 
+    **Entrevistado 1:**
+  ![EntreVistaSebas](img/sebas.jpeg)
+
+|  Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|--------------------|-----------|-------------|-------------|------------|
+| Sebastian Adriano Pajares Oyola |  22 años | Santiago de Surco | 7:43 - 11:59 | Sebastian es un programador independiente que actualmente no cuenta con una plataforma fija para publicar sus proyectos. Durante la entrevista comentó que, al no tener un espacio centralizado, sus trabajos suelen perder visibilidad, lo cual limita su alcance como desarrollador. Esto le representa un desafío importante para darse a conocer dentro de la comunidad y para mostrar su experiencia a posibles colaboradores o empleadores. |
+
+   **Entrevistado 2:**
+   ![EntreVistaJuan](img/Entrevista%20Juan%20Jose.PNG)
 
 
-| Entrevistado 1                      | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
-|-------------------------------------|--------------------|-----------|-------------|-------------|------------|
-| ![EntreVistaSebas](img/sebas.jpeg)  | Sebastian Adriano Pajares Oyola |  22 años | Santiago de Surco | 7:43 - 11:59 | Sebastian es un programador independiente que actualmente no cuenta con una plataforma fija para publicar sus proyectos. Durante la entrevista comentó que, al no tener un espacio centralizado, sus trabajos suelen perder visibilidad, lo cual limita su alcance como desarrollador. Esto le representa un desafío importante para darse a conocer dentro de la comunidad y para mostrar su experiencia a posibles colaboradores o empleadores. |
+|  Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|--------------------|-----------|-------------|-------------|------------|
+|  Juan José Meza Huanacune | 24 años | Barranco | 0:01 - 3:52 | Juan José en un programador técnico con experiencia en prototipos y demos. Publica en Itch.io y Unity Play, pero siente que sus proyectos se pierden por falta de visibilidad. Considera esencial tener un portafolio digital para mostrar su rol como programador. Enfrenta obstáculos como la falta de recursos para marketing y dificultad para formar equipos. Valora mucho la retroalimentación y cree que IndieNest podría profesionalizar su perfil y abrirle oportunidades reales. |
 
-| Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
-|----------------|--------------------|-----------|-------------|-------------|------------|
-| ![EntreVistaJuan](img/Entrevista%20Juan%20Jose.PNG) | Juan José Meza Huanacune | 24 años | Barranco | 0:01 - 3:52 | Juan José en un programador técnico con experiencia en prototipos y demos. Publica en Itch.io y Unity Play, pero siente que sus proyectos se pierden por falta de visibilidad. Considera esencial tener un portafolio digital para mostrar su rol como programador. Enfrenta obstáculos como la falta de recursos para marketing y dificultad para formar equipos. Valora mucho la retroalimentación y cree que IndieNest podría profesionalizar su perfil y abrirle oportunidades reales. |
 
-| Entrevistado 3                                        | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
-|-------------------------------------------------------|--------------------|-----------|-------------|-------------|------------|
-| ![EntreVistaFabricio](img/Entrevista%20Fabricio.PNG)  | Fabricio Fabián Quispe Barzola | 23 años | Chorrillos | 3:53 - 7:42 | Fabricio es estudiante de Ingeniería de Software con experiencia en game jams y desarrollo colaborativo. Publica en Itch.io y GitHub, pero busca una plataforma más visual y profesional. Necesita un portafolio para destacar en el mercado laboral. Enfrenta barreras de visibilidad y validación. Le interesa recibir feedback y conectar con otros creadores. Ve en IndieNest una herramienta clave para mostrar su trabajo y generar oportunidades. |
+   **Entrevistado 3:**
+   ![EntreVistaFabricio](img/Entrevista%20Fabricio.PNG)
+
+| Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|--------------------|-----------|-------------|-------------|------------|
+|  Fabricio Fabián Quispe Barzola | 23 años | Chorrillos | 3:53 - 7:42 | Fabricio es estudiante de Ingeniería de Software con experiencia en game jams y desarrollo colaborativo. Publica en Itch.io y GitHub, pero busca una plataforma más visual y profesional. Necesita un portafolio para destacar en el mercado laboral. Enfrenta barreras de visibilidad y validación. Le interesa recibir feedback y conectar con otros creadores. Ve en IndieNest una herramienta clave para mostrar su trabajo y generar oportunidades. |
 
 
 - Segmento 2 : Artistas Digitales 
 
-| Entrevistado 1                    | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
-|-----------------------------------|--------------------|-----------|-------------|-------------|------------|
-| ![EntreVistaMarin](img/Marin.png) | Carlos Alberto Marin Sangama |  21 años |Los Olivos| 18:03 - 21:56 |  Carlos Marin es un artista digital que principalmente realiza modelados 3D y ilustraciones digitales a menor medida, suele publicar sus trabajos en sus redes sociales como instagram pero la limitacion que tiene es la dificil visibilidad que se puede obtener en las mismas y ademas, tiene disficultad en participar en proyectos indie al no tener un portafolio donde los demas puedan ver sus modelos e ilustraciones. |
+  **Entrevistado 1:**
+  ![EntreVistaMarin](img/Marin.png)
 
-| Entrevistado 2                    | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
-|-----------------------------------|--------------------|-----------|-------------|-------------|------------|
-| ![EntreVistaAzul](img/Azul2.jpeg) | Azul Delgado Sanchez | 22 años | Santiago de Surco | 12:00 - 15:32 | Azul Delgado es una artista digital que principalmente realiza ilustraciones digitales y algo de pixel art. Actualmente está practicando modelado 3D porque le interesa mucho el diseño de personajes en los videojuegos. Ella suele publicar su trabajo en Instagram y Discord, pero comenta que pierde cierta notoriedad debido a otro tipo de contenido. También menciona que tuvo dificultades para integrarse en proyectos indie como artista. En una plataforma valora que los equipos busquen artistas específicos, y también aprecia que una aplicación le brinde visibilidad a sus proyectos al momento de subirlos.|
+| Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|--------------------|-----------|-------------|-------------|------------|
+| Carlos Alberto Marin Sangama |  21 años |Los Olivos| 18:03 - 21:56 |  Carlos Marin es un artista digital que principalmente realiza modelados 3D y ilustraciones digitales a menor medida, suele publicar sus trabajos en sus redes sociales como instagram pero la limitacion que tiene es la dificil visibilidad que se puede obtener en las mismas y ademas, tiene disficultad en participar en proyectos indie al no tener un portafolio donde los demas puedan ver sus modelos e ilustraciones. |
 
-| Entrevistado 3                    | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
-|-----------------------------------|--------------------|-----------|-------------|-------------|------------|
-| ![EntreVistaEriol](img/eriol.png) | Eriol Jared Constantine Huaytalla Robles |  18 | San Martin de Porres | 15:33 - 18:01 | Eriol es un artista digital que realiza ilustraciones digitales y esta interesado en el modelaje 3D. Suele subir sus ilustraciones a redes sociales como instagram o X pero el algoritmo de las mismas impide su crecimiento en reconocimiento y a su vez tambien cree que al ser un ilustrador que recien se adentra en ese mundo le es mas dificil ser elegido por otros para participar en proyectos independientes  |
+   **Entrevistado 2:**
+   ![EntreVistaAzul](img/Azul2.jpeg)
+
+| Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|--------------------|-----------|-------------|-------------|------------|
+| Azul Delgado Sanchez | 22 años | Santiago de Surco | 12:00 - 15:32 | Azul Delgado es una artista digital que principalmente realiza ilustraciones digitales y algo de pixel art. Actualmente está practicando modelado 3D porque le interesa mucho el diseño de personajes en los videojuegos. Ella suele publicar su trabajo en Instagram y Discord, pero comenta que pierde cierta notoriedad debido a otro tipo de contenido. También menciona que tuvo dificultades para integrarse en proyectos indie como artista. En una plataforma valora que los equipos busquen artistas específicos, y también aprecia que una aplicación le brinde visibilidad a sus proyectos al momento de subirlos.|
+
+   **Entrevistado 3:**
+   ![EntreVistaEriol](img/eriol.png)
+
+
+| Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|--------------------|-----------|-------------|-------------|------------|
+| Eriol Jared Constantine Huaytalla Robles |  18 | San Martin de Porres | 15:33 - 18:01 | Eriol es un artista digital que realiza ilustraciones digitales y esta interesado en el modelaje 3D. Suele subir sus ilustraciones a redes sociales como instagram o X pero el algoritmo de las mismas impide su crecimiento en reconocimiento y a su vez tambien cree que al ser un ilustrador que recien se adentra en ese mundo le es mas dificil ser elegido por otros para participar en proyectos independientes  |
 
   
 Enlace del video de las entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202321613_upc_edu_pe/EbQaKTrBnMBKoJ1hoQwwTC0B6Uwkffz66WSolVvJ4KQQAg?e=l6yEE3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
@@ -1687,9 +1706,9 @@ La arquitectura de despliegue contempla los siguientes elementos:
 - **Frontend (Web App):** Será desplegado como parte del mismo entorno gestionado en WebStorm, facilitando la sincronización entre el diseño de la interfaz y la lógica del backend.  
 ## 5.2. Landing Page, Services & Applications Implementation
 
-## 5.2.1. Sprint 0
+## 5.2.1. Sprint 1
 
-## 5.2.1.1. Sprint Planning 0
+## 5.2.1.1. Sprint Planning 1
 | **Sprint #**                           | Sprint 1                                                                                                                                                                            |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Sprint Planning Background**         |                                                                                                                                                                                     |
@@ -1707,7 +1726,7 @@ La arquitectura de despliegue contempla los siguientes elementos:
 
 ## 5.2.1.2. Aspect Leaders and Collaborators.
 
-En el Sprint 0, el equipo identificó los principales aspectos que forman parte del alcance inicial del proyecto: **Backend & API, Frontend & UI, Landing Page & SEO, Base de Datos & Despliegue, y QA & Documentación**.  
+En el Sprint 1, el equipo identificó los principales aspectos que forman parte del alcance inicial del proyecto: **Backend & API, Frontend & UI, Landing Page & SEO, Base de Datos & Despliegue, y QA & Documentación**.  
 Para cada aspecto se designó un **líder (L)** y uno o más **colaboradores (C)**, de manera que exista claridad en la distribución de responsabilidades. Esta matriz de liderazgo y colaboración (LACX) facilita la organización de tareas, la comunicación interna y la posterior selección de tasks durante el Sprint.  
 
 | **Team Member**   | **GitHub Username** | **Backend & API** | **Frontend & UI** | **Landing Page & SEO** | **Base de Datos & Despliegue** | **QA & Documentación** |
@@ -1720,27 +1739,27 @@ Para cada aspecto se designó un **líder (L)** y uno o más **colaboradores (C)
 
 ## 5.2.1.3. Sprint Backlog 0
 
-El objetivo principal del Sprint 0 fue establecer la base técnica del proyecto **IndieNest**. Esto incluyó configurar el entorno de desarrollo, organizar el repositorio en GitHub, preparar la base de datos en MySQL y desarrollar las primeras funcionalidades esenciales: **registro de usuario, creación de portafolio, subida de proyectos, clasificación por género y especificación de la versión del proyecto**.  
+El objetivo principal del Sprint 1 fue establecer la base técnica del proyecto **IndieNest**. Esto incluyó configurar el entorno de desarrollo, organizar el repositorio en GitHub, preparar la base de datos en MySQL y desarrollar las primeras funcionalidades esenciales: **registro de usuario, creación de portafolio, subida de proyectos, clasificación por género y especificación de la versión del proyecto**.  
 
 La tabla siguiente detalla las **5 User Stories priorizadas** y sus tareas asociadas:  
 
 | **Sprint #** | **User Story** | **Work-Item / Task** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
 |--------------|----------------|----------------------|-----------------|-------------------------|-----------------|------------|
-| Sprint 0     | US01 – Registro de Usuario | T-01: Modelo de usuario en MySQL | Definir tabla y campos de usuario en la BD. | 5h | Giuliano Angel Pelaez Vargas | InProcess |
-| Sprint 0     | US01 – Registro de Usuario | T-02: Endpoint de registro | Implementar API REST con validaciones. | 5h | Daniel Aquino | InProcess |
-| Sprint 0     | US01 – Registro de Usuario | T-03: Formulario de registro | Desarrollo del formulario de registro en frontend. | 3h | Rolando Torres | InProcess |
-| Sprint 0     | US02 – Crear Portafolio | T-04: Generar vista de portafolio | Página pública con perfil y proyectos del usuario. | 5h | Johnny Ojanama | InProcess |
-| Sprint 0     | US02 – Crear Portafolio | T-05: Validar creación sin proyectos | Mostrar mensaje de subir proyectos al activar portafolio vacío. | 3h | Johnny Ojanama | InProcess |
-| Sprint 0     | US03 – Subir un Proyecto | T-06: Maquetación formulario de subida | HTML y CSS del formulario de subida de proyectos. | 4h | Johnny Ojanama | InProcess |
-| Sprint 0     | US03 – Subir un Proyecto | T-07: Validación de campos obligatorios | Implementar validaciones en frontend. | 3h | Rolando Torres | InProcess |
-| Sprint 0     | US04 – Clasificar proyectos por género | T-08: Modelo de categorías | Definir tabla de géneros en MySQL. | 3h | Giuliano Pelaez | InProcess |
-| Sprint 0     | US04 – Clasificar proyectos por género | T-09: Endpoint CRUD de categorías | Crear API REST para asignación de géneros. | 6h | Daniel Aquino | InProcess |
-| Sprint 0     | US05 – Indicar versión del proyecto | T-10: Campo versión en modelo | Agregar atributo (demo/beta/final) en base de datos. | 3h | Carlos Paredes | InProcess |
-| Sprint 0     | US05 – Indicar versión del proyecto | T-11: Interfaz para seleccionar versión | Desplegable en frontend para elegir estado del proyecto. | 3h | Rolando Torres | InProcess |
+| Sprint 1     | US01 – Registro de Usuario | T-01: Modelo de usuario en MySQL | Definir tabla y campos de usuario en la BD. | 5h | Giuliano Angel Pelaez Vargas | InProcess |
+| Sprint 1     | US01 – Registro de Usuario | T-02: Endpoint de registro | Implementar API REST con validaciones. | 5h | Daniel Aquino | InProcess |
+| Sprint 1     | US01 – Registro de Usuario | T-03: Formulario de registro | Desarrollo del formulario de registro en frontend. | 3h | Rolando Torres | InProcess |
+| Sprint 1     | US02 – Crear Portafolio | T-04: Generar vista de portafolio | Página pública con perfil y proyectos del usuario. | 5h | Johnny Ojanama | InProcess |
+| Sprint 1     | US02 – Crear Portafolio | T-05: Validar creación sin proyectos | Mostrar mensaje de subir proyectos al activar portafolio vacío. | 3h | Johnny Ojanama | InProcess |
+| Sprint 1     | US03 – Subir un Proyecto | T-06: Maquetación formulario de subida | HTML y CSS del formulario de subida de proyectos. | 4h | Johnny Ojanama | InProcess |
+| Sprint 1     | US03 – Subir un Proyecto | T-07: Validación de campos obligatorios | Implementar validaciones en frontend. | 3h | Rolando Torres | InProcess |
+| Sprint 1     | US04 – Clasificar proyectos por género | T-08: Modelo de categorías | Definir tabla de géneros en MySQL. | 3h | Giuliano Pelaez | InProcess |
+| Sprint 1     | US04 – Clasificar proyectos por género | T-09: Endpoint CRUD de categorías | Crear API REST para asignación de géneros. | 6h | Daniel Aquino | InProcess |
+| Sprint 1     | US05 – Indicar versión del proyecto | T-10: Campo versión en modelo | Agregar atributo (demo/beta/final) en base de datos. | 3h | Carlos Paredes | InProcess |
+| Sprint 1     | US05 – Indicar versión del proyecto | T-11: Interfaz para seleccionar versión | Desplegable en frontend para elegir estado del proyecto. | 3h | Rolando Torres | InProcess |
 
 ## 5.2.1.4. Development Evidence for Sprint Review. 
 
-Al tratarse del **Sprint 0**, no se implementaron funcionalidades de software aún.  
+Al tratarse del **Sprint 1**, no se implementaron funcionalidades de software aún.  
 Este sprint tuvo como principal objetivo **preparar la base técnica y organizativa del proyecto**, por lo cual se realizaron las siguientes actividades previas al desarrollo:  
 
 - Configuración del entorno de trabajo en **WebStorm** para frontend y backend.  
@@ -1750,7 +1769,7 @@ Este sprint tuvo como principal objetivo **preparar la base técnica y organizat
 
 ## 5.2.1.5. Execution Evidence for Sprint Review. 
 
-La ejecución del Sprint 0 estuvo enfocada en configurar el entorno y validar la integración de los módulos iniciales.  
+La ejecución del Sprint 1 estuvo enfocada en configurar el entorno y validar la integración de los módulos iniciales.  
 
 **Acciones ejecutadas:**  
 - Configuración del repositorio en **GitHub** con estrategia **GitFlow**.  
@@ -1769,7 +1788,7 @@ En cuanto a la documentación de servicios se elaboró lo siguiente:
 
 ## 5.2.1.7. Software Deployment Evidence for Sprint Review. 
 
-El despliegue del Sprint 0 se realizó en entornos de prueba, logrando la validación de las primeras funcionalidades:  
+El despliegue del Sprint 1 se realizó en entornos de prueba, logrando la validación de las primeras funcionalidades:  
 
 - **Frontend:** ejecutado en **WebStorm** y desplegado en entorno local.  
 - **Backend:** levantado en **Node.js** con conexión a la base de datos MySQL.  
@@ -1789,6 +1808,10 @@ Durante este Sprint se generaron aprendizajes importantes en torno al trabajo co
 - Enlace al Trello del Product Backlog https://trello.com/b/SBmiXIZJ/indienest
 
 - Enlace del video de las entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202321613_upc_edu_pe/EbQaKTrBnMBKoJ1hoQwwTC0B6Uwkffz66WSolVvJ4KQQAg?e=l6yEE3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+- Enlace del repositorio de documentación: https://github.com/Arkenna/upc-pre-202520-1asi0729-7349-Arkenna-report-TB1/blob/main/README.md
+
+- Enlace del repositorio del Landing Page: https://github.com/Arkenna/IndieNest-Landing-Page
 
 
 
