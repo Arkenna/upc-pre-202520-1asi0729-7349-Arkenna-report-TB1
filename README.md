@@ -1627,6 +1627,69 @@ La tabla siguiente detalla las **5 User Stories priorizadas** y sus tareas asoci
 | Sprint 2     | US11 – Redactar Perfil                | T-11: Vista de Perfil/Portafolio (UI)    | Desarrollar la vista inicial del portafolio del usuario en Angular, donde podrá ver su información. | 8h                    | Rolando Torres   | Done  |
 
 
+## 5.2.2.5. Execution Evidence for Sprint Review. 
+
+La ejecución del Sprint 2 se enfocó en el desarrollo de tareas clave para el registro de usuarios, creación de portafolios y la interfaz de perfil.
+
+- **Evidencia de Ejecución:**
+
+	-   Se desarrolló el modelo de usuario en MySQL (T01), permitiendo la persistencia de datos de registro.
+    
+	-   Se implementó el Endpoint de registro en la API REST (T07), habilitando la creación de cuentas nuevas.
+    
+	-   Se construyó el formulario de registro en Angular con validaciones (T08), conectando correctamente con el backend.
+    
+	-   Se diseñó el modelo de portafolio en base de datos (T09), incluyendo las tablas de perfiles y portafolios.
+    
+	-   Se desarrolló el Endpoint para la creación de portafolios (T10), integrando la lógica de negocio con la base de datos.
+    
+	-   Se completó la interfaz de redacción de perfil (T11), permitiendo a los usuarios editar y visualizar su información profesional.
+
+## 5.2.2.6. Services Documentation Evidence for Sprint Review. 
+
+Dado que el objetivo del Sprint 2 fue la implementación de las primeras funcionalidades, se implementó una base de datos y conexiones con los endpoints del frontend. Durante el Sprint 2 se documentaron los siguientes servicios RESTful como parte de la arquitectura del backend:
+
+1.  **POST /api/usuarios/registro**
+    
+    -   Función: Crear una nueva cuenta de usuario.
+        
+    -   Validaciones: Email único, contraseña segura, campos obligatorios.
+        
+    -   Estado: Implementado y probado.
+        
+2.  **POST /api/portafolios/crear**
+    
+    -   Función: Generar un portafolio vinculado al usuario.
+        
+    -   Validaciones: Verificación de existencia de usuario, estructura de datos.
+        
+    -   Estado: Implementado y probado.
+        
+3.  **GET /api/perfil/{id}**
+    
+    -   Función: Obtener datos del perfil del usuario.
+        
+    -   Estado: En desarrollo para el próximo sprint, pero la vista UI fue completada.
+        
+
+**Base de Datos:**
+
+-   Se crearon las tablas `Usuarios`, `Perfiles` y `Portafolios` en MySQL.
+    
+-   Scripts SQL fueron documentados y versionados en el repositorio GitHub.
+    
+-   Se definieron relaciones entre entidades para futuras funcionalidades (colaboraciones, proyectos, comentarios).
+    
+
+**Frontend Angular:**
+
+-   Se documentó la estructura de componentes para el formulario de registro y la vista de perfil.
+  
+-   Se establecieron conexiones con los endpoints mediante servicios Angular (`HttpClient`).
+    
+-   Validaciones de formulario fueron integradas con mensajes de error personalizados.
+
+
 
 ## 5.2.2.7. Software Deployment Evidence for Sprint Review. 
 
