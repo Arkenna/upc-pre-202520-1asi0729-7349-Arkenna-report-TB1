@@ -1,10 +1,11 @@
 
 
+<div style="text-align: center;">
 <img src="img/upclogo.png" alt="Logo UPC" width="120"/>
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
-# FACULTAD DE INGENIERÍA
-### PROGRAMA ACADÉMICO DE INGENIERÍA DE SOFTWARE
+#### UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+## FACULTAD DE INGENIERÍA
+### OPEN SOURCE
 
 **Ciclo:** 2025-20
 
@@ -15,20 +16,30 @@
 **Docente del curso:** Efraín Ricardo Bautista Ubillús
 
 ---
-# INFORME DE TRABAJO(TB1)
+## INFORME DE TRABAJO(TB1)
 
-**Nombre de la Startup:** Arkenna 
+**Nombre de la Startup:** Arkenna
 
 **Nombre del producto:** IndieNest
 
-## Integrantes
-- Carlos Augusto Paredes Chavez - U202321613
-- Daniel Jonatan Aquino Solorzano - U202217678
-- Johnny Alexander Ojanama Abanto - U20231F412
-- Rolando Andre Torres Diaz - U202323369
-- Giuliano Angel Pelaez Vargas - U20221E121  
+<br>
 
-**Fecha:** Octubre, 2025
+## Integrantes
+-Carlos Augusto Paredes Chavez - U202321613
+
+-Daniel Jonatan Aquino Solorzano - U202217678
+
+-Johnny Alexander Ojanama Abanto - U20231F412
+
+-Rolando Andre Torres Diaz - U202323369
+
+-Giuliano Angel Pelaez Vargas - U20221E121
+
+<br>
+
+### **Fecha:** Octubre, 2025
+
+</div>
 
 ---
 
