@@ -6,9 +6,11 @@
 # FACULTAD DE INGENIERÍA
 ### PROGRAMA ACADÉMICO DE INGENIERÍA DE SOFTWARE
 
-**Ciclo:** 2025-02
+**Ciclo:** 2025-20
 
-**Sección:** 7349
+**Código del curso:** 1ASI0729
+
+**NRC:** 7349
 
 **Docente del curso:** Efraín Ricardo Bautista Ubillús
 
