@@ -16,7 +16,7 @@
 **Docente del curso:** Efraín Ricardo Bautista Ubillús
 
 ---
-## INFORME DE TRABAJO(TB1)
+## INFORME DE TRABAJO(TP1)
 
 **Nombre de la Startup:** Arkenna
 
