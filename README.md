@@ -5,7 +5,7 @@
 
 #### UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 ## FACULTAD DE INGENIERÍA
-### OPEN SOURCE
+### Desarrollo de Aplicaciones Open Source
 
 **Ciclo:** 2025-20
 
