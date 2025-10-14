@@ -1662,7 +1662,7 @@ La ejecución del Sprint 2 se enfocó en el desarrollo de tareas clave para el r
 
 Dado que el objetivo del Sprint 2 fue la implementación de las primeras funcionalidades, se implementó una base de datos y conexiones con los endpoints del frontend. Durante el Sprint 2 se documentaron los siguientes servicios RESTful como parte de la arquitectura del backend:
 
-1.  **POST /api/usuarios/registro**
+1.  **POST /api/users/registration**
     
     -   Función: Crear una nueva cuenta de usuario.
         
@@ -1670,7 +1670,7 @@ Dado que el objetivo del Sprint 2 fue la implementación de las primeras funcion
         
     -   Estado: Implementado y probado.
         
-2.  **POST /api/portafolios/crear**
+2.  **POST /api/portfolios/create**
     
     -   Función: Generar un portafolio vinculado al usuario.
         
@@ -1678,7 +1678,7 @@ Dado que el objetivo del Sprint 2 fue la implementación de las primeras funcion
         
     -   Estado: Implementado y probado.
         
-3.  **GET /api/perfil/{id}**
+3.  **GET /api/profile/{id}**
     
     -   Función: Obtener datos del perfil del usuario.
         
