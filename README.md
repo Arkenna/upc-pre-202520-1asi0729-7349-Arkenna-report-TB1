@@ -1429,7 +1429,10 @@ A continuación mostraremos las capturas del Design Level Event Storming realiza
 ## 4.7 Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
-![Class Diagrams](img/cd_indienest.png)
+
+**Frontend Class Diagram:**
+![Class Diagram](img/c4/frontend-class-diagram.png)
+
 ## 4.8. Database Design
 # IndieNest - Base de Datos (SQL Server)
 
