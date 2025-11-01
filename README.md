@@ -900,146 +900,498 @@ Por último tenemos el proceso de pago de un carrito de compra, donde se estable
 |US38|**Visualizar Medios de Contacto**|**Como usuario**, **quiero poder** acceder a una sección "Contact" **para** ver las redes sociales y formas de comunicarme con el equipo Arkenna.|**Scenario 1** **DADO QUE** está navegando en el sitio,  **CUANDO** hace clic en el enlace "Contact",  **ENTONCES** es llevado a la página "Contact" donde se muestran los logos y enlaces a las redes sociales de los desarrolladores.|EP01|
 |US39|**Visualizar Barra de Navegación**|**Como usuario**, **quiero poder** visualizar una barra de navegación **para** navegar fácilmente entre cada sección.|**Scenario 1** **DADO QUE** está en cualquier página de la landing page, **CUANDO** hace clic en cualquiera de los enlaces de la barra de navegación, **ENTONCES** es llevado a la página correspondiente sin errores.|EP01|
 
-# IndieNest Web Application -- Frontend Technical Stories
+# IndieNest Backend -- REST API Technical Stories
 
 ## Overview
-This document contains Frontend technical stories
+This document contains API-focused technical stories 
 intended for frontend developers integrating
-with the IndieNest Frontend's API (TypeScript, Angular).
+with the IndieNest Backend REST API
+(Java, Spring Boot).
 
----
+Common conventions
+- Base path: `/api/v1`
 
-### US001 -- User registration
-As a visitor, I would like to register on the platform to become a user of the application.
 
-Acceptance criteria:
-- Scenario: Successful registration
-  - Given that the visitor accesses to the path `/sign-up`
-  - When he enters his information, and it is valid, and click the sign-up button
-  - Then a new User will be created with fields: `id` `name` `phoneNumber`and a new Account will be created with fields: `userId` `email` `password` `isActive` `role` and both will be added to `IamStore`.
-
----
-
-### US002 -- User Login
-As a user, I would like to log in on the platform to access the marketplace.
+### TS-G001 -- Create a Game
+As a frontend developer, I want to create a new Game through the API so that I can add games to the system as a feature in my application.
 
 Acceptance criteria:
-- Scenario: Successful login
-  - Given that the user accesses to the path `/log-in`.
-  - When he enters his `email` and `password`, and both are valid, and click the login button
-  - Then the `IamStore`'s `currentAccount` will be uploaded with user's `account` and he will be redirected to the path `/profile`.
+- Scenario: Successful create
+    - Given a POST request to `/api/v1/games` is received with a request body containing the create-game attributes: authorId, name, description, rating, price, category, image.  
+    - When the API validates and persists the game
+    - Then the API responds with `201 Created` and returns the created game with attributes: id (Int), authorId(Integer), name(String), description(String), rating(Integer), creationDate(Date), price(Float), category(GameCategory), image(String).
+- Scenario: Validation error
+    - Given a POST request to `/api/v1/games` is received with missing or invalid create-game attributes (e.g., empty name or description)
+    - When the API validates the request and detects validation errors
+    - Then the API responds with `400 Bad Request` and returns an error payload describing validation errors.
 
 ---
 
-### US003 -- Show Marketplace View
-As a user, I would like to see all projects when I access to the marketplace of the app to explore the different options.
-
-Acceptance criteria: 
-- Scenario: Successful load
-  - Given that the user clicks the Home button in the top toolbar.
-  - When he is redirected to the path: `/home`
-  - Then the Marketplace Context's view: `home-view` will show all projects through the `ProjectStore`.
-
----
-
-### US004 -- Show Audios View in Marketplace
-As a user, I would like to see all audio projects when I access to the audio's section of the marketplace to explore the different options.
+### TS-G002 -- Get a Game by id
+As a frontend developer, I want to fetch a game by its `{id}` through the API, so that I can show game information as a feature in my application.
 
 Acceptance criteria:
-- Scenario: Successful load
-  - Given that the user is in the path: `/home`.
-  - When he clicks the Audio button. 
-  - Then he will be redirected to the path: `/audios` and the Marketplace's Context `audios-view` will load all audios from `ProjectStore`.
+- Scenario: Found
+    - Given a GET request to `/api/v1/games/{id}` is received
+    - When the API finds the game
+    - Then the API responds `200 OK` and returns the game with attributes: id (Int), authorId(Integer), name(String), description(String), rating(Integer), creationDate(Date), price(Float), category(GameCategory), image(String).
+- Scenario: Not found
+    - Given a GET request to `/api/v1/games/{id}` is received for a non-existent `{id}`
+    - When the API does not find the game
+    - Then the API responds `404 Not Found` and returns an error payload.
 
 ---
 
-### US005 -- Show Arts View in Marketplace
-As a user, I would like to see all art projects when I access to the art's section of the marketplace to explore the different options.
+### TS-G003 -- Get all Games
+As a frontend developer, I want to list all games through the API so that I can show them in a catalogue as a feature in my application.
 
 Acceptance criteria:
-- Scenario: Successful load
-  - Given that the user is in the path: `/home`.
-  - When he clicks the Art button.
-  - Then he will be redirected to the path: `/arts` and the Marketplace's Context `arts-view` will load all arts from `ProjectStore`.
+- Scenario: games exist
+    - Given a GET request to `/api/v1/games` is received
+    - When the API finds one or more games
+    - Then the API responds `200 OK` and returns a list where each item contains the game attributes: id (Int), authorId(Integer), name(String), description(String), rating(Integer), creationDate(Date), price(Float), category(GameCategory), image(String).
+- Scenario: No games found
+    - Given a GET request to `/api/v1/games` is received and there are no games in the system
+    - When the API searches for games and finds none
+    - Then the API responds `404 Not Found` (per current controller behavior) and returns an appropriate error payload.
 
 ---
 
-### US006 -- Show Games View in Marketplace
-As a user, I would like to see all game projects when I access to the game's section of the marketplace to explore the different options.
+### TS-AU001 -- Create an Audio
+As a frontend developer, I want to create a new Audio through the API so that I can add audios to the system as a feature in my application.
 
 Acceptance criteria:
-- Scenario: Successful load
-  - Given that the user is in the path: `/home`.
-  - When he clicks the Games button.
-  - Then he will be redirected to the path: `/games` and the Marketplace's Context `games-view` will load all games from `ProjectStore`.
+- Scenario: Successful create
+    - Given a POST request to `/api/v1/audios` is received with a request body containing the create-audio attributes: authorId, name, description, rating, image, audioUrl, format, category.
+    - When the API validates and persists the audio
+    - Then the API responds with `201 Created` and returns the created audio with attributes: id (Int), authorId(Integer), name(String), description(String), rating(Integer), creationDate(Date), image(String), audioUrl(String), format(String) category(AudioCategory).
+- Scenario: Validation error
+    - Given a POST request to `/api/v1/audios` is received with missing or invalid create-audio attributes (e.g., empty name or description)
+    - When the API validates the request and detects validation errors
+    - Then the API responds with `400 Bad Request` and returns an error payload describing validation errors.
 
 ---
 
-### US007 -- Show Developers View in Marketplace
-As a user, I would like to see all developers when I access to the developer's section of the marketplace to explore the different developers.
+### TS-AU002 -- Get an Audio by id
+As a frontend developer, I want to fetch an audio by its `{id}` through the API, so that I can show audio information as a feature in my application.
 
 Acceptance criteria:
-- Scenario: Successful load
-  - Given that the user is in the path: `/home`.
-  - When he clicks the Developers button.
-  - Then he will be redirected to the path: `/developers` and the Marketplace's Context `developers-view` will load all developers from `ProfileStore`.
+- Scenario: Found
+    - Given a GET request to `/api/v1/audios/{id}` is received
+    - When the API finds the audio
+    - Then the API responds `200 OK` and returns the audio with attributes: id (Int), authorId(Integer), name(String), description(String), rating(Integer), creationDate(Date), image(String), audioUrl(String), format(String) category(AudioCategory).
+- Scenario: Not found
+    - Given a GET request to `/api/v1/audios/{id}` is received for a non-existent `{id}`
+    - When the API does not find the audio
+    - Then the API responds `404 Not Found` and returns an error payload.
 
 ---
 
-### US007 -- Show profile 
-As a user, I would like to access to the profile view to see information about my profile.
+### TS-AU003 -- Get all Audios
+As a frontend developer, I want to list all audios through the API so that I can show them in a catalogue as a feature in my application.
 
 Acceptance criteria:
-- Scenario: Successful profile view load
-  - Given that the IAM Context's store `currentAccount` isn't undefined.
-  - When the user clicks the Profile button in the top toolbar.
-  - Then he will be redirected to the path: `/profile` and the Profile Context's view `profile-view` will show his profile information through the `ProfileStore`.
+- Scenario: audios exist
+    - Given a GET request to `/api/v1/audios` is received
+    - When the API finds one or more audios
+    - Then the API responds `200 OK` and returns a list where each item contains the audio attributes: id (Int), authorId(Integer), name(String), description(String), rating(Integer), creationDate(Date), image(String), audioUrl(String), format(String) category(AudioCategory).
+- Scenario: No audios found
+    - Given a GET request to `/api/v1/audios` is received and there are no audios in the system
+    - When the API searches for audios and finds none
+    - Then the API responds `404 Not Found` (per current controller behavior) and returns an appropriate error payload.
 
 ---
 
-### US008 -- Show Audio Information 
-As a user, I would like to access to the audio information by selecting it from the Marketplace to see all it's information.
+### TS-AR001 -- Create an Art
+As a frontend developer, I want to create a new Art through the API so that I can add arts to the system as a feature in my application.
 
 Acceptance criteria:
-- Scenario: Successful audio view load
-  - Given that the user is in the path: `/home` or in the path: `/audios`.
-  - When the user clicks in an audio
-  - Then he will be redirected to the path: `/audio/{id}` with the audio id information and the Project Context `audio-item` will show by the id's info.
+- Scenario: Successful create
+    - Given a POST request to `/api/v1/arts` is received with a request body containing the create-art attributes: authorId, name, description, rating, image, category.
+    - When the API validates and persists the art
+    - Then the API responds with `201 Created` and returns the created art with attributes: id (Int), authorId(Integer), name(String), description(String), rating(Integer), creationDate(Date), image(String), category(ArtCategory).
+- Scenario: Validation error
+    - Given a POST request to `/api/v1/arts` is received with missing or invalid create-art attributes (e.g., empty name or description)
+    - When the API validates the request and detects validation errors
+    - Then the API responds with `400 Bad Request` and returns an error payload describing validation errors.
 
 ---
 
-### US009 -- Show Art Information
-As a user, I would like to access to the art information by selecting it from the Marketplace to see all it's information.
+### TS-AR002 -- Get an Art by id
+As a frontend developer, I want to fetch an art by its `{id}` through the API, so that I can show art information as a feature in my application.
 
 Acceptance criteria:
-- Scenario: Successful art view load
-  - Given that the user is in the path: `/home` or in the path: `/arts`.
-  - When the user clicks in an art
-  - Then he will be redirected to the path: `/art/{id}` with the art id information and the Project Context `art-item` will show by the id's info.
+- Scenario: Found
+    - Given a GET request to `/api/v1/arts/{id}` is received
+    - When the API finds the art
+    - Then the API responds `200 OK` and returns the art with attributes: id (Int), authorId(Integer), name(String), description(String), rating(Integer), creationDate(Date), image(String), category(ArtCategory).
+- Scenario: Not found
+    - Given a GET request to `/api/v1/arts/{id}` is received for a non-existent `{id}`
+    - When the API does not find the art
+    - Then the API responds `404 Not Found` and returns an error payload.
 
 ---
 
-### US010 -- Show Game Information
-As a user, I would like to access to the game information by selecting it from the Marketplace to see all it's information.
+### TS-AR003 -- Get all Arts
+As a frontend developer, I want to list all arts through the API so that I can show them in a catalogue as a feature in my application.
 
 Acceptance criteria:
-- Scenario: Successful game view load
-  - Given that the user is in the path: `/home` or in the path: `/games`.
-  - When the user clicks in a game
-  - Then he will be redirected to the path: `/game/{id}` with the game id information and the Project Context `game-item` will show by the id's info.
+- Scenario: arts exist
+    - Given a GET request to `/api/v1/arts` is received
+    - When the API finds one or more arts
+    - Then the API responds `200 OK` and returns a list where each item contains the art attributes: id (Int), authorId(Integer), name(String), description(String), rating(Integer), creationDate(Date), image(String), category(ArtCategory).
+- Scenario: No arts found
+    - Given a GET request to `/api/v1/arts` is received and there are no arts in the system
+    - When the API searches for arts and finds none
+    - Then the API responds `404 Not Found` (per current controller behavior) and returns an appropriate error payload.
 
 ---
 
-### US010 -- Show Developer Information
-As a user, I would like to access to the developer information by selecting it from the Marketplace to see all it's information.
+### TS-U001 -- Create a User
+As a frontend developer, I want to create a new User through the API so that I can add users to the system as a feature in my application.
 
 Acceptance criteria:
-- Scenario: Successful developer's profile view load
-  - Given that the user is in the path: `/home` or in the path: `/developers`.
-  - When the user clicks in a developer
-  - Then he will be redirected to the path: `/profile/{id}` with the developer's profile id information and the Profile Context `profile-view` will show by the id's info.
+- Scenario: Successful create
+    - Given a POST request to `/api/v1/users` is received with a request body containing the create-user attributes: name, phoneNumber
+    - When the API validates and persists the user
+    - Then the API responds with `201 Created` and returns the created user with attributes: id (Int), name(String), phoneNumber(String).
+- Scenario: Validation error
+    - Given a POST request to `/api/v1/users` is received with missing or invalid create-user attributes (e.g., empty name or phoneNumber)
+    - When the API validates the request and detects validation errors
+    - Then the API responds with `400 Bad Request` and returns an error payload describing validation errors.
 
 ---
+
+### TS-U002 -- Get a User by id
+As a frontend developer, I want to fetch a user by its `{id}` through the API, so that I can show user information as a feature in my application.
+
+Acceptance criteria:
+- Scenario: Found
+    - Given a GET request to `/api/v1/users/{id}` is received
+    - When the API finds the user
+    - Then the API responds `200 OK` and returns the user with attributes: id (Int), name(String), phoneNumber(String).
+- Scenario: Not found
+    - Given a GET request to `/api/v1/users/{id}` is received for a non-existent `{id}`
+    - When the API does not find the user
+    - Then the API responds `404 Not Found` and returns an error payload.
+
+---
+
+### TS-U003 -- Get all Users
+As a frontend developer, I want to list all users through the API so that I can show them in a catalogue as a feature in my application.
+
+Acceptance criteria:
+- Scenario: users exist
+    - Given a GET request to `/api/v1/users` is received
+    - When the API finds one or more users
+    - Then the API responds `200 OK` and returns a list where each item contains the user attributes: id (Int), name(String), phoneNumber(String).
+- Scenario: No users found
+    - Given a GET request to `/api/v1/users` is received and there are no users in the system
+    - When the API searches for users and finds none
+    - Then the API responds `404 Not Found` (per current controller behavior) and returns an appropriate error payload.
+
+---
+
+### TS-AC001 -- Create an Account
+As a frontend developer, I want to create a new Account through the API so that I can add accounts to the system as a feature in my application.
+
+Acceptance criteria:
+- Scenario: Successful create
+    - Given a POST request to `/api/v1/accounts` is received with a request body containing the create-account attributes: userId, email, password, role.
+    - When the API validates and persists the account
+    - Then the API responds with `201 Created` and returns the created account with attributes: id (Int), userId(Int), email(String), password(String), isActive(Boolean) role(AccountType).
+- Scenario: Validation error
+    - Given a POST request to `/api/v1/accounts` is received with missing or invalid create-account attributes (e.g., empty email or password)
+    - When the API validates the request and detects validation errors
+    - Then the API responds with `400 Bad Request` and returns an error payload describing validation errors.
+
+---
+
+### TS-AC002 -- Get an Account by id
+As a frontend developer, I want to fetch an account by its `{id}` through the API, so that I can show account information as a feature in my application.
+
+Acceptance criteria:
+- Scenario: Found
+    - Given a GET request to `/api/v1/accounts/{id}` is received
+    - When the API finds the account
+    - Then the API responds `200 OK` and returns the account with attributes: id (Int), userId(Int), email(String), password(String), isActive(Boolean) role(AccountType).
+- Scenario: Not found
+    - Given a GET request to `/api/v1/accounts/{id}` is received for a non-existent `{id}`
+    - When the API does not find the account
+    - Then the API responds `404 Not Found` and returns an error payload.
+
+---
+
+### TS-AC003 -- Get all Accounts
+As a frontend developer, I want to list all accounts through the API so that I can show them in a catalogue as a feature in my application.
+
+Acceptance criteria:
+- Scenario: accounts exist
+    - Given a GET request to `/api/v1/accounts` is received
+    - When the API finds one or more accounts
+    - Then the API responds `200 OK` and returns a list where each item contains the account attributes: id (Int), userId(Int), email(String), password(String), isActive(Boolean) role(AccountType).
+- Scenario: No accounts found
+    - Given a GET request to `/api/v1/accounts` is received and there are no accounts in the system
+    - When the API searches for accounts and finds none
+    - Then the API responds `404 Not Found` (per current controller behavior) and returns an appropriate error payload.
+
+---
+
+### TS-PO001 -- Create a Portfolio
+As a frontend developer, I want to create a new Portfolio through the API so that I can add portfolios to the system as a feature in my application.
+
+Acceptance criteria:
+- Scenario: Successful create
+    - Given a POST request to `/api/v1/portfolios` is received.
+    - When the API validates and persists the portfolio
+    - Then the API responds with `201 Created` and returns the created portfolio with attributes: id (Int), creationDate(Date), gameIds(Int[]), audioIds(Int[]), artIds(Int[]).
+
+---
+
+### TS-PO002 -- Get a Portfolio by id
+As a frontend developer, I want to fetch a portfolio by its `{id}` through the API, so that I can show portfolio information as a feature in my application.
+
+Acceptance criteria:
+- Scenario: Found
+    - Given a GET request to `/api/v1/portfolios/{id}` is received
+    - When the API finds the portfolio
+    - Then the API responds `200 OK` and returns the portfolio with attributes: id (Int), creationDate(Date), gameIds(Int[]), audioIds(Int[]), artIds(Int[]).
+- Scenario: Not found
+    - Given a GET request to `/api/v1/portfolios/{id}` is received for a non-existent `{id}`
+    - When the API does not find the portfolio
+    - Then the API responds `404 Not Found` and returns an error payload.
+
+---
+
+### TS-PO003 -- Get all Portfolios
+As a frontend developer, I want to list all portfolios through the API so that I can show them in a catalogue as a feature in my application.
+
+Acceptance criteria:
+- Scenario: portfolios exist
+    - Given a GET request to `/api/v1/portfolios` is received
+    - When the API finds one or more portfolios
+    - Then the API responds `200 OK` and returns a list where each item contains the portfolio attributes: id (Int), creationDate(Date), gameIds(Int[]), audioIds(Int[]), artIds(Int[]).
+- Scenario: No portfolios found
+    - Given a GET request to `/api/v1/portfolios` is received and there are no portfolios in the system
+    - When the API searches for portfolios and finds none
+    - Then the API responds `404 Not Found` (per current controller behavior) and returns an appropriate error payload.
+
+---
+
+### TS-PO004 -- Update Portfolio by id and updated Portfolio
+As a frontend developer, I want to update a portfolio by its `{id}` through the API, so that I can update portfolio information as a feature in my application.
+
+Acceptance criteria:
+- Scenario: Found
+    - Given a PUT request to `/api/v1/portfolios/{id}` is received with a request body containing the updated-portfolio attributes: gameIds, audioIds, artIds.
+    - When the API finds the portfolio and update it.
+    - Then the API responds `200 OK` and returns the portfolio with attributes: id (Int), creationDate(Date), gameIds(Int[]), audioIds(Int[]), artIds(Int[]).
+- Scenario: Not found
+    - Given a PUT request to `/api/v1/portfolios/{id}` is received for a non-existent `{id}`
+    - When the API does not find the portfolio
+    - Then the API responds `404 Not Found` and returns an error payload.
+
+---
+
+### TS-PR001 -- Create a Profile
+As a frontend developer, I want to create a new Profile through the API so that I can add profiles to the system as a feature in my application.
+
+Acceptance criteria:
+- Scenario: Successful create
+    - Given a POST request to `/api/v1/profiles` is received with a request body containing the create-profile attributes: description, image, profileId, portfolioId, groupProjectIds.
+    - When the API validates and persists the profile
+    - Then the API responds with `201 Created` and returns the created profile with attributes: id (Int), description(String), image(String), profileId(Int), portfolioId(Int), groupProjectIds(Int[]).
+- Scenario: Validation error
+    - Given a POST request to `/api/v1/profiles` is received with missing or invalid create-profile attributes (e.g., empty description or image)
+    - When the API validates the request and detects validation errors
+    - Then the API responds with `400 Bad Request` and returns an error payload describing validation errors.
+
+---
+
+### TS-PR002 -- Get a Profile by id
+As a frontend developer, I want to fetch a profile by its `{id}` through the API, so that I can show profile information as a feature in my application.
+
+Acceptance criteria:
+- Scenario: Found
+    - Given a GET request to `/api/v1/profiles/{id}` is received
+    - When the API finds the profile
+    - Then the API responds `200 OK` and returns the profile with attributes: id (Int), description(String), image(String), profileId(Int), portfolioId(Int), groupProjectIds(Int[]).
+- Scenario: Not found
+    - Given a GET request to `/api/v1/profiles/{id}` is received for a non-existent `{id}`
+    - When the API does not find the profile
+    - Then the API responds `404 Not Found` and returns an error payload.
+
+---
+
+### TS-PR003 -- Get all Profiles
+As a frontend developer, I want to list all profiles through the API so that I can show them in a catalogue as a feature in my application.
+
+Acceptance criteria:
+- Scenario: profiles exist
+    - Given a GET request to `/api/v1/profiles` is received
+    - When the API finds one or more profiles
+    - Then the API responds `200 OK` and returns a list where each item contains the profile attributes: id (Int), description(String), image(String), profileId(Int), portfolioId(Int), groupProjectIds(Int[]).
+- Scenario: No profiles found
+    - Given a GET request to `/api/v1/profiles` is received and there are no profiles in the system
+    - When the API searches for profiles and finds none
+    - Then the API responds `404 Not Found` (per current controller behavior) and returns an appropriate error payload.
+
+---
+
+### TS-PR004 -- Update Profile by id and updated Profile
+As a frontend developer, I want to update a profile by its `{id}` through the API, so that I can update profile information as a feature in my application.
+
+Acceptance criteria:
+- Scenario: Found
+    - Given a PUT request to `/api/v1/profiles/{id}` is received with a request body containing the updated-profile attributes: description, image, profileId, portfolioId, groupProjectIds.
+    - When the API finds the profile and update it.
+    - Then the API responds `200 OK` and returns the profile with attributes: id (Int), description(String), image(String), profileId(Int), portfolioId(Int), groupProjectIds(Int[]).
+- Scenario: Not found
+    - Given a PUT request to `/api/v1/profiles/{id}` is received for a non-existent `{id}`
+    - When the API does not find the profile
+    - Then the API responds `404 Not Found` and returns an error payload.
+- Scenario: Validation error
+    - Given a PUT request to `/api/v1/profiles` is received with missing or invalid create-profile attributes (e.g., description email or portfolioId)
+    - When the API validates the request and detects validation errors
+    - Then the API responds with `400 Bad Request` and returns an error payload describing validation errors.
+
+---
+
+### TS-RE001 -- Create a Review
+As a frontend developer, I want to create a new Review through the API so that I can add reviews to the system as a feature in my application.
+
+Acceptance criteria:
+- Scenario: Successful create
+    - Given a POST request to `/api/v1/reviews` is received with a request body containing the create-review attributes: userId, projectId, comment, rating.
+    - When the API validates and persists the review
+    - Then the API responds with `201 Created` and returns the created review with attributes: id (Int), userId(Int), projectId(Int), comment(String), rating(Int), creationDate(Date).
+- Scenario: Validation error
+    - Given a POST request to `/api/v1/reviews` is received with missing or invalid create-review attributes (e.g., empty userId or comment)
+    - When the API validates the request and detects validation errors
+    - Then the API responds with `400 Bad Request` and returns an error payload describing validation errors.
+
+---
+
+### TS-RE002 -- Get a Review by id
+As a frontend developer, I want to fetch a review by its `{id}` through the API, so that I can show review information as a feature in my application.
+
+Acceptance criteria:
+- Scenario: Found
+    - Given a GET request to `/api/v1/reviews/{id}` is received
+    - When the API finds the review
+    - Then the API responds `200 OK` and returns the review with attributes: id (Int), userId(Int), projectId(Int), comment(String), rating(Int), creationDate(Date).
+- Scenario: Not found
+    - Given a GET request to `/api/v1/reviews/{id}` is received for a non-existent `{id}`
+    - When the API does not find the review
+    - Then the API responds `404 Not Found` and returns an error payload.
+
+---
+
+### TS-RE003 -- Get all Reviews
+As a frontend developer, I want to list all reviews through the API so that I can show them in a catalogue as a feature in my application.
+
+Acceptance criteria:
+- Scenario: reviews exist
+    - Given a GET request to `/api/v1/reviews` is received
+    - When the API finds one or more reviews
+    - Then the API responds `200 OK` and returns a list where each item contains the review attributes: id (Int), userId(Int), projectId(Int), comment(String), rating(Int), creationDate(Date).
+- Scenario: No reviews found
+    - Given a GET request to `/api/v1/reviews` is received and there are no reviews in the system
+    - When the API searches for reviews and finds none
+    - Then the API responds `404 Not Found` (per current controller behavior) and returns an appropriate error payload.
+
+---
+
+### TS-PU001 -- Create a Publication
+As a frontend developer, I want to create a new Publication through the API so that I can add publications to the system as a feature in my application.
+
+Acceptance criteria:
+- Scenario: Successful create
+    - Given a POST request to `/api/v1/publications` is received with a request body containing the create-publication attributes: userId, title, comment, image.
+    - When the API validates and persists the publication
+    - Then the API responds with `201 Created` and returns the created publication with attributes: id (Int), userId(Int), title(String), comment(String | Null), image(String | Null), creationDate(Date).
+- Scenario: Validation error
+    - Given a POST request to `/api/v1/publications` is received with missing or invalid create-publication attributes (e.g., empty userId or title)
+    - When the API validates the request and detects validation errors
+    - Then the API responds with `400 Bad Request` and returns an error payload describing validation errors.
+
+---
+
+### TS-PU002 -- Get a Publication by id
+As a frontend developer, I want to fetch a publication by its `{id}` through the API, so that I can show publication information as a feature in my application.
+
+Acceptance criteria:
+- Scenario: Found
+    - Given a GET request to `/api/v1/publications/{id}` is received
+    - When the API finds the publication
+    - Then the API responds `200 OK` and returns the publication with attributes: id (Int), userId(Int), title(String), comment(String | Null), image(String | Null), creationDate(Date).
+- Scenario: Not found
+    - Given a GET request to `/api/v1/publications/{id}` is received for a non-existent `{id}`
+    - When the API does not find the publication
+    - Then the API responds `404 Not Found` and returns an error payload.
+
+---
+
+### TS-PU003 -- Get all Publications
+As a frontend developer, I want to list all publications through the API so that I can show them in a catalogue as a feature in my application.
+
+Acceptance criteria:
+- Scenario: publications exist
+    - Given a GET request to `/api/v1/publications` is received
+    - When the API finds one or more publications
+    - Then the API responds `200 OK` and returns a list where each item contains the publication attributes: id (Int), userId(Int), title(String), comment(String | Null), image(String | Null), creationDate(Date).
+- Scenario: No publications found
+    - Given a GET request to `/api/v1/publications` is received and there are no publications in the system
+    - When the API searches for publications and finds none
+    - Then the API responds `404 Not Found` (per current controller behavior) and returns an appropriate error payload.
+
+---
+
+### TS-AN001 -- Create an Answer
+As a frontend developer, I want to create a new Answer through the API so that I can add answers to the system as a feature in my application.
+
+Acceptance criteria:
+- Scenario: Successful create
+    - Given a POST request to `/api/v1/answers` is received with a request body containing the create-answer attributes: userId, publicationId, comment.
+    - When the API validates and persists the answer
+    - Then the API responds with `201 Created` and returns the created answer with attributes: id (Int), userId(Int), publicationId(Int), comment(String), creationDate(Date).
+- Scenario: Validation error
+    - Given a POST request to `/api/v1/answers` is received with missing or invalid create-answer attributes (e.g., empty userId or title)
+    - When the API validates the request and detects validation errors
+    - Then the API responds with `400 Bad Request` and returns an error payload describing validation errors.
+
+---
+
+### TS-AN002 -- Get an Answer by id
+As a frontend developer, I want to fetch an answer by its `{id}` through the API, so that I can show answer information as a feature in my application.
+
+Acceptance criteria:
+- Scenario: Found
+    - Given a GET request to `/api/v1/answers/{id}` is received
+    - When the API finds the answer
+    - Then the API responds `200 OK` and returns the answer with attributes: id (Int), userId(Int), publicationId(Int), comment(String), creationDate(Date).
+- Scenario: Not found
+    - Given a GET request to `/api/v1/answers/{id}` is received for a non-existent `{id}`
+    - When the API does not find the answer
+    - Then the API responds `404 Not Found` and returns an error payload.
+
+---
+
+### TS-AN003 -- Get all Answers
+As a frontend developer, I want to list all answers through the API so that I can show them in a catalogue as a feature in my application.
+
+Acceptance criteria:
+- Scenario: answers exist
+    - Given a GET request to `/api/v1/answers` is received
+    - When the API finds one or more answers
+    - Then the API responds `200 OK` and returns a list where each item contains the answer attributes: id (Int), userId(Int), publicationId(Int), comment(String), creationDate(Date).
+- Scenario: No answers found
+    - Given a GET request to `/api/v1/answers` is received and there are no answers in the system
+    - When the API searches for answers and finds none
+    - Then the API responds `404 Not Found` (per current controller behavior) and returns an appropriate error payload.
+
+---
+
 
 
 ## 3.2. Impact Mapping.
