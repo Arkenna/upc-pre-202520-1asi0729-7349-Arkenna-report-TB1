@@ -2422,6 +2422,7 @@ El despliegue del Sprint 3 se centró en actualizar la API REST en la nube para 
 - Enlace del Figma: https://www.figma.com/board/Nwuu2iPGCaTCbsdDlg0pv4/IndieNest?node-id=0-1&p=f&t=rh3YpcM5QT6v2Emq-0
 - Enlace a la aplicación: https://github.com/Arkenna/IndieNest-Web-Application
 - Enlace del diagrama de clases frontend: https://github.com/Arkenna/upc-pre-202520-1asi0729-7349-Arkenna-report-TB1/blob/main/fronted-class-diagram.puml
+- Enlace del restful api del backend desplegado: https://indienest.azurewebsites.net/swagger-ui/index.html
 
 # Conclusiones
 
