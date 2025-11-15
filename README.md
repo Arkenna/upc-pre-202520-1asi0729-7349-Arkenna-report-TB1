@@ -2518,6 +2518,8 @@ Evaluación rápida basada en las 10 heurísticas de Nielsen sobre la versión d
 -   **Evidencia:** El Landing Page tiene secciones de ayuda , pero la Web App no.
 -   **Pendiente:** Añadir una sección de "Ayuda/FAQ" dentro de la aplicación y considerar _tooltips_ para secciones clave como "Configuración del Portafolio".
 
+## 5.4 About the product
+[![Miniatura Programadores](img/IndieAbout.png)](https://youtu.be/85yPnklKLus)
 
 # Anexos
 - Enlace al Trello del Product Backlog https://trello.com/b/SBmiXIZJ/indienest
@@ -2530,11 +2532,12 @@ Evaluación rápida basada en las 10 heurísticas de Nielsen sobre la versión d
 
 - Enlace del Landing Page Desplegado: https://arkenna.github.io/IndieNest-Landing-Page/
 - Enlace del Front End Desplegado:  https://indienest-web-application.vercel.app/
+- Enlace del restful api del backend desplegado: https://indienest.azurewebsites.net/swagger-ui/index.html
   
 - Enlace del Figma: https://www.figma.com/board/Nwuu2iPGCaTCbsdDlg0pv4/IndieNest?node-id=0-1&p=f&t=rh3YpcM5QT6v2Emq-0
 - Enlace a la aplicación: https://github.com/Arkenna/IndieNest-Web-Application
 - Enlace del diagrama de clases frontend: https://github.com/Arkenna/upc-pre-202520-1asi0729-7349-Arkenna-report-TB1/blob/main/fronted-class-diagram.puml
-- Enlace del restful api del backend desplegado: https://indienest.azurewebsites.net/swagger-ui/index.html
+
 
 
 # Conclusiones
@@ -2543,6 +2546,7 @@ Evaluación rápida basada en las 10 heurísticas de Nielsen sobre la versión d
 - ### El equipo cumplió con todas las tareas asignadas, logrando cerrar 215 puntos de historia en 18 User Stories, lo que demuestra una ejecución eficiente y alineada con los objetivos del sprint.
 - ### Se establecieron los cimientos para la funcionalidad de portafolios, permitiendo que los usuarios comiencen a construir su identidad profesional dentro de la plataforma, lo cual será clave para futuras interacciones y visibilidad.
 
+# About the team
 
 # Referencias bibliográficas
 
