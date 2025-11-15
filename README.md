@@ -16,7 +16,7 @@
 **Docente del curso:** Efraín Ricardo Bautista Ubillús
 
 ---
-## INFORME DE TRABAJO(TP1)
+## INFORME DE TRABAJO(TB2)
 
 **Nombre de la Startup:** Arkenna
 
@@ -37,7 +37,7 @@
 
 <br>
 
-### **Fecha:** Octubre, 2025
+### **Fecha:** Noviembre, 2025
 
 </div>
 
@@ -2256,7 +2256,7 @@ Dado que el objetivo del Sprint 2 fue la implementación de las primeras funcion
 
 **Base de Datos:**
 
--   Se crearon las tablas `Usuarios`, `Perfiles` y `Portafolios` en MySQL.
+-   Se crearon las tablas `users`, `profiles` y `portfolioes` en MySQL.
     
 -   Scripts SQL fueron documentados y versionados en el repositorio GitHub.
     
