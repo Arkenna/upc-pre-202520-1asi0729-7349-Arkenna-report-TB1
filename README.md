@@ -2405,7 +2405,106 @@ El despliegue del Sprint 3 se centró en actualizar la API REST en la nube para 
 * La colaboración se centró en la revisión de PRs (Pull Requests) para asegurar que los modelos de datos y la lógica de servicio fueran consistentes entre los diferentes contextos.
 * Se consolidó el uso de GitFlow para manejar las múltiples features de API que se estaban desarrollando en paralelo sin generar conflictos.
 
+## 5.3. Validation Interviews
 
+
+### 5.3.1. Diseño de Entrevistas
+
+**Objetivo:** Validar la usabilidad y claridad de los flujos de Registro , Login , y Creación de Perfil/Portafolio .
+
+**Segmento 1: Programadores independientes**
+
+-   ¿Qué fue lo primero que te llamó la atención al ver la pantalla "Home" de la aplicación ?
+-   ¿Cuán sencillo te pareció el flujo de Registro y Login ? ¿Hubo algún campo o paso confuso?
+-   Al entrar a tu perfil , ¿te resulta claro cómo empezar a construir tu portafolio ?
+-   ¿Qué tan útil encuentras la sección "Descripción de Perfil Profesional" para listar tus habilidades técnicas ?
+-   ¿Qué tan probable es que uses esta plataforma para buscar artistas o compositores ?
+-   ¿Qué funcionalidad principal sientes que falta en tu perfil para que sea un portafolio profesional completo?
+    
+
+**Segmento 2: Artistas digitales**
+
+-   ¿Qué opinas del diseño general y los colores de la aplicación ?
+-   ¿Te fue fácil registrarte y encontrar la sección de tu perfil ?
+-   En la vista "Usuario", ¿sientes que tienes suficientes opciones para mostrar tu trabajo _visualmente_ ?
+-   Viendo el mockup de "Art", ¿te parece una forma atractiva de descubrir el trabajo de otros artistas?
+-   ¿Qué tan probable sería que contactes a un "Developer" que tenga un proyecto que te interese?
+-   ¿El flujo para crear un portafolio cumple tus expectativas para mostrar arte ?
+
+----------
+
+## 5.3.2 Registro de Entrevistas
+
+- **Segmento 1: Programadores Independientes:** [Video](https://www.youtube.com/watch?v=Mj11KibcXuc)  
+  [![Miniatura Programadores](img/EriolEV.png)](https://www.youtube.com/watch?v=Mj11KibcXuc)
+
+- **Segmento 2: Artistas Digitales:** [Video](https://www.youtube.com/watch?v=hktgSBHOdMA)  
+  [![Miniatura empresas cafeteras](img/RipperEV.png)](https://www.youtube.com/watch?v=hktgSBHOdMA)
+
+---
+
+### 5.3.3. Evaluaciones según heurísticas
+
+Evaluación rápida basada en las 10 heurísticas de Nielsen sobre la versión del prototipo.
+
+**Resultado general:**
+
+-   Se cumplen **Consistencia y Estándares** y **Estética/Minimalismo**.
+-   **Correspondencia con el mundo real** y **Reconocer en lugar de recordar** avanzan bien.   
+-   El resto presenta oportunidades de mejora claras para el próximo sprint, especialmente en el manejo de errores y feedback al usuario.
+
+----------
+
+**1. Visibilidad del estado del sistema — Parcial**
+
+-   **Hallazgo:** El sistema redirige al usuario tras el registro  o login, pero no hay un feedback explícito .
+-   **Pendiente:** Unificar patrones de feedback  en formularios y botones. Implementar mensajes _toast_ para "Registro exitoso" y "Perfil actualizado".
+    
+
+**2. Correspondencia con el mundo real — Cumple**
+
+-   **Evidencia:** Se usa terminología del dominio que los usuarios entienden: "Portfolio", "Projects", "Art", "Developer", "C#", "Unity".
+-   **Evidencia:** La iconografía  tiene un significado estándar.
+
+**3. Control y libertad del usuario — Parcial**
+
+-   **Evidencia:** Los flujos de registro/login son claros y permiten navegar entre ellos.    
+-   **Pendiente:** Añadir botones "Cancelar" o "Descartar cambios" en todos los formularios de edición para ofrecer una "salida de emergencia" clara.
+
+**4. Consistencia y estándares — Cumple**
+
+-   **Evidencia:** Se respetan patrones conocidos. La barra de navegación lateral es coherente en todas las vistas (Home, User, Art).
+-   **Evidencia:** El estilo de botones y tipografía es consistente.
+
+**5. Prevención de errores — Parcial**
+
+-   **Oportunidad:** Reforzar validaciones de formularios antes del envío.
+-   **Próximo:** Implementar validación _inline_ en tiempo real para guiar al usuario antes de que haga clic en "Enviar".
+
+**6. Reconocer en lugar de recordar — Cumple**
+
+-   **Evidencia:** La navegación lateral con iconos y texto es clara y promueve el reconocimiento.
+-   **Evidencia:** El usuario no necesita memorizar dónde están las secciones; la navegación es visible y persistente.
+
+**7. Flexibilidad y eficiencia de uso — Pendiente**
+
+-   **Hallazgo:** El flujo actual es bueno para usuarios nuevos, pero carece de aceleradores para usuarios expertos.
+-   **Próximo:** Priorizar el desarrollo de Integrar enlaces externos para permitir importar/vincular repositorios de GitHub, una necesidad clave identificada en las entrevistas.
+
+**8. Estética y diseño minimalista — Cumple**
+
+-   **Evidencia:** Interfaz centrada en el contenido sin ruido innecesario .
+-   **Evidencia:** El diseño oscuro es profesional y coherente con el _branding_ de la plataforma.
+
+**9. Ayuda para reconocer, diagnosticar y recuperar de errores — Necesita mejora**
+
+-   **Hallazgo del sprint:** Los endpoints de la API devuelven errores, pero la UI no los traduce a lenguaje humano.
+-   **Próximo:** Mapear códigos de error de la API  a mensajes accionables y claros en la UI .   
+
+**10. Ayuda y documentación — Parcial**
+
+-   **Evidencia:** El Landing Page tiene secciones de ayuda , pero la Web App no.
+-   **Pendiente:** Añadir una sección de "Ayuda/FAQ" dentro de la aplicación y considerar _tooltips_ para secciones clave como "Configuración del Portafolio".
 
 
 # Anexos
@@ -2418,11 +2517,13 @@ El despliegue del Sprint 3 se centró en actualizar la API REST en la nube para 
 - Enlace del repositorio del Landing Page: https://github.com/Arkenna/IndieNest-Landing-Page
 
 - Enlace del Landing Page Desplegado: https://arkenna.github.io/IndieNest-Landing-Page/
-
+- Enlace del Front End Desplegado:  https://indienest-web-application.vercel.app/
+  
 - Enlace del Figma: https://www.figma.com/board/Nwuu2iPGCaTCbsdDlg0pv4/IndieNest?node-id=0-1&p=f&t=rh3YpcM5QT6v2Emq-0
 - Enlace a la aplicación: https://github.com/Arkenna/IndieNest-Web-Application
 - Enlace del diagrama de clases frontend: https://github.com/Arkenna/upc-pre-202520-1asi0729-7349-Arkenna-report-TB1/blob/main/fronted-class-diagram.puml
 - Enlace del restful api del backend desplegado: https://indienest.azurewebsites.net/swagger-ui/index.html
+
 
 # Conclusiones
 
