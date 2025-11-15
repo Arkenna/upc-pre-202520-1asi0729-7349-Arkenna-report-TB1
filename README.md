@@ -51,7 +51,18 @@
 ---
 
 ## Project Report Collaboration Insights
-[Repositorio en GitHub](https://github.com/Arkenna/upc-pre-202520-1asi0729-7349-Arkenna-report-TB1/blob/main/README.md)
+
+**Documento**
+![](img/insights/document.png)
+
+**Landing Page**
+![](img/insights/landing-page.png)
+
+**Frontend**
+![](img/insights/frontend.png)
+
+**Backend**
+![](img/insights/backend.png)
 
 ---
 
