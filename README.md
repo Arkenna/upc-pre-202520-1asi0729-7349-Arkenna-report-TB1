@@ -2547,6 +2547,7 @@ Evaluación rápida basada en las 10 heurísticas de Nielsen sobre la versión d
 - ### Se establecieron los cimientos para la funcionalidad de portafolios, permitiendo que los usuarios comiencen a construir su identidad profesional dentro de la plataforma, lo cual será clave para futuras interacciones y visibilidad.
 
 # About the team
+[![Miniatura Programadores](img/Team.png)](https://youtu.be/emjsxRMYZ34)
 
 # Referencias bibliográficas
 
