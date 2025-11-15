@@ -136,6 +136,24 @@
        - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
        - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
        - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+       - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+       - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+       - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+       - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+       - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 3](#532-sprint-3)
+       - [5.2.2.1. Sprint Planning 3](#5231-sprint-planning-3)
+       - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+       - [5.2.2.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+       - [5.2.2.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+       - [5.2.2.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+       - [5.2.2.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
 
 	[Anexos](#anexos)
 
@@ -2240,6 +2258,131 @@ En este sprint se introdujo la complejidad de coordinar el trabajo entre fronten
 - Se identificó un pequeño retraso debido a problemas de configuración de CORS (Cross-Origin Resource Sharing) entre la Web App y la API, lo cual sirvió como un aprendizaje técnico importante para el equipo.
 
 - La fortaleza principal fue la capacidad del equipo para dividirse en sub-equipos (backend/frontend) y trabajar en paralelo de manera efectiva.
+
+## 5.2.3. Sprint 3
+
+### 5.2.3.1. Sprint Planning 3
+
+| **Sprint #**                        | Sprint 3                                                                                                                                                                                                                                                                                                                                             |
+|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**      |                                                                                                                                                                                                                                                                                                                                                      |
+| **Date**                            | 2025-01-11                                                                                                                                                                                                                                                                                                                                           |
+| **Time**                            | 15:00 PM                                                                                                                                                                                                                                                                                                                                             |
+| **Location**                        | Reunión virtual - Discord                                                                                                                                                                                                                                                                                                                            |
+| **Prepared By**                     | Giuliano Angel Pelaez Vargas                                                                                                                                                                                                                                                                                                                         |
+| **Attendees (to planning meeting)** | Giuliano Angel Peláez Vargas / Daniel Jonatan Aquino Solorzano / Johnny Alexander Ojanama Abanto  / Carlos Augusto Paredes Chavez                                                                                                                                                                                                                    |
+| **Sprint 2 Review Summary**         | Se completaron los endpoints de Registro (T07) y Creación de Portafolio (T10), junto con sus modelos de BD (T01, T09) y las vistas de UI (T08, T11).                                                                                                                                                                                                 |
+| **Sprint 2 Retrospective Summary**  | La coordinación entre backend y frontend mejoró, pero se identificó la necesidad de definir los contratos de API (Technical Stories) con más antelación.                                                                                                                                                                                             |
+| **Sprint Goal & User Stories**      |                                                                                                                                                                                                                                                                                                                                                      |
+| **Sprint 3 Goal**                   | Nos centramos en desarrollar el Endpoint para el desarrollo de portafolios, además de implementar entidades en la base de datos MySQL. Creemos que aporta la funcionalidad buscada por los posibles usuarios. Esto se confirmará cuando los visitantes puedan ocupar cada funcionalidad implementada en este sprint de manera cómoda y comprensible. |
+| **Sprint 3 Velocity**               | 20                                                                                                                                                                                                                                                                                                                                                   |
+| **Sum of Story Points**             | 17                                                                                                                                                                                                                                                                                                                                                   |
+
+
+---
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+
+En el Sprint 3,  se enfocó en la construcción de los servicios del backend (API REST) para las entidades core, basándose en los contextos definidos.
+
+| Team Member | GitHub Username | Backend (Project & Support) | Backend (Community & Payment) | Backend (IAM) | QA & Documentation |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Pelaez Vargas, Giuliano | @SimpleGP |  C | C | C | L |
+| Aquino Solorzano, Daniel | @DanielAquinoSolorzano | L | L | C | C |
+| Ojanama Abanto, Johnny | @JohnnyGZ41 |  C | C | L | C |
+| Paredes Chavez, Carlos | @CarlossUPC | C | C |  C | L |
+
+---
+
+### 5.2.3.3. Sprint Backlog 3
+
+El objetivo del Sprint 3 fue implementar los endpoints CRUD (Crear y Leer) para las entidades principales del backend, basándose en las Technical Stories (TS) definidas en el Capítulo 3.1.
+
+| Sprint # | User Story / Technical Story | Work-Item / Task | Description | Estimation (Hours) | Assigned To | Status |
+| :--- |:-----------------------------| :--- | :--- | :--- | :--- | :--- |
+| Sprint 3 | TS-G001, TS-G002, TS-G003    | T-12: Endpoints Game | Implementar los endpoints para Crear, Obtener Todos y Obtener por ID para Game (Project Context). | 6h| Aquino Solorzano | Done |
+| Sprint 3 | TS-AR001, TS-AR002, TS-AR003 | T-13: Endpoints Art | Implementar los endpoints para Crear, Obtener Todos y Obtener por ID para Art (Project Context). | 7h | Aquino Solorzano | Done |
+| Sprint 3 | TS-AU001, TS-AU002, TS-AU003 | T-14: Endpoints Audio | Implementar los endpoints para Crear, Obtener Todos y Obtener por ID para Audio (Project Context). | 7h | Aquino Solorzano | Done |
+| Sprint 3 | TS-PU001, TS-PU002, TS-PU003 | T-15: Endpoints Publication | Implementar los endpoints para Crear, Obtener Todos y Obtener por ID para Publication (Community Context). | 7h | Aquino Solorzano | Done |
+| Sprint 3 | TS-AN001, TS-AN002, TS-AN003 | T-16: Endpoints Answer | Implementar los endpoints para Crear, Obtener Todos y Obtener por ID para Answer (Community Context). | 6h | Aquino Solorzano | Done |
+| Sprint 3 | TS-RE001, TS-RE002, TS-RE003 | T-17: Endpoints Review | Implementar los endpoints para Crear, Obtener Todos y Obtener por ID para Review (Support Context). | 5h | Aquino Solorzano | Done |
+| Sprint 3 | TS-SC001, TS-SC002, TS-SC003 | T-18: Endpoints ShoppingCart | Implementar los endpoints para Crear, Obtener Todos y Obtener por ID para ShoppingCart (Payment Context). | 5h | Aquino Solorzano | Done |
+| Sprint 3 | TS-AC001, TS-AC002, TS-AC003 | T-19: Endpoints Account | Implementar los endpoints para Crear, Obtener Todos y Obtener por ID para Account (IAM Context). | 8h | Johnny Ojanama | Done |
+| Sprint 3 | TS-IAM001, TS-IAM002         | T-20: Endpoints Auth | Implementar la lógica y endpoints para SignUp y SignIn (IAM Context). | 8h | Johnny Ojanama | Done |
+
+---
+
+### 5.2.3.5. Execution Evidence for Sprint Review
+
+La ejecución del Sprint 3 se centró en la implementación y prueba de los servicios de backend definidos en el backlog.
+
+* Se implementaron los servicios y repositorios para las entidades Game, Art, y Audio (T-12, T-13, T-14).
+* Se desarrollaron los endpoints para Publication y Answer (T-15, T-16) para el manejo de la comunidad.
+* Se creó el servicio de Review (T-17) para el contexto de soporte.
+* Se implementó la lógica de ShoppingCart (T-18) para el contexto de pagos.
+* Se completaron los servicios de Account (T-19) y la lógica de autenticación para SignUp y SignIn (T-20).
+
+---
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3 se implementaron los servicios RESTful (API Backend) que sirven como núcleo funcional para la aplicación.
+
+#### COMMUNITY CONTEXT:
+*  **POST /api/v1/publications** : Crear Publication (TS-PU001)
+* **GET /api/v1/publications**: Obtener Todos los Publication (TS-PU003)
+* **GET /api/v1/publications/{id}**: Obtener un Publication por id (TS-PU002)
+* **POST /api/v1/answers** : Crear Answer (TS-AN001)
+* **GET /api/v1/answers** : Obtener Todos los Answer (TS-AN003)
+* **GET /api/v1/answers/{id}**: Obtener un Answer por id (TS-AN002)
+
+#### PAYMENT CONTEXT:
+*  **POST /api/v1/shopping-cart**: Crear ShoppingCart (Este endpoint no estaba en las TS originales, pero fue implementado)
+*  **GET /api/v1/shopping-cart**: Obtener Todos los ShoppingCart
+*  **GET /api/v1/shopping-cart/{id}**: Obtener un ShoppingCart por id
+
+#### PROJECT CONTEXT:
+* **POST /api/v1/games**: Crear Game (TS-G001)
+* **GET /api/v1/games**: Obtener Todos los Game (TS-G003)
+* **GET /api/v1/games/{id}**: Obtener un Game por id (TS-G002)
+* **POST /api/v1/arts**: Crear Art (TS-AR001)
+* **GET /api/v1/arts**: Obtener Todos los Art (TS-AR003)
+* **GET /api/v1/arts/{id}**: Obtener un Art por id (TS-AR002)
+* **POST /api/v1/audios**: Crear Audio (TS-AU001)
+* **GET /api/v1/audios**: Obtener Todos los Audio (TS-AU003)
+* **GET /api/v1/audios/{id}**: Obtener un Audio por id (TS-AU002)
+
+#### SUPPORT CONTEXT:
+*  **POST /api/v1/reviews**: Crear Review (TS-RE001)
+*  **GET /api/v1/reviews**: Obtener Todos los Review (TS-RE003)
+*  **GET /api/v1/reviews/{id}**: Obtener un Review por id (TS-RE002)
+
+#### IAM (Identity and Access Management) CONTEXT:
+*  **POST /api/v1/accounts**: Crear Account (TS-AC001)
+*  **GET /api/v1/accounts**: Obtener Todos los Account (TS-AC003)
+*  **GET /api/v1/accounts/{id}**: Obtener un Account por id (TS-AC002)
+*  **POST /api/v1/auth/sign-up**: SignUp (Endpoint para registro, relacionado a TS-U001 y TS-AC001)
+*  **POST /api/v1/auth/sign-in**: SignIn (Endpoint de autenticación)
+
+---
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+El despliegue del Sprint 3 se centró en actualizar la API REST en la nube para incluir los nuevos endpoints.
+
+* **Backend (API REST):** La API de Spring Boot fue actualizada y desplegada, asegurando que los nuevos endpoints de Project, Community, Support, Payment, e IAM estén activos y funcionales.
+* **Base de Datos:** Se actualizaron las tablas en la base de datos MYSQL workbench en la nube para reflejar las nuevas entidades.
+* **Pruebas:** Se realizaron pruebas de integración post-despliegue usando IntelliJ IDEA  para verificar la conectividad con la base de datos y la correcta respuesta de todos los nuevos servicios.
+
+---
+
+### 5.2.3.8. Team Collaboration Insights during Sprint
+
+* Este sprint fue intensivo en desarrollo de backend. El equipo demostró una gran capacidad para paralelizar el trabajo por contextos (Project, IAM, Community).
+* La definición previa de las Technical Stories (TS) en el Sprint 2 fue fundamental para que el desarrollo de los endpoints en Sprint 3 fuera rápido y sin ambigüedades.
+* La colaboración se centró en la revisión de PRs (Pull Requests) para asegurar que los modelos de datos y la lógica de servicio fueran consistentes entre los diferentes contextos.
+* Se consolidó el uso de GitFlow para manejar las múltiples features de API que se estaban desarrollando en paralelo sin generar conflictos.
+
 
 
 
