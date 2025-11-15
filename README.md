@@ -1965,6 +1965,28 @@ A continuación mostraremos las capturas del Design Level Event Storming realiza
 **Frontend Class Diagram:**
 ![Class Diagram](img/c4/frontend-class-diagram.png)
 
+**Backend Project Context Class Diagram:**
+![Class Diagram](img/c4/backend-class-diagrams/project.png)
+
+**Backend Community Context Class Diagram:**
+![Class Diagram](img/c4/backend-class-diagrams/community.png)
+
+**Backend Profile Context Class Diagram:**
+![Class Diagram](img/c4/backend-class-diagrams/profile.png)
+
+**Backend Support Context Class Diagram:**
+![Class Diagram](img/c4/backend-class-diagrams/support.png)
+
+**Backend IAM Context Class Diagram:**
+![Class Diagram](img/c4/backend-class-diagrams/iam.png)
+
+**Backend Payment Context Class Diagram:**
+![Class Diagram](img/c4/backend-class-diagrams/payment.png)
+
+**Backend Shared Context Class Diagram:**
+![Class Diagram](img/c4/backend-class-diagrams/shared.png)
+
+
 ## 4.8. Database Design
 # IndieNest - Base de Datos (SQL Server)
 
