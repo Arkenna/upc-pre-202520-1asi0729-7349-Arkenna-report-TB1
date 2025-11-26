@@ -5,6 +5,7 @@
 
 #### UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 ## FACULTAD DE INGENIERÍA
+### Carrera: Ingeniería de Software
 ### Desarrollo de Aplicaciones Open Source
 
 **Ciclo:** 2025-20
@@ -2540,11 +2541,26 @@ Evaluación rápida basada en las 10 heurísticas de Nielsen sobre la versión d
 
 
 
-# Conclusiones
+# Conclusiones y Recomendaciones
 
-- ### Se consolidó la base técnica para el registro y gestión de usuarios, integrando exitosamente el backend en MySQL con endpoints funcionales y una interfaz en Angular que valida y conecta los datos.
-- ### El equipo cumplió con todas las tareas asignadas, logrando cerrar 215 puntos de historia en 18 User Stories, lo que demuestra una ejecución eficiente y alineada con los objetivos del sprint.
-- ### Se establecieron los cimientos para la funcionalidad de portafolios, permitiendo que los usuarios comiencen a construir su identidad profesional dentro de la plataforma, lo cual será clave para futuras interacciones y visibilidad.
+## Conclusiones
+
+-   #### Se ha logrado validar la problemática central identificada en el _Lean UX Process_: la falta de visibilidad para desarrolladores independientes. La solución implementada, IndieNest, demostró en las entrevistas de validación que la centralización de portafolios y proyectos resuelve la fragmentación existente en el mercado. Los usuarios pudieron completar los flujos principales, confirmando que la propuesta de valor satisface las necesidades detectadas en la etapa de Needfinding.
+    
+-   #### La hipótesis de negocio sobre la necesidad de una diferenciación por roles fue validada positivamente. Durante las pruebas, los usuarios valoraron la capacidad de filtrar y buscar perfiles específicos, confirmando el assumption de que la especialización es clave para el networking en la industria indie. Asimismo, la hipótesis de usabilidad se confirmó mediante las evaluaciones heurísticas, donde el diseño minimalista facilitó la navegación, aunque se identificaron y corrigieron brechas en la retroalimentación del sistema.
+    
+-   #### La arquitectura de software basada en Domain-Driven Design (DDD) y CQRS, organizada en Contextos Delimitados (IAM, Learning, Profiles, Project, Payment), ha demostrado ser efectiva. Esta estructura permitió al equipo desarrollar y desplegar funcionalidades complejas de forma paralela sin conflictos de integración, cumpliendo con los atributos de calidad de mantenibilidad y escalabilidad requeridos para una plataforma SaaS.
+    
+-  #### El equipo alcanzó una alta eficiencia en el ciclo de desarrollo ágil, cerrando 215 Story Points y cumpliendo con el Definition of Done para todos los incrementos del producto. El despliegue exitoso en Azure y la contenedorización con Docker validan la capacidad del equipo para entregar un producto operativo, accesible y documentado técnicamente mediante Swagger.
+    
+
+## Recomendaciones 
+
+### Basado en el estado actual del producto y el feedback recibido, se plantean las siguientes recomendaciones para la evolución de IndieNest:
+ - #### Integración Completa del Contexto de Pagos: Si bien se estableció la arquitectura para el Payment Context, se recomienda priorizar la integración completa con la pasarela de pagos a través de Stripe en el siguiente Release. Esto habilitará la monetización real para los desarrolladores, un Business Goal crítico para la sostenibilidad de la startup.
+ - #### Expansión de Funcionalidades Sociales: Se sugiere profundizar en las funcionalidades del Community Context, implementando foros de discusión más robustos y un sistema de mensajería directa en tiempo real. Esto fomentará la retención de usuarios y fortalecerá el ecosistema de colaboración dentro de la plataforma
+ - #### Desarrollo de Aplicación Móvil Nativa: Dado que el Landing Page y la Web App ya son responsive, el siguiente paso lógico en el roadmap es el desarrollo de una aplicación móvil nativa (iOS/Android). Esto permitiría aprovechar las notificaciones push para alertar a los usuarios sobre nuevas oportunidades de colaboración o actualizaciones de sus proyectos favoritos.
+ - #### Implementación de Analítica Avanzada: Se recomienda incorporar herramientas de analítica de datos para monitorear el comportamiento de los usuarios dentro de la plataforma. Esto permitirá tomar decisiones basadas en datos para futuras mejoras de UX/UI y para afinar los algoritmos de recomendación de proyectos.
 
 # About the team
 [![Miniatura Programadores](img/Team.png)](https://youtu.be/emjsxRMYZ34)
