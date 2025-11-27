@@ -2015,14 +2015,10 @@ A continuación mostraremos las capturas del Design Level Event Storming realiza
 
 
 ## 4.8. Database Design
-# IndieNest - Base de Datos (SQL Server)
-
-## Scripts
-- [01_indienest_schema.sql](01_indienest_schema.sql) — Script principal.
 
 ### 4.8.1.Database Diagrams
 
-![Database Diagrams](img/dbindienest.png)
+![Database Diagrams](img/database.png)
 
 ---
 
