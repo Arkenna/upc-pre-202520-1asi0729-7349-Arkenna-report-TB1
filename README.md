@@ -1949,25 +1949,39 @@ A continuación mostraremos las capturas del Design Level Event Storming realiza
   
 **Fronted Components:**
 ![](img/c4/frontend-components/general.png)
+
 ![](img/c4/frontend-components/project.png)
+
 ![](img/c4/frontend-components/marketplace.png)
+
 ![](img/c4/frontend-components/profile.png)
+
 ![](img/c4/frontend-components/community.png)
+
 ![](img/c4/frontend-components/support.png)
+
 ![](img/c4/frontend-components/iam.png)
+
 ![](img/c4/frontend-components/payment.png)
+
 ![](img/c4/frontend-components/shared.png)
 
 
 **Backend Components:** 
  ![](img/c4/backend-components/general.png)
+ 
 ![](img/c4/backend-components/project.png)
-![](img/c4/backend-components/marketplace.png)
+
 ![](img/c4/backend-components/profile.png)
+
 ![](img/c4/backend-components/community.png)
+
 ![](img/c4/backend-components/support.png)
+
 ![](img/c4/backend-components/iam.png)
+
 ![](img/c4/backend-components/payment.png)
+
 ![](img/c4/backend-components/shared.png)
   
  
