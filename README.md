@@ -2345,15 +2345,38 @@ El objetivo del Sprint 3 fue implementar los endpoints CRUD (Crear y Leer) para 
 
 | Sprint # | User Story / Technical Story | Work-Item / Task | Description | Estimation (Hours) | Assigned To | Status |
 | :--- |:-----------------------------| :--- | :--- | :--- | :--- | :--- |
-| Sprint 3 | TS-G001, TS-G002, TS-G003    | T-12: Endpoints Game | Implementar los endpoints para Crear, Obtener Todos y Obtener por ID para Game (Project Context). | 6h| Aquino Solorzano | Done |
-| Sprint 3 | TS-AR001, TS-AR002, TS-AR003 | T-13: Endpoints Art | Implementar los endpoints para Crear, Obtener Todos y Obtener por ID para Art (Project Context). | 7h | Aquino Solorzano | Done |
-| Sprint 3 | TS-AU001, TS-AU002, TS-AU003 | T-14: Endpoints Audio | Implementar los endpoints para Crear, Obtener Todos y Obtener por ID para Audio (Project Context). | 7h | Aquino Solorzano | Done |
-| Sprint 3 | TS-PU001, TS-PU002, TS-PU003 | T-15: Endpoints Publication | Implementar los endpoints para Crear, Obtener Todos y Obtener por ID para Publication (Community Context). | 7h | Aquino Solorzano | Done |
-| Sprint 3 | TS-AN001, TS-AN002, TS-AN003 | T-16: Endpoints Answer | Implementar los endpoints para Crear, Obtener Todos y Obtener por ID para Answer (Community Context). | 6h | Aquino Solorzano | Done |
-| Sprint 3 | TS-RE001, TS-RE002, TS-RE003 | T-17: Endpoints Review | Implementar los endpoints para Crear, Obtener Todos y Obtener por ID para Review (Support Context). | 5h | Aquino Solorzano | Done |
-| Sprint 3 | TS-SC001, TS-SC002, TS-SC003 | T-18: Endpoints ShoppingCart | Implementar los endpoints para Crear, Obtener Todos y Obtener por ID para ShoppingCart (Payment Context). | 5h | Aquino Solorzano | Done |
-| Sprint 3 | TS-AC001, TS-AC002, TS-AC003 | T-19: Endpoints Account | Implementar los endpoints para Crear, Obtener Todos y Obtener por ID para Account (IAM Context). | 8h | Johnny Ojanama | Done |
-| Sprint 3 | TS-IAM001, TS-IAM002         | T-20: Endpoints Auth | Implementar la lógica y endpoints para SignUp y SignIn (IAM Context). | 8h | Johnny Ojanama | Done |
+| Sprint 3 | TS-G001 | T-12: Creación de Game | Implementación de la entidad Game, repositorio JPA, lógica de creación en GameCommandService y pruebas de integración esenciales. | 1h | Daniel Aquino | Done |
+| Sprint 3 | TS-G002 | T-13: Consulta de Game por ID | Implementación de GameQueryService (GetGameByIdQuery), endpoint GET /games/{id} y pruebas de éxito/404. | 1h | Daniel Aquino | Done |
+| Sprint 3 | TS-G003 | T-14: Listado de Games | Implementación de GetAllGamesQuery, endpoint GET /games, y pruebas de lista existente/vacía. | 1h | Daniel Aquino | Done |
+| Sprint 3 | TS-AU001 | T-15: Creación de Audio | Implementación de AudioCommandService, endpoint POST /audios, ensambladores, recursos y pruebas completas de validación. | 2h | Daniel Aquino | Done |
+| Sprint 3 | TS-AU002 | T-16: Consulta de Audio por ID | Implementación de GetAudioByIdQuery, endpoint GET /audios/{id} y manejo de 200/404. | 1h | Daniel Aquino | Done |
+| Sprint 3 | TS-AU003 | T-17: Listado de Audios | Implementación de GetAllAudiosQuery, endpoint GET /audios y pruebas de lista existente/vacía. | 1h | Daniel Aquino | Done |
+| Sprint 3 | TS-AR001 | T-18: Creación de Art | Implementación completa de CreateArtCommand, entidad Art, endpoint POST /arts y pruebas básicas. | 1h | Daniel Aquino | Done |
+| Sprint 3 | TS-AR002 | T-19: Consulta de Art por ID | Implementación de GetArtByIdQuery y endpoint GET /arts/{id} con manejo de 200/404. | 1h | Daniel Aquino | Done |
+| Sprint 3 | TS-AR003 | T-20: Listado de Arts | Implementación de GetAllArtsQuery, endpoint GET /arts y pruebas de lista vacía/existente. | 1h | Daniel Aquino | Done |
+| Sprint 3 | TS-U001 | T-21: Registro y Seguridad de Usuarios | Implementación de hashing (BCrypt), JWT, SignUpCommand, endpoint POST /auth/sign-up y validaciones de rol. | 2h | Daniel Aquino | Done |
+| Sprint 3 | TS-U002 | T-22: Consulta de User por ID | Implementación de GetUserByIdQuery y endpoint GET /users/{id}. | 1h | Daniel Aquino | Done |
+| Sprint 3 | TS-U003 | T-23: Listado de Users | Implementación de GetAllUsersQuery y endpoint GET /users. | 2h | Daniel Aquino | Done |
+| Sprint 3 | TS-AC001 | T-24: Creación de Account | Implementación de entidad Account, validación existsByEmail, CreateAccountCommand y endpoint POST /accounts. | 2h | Johnny Ojanama | Done |
+| Sprint 3 | TS-AC002 | T-25: Consulta de Account por ID | Implementación de GetAccountByIdQuery y endpoint GET /accounts/{id}. | 1h | Johnny Ojanama | Done |
+| Sprint 3 | TS-AC003 | T-26: Listado de Accounts | Implementación de GetAllAccountsQuery y endpoint GET /accounts. | 2h | Johnny Ojanama | Done |
+| Sprint 3 | TS-PO001 | T-27: Creación de Portfolio | Implementación de entidad Portfolio, repositorio, CreatePortfolioCommand y endpoint POST /portfolios. | 1h | Johnny Ojanama | Done |
+| Sprint 3 | TS-PO002 | T-28: Consulta de Portfolio por ID | Implementación de GetPortfolioByIdQuery y endpoint GET /portfolios/{id}. | 1h | Johnny Ojanama | Done |
+| Sprint 3 | TS-PO003 | T-29: Listado de Portfolios | Implementación de GetAllPortfoliosQuery y endpoint GET /portfolios. | 1h | Johnny Ojanama | Done |
+| Sprint 3 | TS-PO004 | T-30: Actualización de Portfolio | Implementación de UpdatePortfolioCommand y endpoint PUT /portfolios/{id}. | 2h | Johnny Ojanama | Done |
+| Sprint 3 | TS-PR001 | T-31: Creación de Profile | Implementación de entidad Profile, CreateProfileCommand y endpoint POST /profiles. | 1h | Johnny Ojanama | Done |
+| Sprint 3 | TS-PR002 | T-32: Consulta de Profiles por ID | Endpoint GET /api/v1/profiles/{id} y lógica de servicio para devolver el perfil con 200 OK o error 404 si no existe. | 2h | Johnny Ojanama | Done |
+| Sprint 3 | TS-PR003 | T-33: Listado de Profiles | Endpoint GET /api/v1/profiles más lógica para retornar lista de perfiles (200 OK) o 404 si no hay ninguno. | 2h | Johnny Ojanama | Done |
+| Sprint 3 | TS-PR004 | T-34: Update Profile by ID | Endpoint PUT /api/v1/profiles/{id} y lógica de servicio para actualizar perfil, validaciones, retorno 200 OK, 404 o 400 según corresponda. | 1h | Johnny Ojanama | Done |
+| Sprint 3 | TS-RE001 | T-35: Creación de Review | Endpoint POST /api/v1/reviews más lógica para validar y persistir review, devolviendo 201 Created o 400 en caso de error. | 2h | Daniel Aquino | Done |
+| Sprint 3 | TS-RE002 | T-36: Consulta de Review por ID | Endpoint GET /api/v1/reviews/{id} y lógica de servicio, devolviendo 200 OK con review o 404 si no existe. | 2h | Daniel Aquino | Done |
+| Sprint 3 | TS-RE003 | T-37: Listado de Reviews | Endpoint GET /api/v1/reviews y lógica para devolver lista de reviews (200 OK) o 404 si no hay ninguna. | 2h | Daniel Aquino | Done |
+| Sprint 3 | TS-PU001 | T-38: Creación de Publication | Implementación del endpoint POST /api/v1/publications junto con la lógica de validación y persistencia de publicaciones. La tarea permite crear nuevas publicaciones y devolver 201 Created con su payload completo o 400 Bad Request cuando falten atributos obligatorios o no cumplan con las reglas definidas. | 1h | Daniel Aquino | Done |
+| Sprint 3 | TS-PU002 | T-39: Consulta de Publication por ID | Implementación del endpoint GET /api/v1/publications/{id} y su integración con el servicio para obtener una publicación específica, retornando 200 OK con la información requerida o 404 Not Found si no existe. | 2h | Daniel Aquino | Done |
+| Sprint 3 | TS-PU003 | T-40: Listado de Publications | Implementación del endpoint GET /api/v1/publications y su integración con el servicio para listar publicaciones, devolviendo 200 OK con la colección encontrada o 404 Not Found cuando no existan registros. | 1h | Daniel Aquino | Done |
+| Sprint 3 | TS-AN001 | T-41: Creación de Answer | Implementación del endpoint POST /api/v1/answers junto con la lógica de validación y persistencia de respuestas. La tarea contempla la creación exitosa con 201 Created y la gestión de errores con 400 Bad Request en escenarios de atributos faltantes o inválidos. | 2h | Johnny Ojanama | Done |
+| Sprint 3 | TS-AN002 | T-42: Consulta de Answer por ID | Implementación del endpoint GET /api/v1/answers/{id} y comunicación con el servicio para recuperar una respuesta específica, retornando 200 OK con el recurso o 404 Not Found cuando el id no exista. | 1h | Johnny Ojanama | Done |
+| Sprint 3 | TS-AN003 | T-43: Listado de Answer | Implementación del endpoint GET /api/v1/answers y su integración con el servicio de consulta global para devolver un listado con 200 OK o un error 404 Not Found cuando no existan respuestas registradas. | 3h | Johnny Ojanama | Done |
 
 ---
 
