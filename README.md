@@ -2500,7 +2500,19 @@ El objetivo principal del Sprint 4 fue la integración completa de los servicios
 | Sprint 4 | US11 – Redactar Perfil | T-53: Servicios de Gestión de Perfil | Implementación de endpoints CRUD para Profile (GET all, POST create, GET by ID) para soportar la visualización pública de usuarios. | 1h | Johnny Ojanama | Done |
 ---
 
+**5.2.4.5. Execution Evidence for Sprint Review**
 
+La ejecución del Sprint 4 marcó la transición de operaciones CRUD básicas hacia una lógica de negocio compleja y orientada al dominio, necesaria para el Release final.
+
+-   **Implementación de Servicios Semánticos (Bounded Context: Portfolio):** Se reemplazó la estrategia de actualización genérica por acciones específicas de dominio. Se desarrollaron los endpoints, permitiendo transacciones atómicas que aseguran la integridad de los datos al vincular proyectos al portafolio (T-44).
+    
+-   **Gestión de Identidad Pública (Bounded Context: Profile):** Se completó la exposición de los servicios de Perfil (POST, GET, GET/{id}), permitiendo la creación y consulta de la identidad profesional de los usuarios separada de sus credenciales de acceso (T-55).
+    
+-   **Integración Frontend-Backend Avanzada:** Se refactorizó la capa de servicios en el Frontend para consumir estos nuevos endpoints granulares, mejorando la experiencia de usuario al permitir actualizaciones parciales del portafolio sin recargar toda la estructura de datos (T-45).
+    
+-   **Funcionalidades de Valor Agregado:** Se completó el circuito de **Pagos** con la simulación de pasarela (checkout) y el sistema de **Filtros Avanzados** en el Marketplace, habilitando la búsqueda por criterios técnicos específicos como motor de juego o género (T-46, T-50).
+
+---
 
 
 
