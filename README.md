@@ -2698,7 +2698,7 @@ Contraseña: 123
 - Enlace del repositorio del Front-End Page: https://github.com/Arkenna/IndieNest-Web-Application 
 - Enlace del repositorio del Back-End Page: https://github.com/Arkenna/IndieNest-Backend
 
-- Enlace del Landing Page Desplegado: https://arkenna.github.io/IndieNest-Landing-Page/
+- Enlace del Landing Page Desplegado: https://indienestlanding.vercel.app
 - Enlace del Front End Desplegado:  https://indiewebapp.vercel.app
 - Enlace del restful api del backend desplegado: https://indienest.azurewebsites.net/swagger-ui/index.html
   
@@ -2730,7 +2730,7 @@ Contraseña: 123
  - #### Implementación de Analítica Avanzada: Se recomienda incorporar herramientas de analítica de datos para monitorear el comportamiento de los usuarios dentro de la plataforma. Esto permitirá tomar decisiones basadas en datos para futuras mejoras de UX/UI y para afinar los algoritmos de recomendación de proyectos.
 
 # About the team
-[![Miniatura Programadores](img/Team.png)](https://youtu.be/emjsxRMYZ34)
+[![Miniatura Programadores](img/Team.png)](https://www.youtube.com/watch?v=8rpiarII-nk)
 
 # Referencias bibliográficas
 
