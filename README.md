@@ -2483,6 +2483,25 @@ En el Sprint 3,  se enfocó en la construcción de los servicios del backend (AP
 | Paredes Chavez, Carlos | @CarlossUPC | C | C |  C | L |
 ---
 
+### 5.2.4.3. Sprint Backlog 4
+El objetivo principal del Sprint 4 fue la integración completa de los servicios backend con la interfaz de usuario, la implementación de la lógica de negocio compleja (gestión semántica de portafolios y pagos) y el despliegue final a producción. La tabla siguiente detalla las **User Stories priorizadas** y sus tareas asociadas:
+
+| **Sprint #** | **User Story**                         | **Work-Item / Task**                     | **Description**                                                                                  | **Estimation (Hours)** | **Assigned To**  | **Status** |
+|--------------|----------------------------------------|------------------------------------------|--------------------------------------------------------------------------------------------------|------------------------|------------------|------------|
+| Sprint 4 | US07 – Registro de Usuario | T-44: Endpoints Semánticos de Portfolio | Implementación de endpoints específicos PUT /add-game, /add-art, /add-audio para gestionar la composición del portafolio de manera atómica. | 1h | Johnny Ojanama | Done |
+| Sprint 4 | US07 – Editar Proyectos | T-45: Integración Frontend de Edición | Actualización del servicio de Angular ProfileService para consumir los nuevos endpoints semánticos y reflejar los cambios en la vista de usuario. | 1h | Johnny Ojanama | Done |
+| Sprint 4 | US10 – Filtrar proyectos | T-46: Consultas Dinámicas | Desarrollo de consultas JPQL personalizadas en GameRepository para filtrar por género, motor y calificación. | 2h | Carlos Paredes | Done |
+| Sprint 4 | US10 – Filtrar Proyecto | T-47: Barra Lateral de Filtros (UI) | Implementación de componentes visuales (checkboxes, sliders) en la vista de Marketplace y conexión con el ProjectStore. | 2h | Carlos Paredes | Done |
+| Sprint 4 | US06 – Recibir Comentarios | T-48: Lógica de Reseñas | Implementación de validaciones de negocio en ReviewService para asegurar que un usuario solo comente una vez por proyecto. | 2h | Daniel Aquino | Done |
+| Sprint 4 | US06 – Recibir Comentarios | T-49: Componente de Comentarios | Desarrollo del componente ReviewList y ReviewForm en Angular, incluyendo la visualización de estrellas y avatares. | 2h                    | Daniel Aquino | Done |
+| Sprint 4 | US17 – Integrar Pagos | T-50: Simulación de Pasarela | Creación del endpoint POST /checkout que simula la transacción con Stripe y actualiza el estado del ShoppingCart a "PAID". | 2h | Johnny Ojanama | Done  |
+| Sprint 4 | US17 – Integrar Pagos | T-51: Interfaz de Carrito y Checkout | Maquetación y lógica del componente CartView, mostrando el resumen de ítems y el formulario de tarjeta de crédito simulado. | 2h                    | Johnny Ojanama | Done  |
+| Sprint 4 | US13 – Integrar Enlaces | T-52: Gestión de Enlaces Externos | Implementación de lógica Fullstack para permitir a los usuarios añadir URLs de GitHub y LinkedIn a su perfil público. | 2h                    | Carlos Paredes | Done |
+| Sprint 4 | US11 – Redactar Perfil | T-53: Servicios de Gestión de Perfil | Implementación de endpoints CRUD para Profile (GET all, POST create, GET by ID) para soportar la visualización pública de usuarios. | 1h | Johnny Ojanama | Done |
+---
+
+
+
 
 
 ## 5.3. Validation Interviews
