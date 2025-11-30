@@ -2451,6 +2451,26 @@ El despliegue del Sprint 3 se centró en actualizar la API REST en la nube para 
 * La colaboración se centró en la revisión de PRs (Pull Requests) para asegurar que los modelos de datos y la lógica de servicio fueran consistentes entre los diferentes contextos.
 * Se consolidó el uso de GitFlow para manejar las múltiples features de API que se estaban desarrollando en paralelo sin generar conflictos.
 
+
+## 5.2.4. Sprint 4
+
+### 5.2.4.1. Sprint Planning 4
+
+| **Sprint #**                        | Sprint 4                                                                                                                                                                                                                                                                                                                                             |
+|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**      |                                                                                                                                                                                                                                                                                                                                                      |
+| **Date**                            | 2025-20-11                                                                                                                                                                                                                                                                                                                                           |
+| **Time**                            | 13:00 PM                                                                                                                                                                                                                                                                                                                                             |
+| **Location**                        | Reunión virtual - Discord                                                                                                                                                                                                                                                                                                                            |
+| **Prepared By**                     | Carlos Augusto Paredes Chavez                                                                                                                                                                                                                                                                                                                         |
+| **Attendees (to planning meeting)** | Daniel Jonatan Aquino Solorzano / Johnny Alexander Ojanama Abanto  / Carlos Augusto Paredes Chavez |
+| **Sprint 3 Review Summary** | Se logró el despliegue exitoso de la arquitectura base del Backend y la Base de Datos en la nube. Se completaron los servicios de autenticación (IAM) y los CRUD fundamentales para las entidades de Proyecto, Audio y Arte. La API es funcional y permite las operaciones básicas de gestión de contenido, cumpliendo con la infraestructura necesaria para soportar la lógica de negocio compleja que se desarrollará en la siguiente iteración. |
+| **Sprint 3 Retrospective Summary**  | El equipo validó que la arquitectura hexagonal facilita el trabajo paralelo, pero detectó que los servicios genéricos de actualización eran insuficientes para manejar la complejidad de las relaciones del Portafolio sin riesgos de inconsistencia de datos. Se acordó que para el siguiente sprint se debe priorizar un diseño de API más orientado al dominio (acciones específicas) en lugar de solo CRUD. |
+| **Sprint Goal & User Stories**      |                                                                                                                                                                                                                                                                                                                                                      |
+| **Sprint 4 Goal**                   | Nos centraremos en implementar la lógica de negocio avanzada del Portafolio mediante endpoints semánticos y en la integración final del Frontend. A diferencia del enfoque CRUD anterior, este sprint refinará la API para acciones específicas de usuario y asegurará el despliegue de la versión Release. Esto se confirmará cuando los usuarios puedan gestionar su portafolio utilizando estas nuevas acciones dedicadas y la plataforma opere integralmente en producción. |
+| **Sprint 4 Velocity**               | 22 |
+| **Sum of Story Points**             | 20 |
+
 ## 5.3. Validation Interviews
 
 
