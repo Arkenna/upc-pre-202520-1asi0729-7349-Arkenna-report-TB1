@@ -2600,13 +2600,14 @@ El despliegue del Sprint 4 se centró en la actualización de los servicios de g
 
 ## 5.3.2 Registro de Entrevistas
 
-- **Segmento 1: Programadores Independientes:**: Eriol Huaytalla: [Video](https://www.youtube.com/watch?v=Mj11KibcXuc)  
+- **Segmento 1: Programadores Independientes:** Eriol Huaytalla: [Video](https://www.youtube.com/watch?v=Mj11KibcXuc)  
   [![Miniatura Programadores](img/EriolEV.png)](https://www.youtube.com/watch?v=Mj11KibcXuc)
-  Juan Meza: [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202321613_upc_edu_pe/IQD7QKTpfhpOSYnvDvpvY3EWAaOi5uS0ch0-5aUi1H0jBCg?e=fZxAqg)
-  [![Miniatura Programadores](img/JuanJoseValidation.png)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202321613_upc_edu_pe/IQD7QKTpfhpOSYnvDvpvY3EWAaOi5uS0ch0-5aUi1H0jBCg?e=fZxAqg)
+- Juan Meza: [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202321613_upc_edu_pe/IQD7QKTpfhpOSYnvDvpvY3EWAaOi5uS0ch0-5aUi1H0jBCg?e=fZxAqg)
+  
+  [![Miniatura Programadores](img/JuanJoseValidation.PNG)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202321613_upc_edu_pe/IQD7QKTpfhpOSYnvDvpvY3EWAaOi5uS0ch0-5aUi1H0jBCg?e=fZxAqg)
 
 
-- **Segmento 2: Artistas Digitales:** [Video](https://www.youtube.com/watch?v=hktgSBHOdMA)  
+- **Segmento 2: Artistas Digitales:**  [Video](https://www.youtube.com/watch?v=hktgSBHOdMA)  
   [![Miniatura empresas cafeteras](img/RipperEV.png)](https://www.youtube.com/watch?v=hktgSBHOdMA)
 
 ---
