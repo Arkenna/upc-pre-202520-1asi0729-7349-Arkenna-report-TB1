@@ -2679,6 +2679,15 @@ Evaluación rápida basada en las 10 heurísticas de Nielsen sobre la versión d
 [![Miniatura Programadores](img/IndieAbout.png)](https://youtu.be/MflE0rbYbNc)
 
 # Anexos
+
+Usuario ejemplo (Programador): 
+Email: daniel@gmail.com
+Contraseña: 123
+
+Usuario ejemplo (Artista):
+Email: jonatan@gmail.com
+Contraseña: 123
+
 - Enlace al Trello del Product Backlog https://trello.com/b/SBmiXIZJ/indienest
 
 - Enlace del video de las entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202321613_upc_edu_pe/EbQaKTrBnMBKoJ1hoQwwTC0B6Uwkffz66WSolVvJ4KQQAg?e=l6yEE3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
@@ -2686,8 +2695,8 @@ Evaluación rápida basada en las 10 heurísticas de Nielsen sobre la versión d
 - Enlace del repositorio de documentación: https://github.com/Arkenna/upc-pre-202520-1asi0729-7349-Arkenna-report-TB1/blob/main/README.md
 
 - Enlace del repositorio del Landing Page: https://github.com/Arkenna/IndieNest-Landing-Page
-- Enlace del repositorio del Front-End Page:
-- Enlace del repositorio del Back-End Page:
+- Enlace del repositorio del Front-End Page: https://github.com/Arkenna/IndieNest-Web-Application 
+- Enlace del repositorio del Back-End Page: https://github.com/Arkenna/IndieNest-Backend
 
 - Enlace del Landing Page Desplegado: https://arkenna.github.io/IndieNest-Landing-Page/
 - Enlace del Front End Desplegado:  https://indiewebapp.vercel.app
