@@ -2452,7 +2452,7 @@ El despliegue del Sprint 3 se centró en actualizar la API REST en la nube para 
 * Se consolidó el uso de GitFlow para manejar las múltiples features de API que se estaban desarrollando en paralelo sin generar conflictos.
 
 
-## 5.2.4. Sprint 4
+## 5.2.4. 
 
 ### 5.2.4.1. Sprint Planning 4
 
@@ -2470,6 +2470,20 @@ El despliegue del Sprint 3 se centró en actualizar la API REST en la nube para 
 | **Sprint 4 Goal**                   | Nos centraremos en implementar la lógica de negocio avanzada del Portafolio mediante endpoints semánticos y en la integración final del Frontend. A diferencia del enfoque CRUD anterior, este sprint refinará la API para acciones específicas de usuario y asegurará el despliegue de la versión Release. Esto se confirmará cuando los usuarios puedan gestionar su portafolio utilizando estas nuevas acciones dedicadas y la plataforma opere integralmente en producción. |
 | **Sprint 4 Velocity**               | 22 |
 | **Sum of Story Points**             | 20 |
+---
+
+### 5.2.4.2. Aspect Leaders and Collaborators
+
+En el Sprint 3,  se enfocó en la construcción de los servicios del backend (API REST) para las entidades core, basándose en los contextos definidos.
+
+| Team Member | GitHub Username | Backend (Project & Support) | Backend (Community & Payment) | Backend (IAM) | QA & Documentation |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Aquino Solorzano, Daniel | @DanielAquinoSolorzano | L | L | C | C |
+| Ojanama Abanto, Johnny | @JohnnyGZ41 |  C | C | L | C |
+| Paredes Chavez, Carlos | @CarlossUPC | C | C |  C | L |
+---
+
+
 
 ## 5.3. Validation Interviews
 
