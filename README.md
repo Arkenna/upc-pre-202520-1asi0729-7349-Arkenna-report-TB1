@@ -2676,7 +2676,7 @@ Evaluación rápida basada en las 10 heurísticas de Nielsen sobre la versión d
 -   **Pendiente:** Añadir una sección de "Ayuda/FAQ" dentro de la aplicación y considerar _tooltips_ para secciones clave como "Configuración del Portafolio".
 
 ## 5.4 About the product
-[![Miniatura Programadores](img/IndieAbout.png)](https://youtu.be/85yPnklKLus)
+[![Miniatura Programadores](img/IndieAbout.png)](https://youtu.be/MflE0rbYbNc)
 
 # Anexos
 - Enlace al Trello del Product Backlog https://trello.com/b/SBmiXIZJ/indienest
@@ -2686,9 +2686,11 @@ Evaluación rápida basada en las 10 heurísticas de Nielsen sobre la versión d
 - Enlace del repositorio de documentación: https://github.com/Arkenna/upc-pre-202520-1asi0729-7349-Arkenna-report-TB1/blob/main/README.md
 
 - Enlace del repositorio del Landing Page: https://github.com/Arkenna/IndieNest-Landing-Page
+- Enlace del repositorio del Front-End Page:
+- Enlace del repositorio del Back-End Page:
 
 - Enlace del Landing Page Desplegado: https://arkenna.github.io/IndieNest-Landing-Page/
-- Enlace del Front End Desplegado:  https://indienest-web-application.vercel.app/
+- Enlace del Front End Desplegado:  https://indiewebapp.vercel.app
 - Enlace del restful api del backend desplegado: https://indienest.azurewebsites.net/swagger-ui/index.html
   
 - Enlace del Figma: https://www.figma.com/board/Nwuu2iPGCaTCbsdDlg0pv4/IndieNest?node-id=0-1&p=f&t=rh3YpcM5QT6v2Emq-0
