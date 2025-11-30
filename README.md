@@ -2451,7 +2451,6 @@ El despliegue del Sprint 3 se centró en actualizar la API REST en la nube para 
 * La colaboración se centró en la revisión de PRs (Pull Requests) para asegurar que los modelos de datos y la lógica de servicio fueran consistentes entre los diferentes contextos.
 * Se consolidó el uso de GitFlow para manejar las múltiples features de API que se estaban desarrollando en paralelo sin generar conflictos.
 
-
 ## 5.2.4. 
 
 ### 5.2.4.1. Sprint Planning 4
@@ -2560,6 +2559,16 @@ El despliegue del Sprint 4 se centró en la actualización de los servicios de g
     
 ----------
 
+### 5.2.4.8. Team Collaboration Insights during Sprint
+
+-   **Refinamiento de Arquitectura:** La colaboración principal del equipo giró en torno al rediseño de la API del Portafolio. Se identificó que un CRUD estándar era riesgoso para la integridad de los datos, por lo que Backend y Frontend acordaron implementar endpoints semánticos (add-game en lugar de update), lo que requirió una comunicación estrecha para definir los contratos de datos exactos.
+    
+-   **Focalización en el Core del Negocio:** Al limitar el alcance a los contextos de **Profile** y **Portfolio**, el equipo pudo asegurar que la funcionalidad más crítica (la identidad del desarrollador y su vitrina de trabajo) quedara robusta y libre de errores, priorizando la calidad sobre la cantidad de features.
+    
+-   **Sincronización de Modelos:** Se realizaron sesiones de trabajo conjunto para alinear los modelos de datos del Frontend (interfaces en Angular) con los DTOs (Data Transfer Objects) expuestos por los nuevos servicios de Perfil, evitando errores de mapeo durante la integración.
+    
+-   **Gestión de Ramas (GitFlow):** Se mantuvo el orden en el repositorio mediante el uso de ramas específicas (feature/portfolio-semantic-endpoints, feature/profile-management), las cuales fueron fusionadas a develop y posteriormente a main solo tras verificar su correcto funcionamiento.
+---
 
 ## 5.3. Validation Interviews
 
