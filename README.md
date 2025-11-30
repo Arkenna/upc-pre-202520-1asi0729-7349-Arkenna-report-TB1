@@ -2514,6 +2514,38 @@ La ejecución del Sprint 4 marcó la transición de operaciones CRUD básicas ha
 
 ---
 
+### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 4 se refinó la API RESTful, evolucionando de operaciones CRUD básicas a servicios orientados al dominio (Domain-Driven Design), centrándose en la gestión semántica de los portafolios y perfiles de usuario.
+
+#### **PROFILE CONTEXT**
+
+Se implementaron los servicios para la gestión de la identidad pública de los desarrolladores.
+
+-   **GET /api/v1/profiles**: Obtener el listado de todos los perfiles registrados en la plataforma.
+    
+-   **POST /api/v1/profiles**: Crear un nuevo perfil de usuario asociado a una cuenta.
+    
+-   **GET /api/v1/profiles/{profileId}**: Consultar el detalle de un perfil específico por su identificador único.
+    
+
+#### **PORTFOLIO CONTEXT**
+
+Se desplegaron endpoints semánticos específicos para la composición del portafolio, asegurando la integridad referencial al agregar distintos tipos de proyectos.
+
+-   **PUT /api/v1/portfolios/add-game**: Agregar un proyecto de tipo videojuego al portafolio.
+    
+-   **PUT /api/v1/portfolios/add-audio**: Agregar un proyecto de tipo audio/música al portafolio.
+    
+-   **PUT /api/v1/portfolios/add-art**: Agregar un proyecto de arte digital al portafolio.
+    
+-   **GET /api/v1/portfolios**: Obtener todos los portafolios existentes.
+    
+-   **POST /api/v1/portfolios**: Inicializar un nuevo portafolio.
+    
+-   **GET /api/v1/portfolios/{portfolioId}**: Consultar el contenido de un portafolio específico por su ID.
+---
+
 
 
 ## 5.3. Validation Interviews
