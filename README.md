@@ -2546,6 +2546,19 @@ Se desplegaron endpoints semánticos específicos para la composición del porta
 -   **GET /api/v1/portfolios/{portfolioId}**: Consultar el contenido de un portafolio específico por su ID.
 ---
 
+### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+El despliegue del Sprint 4 se centró en la actualización de los servicios de gestión de usuarios y contenido, asegurando la disponibilidad de la lógica de negocio semántica en el entorno de producción.
+
+-   **Backend (API REST):** Se realizó el despliegue de la nueva versión del API en la nube, exponiendo los controladores de ProfileController y PortfolioController. Se verificó la disponibilidad de los endpoints semánticos (add-game, add-art, add-audio) mediante Swagger UI en el entorno productivo.
+    
+-   **Base de Datos:** Se ejecutaron los scripts de migración para las tablas profiles y portfolios, así como las tablas intermedias necesarias para soportar la agregación de ítems (juegos, audios, arte) sin conflictos de integridad referencial.
+    
+-   **Frontend (Web Application):** Se desplegó la actualización de la aplicación web que consume estos nuevos servicios, permitiendo a los usuarios visualizar su perfil público y gestionar el contenido de su portafolio en tiempo real.
+    
+-   **Verificación de Integridad:** Se realizaron pruebas de conectividad post-despliegue para confirmar que la creación de un perfil y la vinculación de un proyecto al portafolio persistían correctamente los datos en la base de datos en la nube.
+    
+----------
 
 
 ## 5.3. Validation Interviews
